@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CTML — Chess Tournament Markup Language</title>
+<meta name="description" content="View, make, and export complete chess tournaments in CTML.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app/ctml.css?v=8">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+<script defer src="app/ctml.js?v=8"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="#viewer"><span class="pawn">♟</span> CTML</a>
+    <nav class="tabs" id="tabs">
+      <a href="#viewer" data-view="viewer" class="active">Viewer</a>
+      <a href="#maker" data-view="maker">Maker</a>
+      <a href="#about" data-view="about">About</a>
+    </nav>
+    <button id="themeToggle" class="ghost" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ VIEWER ============ -->
+  <section id="view-viewer" class="view">
+    <div class="loader">
+      <label class="field">
+        <span>Corpus</span>
+        <select id="corpusPicker"><option value="">Loading…</option></select>
+      </label>
+      <label class="field file">
+        <span>Open a .ctml file</span>
+        <input type="file" id="fileInput" accept=".ctml,.xml,text/xml,application/xml">
+      </label>
+      <button id="pasteToggle" class="ghost">Paste XML…</button>
+      <div class="exports" id="exports" hidden>
+        <button data-export="ctml">Export CTML</button>
+        <button data-export="pgn">Export PGN</button>
+        <button data-export="json">Export JSON</button>
+      </div>
+    </div>
+    <div id="pastePane" hidden>
+      <textarea id="pasteArea" spellcheck="false" placeholder="Paste a CTML (XML) document here…"></textarea>
+      <button id="pasteLoad">Load</button>
+    </div>
+    <div id="corpusTable"></div>
+    <div id="viewer" class="viewer"><p class="hint">Pick a tournament above, or open a <code>.ctml</code> file, to view it.</p></div>
+  </section>
+
+  <!-- ============ MAKER ============ -->
+  <section id="view-maker" class="view" hidden>
+    <h2>Make a tournament</h2>
+    <p class="hint">Enter an event, its players, and its games. This produces a valid CTML 2.1 document you can preview, download, or open in the viewer. (Teams, groups, and brackets are viewer-only for now; the maker covers individual events — round robins, matches, and Swiss.)</p>
+    <form id="makerForm" class="maker">
+      <fieldset>
+        <legend>Import (optional)</legend>
+        <p class="hint">Paste a PGN (one game or many), or a standings crosstable, then click the matching button. Review the fields, then Generate. A crosstable that includes a head-to-head grid also reconstructs the games. Crosstables should be tab- or column-separated (as copied from a web crosstable or spreadsheet).</p>
+        <textarea id="importArea" spellcheck="false" placeholder='Paste a PGN, or a crosstable such as:   1   GM   So, Wesley   2765   5.5   *   ½   ½   1   …'></textarea>
+        <div class="maker-actions">
+          <button type="button" id="importPgnBtn">Import PGN</button>
+          <button type="button" id="importXtBtn">Import crosstable</button>
+          <label class="field file"><span>…or choose a .pgn file</span><input type="file" id="importPgnFile" accept=".pgn,text/plain,application/x-chess-pgn"></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Event</legend>
+        <div class="grid">
+          <label class="field"><span>Name</span><input name="name" required placeholder="e.g. 12th Menchik Memorial"></label>
+          <label class="field"><span>Type</span>
+            <select name="eventType">
+              <option value="round-robin">round-robin</option>
+              <option value="match">match</option>
+              <option value="swiss">swiss</option>
+              <option value="knockout">knockout</option>
+              <option value="other">other</option>
+            </select>
+          </label>
+          <label class="field"><span>Cadence</span>
+            <select name="cadence">
+              <option value="classical">classical</option>
+              <option value="rapid">rapid</option>
+              <option value="blitz">blitz</option>
+              <option value="mixed">mixed</option>
+              <option value="unknown">unknown</option>
+            </select>
+          </label>
+          <label class="field"><span>Start (YYYY-MM-DD)</span><input name="start" placeholder="2026-01-01" pattern="\d{4}-\d{2}-\d{2}"></label>
+          <label class="field"><span>End (YYYY-MM-DD)</span><input name="end" placeholder="2026-01-07" pattern="\d{4}-\d{2}-\d{2}"></label>
+          <label class="field"><span>City</span><input name="city" placeholder="London"></label>
+          <label class="field"><span>Country (3-letter)</span><input name="country" placeholder="GBR" pattern="[A-Za-z]{3}"></label>
+          <label class="field"><span>Venue</span><input name="venue" placeholder="Hammersmith"></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Players</legend>
+        <table class="editable" id="playersTable">
+          <thead><tr><th>Name (Family, Given)</th><th>FIDE ID</th><th>Title</th><th>Rating</th><th>Place</th><th>Score</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <button type="button" id="addPlayer" class="ghost">+ Add player</button>
+      </fieldset>
+      <fieldset>
+        <legend>Games</legend>
+        <table class="editable" id="gamesTable">
+          <thead><tr><th>Round</th><th>White</th><th>Black</th><th>Result</th><th>Moves (SAN, optional)</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <button type="button" id="addGame" class="ghost">+ Add game</button>
+      </fieldset>
+      <div class="maker-actions">
+        <button type="button" id="generate">Generate CTML</button>
+        <button type="button" id="makerToViewer" class="ghost" disabled>Open in viewer</button>
+        <button type="button" id="makerDownload" class="ghost" disabled>Download .ctml</button>
+      </div>
+      <pre id="makerOutput" class="output" hidden></pre>
+    </form>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="view-about" class="view" hidden>
+    <h2>About CTML</h2>
+    <div class="prose">
+      <p><strong>CTML</strong> (Chess Tournament Markup Language) represents an entire chess <em>tournament</em> — its participants, standings, and every game — as one validated, self-describing XML file. Where PGN is per-game, CTML is per-tournament, and it captures what a pile of PGNs cannot: who competed, the crosstable that proves the event is complete, teams and pools, and knockout brackets.</p>
+      <p>This page is a client-side viewer, maker, and exporter — everything runs in your browser; nothing is uploaded. The corpus, schema, and builders live in the <a href="https://github.com/ianrastall/ctml">GitHub repository</a>.</p>
+      <ul>
+        <li><strong>Viewer</strong> — open any tournament from the corpus or your own <code>.ctml</code> file; browse standings, crosstable, groups, bracket, and replay games on a board.</li>
+        <li><strong>Exporters</strong> — download the CTML, a reconstructed PGN, or a JSON rendering of any loaded tournament.</li>
+        <li><strong>Maker</strong> — enter an individual event by hand, or paste a PGN to pre-fill it, and generate CTML.</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+<footer class="foot"><div class="wrap">CTML · <a href="https://github.com/ianrastall/ctml">github.com/ianrastall/ctml</a></div></footer>
+</body>
+</html>

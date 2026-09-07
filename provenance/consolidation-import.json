@@ -1,0 +1,2598 @@
+{
+  "format_version": 1,
+  "created_utc": "2026-09-07T03:31:27.339760+00:00",
+  "canonical_root": "D:\\dev\\proj\\ctml",
+  "method": "copy-and-SHA256-verify; source files retained; conflicts stop import",
+  "files": [
+    {
+      "source": "D:\\ctml\\xsd\\ctml-analysis.xsd",
+      "destination": "xsd/ctml-analysis.xsd",
+      "bytes": 3452,
+      "source_sha256": "f10ffbaf5cccbbd0c284a7ab505f06eb5ac917e3da90d795e34900401a457985",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-brackets.xsd",
+      "destination": "xsd/ctml-brackets.xsd",
+      "bytes": 6186,
+      "source_sha256": "c228196c9fd7d89598a1bc17150d1d0ee93c686db6c194f2db24636e1ada0b4e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-core.xsd",
+      "destination": "xsd/ctml-core.xsd",
+      "bytes": 13708,
+      "source_sha256": "5dd27a863bf752a223421ce4660e495566f96966f02771c3cb26e2b808ad3962",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-dates.xsd",
+      "destination": "xsd/ctml-dates.xsd",
+      "bytes": 4067,
+      "source_sha256": "c3c532cfbf0a9f89c7593b586b94179fd169c7565c4db9cadbe4516e51c15f73",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-entities.xsd",
+      "destination": "xsd/ctml-entities.xsd",
+      "bytes": 9267,
+      "source_sha256": "7170cda7698b41a1a109216470ba29151cbba314b6e9917e778229e2ac9e410d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-events.xsd",
+      "destination": "xsd/ctml-events.xsd",
+      "bytes": 5149,
+      "source_sha256": "4063111d1dbe2d3a6933b16aa1e196f61d7762a044bff1150659ba79c3531483",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-game.xsd",
+      "destination": "xsd/ctml-game.xsd",
+      "bytes": 7561,
+      "source_sha256": "bba08cb52bd01d5bb36b791771abefef66c75a33ab0e49d45c9bbf8e0c01945e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-groups.xsd",
+      "destination": "xsd/ctml-groups.xsd",
+      "bytes": 2838,
+      "source_sha256": "931bf902e7b689bff67240ffd76c70789550c1f88815f9bd71f51a7d5aaa65d5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-names.xsd",
+      "destination": "xsd/ctml-names.xsd",
+      "bytes": 1792,
+      "source_sha256": "f069590e2bcbc1de5203c1ebf9ee80b0474b9108c2dbf018ae67e6fb5c0d09c1",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-places.xsd",
+      "destination": "xsd/ctml-places.xsd",
+      "bytes": 2883,
+      "source_sha256": "120560198561fc172093be97e56a21bc9670f031c13edce183cdf0b8d0488b93",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-teams.xsd",
+      "destination": "xsd/ctml-teams.xsd",
+      "bytes": 8493,
+      "source_sha256": "0011945827297f6c90f8184250369ea03ab6a1daf9d9a51beb759990db1e61a4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml-vocab.xsd",
+      "destination": "xsd/ctml-vocab.xsd",
+      "bytes": 9907,
+      "source_sha256": "567f446fa54bd3cc087d36ec56d71b4ace495555613e9baa6f22fb932c121ded",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\xsd\\ctml.xsd",
+      "destination": "xsd/ctml.xsd",
+      "bytes": 1316,
+      "source_sha256": "a70b1b4a1b6566248ded5ef58c51a99c95699ad565cc53b04ddaaead9677e885",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\18571006-18571110_1st-american-chess-congress.ctml",
+      "destination": "tours/18571006-18571110_1st-american-chess-congress.ctml",
+      "bytes": 296692,
+      "source_sha256": "9ef8bfe7b9e37d9f37a13936ac4ffc0a2981e0f146c70fce0c62d50e4697ad09",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\18711205-18711215_2nd-american-chess-congress.ctml",
+      "destination": "tours/18711205-18711215_2nd-american-chess-congress.ctml",
+      "bytes": 298830,
+      "source_sha256": "5ef59cc317f4df08c927953fbae45376ab77e34b97d4ba7941896e34c57ec50f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\18860111-18860329_world-championship-steinitz-zukertort.ctml",
+      "destination": "tours/18860111-18860329_world-championship-steinitz-zukertort.ctml",
+      "bytes": 96209,
+      "source_sha256": "f0594cedfc81e2840b29a33b2e2bb4ff53be18754c5d8cfaf64f384f607aff10",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\18890120-18890224_world-championship-steinitz-chigorin.ctml",
+      "destination": "tours/18890120-18890224_world-championship-steinitz-chigorin.ctml",
+      "bytes": 91808,
+      "source_sha256": "e8490f7277bfdfe4dd1b3a8e95d9dd360caa0a0910d770153f231f4e01fbd20f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\18901209-18910122_world-championship-steinitz-gunsberg.ctml",
+      "destination": "tours/18901209-18910122_world-championship-steinitz-gunsberg.ctml",
+      "bytes": 93020,
+      "source_sha256": "5327e15b64261e983cc0c0fc36afb9e22239bfe788fea49bd57427dea3676257",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\18920101-18920228_world-championship-steinitz-chigorin.ctml",
+      "destination": "tours/18920101-18920228_world-championship-steinitz-chigorin.ctml",
+      "bytes": 106249,
+      "source_sha256": "40385cf4d56f496eee25a5a05d9068d1ea7831ccf56de8d8505bdc445c067c13",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\18940315-158940526_world-championship-lasker-steinitz.ctml",
+      "destination": "tours/18940315-158940526_world-championship-lasker-steinitz.ctml",
+      "bytes": 143203,
+      "source_sha256": "fbb2f07a01ac81aeba735757d4e55a266fe58715f2a05ae9c350f694b56ca8c6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\19640114-19640202_1st-reykjavik-international.ctml",
+      "destination": "tours/19640114-19640202_1st-reykjavik-international.ctml",
+      "bytes": 383274,
+      "source_sha256": "9938f354165f0e8a8a445fd2de6154aca6616795953f0f0af9658a83ed7f062f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20240727-20240804_british-chess-championship.ctml",
+      "destination": "tours/20240727-20240804_british-chess-championship.ctml",
+      "bytes": 2839041,
+      "source_sha256": "24cb8babf098cee969142c1ea8ecd5c9f00e79945de8dc41660ce31ab46d1961",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20250403-20250420_fide-womens-world-championship-match.ctml",
+      "destination": "tours/20250403-20250420_fide-womens-world-championship-match.ctml",
+      "bytes": 83996,
+      "source_sha256": "8cc1431228226a72b68f2f13295ec9b99aad30e9c40c92c01b040ad7c6f025b0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20250526-20250606_13th-norway-chess.ctml",
+      "destination": "tours/20250526-20250606_13th-norway-chess.ctml",
+      "bytes": 348273,
+      "source_sha256": "2117e6ce6a3230e0c71add0abe765970e0ce241717ee60f06fa18bf59a683078",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20250526-20250606_2nd-norway-chess-women.ctml",
+      "destination": "tours/20250526-20250606_2nd-norway-chess-women.ctml",
+      "bytes": 346220,
+      "source_sha256": "fc2bd920e3dc86e6e6731adb80438fad0eeca9f531dd0893a7659e46d0b0d70e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260525-20260605_14th-norway-chess-women.ctml",
+      "destination": "tours/20260525-20260605_14th-norway-chess-women.ctml",
+      "bytes": 363807,
+      "source_sha256": "3d16c6ea7c89d415c536b721635f377fba9cdbf677eda62a87cbc3a1455496f4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260525-20260605_14th-norway-chess.ctml",
+      "destination": "tours/20260525-20260605_14th-norway-chess.ctml",
+      "bytes": 351756,
+      "source_sha256": "6061c2d82814461cda4323d1d7665dfce49a9349ea9329a353b96d9fb6d880f3",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260617-20260619_fide-world-team-rapid-chess-championship.ctml",
+      "destination": "tours/20260617-20260619_fide-world-team-rapid-chess-championship.ctml",
+      "bytes": 12510903,
+      "source_sha256": "5ba8d49f04c63d8308977fddb9e3cef82910aa6eb69a581c9935eaf82d322b09",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260620-20260621_fide-world-team-blitz-chess-championship.ctml",
+      "destination": "tours/20260620-20260621_fide-world-team-blitz-chess-championship.ctml",
+      "bytes": 12219932,
+      "source_sha256": "2d5974e3b84f930122f9241b23e41b84fa038ca647b50aad44cf69d2d93b1d0e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260801-20260809_112th-british-chess-championship.ctml",
+      "destination": "tours/20260801-20260809_112th-british-chess-championship.ctml",
+      "bytes": 2589494,
+      "source_sha256": "3ae6f99356f708552543bc1d00e9cadffeceb9278a6c8c17cf9c71f19ba50946",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260810-20260819_gct-sinquefield-cup.ctml",
+      "destination": "tours/20260810-20260819_gct-sinquefield-cup.ctml",
+      "bytes": 386789,
+      "source_sha256": "ad5612f00b039d8197f877d3f58a278bec526010607cf4df54910c700fad9456",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260814-20260815_2026-esports-world-cup-playoffs.ctml",
+      "destination": "tours/20260814-20260815_2026-esports-world-cup-playoffs.ctml",
+      "bytes": 340852,
+      "source_sha256": "4974c18ce1a86949eae86f80205c041f3561df2d7946ccd1811aedf783349eb6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260822-20260827_grand-chess-tour-finals.ctml",
+      "destination": "tours/20260822-20260827_grand-chess-tour-finals.ctml",
+      "bytes": 292723,
+      "source_sha256": "3651e80a970a4508a310ce298d9c91ce8734cff852c71bfd1f123b7a2ec16784",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260824-20260830_11th-menchik-memorial.ctml",
+      "destination": "tours/20260824-20260830_11th-menchik-memorial.ctml",
+      "bytes": 321696,
+      "source_sha256": "713b6f2a443f53539deebf0ad7da8a20add802e120f3b72a472534536ecfda21",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260829-20260829_sofia-cup-balkan-rapid-championship.ctml",
+      "destination": "tours/20260829-20260829_sofia-cup-balkan-rapid-championship.ctml",
+      "bytes": 1939620,
+      "source_sha256": "49743322c475b8c89dc0cd678b96cc6f17168ff4816b35d986ea437ef589de2b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260829-20260831_green-hills-resort-masters.ctml",
+      "destination": "tours/20260829-20260831_green-hills-resort-masters.ctml",
+      "bytes": 439549,
+      "source_sha256": "8b3898058d7c5cb5aa5786c19e2d3432df670bc6a3f43924549ce96e110100b2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tours\\20260830-20260830_sofia-cup-balkan-blitz-championship.ctml",
+      "destination": "tours/20260830-20260830_sofia-cup-balkan-blitz-championship.ctml",
+      "bytes": 2248620,
+      "source_sha256": "a2dc68524f04e796617bbd2cd9f9e6fd3d4202f6fcc1d089b3a92b7699561719",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\18571006-18571110_1st-american-chess-congress.py",
+      "destination": "tools/18571006-18571110_1st-american-chess-congress.py",
+      "bytes": 15004,
+      "source_sha256": "09a0461a14cf843cff966a9b96185a802044641e723677921395f74ab876c20c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\18711205-18711215_2nd-american-chess-congress.py",
+      "destination": "tools/18711205-18711215_2nd-american-chess-congress.py",
+      "bytes": 27636,
+      "source_sha256": "a36d7d29f7acf3f370c32686c8b8112260533f38c13d17406704e300549bac78",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\18860111-18860329_world-championship-steinitz-zukertort.py",
+      "destination": "tools/18860111-18860329_world-championship-steinitz-zukertort.py",
+      "bytes": 8865,
+      "source_sha256": "c950fb1505c920e5cfa728fa21685f93fcf959dcaf1ec9123aaf97f06060ea0c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\18890120-18890224_world-championship-steinitz-chigorin.py",
+      "destination": "tools/18890120-18890224_world-championship-steinitz-chigorin.py",
+      "bytes": 11506,
+      "source_sha256": "949c221ec9185f8324450935d52ea73fe25f246a611ef6ef5993fbb54c131136",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\18901209-18910122_world-championship-steinitz-gunsberg.py",
+      "destination": "tools/18901209-18910122_world-championship-steinitz-gunsberg.py",
+      "bytes": 12347,
+      "source_sha256": "9bd9402eb6de2b7d064da1c9fab4856b511708d5772ad4109712fc89cb58f2d5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\18920101-18920228_world-championship-steinitz-chigorin.py",
+      "destination": "tools/18920101-18920228_world-championship-steinitz-chigorin.py",
+      "bytes": 11976,
+      "source_sha256": "b8a2e933c6987dc37f4565aeaff7036167eb52c660c3f86983c376e40bb98c79",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\19640114-19640202_1st-reykjavik-international.py",
+      "destination": "tools/19640114-19640202_1st-reykjavik-international.py",
+      "bytes": 19901,
+      "source_sha256": "6826630f8c296c06d28ffeb657f317e3fa40d3cdc9bfae17c51c1cdb196765d3",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20240727-20240804_british-chess-championship.py",
+      "destination": "tools/20240727-20240804_british-chess-championship.py",
+      "bytes": 24966,
+      "source_sha256": "c3802290ec71ab7be84e82b48bf1ad8751fa3162141c207d0280a6575955e19f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20250403-20250420_fide-womens-world-championship-match.py",
+      "destination": "tools/20250403-20250420_fide-womens-world-championship-match.py",
+      "bytes": 11281,
+      "source_sha256": "099f5e74e6fbba1cc1000c005d32c1824e19daa3f7e040a779b1fceb7d15a72f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20250526-20250606_13th-norway-chess.py",
+      "destination": "tools/20250526-20250606_13th-norway-chess.py",
+      "bytes": 25688,
+      "source_sha256": "4adbbf112a91b0972a42a830b5501d3332c9e207ac0cecaa8e2a54046aa18579",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260525-20260605_14th-norway-chess.py",
+      "destination": "tools/20260525-20260605_14th-norway-chess.py",
+      "bytes": 27607,
+      "source_sha256": "f325d35e38c26586c2a5a5bf2563322ff192aeef8b6780045054c8a9a61aea4b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260617-20260619_fide-world-team-rapid-chess-championship.py",
+      "destination": "tools/20260617-20260619_fide-world-team-rapid-chess-championship.py",
+      "bytes": 23247,
+      "source_sha256": "4b29bfac0ed07ec4d0834937c286b11113617605485158b39b5d645a389e1228",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260620-20260621_fide-world-team-blitz-chess-championship.py",
+      "destination": "tools/20260620-20260621_fide-world-team-blitz-chess-championship.py",
+      "bytes": 30153,
+      "source_sha256": "f3bfb4fee0b0ccb5b24149f2233b141328667228663e6e0a84d46db2c82bab02",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260801-20260809_112th-british-chess-championship.py",
+      "destination": "tools/20260801-20260809_112th-british-chess-championship.py",
+      "bytes": 33625,
+      "source_sha256": "16b986b2582823ee21b940c7fd0acf58dc003c4b71e8732e4f572c5404ddb15c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260810-20260819_gct-sinquefield-cup.py",
+      "destination": "tools/20260810-20260819_gct-sinquefield-cup.py",
+      "bytes": 13031,
+      "source_sha256": "365c1e1bbfbdad0e95b5f32c88395037a0735cb2c8a63495755e5919c92ef164",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260814-20260815_2026-esports-world-cup-playoffs.py",
+      "destination": "tools/20260814-20260815_2026-esports-world-cup-playoffs.py",
+      "bytes": 25545,
+      "source_sha256": "483da9e63e3ff94b793676adc5c0189739250d1f535481a8c7f86787e2929980",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260822-20260827_grand-chess-tour-finals.py",
+      "destination": "tools/20260822-20260827_grand-chess-tour-finals.py",
+      "bytes": 21001,
+      "source_sha256": "9cc16370207bc15744c770d913d7a906618e926c03a0ff440ba11a1b0860f645",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260824-20260830_11th-menchik-memorial.py",
+      "destination": "tools/20260824-20260830_11th-menchik-memorial.py",
+      "bytes": 18716,
+      "source_sha256": "5107c91e3b3ddc275ce58d3e8201b68853d30842dbba9421ec8ae3f1ab0d8394",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260829-20260830_sofia-cup-2026.py",
+      "destination": "tools/20260829-20260830_sofia-cup-2026.py",
+      "bytes": 20466,
+      "source_sha256": "f083e523d8846747c2122bc076f86687a10618a60f9230847b638640175b7894",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\20260829-20260831_green-hills-resort-masters.py",
+      "destination": "tools/20260829-20260831_green-hills-resort-masters.py",
+      "bytes": 18915,
+      "source_sha256": "67f5b5d0132a31d0c75a67c0df7fc8a1a151d6317c616f6ec37d479dfd73e7d5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\build_corpus_index.py",
+      "destination": "tools/build_corpus_index.py",
+      "bytes": 5069,
+      "source_sha256": "0a08f5ec04dffe25df4fa263b284894f7683ee35d1b0a889e902e317ac5926c1",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\tools\\ctml_build.py",
+      "destination": "tools/ctml_build.py",
+      "bytes": 6696,
+      "source_sha256": "b240a964eb4ed2b82deee7dbe5df29b020dfd9785150fb272edfd475ba2facd2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\app\\ctml.css",
+      "destination": "app/ctml.css",
+      "bytes": 14761,
+      "source_sha256": "7ccdcaf796ea961474d613d0d49cc085bcc4aefb2ad110d56e68afeefbb6fd4a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\app\\ctml.js",
+      "destination": "app/ctml.js",
+      "bytes": 48074,
+      "source_sha256": "0d68ac2cef5ce35d7861585ad9aca08627aa40f8a0e356797e3e57ea0f41c894",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\sources\\20240727-20240804_british-chess-championship_starting-rank.tsv",
+      "destination": "sources/20240727-20240804_british-chess-championship_starting-rank.tsv",
+      "bytes": 3410,
+      "source_sha256": "f08dd2364ee4d2fa01e2db6807f8eb11b5c4bb3a2767212bac3f163880d56145",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\index.html",
+      "destination": "index.html",
+      "bytes": 8057,
+      "source_sha256": "e3489ef204d06cf7219aa58a9725cfde6f0804fde59625411d9ce1283f87c864",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\corpus.json",
+      "destination": "corpus.json",
+      "bytes": 16079,
+      "source_sha256": "bcd3cb3ea245c877d46523b45950e9edc9e15e143af9461361882e22775e5f67",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\.nojekyll",
+      "destination": ".nojekyll",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\LICENSE",
+      "destination": "LICENSE",
+      "bytes": 1087,
+      "source_sha256": "934212dc32d3c05cf3c1741bec6273e18915982d9f26c2c5465ed3a59ace0ca9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\ctml\\temp\\1st-world-championship-spelled.pgn",
+      "destination": "sources/curated/1st-world-championship-spelled.pgn",
+      "bytes": 60652,
+      "source_sha256": "c2e25f0415e4bc21a9c8c7019fd7a6ec2627bc3f7d0cada3e2ef359f1ffb9508",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\chess.rs",
+      "destination": "src/chess.rs",
+      "bytes": 13072,
+      "source_sha256": "cc4221f54fb738976029040fc533e82c57e94527ab71ec05c0781cf3694ea4d2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\corpus.rs",
+      "destination": "src/corpus.rs",
+      "bytes": 32214,
+      "source_sha256": "91858d1b7cbb9f390fedb6ca3249fd031eba5fa80fabc682ad4dab45d91ec6cd",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\crosstable.rs",
+      "destination": "src/crosstable.rs",
+      "bytes": 3559,
+      "source_sha256": "bc6dcd75585176cca2b6afee8b99efb0b8b13b646aa2c9b593c27ddc0f752eb8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\crosstabledup.rs",
+      "destination": "src/crosstabledup.rs",
+      "bytes": 22264,
+      "source_sha256": "b62889b6494d67478b06aeb7c5a62a40f11577e9551aff533e7459af3236f4d9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\diff.rs",
+      "destination": "src/diff.rs",
+      "bytes": 7559,
+      "source_sha256": "b3cf71775566e6faf553fac69d0f0a358c6eafbead875959da0cc99fbfeb49b1",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\eco.rs",
+      "destination": "src/eco.rs",
+      "bytes": 1465,
+      "source_sha256": "28e5d069a15593cfbb36ff46712a27a989c1f29a7ff0c5c6b2f534ee70d8a381",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\eventindex.rs",
+      "destination": "src/eventindex.rs",
+      "bytes": 7476,
+      "source_sha256": "32d5150d378c9dd8bfd902a0be2371f6744299d54879ce511145bf2344d3d544",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\fingerprint.rs",
+      "destination": "src/fingerprint.rs",
+      "bytes": 1605,
+      "source_sha256": "d74ec062b04bc202033aa8d99a8ac5d568e58412de1538d64fa4855c6caa24b8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\gameimport.rs",
+      "destination": "src/gameimport.rs",
+      "bytes": 8131,
+      "source_sha256": "8fe05d84f58084c4a0abda1ae8b308895bebf13d667206ba6a88facf571e46fe",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\main.rs",
+      "destination": "src/main.rs",
+      "bytes": 41140,
+      "source_sha256": "aa2ec79650bca99a6a55fad70b79c4d6b8d8807d3b30b60fe9e205ba3dab1756",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\movegen.rs",
+      "destination": "src/movegen.rs",
+      "bytes": 11588,
+      "source_sha256": "3359dca4d1a468e5bd77c4d6b1ec6c6e371c9319052a59a83f83d539ae75db7b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\names.rs",
+      "destination": "src/names.rs",
+      "bytes": 2813,
+      "source_sha256": "090cc5f4c241eeb8fb45f8392282be2d7f60074c64bfaa06d2f4ab97fc9680c0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\pgn.rs",
+      "destination": "src/pgn.rs",
+      "bytes": 7397,
+      "source_sha256": "4601c662ad3d29925ab4e6e04fbc1b34fcaffde0bc2b599ed586f798714e2504",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\pgntournament.rs",
+      "destination": "src/pgntournament.rs",
+      "bytes": 7521,
+      "source_sha256": "8c7000572b15054c6d2724d3aeffa827b212d965ff876fa2e83942c1af0ef90e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\placeindex.rs",
+      "destination": "src/placeindex.rs",
+      "bytes": 4177,
+      "source_sha256": "a398e91a78b37642854ec892202da3c82f8ac51e9db9ad2603797801ca7a0322",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\playerindex.rs",
+      "destination": "src/playerindex.rs",
+      "bytes": 6912,
+      "source_sha256": "65b64fa1f46fdada3654da5c78e984e1f97bc09c618f54d274c511366e9d9723",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\polyglot_array.rs",
+      "destination": "src/polyglot_array.rs",
+      "bytes": 17061,
+      "source_sha256": "d502e6260e3532e53d2899c4f2635810fdc56c92f8b89ea4f257fe5d24885f6d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\registry.rs",
+      "destination": "src/registry.rs",
+      "bytes": 3380,
+      "source_sha256": "90396d4c5ddb4a57e4c91ec0a39e13f8c4f78e8af23b8dec19c9518f7b54eac8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\san.rs",
+      "destination": "src/san.rs",
+      "bytes": 4746,
+      "source_sha256": "8e0f8597aecf5648e3c646f7a8131f13e212304add5e5925a79d9dadfce84a63",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\ssp.rs",
+      "destination": "src/ssp.rs",
+      "bytes": 15459,
+      "source_sha256": "40bdde26bef26013fe955078d89ad3a8ace0dcf7ac5df1bbed0958a7d3dcb924",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\tournament.rs",
+      "destination": "src/tournament.rs",
+      "bytes": 20831,
+      "source_sha256": "53e93986d796374f88e5f1826ec675e5b7f002240ca80cbeb726b60e7f42467e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\tournamentgroup.rs",
+      "destination": "src/tournamentgroup.rs",
+      "bytes": 3949,
+      "source_sha256": "8aee617510e7a8994384b88d8bb9a1a179efff91d5efcd21b6c759ff70b3f516",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\xmlplayers.rs",
+      "destination": "src/xmlplayers.rs",
+      "bytes": 12858,
+      "source_sha256": "ac3bc89f0861dfce3fa45e94386385970ddc6d7c05e0e4ee26079ee27912b086",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\src\\xmlutil.rs",
+      "destination": "src/xmlutil.rs",
+      "bytes": 4375,
+      "source_sha256": "ffce12c9a7f9ddaff568081574903974fa5f73a8d46f325bc887e17e8e8af0ed",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\spec\\ctml-rules.md",
+      "destination": "spec/ctml-rules.md",
+      "bytes": 9964,
+      "source_sha256": "5798407a37e1452bec0e90944609567432b83184b004b904d6f6a9a67366a03a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\spec\\fingerprint.md",
+      "destination": "spec/fingerprint.md",
+      "bytes": 9381,
+      "source_sha256": "dca6199ac93d46e3f4c28da19dc6b48dd71ed215fc5b71608fdd21d85ce4d478",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\spec\\perft-vectors.tsv",
+      "destination": "spec/perft-vectors.tsv",
+      "bytes": 2390,
+      "source_sha256": "b3abd16cb4b7e68ee875d3ac2accf37efd98918a6a9da9ab16c88991dbde0e90",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\spec\\pgn-test-games.expected.tsv",
+      "destination": "spec/pgn-test-games.expected.tsv",
+      "bytes": 20130,
+      "source_sha256": "f360be6febb54ef3032a0b3bb591bb57494bc4ddced144d6b9224e86b27b3203",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\spec\\pgn-test-games.pgn",
+      "destination": "spec/pgn-test-games.pgn",
+      "bytes": 32524,
+      "source_sha256": "5e5cdec360985e80430e0ebab2b54586a33bd3f1770799093ac6df52f1f26960",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\build-manifest-chess-results.py",
+      "destination": "scripts/build-manifest-chess-results.py",
+      "bytes": 7429,
+      "source_sha256": "f7a411aad7a490f7b48f3b94bcfb7d94d432eaba1a3c8358495609df244c049b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\build_enriched_ssp.py",
+      "destination": "scripts/build_enriched_ssp.py",
+      "bytes": 33169,
+      "source_sha256": "fe0e7833cf02fc074a54c780a723334e669791c8852644a0f83989e3a430d6a3",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\collect_crosstables_nwchess.py",
+      "destination": "scripts/collect_crosstables_nwchess.py",
+      "bytes": 12104,
+      "source_sha256": "91f0d2dd925a75df029e60b960abcb2971a1893ee54e594e7fc669f1a9838d83",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\collect_crosstables_olimpbase.py",
+      "destination": "scripts/collect_crosstables_olimpbase.py",
+      "bytes": 35531,
+      "source_sha256": "040324ed9a9986d5dce3d6ebb56237e7f2481671069982b89d3e4d8216337c38",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\cull_strict_rating_floor.py",
+      "destination": "scripts/cull_strict_rating_floor.py",
+      "bytes": 25467,
+      "source_sha256": "5bc64c65e0c46bcb8a17433fcde132567dfaf265288f877c914f07add7bb85ba",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\curate_source_tournaments.py",
+      "destination": "scripts/curate_source_tournaments.py",
+      "bytes": 17049,
+      "source_sha256": "e05a289ed1ee304dac9243bdf840f4d1f6af7ac1854a27cc4c94e4a7d24eec8f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\download-exports-chess-results.py",
+      "destination": "scripts/download-exports-chess-results.py",
+      "bytes": 19325,
+      "source_sha256": "cc2358e4eb618caa49f8c3a234449e16774b0de82246348af6c69b861e554870",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\emit_edo_tournament_sources.py",
+      "destination": "scripts/emit_edo_tournament_sources.py",
+      "bytes": 12984,
+      "source_sha256": "1686e177922f115c649c12b6037a010119512c1844b104ea9d6ce043fd41a23f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\fingerprint_index.py",
+      "destination": "scripts/fingerprint_index.py",
+      "bytes": 10627,
+      "source_sha256": "6640427d0276aa69780f6c5405a5f973ec79d78bf9c0ca78fffb057aaea32312",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\geodata_to_ctml_places.py",
+      "destination": "scripts/geodata_to_ctml_places.py",
+      "bytes": 10086,
+      "source_sha256": "010faa712123845e0a4d81bb6abb95b5d2a29045320e653731343a0bb58f5228",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\pgn_to_ctml.py",
+      "destination": "scripts/pgn_to_ctml.py",
+      "bytes": 23571,
+      "source_sha256": "989fd9f8d4c38f81839965c4240feac0c26cbf1ea35c395e6808ae5ed482ece2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\screen-and-download-chess-results.py",
+      "destination": "scripts/screen-and-download-chess-results.py",
+      "bytes": 37530,
+      "source_sha256": "dbc7ff682ebaf255f3ab487d6367f4cc8ac23b5534c239c61151d476fd97aaa6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\screen_crosstables.py",
+      "destination": "scripts/screen_crosstables.py",
+      "bytes": 3958,
+      "source_sha256": "02ab7f12f63e2e620ea5f67fc01c2973d1111aec46ba2794ef70a31f7b35c33a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\seed_event_registry.py",
+      "destination": "scripts/seed_event_registry.py",
+      "bytes": 5772,
+      "source_sha256": "be2e190c3b5d2c685152626cde565a388841e4c51953ebb4c3a546cfa5764025",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\scripts\\ssp_to_ctml_players.py",
+      "destination": "scripts/ssp_to_ctml_players.py",
+      "bytes": 17632,
+      "source_sha256": "4c9f14a9c97e8b45175c7fe3ec5a6ec405030c0cc9c8c6b5733b83412805513b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\Cargo.toml",
+      "destination": "Cargo.toml",
+      "bytes": 206,
+      "source_sha256": "a5e2cfa7889dacb634b2059a8efcb872960d47997c03fef408ebbd8e99bf1e69",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\Cargo.lock",
+      "destination": "Cargo.lock",
+      "bytes": 6349,
+      "source_sha256": "91a0f88bfee9398d90e07f16ed4a9a7b9013bab10c24751bf954fa644ad86763",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\HANDOFF.md",
+      "destination": "docs/history/ctml-clean-HANDOFF.md",
+      "bytes": 51832,
+      "source_sha256": "b1a7c9e147236962d35381f48f9235a08d5f210dbf19cc3182d15458393b6309",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\CHANGELOG.md",
+      "destination": "docs/history/ctml-clean-CHANGELOG.md",
+      "bytes": 4323,
+      "source_sha256": "64994353cbce804c23e06d5f523e9733c84f75231ef23b37e58befc50bdfc76b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml\\docs\\HANDOFF.md",
+      "destination": "docs/history/ctml-python-HANDOFF.md",
+      "bytes": 54585,
+      "source_sha256": "03b5fa908929e5a27ecf3b076fb27909411093cf8a4c4b55742aba1002eff8e2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\all.tsv",
+      "destination": "assets/all.tsv",
+      "bytes": 805011,
+      "source_sha256": "7c5f1cbf4606e890d047417c552006cebbc04c76514ad3c2bb5a9c06d7c6be09",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\crosstables.json",
+      "destination": "crosstables/crosstables.json",
+      "bytes": 159235159,
+      "source_sha256": "94f83de726d2fe4ccc60a3af519e251d6e6b2a43723dd6431dc40d2bb8320e31",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\ratings260801.ssp",
+      "destination": "inputs/ratings260801.ssp",
+      "bytes": 515952595,
+      "source_sha256": "8f6fe4a16c2fa4e7ddf033606f917f8f1987b27abbbdfa7579df58de000f7170",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\events.xml",
+      "destination": "registry/events.xml",
+      "bytes": 8800270,
+      "source_sha256": "4850f6bbbb2fa3d154804deff4d561db71066e47f41cdd6228da3d16a6688008",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ABW.xml",
+      "destination": "registry/places/places-cities-ABW.xml",
+      "bytes": 4357,
+      "source_sha256": "c9b247c035d73af97fcd29f35205fe6b9f91fc7568471cd5a378d6350f485582",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-AFG.xml",
+      "destination": "registry/places/places-cities-AFG.xml",
+      "bytes": 27782,
+      "source_sha256": "79f8374c63f84ca03d51620302cd2c7f7540d5150df21b1f5d685f55aecac2a5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-AGO.xml",
+      "destination": "registry/places/places-cities-AGO.xml",
+      "bytes": 20795,
+      "source_sha256": "1d53e356b127b621ec4a90a5df9a19c824fb6fcda279cb9049864c92efe8ee51",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ALA.xml",
+      "destination": "registry/places/places-cities-ALA.xml",
+      "bytes": 4273,
+      "source_sha256": "00a2a847a5fb72ecd20db13064a9d3db9778afe54f0c245004ab5cd26f2e0319",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ALB.xml",
+      "destination": "registry/places/places-cities-ALB.xml",
+      "bytes": 52756,
+      "source_sha256": "43599ad5259ae9779a6675d9c2e7322a5d6d8d9c5bbb22128cf303f484744e64",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-AND.xml",
+      "destination": "registry/places/places-cities-AND.xml",
+      "bytes": 1737,
+      "source_sha256": "a1b096807c3fe840e3fde7870c8c1b9122293178de7a217e21e05ccf52c2dd93",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ARE.xml",
+      "destination": "registry/places/places-cities-ARE.xml",
+      "bytes": 11113,
+      "source_sha256": "376a7798e2debd507bd818178a1fb683877ca105e26986134991e01e6479d179",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ARG.xml",
+      "destination": "registry/places/places-cities-ARG.xml",
+      "bytes": 445663,
+      "source_sha256": "12674ef2644ca605fdc8d9c0c6cfe7ff3445cd26887fb0ec3f756246b6445c7f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ARM.xml",
+      "destination": "registry/places/places-cities-ARM.xml",
+      "bytes": 116218,
+      "source_sha256": "c4efd4bbc6be9ae4c1f2916f17fa4f7741cede638e8fdde09e32d28dd7d45cbe",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ASM.xml",
+      "destination": "registry/places/places-cities-ASM.xml",
+      "bytes": 4911,
+      "source_sha256": "cb9f4e4e837c9c5fa044e5742eaaf9dc2410d35257fc36d1ee45d865c52da82f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ATF.xml",
+      "destination": "registry/places/places-cities-ATF.xml",
+      "bytes": 2250,
+      "source_sha256": "db0d9b7e2daa44c19f8d6b92e58e16e26d6f955ae60c5df68461cbf729ac1d94",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ATG.xml",
+      "destination": "registry/places/places-cities-ATG.xml",
+      "bytes": 1762,
+      "source_sha256": "ad6484b738259a9d21a8537645551110f7ace9aa8bdaf31cc1f2866bcf228757",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-AUS.xml",
+      "destination": "registry/places/places-cities-AUS.xml",
+      "bytes": 1658708,
+      "source_sha256": "19dd46e78bdcc97e9391472b352f412909a21bbcae3ecca93e0391c0c3433a87",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-AUT.xml",
+      "destination": "registry/places/places-cities-AUT.xml",
+      "bytes": 928931,
+      "source_sha256": "6d353018ba9c5ed5e919d0f97cb5a25015734f9327920eeee34fa8f639571ee8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-AZE.xml",
+      "destination": "registry/places/places-cities-AZE.xml",
+      "bytes": 45997,
+      "source_sha256": "76f57df2644e13db3e92a440e2ec4e5e8b79d864a7d65d33ddfe280e81cf32d6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BDI.xml",
+      "destination": "registry/places/places-cities-BDI.xml",
+      "bytes": 957,
+      "source_sha256": "15d0ce52cf9564651f7870ac85d950b6514d0a3940fead5870bd5602f4eff512",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BEL.xml",
+      "destination": "registry/places/places-cities-BEL.xml",
+      "bytes": 215328,
+      "source_sha256": "530e4cc90674612f1da7b4ee42354d97964dcc5e237b379414f1c6768744093c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BEN.xml",
+      "destination": "registry/places/places-cities-BEN.xml",
+      "bytes": 10661,
+      "source_sha256": "56f3845a173d6340e2fcec1e5e04d6c061ab01a3e81c04af638575c67cd41247",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BES.xml",
+      "destination": "registry/places/places-cities-BES.xml",
+      "bytes": 2558,
+      "source_sha256": "c0f893b9ce95be28ea5c5c1d81537083353f5b5d60aff5618cfa2820dab2c0da",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BFA.xml",
+      "destination": "registry/places/places-cities-BFA.xml",
+      "bytes": 31262,
+      "source_sha256": "d3d94c09c0224e28d6b918fc5fa2f616a1d017176733b1fd06d961b6f0534700",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BGD.xml",
+      "destination": "registry/places/places-cities-BGD.xml",
+      "bytes": 24955,
+      "source_sha256": "497f8e517c16664305bf3e168707f64ba4f200bf0394c5dfaae553a87595c636",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BGR.xml",
+      "destination": "registry/places/places-cities-BGR.xml",
+      "bytes": 188665,
+      "source_sha256": "1071579229486a5eec960ddc47f89d3516e675567c761b05b1a72a2465f0ff5c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BHR.xml",
+      "destination": "registry/places/places-cities-BHR.xml",
+      "bytes": 3715,
+      "source_sha256": "81802ebe764da1cbb28dda84970f2b1cbd958890e69b0e08f7a383424bb05c82",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BHS.xml",
+      "destination": "registry/places/places-cities-BHS.xml",
+      "bytes": 2169,
+      "source_sha256": "c1df7fa96537f07d06041c54b2b2fa7ef590ba194d942c96ec4931e7e1fb02df",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BIH.xml",
+      "destination": "registry/places/places-cities-BIH.xml",
+      "bytes": 95502,
+      "source_sha256": "b6e03d69f27e0852f51060a7c5ea78142c3dda177224b7fca7b60691c25e78ef",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BLM.xml",
+      "destination": "registry/places/places-cities-BLM.xml",
+      "bytes": 578,
+      "source_sha256": "540ab3c15a881e3600161829b96a6419704f46a9925970a70364863ffa6ef773",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BLR.xml",
+      "destination": "registry/places/places-cities-BLR.xml",
+      "bytes": 127610,
+      "source_sha256": "70bb0c7fdb87d11833e8c3c93dcc134f873153cd3ead990bdf0499656bbd20a8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BLZ.xml",
+      "destination": "registry/places/places-cities-BLZ.xml",
+      "bytes": 3332,
+      "source_sha256": "d4ffb52105a438a512221ec340b6bdaa3bee883e8cbe4ec08b228e02f8266b9f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BMU.xml",
+      "destination": "registry/places/places-cities-BMU.xml",
+      "bytes": 3740,
+      "source_sha256": "0c95e130dda3bf3da35c65fe266483e93d7977cdab3291a321cbf4af22732de5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BOL.xml",
+      "destination": "registry/places/places-cities-BOL.xml",
+      "bytes": 88092,
+      "source_sha256": "62d2b2183fdb26a8cd2c08dfebf0a1b7fa5f9696d55dad1c6b1a7473c0d6dd6c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BRA.xml",
+      "destination": "registry/places/places-cities-BRA.xml",
+      "bytes": 2242831,
+      "source_sha256": "7e47f6f9e16fe79b03b9ed18a837685927863ced788d8f726a1da60326d0fd77",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BRB.xml",
+      "destination": "registry/places/places-cities-BRB.xml",
+      "bytes": 574,
+      "source_sha256": "36244f9b9a6c0f44dacef5c1b62febbba1f711efe2389febd88c716307f27d1b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BRN.xml",
+      "destination": "registry/places/places-cities-BRN.xml",
+      "bytes": 2539,
+      "source_sha256": "1196613b68b95bfb2f82f93b54fd8dfce7d35ee1d63d44e43af3cf4c245b9268",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BTN.xml",
+      "destination": "registry/places/places-cities-BTN.xml",
+      "bytes": 13933,
+      "source_sha256": "3516f1d739d0401d811ef2a9f552f0990394db9a2eb613caa2613eb4d49fd2dc",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-BWA.xml",
+      "destination": "registry/places/places-cities-BWA.xml",
+      "bytes": 26026,
+      "source_sha256": "19d7c343d56b08d302303c3f44a23aa1fa78de2ba8d30bdbd5a39b7465b61938",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CAF.xml",
+      "destination": "registry/places/places-cities-CAF.xml",
+      "bytes": 9550,
+      "source_sha256": "82dbe29348d0f8a844c9abee03df2b9677a6882b23ffa44892a599cdebdc2c3a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CAN.xml",
+      "destination": "registry/places/places-cities-CAN.xml",
+      "bytes": 423352,
+      "source_sha256": "a2763bd475b63a3457de26a0ee9fb845b53eb240de1012145d458acb86c1b1ba",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CHE.xml",
+      "destination": "registry/places/places-cities-CHE.xml",
+      "bytes": 582009,
+      "source_sha256": "8c701440a444075993c6cef55fc05f40962b9369ca118c2a81dcfea55ee1cda8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CHL.xml",
+      "destination": "registry/places/places-cities-CHL.xml",
+      "bytes": 114332,
+      "source_sha256": "8015d57b4dd92136041076e43eb5914cf1507ba0321f480481ebdab726dbc3fa",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CHN.xml",
+      "destination": "registry/places/places-cities-CHN.xml",
+      "bytes": 1549442,
+      "source_sha256": "b3f148edf91d91f563878ace76c6eed6dd68b459355dd84e910050b156994158",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CIV.xml",
+      "destination": "registry/places/places-cities-CIV.xml",
+      "bytes": 32358,
+      "source_sha256": "1f99e18d340b6f9cd826ef5fa4193cdee9795c7199481c223c63bd6871dacf47",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CMR.xml",
+      "destination": "registry/places/places-cities-CMR.xml",
+      "bytes": 50683,
+      "source_sha256": "e97fb7145db2adbcc699ddf10a2431a96830421c24ab00c8b7a98d08f86f9773",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-COD.xml",
+      "destination": "registry/places/places-cities-COD.xml",
+      "bytes": 19338,
+      "source_sha256": "2aa97465c495d1d1d7c44e2e9039aaf88fec337697597d7b66195b48cb90eb1b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-COG.xml",
+      "destination": "registry/places/places-cities-COG.xml",
+      "bytes": 2914,
+      "source_sha256": "d5668c1dd5f015742e0365ba07a6534695f0ed5885b29f590be82215eea0a248",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-COL.xml",
+      "destination": "registry/places/places-cities-COL.xml",
+      "bytes": 435969,
+      "source_sha256": "3b0f8a1d5784d739e7ff44558e9b49bae3eef3d5abd6ab1dd07796a2e120cd0c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-COM.xml",
+      "destination": "registry/places/places-cities-COM.xml",
+      "bytes": 34025,
+      "source_sha256": "7bac4a861207ca91d2b4c1eb74d0c9373ec287863202c9c054e7635e3fb0769e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CPV.xml",
+      "destination": "registry/places/places-cities-CPV.xml",
+      "bytes": 2545,
+      "source_sha256": "508d7d89a1782e66cb50c961c9d3068056c7adc0be579277379076ef2f0da430",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CRI.xml",
+      "destination": "registry/places/places-cities-CRI.xml",
+      "bytes": 59180,
+      "source_sha256": "a4e5cf0328338fbf84f94ed5fdf2aa761ac097602ba36890acadfa8d68ef68c5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CUB.xml",
+      "destination": "registry/places/places-cities-CUB.xml",
+      "bytes": 66840,
+      "source_sha256": "7c333678c353ba875d74b01b55f45936552af1b818dd4c5d2aaad62bb07bbc75",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CYM.xml",
+      "destination": "registry/places/places-cities-CYM.xml",
+      "bytes": 2178,
+      "source_sha256": "9451fef8576b8992b30ab75f67689b1a56a7441e6bb737ea8cd779e926021c67",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CYP.xml",
+      "destination": "registry/places/places-cities-CYP.xml",
+      "bytes": 36035,
+      "source_sha256": "e6116722cb094df0d743c2d526aded7acb8d453957fda28e410140cbc46198f0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-CZE.xml",
+      "destination": "registry/places/places-cities-CZE.xml",
+      "bytes": 541402,
+      "source_sha256": "31b78860df642a35653271a2e633606123e6d148bf587e5ae1ea328a9565ea57",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-DEU.xml",
+      "destination": "registry/places/places-cities-DEU.xml",
+      "bytes": 2815167,
+      "source_sha256": "a19a1b8dc88af06589460470d876d592cd0713faf180d779ab0f63a675e68742",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-DJI.xml",
+      "destination": "registry/places/places-cities-DJI.xml",
+      "bytes": 2923,
+      "source_sha256": "ab139b168fb1b8c3e351a3c5b30cd0729b20d76f205311836f99e1aaa76a0d23",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-DMA.xml",
+      "destination": "registry/places/places-cities-DMA.xml",
+      "bytes": 3758,
+      "source_sha256": "79b3624553a596d2a0e6c684ac2a4e45df0075fa1e81f6213d711da315321294",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-DNK.xml",
+      "destination": "registry/places/places-cities-DNK.xml",
+      "bytes": 168936,
+      "source_sha256": "3d705f46d8a122bac902aab8eba9d7620e7d9310d510908024ee3d79b7dea2d5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-DOM.xml",
+      "destination": "registry/places/places-cities-DOM.xml",
+      "bytes": 71955,
+      "source_sha256": "89d7e0f2f590b80e870f3bd827f613fa74f990b3e73a3105110e5a6782bf0174",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-DZA.xml",
+      "destination": "registry/places/places-cities-DZA.xml",
+      "bytes": 95146,
+      "source_sha256": "a94821bcdca070fed58a56753fb0e83d9ce0a180aee238b879921e6d9cf46cad",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ECU.xml",
+      "destination": "registry/places/places-cities-ECU.xml",
+      "bytes": 35376,
+      "source_sha256": "2c6243bedb668b610977dda4298c6fd2fc1dc9b859624e8ac8c09d7c5180d0bf",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-EGY.xml",
+      "destination": "registry/places/places-cities-EGY.xml",
+      "bytes": 54142,
+      "source_sha256": "b2c3f8b4ccd66b5a505f0031bd826cefcedac0c0fdf7d79060ef79a085ccc60e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ERI.xml",
+      "destination": "registry/places/places-cities-ERI.xml",
+      "bytes": 2526,
+      "source_sha256": "8b2c1e33b8f4950d713213651a5b61933f10889d88c434d9cc84a179867e8e1d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ESP.xml",
+      "destination": "registry/places/places-cities-ESP.xml",
+      "bytes": 3323583,
+      "source_sha256": "c65ac9dbcef04a0e947532d1da1a29e9ab426872503e4da18c4084240dcb76cc",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-EST.xml",
+      "destination": "registry/places/places-cities-EST.xml",
+      "bytes": 57495,
+      "source_sha256": "7e97fb777f2d9974833c57dd8d8d8410d3437ea700b41421294a1f3c1552445d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ETH.xml",
+      "destination": "registry/places/places-cities-ETH.xml",
+      "bytes": 52919,
+      "source_sha256": "a7e9b53a5b430601a4d6237a903d06e8cc17921e1cbf844f9d3ace65230d97bb",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-FIN.xml",
+      "destination": "registry/places/places-cities-FIN.xml",
+      "bytes": 168333,
+      "source_sha256": "b6e4575eab8955af352c016f9328ba9859aa0af760b7bb63a3841b8672d44852",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-FJI.xml",
+      "destination": "registry/places/places-cities-FJI.xml",
+      "bytes": 6815,
+      "source_sha256": "5dca54d33f4cf9fe584bff29c4565c8e9c565ab45e9912aa95e796c9e9b1708b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-FRA.xml",
+      "destination": "registry/places/places-cities-FRA.xml",
+      "bytes": 4147801,
+      "source_sha256": "f857fc972b7608a78eb1baa719c9876a855d9937eb4d3cf204574b56b7bd0ea8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-FRO.xml",
+      "destination": "registry/places/places-cities-FRO.xml",
+      "bytes": 9187,
+      "source_sha256": "d757f0c30e37ea1e8e2845570d7b96ae5c1ce77c47e6b6edcaceb31ca7625422",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-FSM.xml",
+      "destination": "registry/places/places-cities-FSM.xml",
+      "bytes": 29705,
+      "source_sha256": "3eaf7df671ea39af6aaa96f838a3da40cbc14ff578bd120be507f3ff7a2ee711",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GAB.xml",
+      "destination": "registry/places/places-cities-GAB.xml",
+      "bytes": 8017,
+      "source_sha256": "1836e806a7a11b768312734ca6f96424e2287b15d307924d32e68b04b4bc7cb2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GBR.xml",
+      "destination": "registry/places/places-cities-GBR.xml",
+      "bytes": 1540797,
+      "source_sha256": "3987984ef72f85bcc60a63dc1121545c4e26eeb68873d08c1ab61cda0186234d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GEO.xml",
+      "destination": "registry/places/places-cities-GEO.xml",
+      "bytes": 40021,
+      "source_sha256": "bcacf154f95fa0d9aad7cd7d7e4936919c000fb126945ba758643b3dca96f7df",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GGY.xml",
+      "destination": "registry/places/places-cities-GGY.xml",
+      "bytes": 1960,
+      "source_sha256": "de758c8af0126ed0cf13e7707f7a07b76e1897159134ccc81bd23b8542cf681a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GHA.xml",
+      "destination": "registry/places/places-cities-GHA.xml",
+      "bytes": 43314,
+      "source_sha256": "a96a647b0fc31fac60b364b420b6f7042c96a136574b318c9c170e252cd8d53d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GIN.xml",
+      "destination": "registry/places/places-cities-GIN.xml",
+      "bytes": 19497,
+      "source_sha256": "79e083c40bc33ab8a1e2af01675a8f0a08efb21607e0fd24610910420915817c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GLP.xml",
+      "destination": "registry/places/places-cities-GLP.xml",
+      "bytes": 13033,
+      "source_sha256": "f316eee11d49dd32b06f1326cd2a9a05e80c1960c9752a5729fa1ec706a5fed5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GMB.xml",
+      "destination": "registry/places/places-cities-GMB.xml",
+      "bytes": 39309,
+      "source_sha256": "df66b76e049c2996296f4925550af7eb45bbf6805a48a24adc18f2df40184ae7",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GNB.xml",
+      "destination": "registry/places/places-cities-GNB.xml",
+      "bytes": 2907,
+      "source_sha256": "3f5114118ae7a3c2f8da9046c4b98d5c2dd326cd8dc48b5afaadf58212b81cd2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GNQ.xml",
+      "destination": "registry/places/places-cities-GNQ.xml",
+      "bytes": 6809,
+      "source_sha256": "e538ce6cfaa9af733d83c2f62a3d0f5fc7d231f0647e6862ac2cfc8aadf01a5c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GRC.xml",
+      "destination": "registry/places/places-cities-GRC.xml",
+      "bytes": 431848,
+      "source_sha256": "af49c49fecf67a2b3e63ab8cbd66d60c037d61992f5a716275a4c7c0e6af70a2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GRD.xml",
+      "destination": "registry/places/places-cities-GRD.xml",
+      "bytes": 578,
+      "source_sha256": "f6902990e5f3b574d2ca586dc7d1172655e15c8400b8f4fef644f59ec1ea7210",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GRL.xml",
+      "destination": "registry/places/places-cities-GRL.xml",
+      "bytes": 7288,
+      "source_sha256": "097dd1341abe508c7f26af1070b0263e61217111983cacc86d90c3825ab7620c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GTM.xml",
+      "destination": "registry/places/places-cities-GTM.xml",
+      "bytes": 145994,
+      "source_sha256": "89a1f227df3608e71ad930a3c3550bfe216f3f9ab35c331be147968bafe77cdb",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GUF.xml",
+      "destination": "registry/places/places-cities-GUF.xml",
+      "bytes": 8818,
+      "source_sha256": "7ba2d4155881f854fb3c6645491e72b7c7a3b6fa291944f8e9bdeda8e42add1f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GUM.xml",
+      "destination": "registry/places/places-cities-GUM.xml",
+      "bytes": 2959,
+      "source_sha256": "33ec90923a1f66884db101df6bb45cf65d92e7bec285209000287823892871d3",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-GUY.xml",
+      "destination": "registry/places/places-cities-GUY.xml",
+      "bytes": 2606,
+      "source_sha256": "f5c761b4a02cf5ee7294e0c395e72f342bf540ffdd96b332b26ab40e03bbb8b4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-HKG.xml",
+      "destination": "registry/places/places-cities-HKG.xml",
+      "bytes": 7338,
+      "source_sha256": "f38fc7a7b6250fe5fc9dee9145945104e9bd39ab4159164bbf3466b9aef8dd4b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-HND.xml",
+      "destination": "registry/places/places-cities-HND.xml",
+      "bytes": 207743,
+      "source_sha256": "f30111cc0a28b1fb49dd1691c8b5a8816c663dfae3043d6abfce8d83b86d837a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-HRV.xml",
+      "destination": "registry/places/places-cities-HRV.xml",
+      "bytes": 252917,
+      "source_sha256": "f4a91aa23e4741a9d67314d4287497fea4b8e0b7c32e78d86c982db8c3dc0403",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-HTI.xml",
+      "destination": "registry/places/places-cities-HTI.xml",
+      "bytes": 45401,
+      "source_sha256": "fcce5996a418df0dd1428c6892280b75cfdfe8c31b9cf0260d1c06526ab22bd8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-HUN.xml",
+      "destination": "registry/places/places-cities-HUN.xml",
+      "bytes": 424298,
+      "source_sha256": "f5ec818c6de8afdedadf6059d9b2780cee6bab932465106dfa4ec2c93704ae6f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-IDN.xml",
+      "destination": "registry/places/places-cities-IDN.xml",
+      "bytes": 304795,
+      "source_sha256": "5a54f97b2b1b4e0e1f5609d94705fcc8d710a6482d6c7d7c98610e075ecc3103",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-IMN.xml",
+      "destination": "registry/places/places-cities-IMN.xml",
+      "bytes": 6401,
+      "source_sha256": "44f5b9249b2f59e5a9c670e1f804c9e4ed86b7c6420f6ce72d142a6815be5704",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-IND.xml",
+      "destination": "registry/places/places-cities-IND.xml",
+      "bytes": 1642765,
+      "source_sha256": "5c2821bd9a71f62aa3815c97dc82f04c6349b3bad7041777bec45611e7879fd6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-IRL.xml",
+      "destination": "registry/places/places-cities-IRL.xml",
+      "bytes": 143801,
+      "source_sha256": "186d701c20afba06ff25fa780e808da7848591ef9e50ce09557e06369bfa8966",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-IRN.xml",
+      "destination": "registry/places/places-cities-IRN.xml",
+      "bytes": 702738,
+      "source_sha256": "434b20485370bc93afa9675a6c05595d7e8635a0b05c2cdd0318d0bca6792060",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-IRQ.xml",
+      "destination": "registry/places/places-cities-IRQ.xml",
+      "bytes": 45498,
+      "source_sha256": "9a2d9cc3250a8357d161bf909e6bae1a7733ffa51096017fc07bde2e06efb295",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ISL.xml",
+      "destination": "registry/places/places-cities-ISL.xml",
+      "bytes": 26635,
+      "source_sha256": "99297b2b51a13e78122ee87bff079b9f3ddb67b27a74b6d6a21c59fe2373d5e4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ISR.xml",
+      "destination": "registry/places/places-cities-ISR.xml",
+      "bytes": 56615,
+      "source_sha256": "00b95fe24e1e642ff04d784266ba73e04cbba2883b45f26b4ea525fa60d4738c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ITA.xml",
+      "destination": "registry/places/places-cities-ITA.xml",
+      "bytes": 3849255,
+      "source_sha256": "d6e9a08918b036672ec98652e3118855313c53600e06b54d22c5ec963a564e56",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-JAM.xml",
+      "destination": "registry/places/places-cities-JAM.xml",
+      "bytes": 297923,
+      "source_sha256": "647d8d755ee7f90d74de96a1d6c54eb8ce9ed65959b89900247a1b8b3e8e3b29",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-JEY.xml",
+      "destination": "registry/places/places-cities-JEY.xml",
+      "bytes": 17344,
+      "source_sha256": "fa6fe50bbb8915c7aaefa57d6d0588cadba096ef87233a56341f7d50fb9d92f0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-JOR.xml",
+      "destination": "registry/places/places-cities-JOR.xml",
+      "bytes": 27933,
+      "source_sha256": "3eda4a7c93537e1df36454ac3f2763d486037c8f3ac669d6834e0060dafe1156",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-JPN.xml",
+      "destination": "registry/places/places-cities-JPN.xml",
+      "bytes": 633285,
+      "source_sha256": "030ac77b61860e414a83ffe3633a2c6cf9525b86bc9d1009e0518f38d2e08cbf",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-KAZ.xml",
+      "destination": "registry/places/places-cities-KAZ.xml",
+      "bytes": 96582,
+      "source_sha256": "115bd80dfa1d1de8c6915a171a0b256a6ac1ea90a3e4545db094c65b9e9b570b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-KEN.xml",
+      "destination": "registry/places/places-cities-KEN.xml",
+      "bytes": 37787,
+      "source_sha256": "098b12d5b28c4487016e0fa0eebaab14bd524f9708760409853e6ae980e898c0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-KGZ.xml",
+      "destination": "registry/places/places-cities-KGZ.xml",
+      "bytes": 18588,
+      "source_sha256": "5ff5c1fe7865706dd4a4d20e4946c52f37bad4327a5f578a42a18e287f33edf6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-KHM.xml",
+      "destination": "registry/places/places-cities-KHM.xml",
+      "bytes": 31891,
+      "source_sha256": "f004bad5ba139c06c29b5fda9edb42554ec2c30401a9f3e5a036fae13728f901",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-KIR.xml",
+      "destination": "registry/places/places-cities-KIR.xml",
+      "bytes": 14706,
+      "source_sha256": "ae8bb2f5fd0911fc173fb4300c0f87b73d698f2affd1e426d12845b77f0e9911",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-KOR.xml",
+      "destination": "registry/places/places-cities-KOR.xml",
+      "bytes": 114864,
+      "source_sha256": "8311d56de29ea5b4642baa7345f91e1e382f197407b0daf823c3aa0d94bf2cb7",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-KWT.xml",
+      "destination": "registry/places/places-cities-KWT.xml",
+      "bytes": 8532,
+      "source_sha256": "3db1be13d10a850d0422a2cc09519309d63075d8e5612a29115e27a83a0b993a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LAO.xml",
+      "destination": "registry/places/places-cities-LAO.xml",
+      "bytes": 22958,
+      "source_sha256": "3764ce34cda407111f41276334e70df56c934570426ac1be485369445ce61448",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LBN.xml",
+      "destination": "registry/places/places-cities-LBN.xml",
+      "bytes": 8077,
+      "source_sha256": "906448f62a06eeb32f2ce4407ecf59eaf1829b14e2f4542d4fbacbd2049fcc68",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LBR.xml",
+      "destination": "registry/places/places-cities-LBR.xml",
+      "bytes": 1343,
+      "source_sha256": "055059a7fb10fe0d25825fbf9053d54ff063f23c9f35a6e42c7a9c98821121ad",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LBY.xml",
+      "destination": "registry/places/places-cities-LBY.xml",
+      "bytes": 13487,
+      "source_sha256": "85a9ca2d81a281519da1e163025362f109dfd2bf326f64094a7682426af2f0fd",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LCA.xml",
+      "destination": "registry/places/places-cities-LCA.xml",
+      "bytes": 152546,
+      "source_sha256": "f6654f9a529edfce97a4a474cac51a66fca9007e0e857321f7d7cb1f3b62882e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LIE.xml",
+      "destination": "registry/places/places-cities-LIE.xml",
+      "bytes": 559,
+      "source_sha256": "acc1f2256e7baebcb0ac0db4db903f7640277f70ff738f9425b333bd71183a72",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LKA.xml",
+      "destination": "registry/places/places-cities-LKA.xml",
+      "bytes": 50772,
+      "source_sha256": "b88c9f41e99418b7617105596aa6e3566f0826f337fb014e78e3806aab222114",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LSO.xml",
+      "destination": "registry/places/places-cities-LSO.xml",
+      "bytes": 2124,
+      "source_sha256": "e4a4ae0025d56bbf3293a2fa921c433ffe157c4ffcb748e56770146d85920be0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LTU.xml",
+      "destination": "registry/places/places-cities-LTU.xml",
+      "bytes": 47534,
+      "source_sha256": "3cea86c6910277b915dec870493136a3d1b053c11ad7a9af3f0981dd2c1e40ac",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LUX.xml",
+      "destination": "registry/places/places-cities-LUX.xml",
+      "bytes": 54905,
+      "source_sha256": "514c450006cab3d4b50f64e2d0124f693a74721f7c764a4db8193bd7a6a30323",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-LVA.xml",
+      "destination": "registry/places/places-cities-LVA.xml",
+      "bytes": 34798,
+      "source_sha256": "b41ca494841d50197997fbd731dc3123ed95cd19541370aa6a4e350dec321c20",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MAF.xml",
+      "destination": "registry/places/places-cities-MAF.xml",
+      "bytes": 573,
+      "source_sha256": "46d8868f0cbcd7e1f3c47b05708d75c3e174704804d9da42967fa78500217f3f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MAR.xml",
+      "destination": "registry/places/places-cities-MAR.xml",
+      "bytes": 87124,
+      "source_sha256": "d9675cceeca8b68f59fe7e10de3defb10530a665f90ad106d37347aa354cdf20",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MCO.xml",
+      "destination": "registry/places/places-cities-MCO.xml",
+      "bytes": 6538,
+      "source_sha256": "cad4e26468ac4ee50aa464624390412df6cd4190897c9174dfea2fbb4da73847",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MDA.xml",
+      "destination": "registry/places/places-cities-MDA.xml",
+      "bytes": 14771,
+      "source_sha256": "44dc0b709b7d4bca4d8353479d5149c76c2735d9b7b6ee5d70251faeee77501e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MDG.xml",
+      "destination": "registry/places/places-cities-MDG.xml",
+      "bytes": 2962,
+      "source_sha256": "30e331781525215b8d2c4dfee07cdef17931c70a961402adb5a130ac746a6a60",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MDV.xml",
+      "destination": "registry/places/places-cities-MDV.xml",
+      "bytes": 2111,
+      "source_sha256": "688493b428ff13953e754d42a307ba773b36a1957d26403b75928e3427bde00b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MEX.xml",
+      "destination": "registry/places/places-cities-MEX.xml",
+      "bytes": 3777783,
+      "source_sha256": "4347ee5f94d2e096bc091d5c970f2b03e9d75644f168cf369ba5d46f36688032",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MHL.xml",
+      "destination": "registry/places/places-cities-MHL.xml",
+      "bytes": 4495,
+      "source_sha256": "dcd61726237f78d07401779121923fcc8a738fe48e04710904abb445c55d5000",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MKD.xml",
+      "destination": "registry/places/places-cities-MKD.xml",
+      "bytes": 50542,
+      "source_sha256": "118a4c76fc94144daaf5313a8c58bfb9d89c4a6ac95fba8c025092bde29341b7",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MLI.xml",
+      "destination": "registry/places/places-cities-MLI.xml",
+      "bytes": 15463,
+      "source_sha256": "73390939d7e36337033a785198c98e7916a9f65cf8534b3c17004f20ace43d04",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MLT.xml",
+      "destination": "registry/places/places-cities-MLT.xml",
+      "bytes": 4524,
+      "source_sha256": "63ddc7f536db7671f77d6ece05f108c08983862d6f690577945d19aac7754f90",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MMR.xml",
+      "destination": "registry/places/places-cities-MMR.xml",
+      "bytes": 23620,
+      "source_sha256": "28779b449d2e1056ec5ae5a078f616de8ea7be39cc8b21ba5d0aea33bad08e82",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MNE.xml",
+      "destination": "registry/places/places-cities-MNE.xml",
+      "bytes": 7191,
+      "source_sha256": "0d010830ad625bf64bfb5f6514ef2c24bfdbc3774941b7e1abe36766c93e762e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MNG.xml",
+      "destination": "registry/places/places-cities-MNG.xml",
+      "bytes": 8113,
+      "source_sha256": "dd2791c2fd79bdd668049cc74a9143c2dbe8fd0b7a54e39a7db726dc1d456b18",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MOZ.xml",
+      "destination": "registry/places/places-cities-MOZ.xml",
+      "bytes": 11141,
+      "source_sha256": "c2945fc48d18ebcfcc76b9cfe7d8b18cf810a2f96266a8c22d374baed76d2ae9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MRT.xml",
+      "destination": "registry/places/places-cities-MRT.xml",
+      "bytes": 9670,
+      "source_sha256": "5b78921a2faae6bc4aea96795863d805d90bdb64652b28b8c108a902436eb992",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MTQ.xml",
+      "destination": "registry/places/places-cities-MTQ.xml",
+      "bytes": 13774,
+      "source_sha256": "727d51d9a0fe5c573d3d61100348ea2a6a957ab6c2e4c39c19a737dfd5059243",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MUS.xml",
+      "destination": "registry/places/places-cities-MUS.xml",
+      "bytes": 60128,
+      "source_sha256": "a11a551140b06f7ba8c0ac98427d77deb5eb7408e453da7012646646fe7d23cf",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MWI.xml",
+      "destination": "registry/places/places-cities-MWI.xml",
+      "bytes": 23528,
+      "source_sha256": "978907b8fdaaef2a798c4275fd9ccbcf2863219c33952f5853c2acf8d9d842d1",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MYS.xml",
+      "destination": "registry/places/places-cities-MYS.xml",
+      "bytes": 80769,
+      "source_sha256": "fc8acbe333661ba576c4fc7749158181d2c4ef4c78e982ab1994f39e553adba8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-MYT.xml",
+      "destination": "registry/places/places-cities-MYT.xml",
+      "bytes": 14377,
+      "source_sha256": "ce4c24d5472dc26658c8d8b4f0b2d6b8a00a7b25df454172f573f575fe274056",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NAM.xml",
+      "destination": "registry/places/places-cities-NAM.xml",
+      "bytes": 14723,
+      "source_sha256": "3e77c78ec7dde8e037fbb7f930807f03c5a001c00df4803ae57c3e35dc0d4237",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NCL.xml",
+      "destination": "registry/places/places-cities-NCL.xml",
+      "bytes": 3777,
+      "source_sha256": "c58bff189e8dcb353a5058611b290834bc11a980f7d7c6f1285205895fd8e0b9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NER.xml",
+      "destination": "registry/places/places-cities-NER.xml",
+      "bytes": 25175,
+      "source_sha256": "791a177887b5c070fe9b735113862b3f51f3ba5cef18904c3516475f2575deeb",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NGA.xml",
+      "destination": "registry/places/places-cities-NGA.xml",
+      "bytes": 177093,
+      "source_sha256": "b3d2fc16810f02af4ddc66448738ecc6222e6cb194568adaa25c26bd0e49a17b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NIC.xml",
+      "destination": "registry/places/places-cities-NIC.xml",
+      "bytes": 56023,
+      "source_sha256": "811279cffdaaaa31d80592cb7e724a52d558d819d706552c9816ec407f8f7ef6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NLD.xml",
+      "destination": "registry/places/places-cities-NLD.xml",
+      "bytes": 643648,
+      "source_sha256": "a05f156d23983f591b82f41300d32f0b4b0959f6639feed7259f2903ed61bdc0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NOR.xml",
+      "destination": "registry/places/places-cities-NOR.xml",
+      "bytes": 256015,
+      "source_sha256": "7434bdfca627ab75365814da5cb2a791d0f84af1bdf30339cde51d6d4861061b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NPL.xml",
+      "destination": "registry/places/places-cities-NPL.xml",
+      "bytes": 30193,
+      "source_sha256": "4f689283ed7cd549aa571a09cd43be8baec278c234fd3ded1f970f4ea30c5be6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NRU.xml",
+      "destination": "registry/places/places-cities-NRU.xml",
+      "bytes": 1341,
+      "source_sha256": "4c00d639bcf52274ea40947431062c35ff777f097be29a308cf78ccc97327429",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-NZL.xml",
+      "destination": "registry/places/places-cities-NZL.xml",
+      "bytes": 57159,
+      "source_sha256": "c13869df2a7f3be4c85b75f597c8868eb0ed24c42d28cdc1dc06c37c3ef6a7f7",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-OMN.xml",
+      "destination": "registry/places/places-cities-OMN.xml",
+      "bytes": 8534,
+      "source_sha256": "8d8101e7d41d3869b977d229cad870529078c9a70b2f56d10c19197d252cbe9f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PAK.xml",
+      "destination": "registry/places/places-cities-PAK.xml",
+      "bytes": 177468,
+      "source_sha256": "117a2ebff223ee1926a36629aeac3fc9db6e09d995193ac1615b85cbb13ad26b",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PAN.xml",
+      "destination": "registry/places/places-cities-PAN.xml",
+      "bytes": 215424,
+      "source_sha256": "afe7ab279df473e078ff21448eff96b438ccce62326072fef90e2f22658708ed",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PER.xml",
+      "destination": "registry/places/places-cities-PER.xml",
+      "bytes": 182834,
+      "source_sha256": "0dc6da1b0fdaa90ce85d3dda235d34932543a13db987e0881a9a1b8dad0cfbf9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PHL.xml",
+      "destination": "registry/places/places-cities-PHL.xml",
+      "bytes": 2123457,
+      "source_sha256": "7ce91edafeff4ae551e0f9622ea6355da5c89dfe6ea78be883d923b1db23660d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PNG.xml",
+      "destination": "registry/places/places-cities-PNG.xml",
+      "bytes": 31070,
+      "source_sha256": "cb1d50c54c7c3c762565eda3974a20b40e71f1cef7ec17df2d12814e4086c867",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-POL.xml",
+      "destination": "registry/places/places-cities-POL.xml",
+      "bytes": 1106606,
+      "source_sha256": "88e91e8716b9c19b3db9ecfd12e9184aa0c678875b84bf0a14a73a5d3856dd9e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PRI.xml",
+      "destination": "registry/places/places-cities-PRI.xml",
+      "bytes": 7261,
+      "source_sha256": "4bcf4c3b23baccd8b0b49b6c8e2219dd2c5b7f69a49afb9da3702d9f352e7b49",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PRK.xml",
+      "destination": "registry/places/places-cities-PRK.xml",
+      "bytes": 27650,
+      "source_sha256": "9b82919f7bef67012145887c56c52a8a576435e921a632dfa0055af099f5145f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PRT.xml",
+      "destination": "registry/places/places-cities-PRT.xml",
+      "bytes": 502375,
+      "source_sha256": "b82519ee5fcf9d6cc7e4409b229655c595294ed619aa1a83ab32606546f90c73",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PRY.xml",
+      "destination": "registry/places/places-cities-PRY.xml",
+      "bytes": 54048,
+      "source_sha256": "5c808a4a085719acbde3d07f8f59299ddc70e03bfb4217e68d22f50dbb580463",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PSE.xml",
+      "destination": "registry/places/places-cities-PSE.xml",
+      "bytes": 50592,
+      "source_sha256": "b1cc4885c53228ab57924f58524b90d2a02f3ebb4803247c4582f8d157703f44",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-PYF.xml",
+      "destination": "registry/places/places-cities-PYF.xml",
+      "bytes": 19043,
+      "source_sha256": "adf7618c58dfa26327a77ef2b87c470c4c77d0e8d16411a058edce2d43f0474c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-QAT.xml",
+      "destination": "registry/places/places-cities-QAT.xml",
+      "bytes": 4150,
+      "source_sha256": "37eb176e3c8533a1cc1a24589819b1ea169cda53a244a96b27cf4ebb78f0419c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-REU.xml",
+      "destination": "registry/places/places-cities-REU.xml",
+      "bytes": 9796,
+      "source_sha256": "06d202208833b36c909cf705a1cd90d4d7488c20776c328035dc95eea1088772",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ROU.xml",
+      "destination": "registry/places/places-cities-ROU.xml",
+      "bytes": 3130901,
+      "source_sha256": "ecb98f9073621fc8fa7c674643272a26a741c6019a6a94f72e6704203d9bbc76",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-RUS.xml",
+      "destination": "registry/places/places-cities-RUS.xml",
+      "bytes": 2167789,
+      "source_sha256": "479e6802f7710c2e9f1383a8df66cce1ea76997248fd5f933c18328c673293f8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-RWA.xml",
+      "destination": "registry/places/places-cities-RWA.xml",
+      "bytes": 3721,
+      "source_sha256": "f102522d85f879e2fbe47fbf27fd3eee7def446ee23c40328c88ccdfa0fe21a4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SAU.xml",
+      "destination": "registry/places/places-cities-SAU.xml",
+      "bytes": 147870,
+      "source_sha256": "eb4f605853fc184c465e161478bec7fcf70730356f30d4b123df9f16fbc285a0",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SDN.xml",
+      "destination": "registry/places/places-cities-SDN.xml",
+      "bytes": 21934,
+      "source_sha256": "37ce5455e3226c9fc8cf9592caddfde8f7de267dcf8318a1dd2092f4e0836470",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SEN.xml",
+      "destination": "registry/places/places-cities-SEN.xml",
+      "bytes": 23947,
+      "source_sha256": "9f10b91b75730ac1e23ec389ee1fa49832cc2b6edca7d754ebb82a0e79c885ce",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SGP.xml",
+      "destination": "registry/places/places-cities-SGP.xml",
+      "bytes": 10529,
+      "source_sha256": "c8291972e9068b4c048f015b09149af22ce552c8d05f00721808e0dd323f24d4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SLB.xml",
+      "destination": "registry/places/places-cities-SLB.xml",
+      "bytes": 571,
+      "source_sha256": "9505860d0b746d89f283b96634b567dcfad4a33e3f6846fb07dafca0430a0d8a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SLE.xml",
+      "destination": "registry/places/places-cities-SLE.xml",
+      "bytes": 34182,
+      "source_sha256": "44a806eb4bd3286bf444b0c0efb959fc624ad50d87d6b198bf89f67c14e7fbf4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SLV.xml",
+      "destination": "registry/places/places-cities-SLV.xml",
+      "bytes": 34884,
+      "source_sha256": "5fdfcfecfbdf90ba1c2cea00746b86fa3181b41161a2a3b2438a86ec94b3ca60",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SMR.xml",
+      "destination": "registry/places/places-cities-SMR.xml",
+      "bytes": 571,
+      "source_sha256": "5a171eed63a1891b69bf338caf581b728b8524c36b4c19c18a3d72e01bca785d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SOM.xml",
+      "destination": "registry/places/places-cities-SOM.xml",
+      "bytes": 14282,
+      "source_sha256": "d6e2390babd6082fb896586bee089bd0ec4c60c60f778a5f94002968ba9b2ea8",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SPM.xml",
+      "destination": "registry/places/places-cities-SPM.xml",
+      "bytes": 1010,
+      "source_sha256": "e281afde6ddf138672834033494855187cf3060d5021905d2149b71373c9fbbc",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SRB.xml",
+      "destination": "registry/places/places-cities-SRB.xml",
+      "bytes": 148944,
+      "source_sha256": "4b0190548479db22b52d62de4a70cb93f0774a8e3df05248f553442dbb0daaac",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SSD.xml",
+      "destination": "registry/places/places-cities-SSD.xml",
+      "bytes": 563,
+      "source_sha256": "8ae35054ba6071695c271009881c43861fbe15b5fa514035235a3f8e129a31f2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-STP.xml",
+      "destination": "registry/places/places-cities-STP.xml",
+      "bytes": 2545,
+      "source_sha256": "f4ab55c30addce5132e2458b34610063d702831a3e1e99c50447aa84f36e3dfd",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SUR.xml",
+      "destination": "registry/places/places-cities-SUR.xml",
+      "bytes": 2146,
+      "source_sha256": "352adad799b3ba8ffccf46752454d6c5ab4e501d2aa5f797e5d05a227a788b63",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SVK.xml",
+      "destination": "registry/places/places-cities-SVK.xml",
+      "bytes": 88893,
+      "source_sha256": "9aec8faeafd546eb095fde1a6fed2bb68571445086c1bd68612d5f143d1eaf75",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SVN.xml",
+      "destination": "registry/places/places-cities-SVN.xml",
+      "bytes": 43542,
+      "source_sha256": "57da3718a0aba35e77d793e73ecb30f3ed60e59179dd06402ee39da8f1d530da",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SWE.xml",
+      "destination": "registry/places/places-cities-SWE.xml",
+      "bytes": 309261,
+      "source_sha256": "6f7d29df569ed8336263b915dab3b6df9ee974057c87431bc6460cb5342c48ef",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SWZ.xml",
+      "destination": "registry/places/places-cities-SWZ.xml",
+      "bytes": 12016,
+      "source_sha256": "2784e685ad3260de6d6193ff47de5e05e93805874c3664bf2bd3593d661d8344",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SYC.xml",
+      "destination": "registry/places/places-cities-SYC.xml",
+      "bytes": 977,
+      "source_sha256": "d4df6f1384d22f3cb4585ff0a9e1e9690bde1b96f347eea50abb0fad0e9ee034",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-SYR.xml",
+      "destination": "registry/places/places-cities-SYR.xml",
+      "bytes": 51871,
+      "source_sha256": "6fcc267b4ba1b8a80b9916a532cb016bd93d854a602eb3e604ef761aa042678e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TCD.xml",
+      "destination": "registry/places/places-cities-TCD.xml",
+      "bytes": 11651,
+      "source_sha256": "340ccc0c23d1c8069ae34d4032e6c3689548db881ed0fcbee88baaf228d1181a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TGO.xml",
+      "destination": "registry/places/places-cities-TGO.xml",
+      "bytes": 6776,
+      "source_sha256": "99780a5180df3599395af6d1dbb8cfd8a98658a4631f1929e567c566ae4c9c50",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-THA.xml",
+      "destination": "registry/places/places-cities-THA.xml",
+      "bytes": 464629,
+      "source_sha256": "09c55f7d768ff9d4064134582d0e9c674f82e4bcaf8f524a33ac7b94020e64d9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TJK.xml",
+      "destination": "registry/places/places-cities-TJK.xml",
+      "bytes": 27263,
+      "source_sha256": "5f13fad12654e4e2c082da64d8eadc6846a3180627f79ff4fb4ef206f52ecf9c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TKM.xml",
+      "destination": "registry/places/places-cities-TKM.xml",
+      "bytes": 10285,
+      "source_sha256": "cadd4c09f3e4ef651e5876b5398190256ea553a4ec4ea8728a04656ff6d5ba91",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TLS.xml",
+      "destination": "registry/places/places-cities-TLS.xml",
+      "bytes": 13852,
+      "source_sha256": "7200ff1a482633f1368cda79870d951c421e11953a745698f49b38ace4f153a9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TON.xml",
+      "destination": "registry/places/places-cities-TON.xml",
+      "bytes": 1764,
+      "source_sha256": "1e2567728237d25a0aa1fe7fae78c9bfc462645d5725122b109b98166b85e8ee",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TTO.xml",
+      "destination": "registry/places/places-cities-TTO.xml",
+      "bytes": 5005,
+      "source_sha256": "1ea19590d4783b6e9d10c9a2611de7101d7a775dcd2a48a960f62fcac5451ba5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TUN.xml",
+      "destination": "registry/places/places-cities-TUN.xml",
+      "bytes": 55050,
+      "source_sha256": "a8feb5935a620e4c64cef53df22dafa12290f1aa70755a2bc379634b6a345eb2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TUR.xml",
+      "destination": "registry/places/places-cities-TUR.xml",
+      "bytes": 372188,
+      "source_sha256": "d970291f467c38db3fd247169f403954f332ce538cae0ee4f7fcd43fe908acc4",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TUV.xml",
+      "destination": "registry/places/places-cities-TUV.xml",
+      "bytes": 1785,
+      "source_sha256": "fa5f40468cb7f5f7a907efc618e71095944c8282a5e54a3d009b959727046f69",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TWN.xml",
+      "destination": "registry/places/places-cities-TWN.xml",
+      "bytes": 14727,
+      "source_sha256": "a24821344835e2c131b1a5835e5f813159a4dc3f57686dc01375ae2221c0fb93",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-TZA.xml",
+      "destination": "registry/places/places-cities-TZA.xml",
+      "bytes": 106865,
+      "source_sha256": "a5ca2c83d63891221d3a8dbc41165b0b3075dffa04383315f7bad69b02f8aa8e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-UGA.xml",
+      "destination": "registry/places/places-cities-UGA.xml",
+      "bytes": 34664,
+      "source_sha256": "fd48ac2afe3e948476e728b1b91ea0a4bb054be428895642b7713d1ee9fdb053",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-UKR.xml",
+      "destination": "registry/places/places-cities-UKR.xml",
+      "bytes": 720307,
+      "source_sha256": "d9ffd1cb0ec806e36a07df82dddd1b263500fd5eb4c48a50fae13d0ffe193b33",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-URY.xml",
+      "destination": "registry/places/places-cities-URY.xml",
+      "bytes": 708749,
+      "source_sha256": "cc2f6823fd2b9ace1ab61f39a07759aa385cf06c486f7b62986080e9003fa8e1",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-USA.xml",
+      "destination": "registry/places/places-cities-USA.xml",
+      "bytes": 6621998,
+      "source_sha256": "f8d22a7af7e222e3ee21c95eb94c72cda2b4f92b0920d3ccfd69eec9bccab712",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-UZB.xml",
+      "destination": "registry/places/places-cities-UZB.xml",
+      "bytes": 48789,
+      "source_sha256": "7db21a1528e9608a3bb1170c4a36c1684cf2031523db2a73c99401815cb285ff",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-VCT.xml",
+      "destination": "registry/places/places-cities-VCT.xml",
+      "bytes": 1768,
+      "source_sha256": "adf22fd721885538b9e8fc1234cb078f81858a07392ed2ec784c8db7a7df17aa",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-VEN.xml",
+      "destination": "registry/places/places-cities-VEN.xml",
+      "bytes": 44490,
+      "source_sha256": "8d2c8368bee13b507d3e58506ad9ea2c46409e4d1171ca7402567df87ccd3f8c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-VIR.xml",
+      "destination": "registry/places/places-cities-VIR.xml",
+      "bytes": 6967,
+      "source_sha256": "ad8425d58d4f96ec87e10ee15bdfe3bc573937bbd046d496bba7d9783f797f83",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-VNM.xml",
+      "destination": "registry/places/places-cities-VNM.xml",
+      "bytes": 177332,
+      "source_sha256": "2bd409c2dbc65ac4e663456e60e06426d09c399567a4c38c4320230bc112ee4c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-VUT.xml",
+      "destination": "registry/places/places-cities-VUT.xml",
+      "bytes": 1355,
+      "source_sha256": "657bddb5cd51c4d0846af4d7735feea02580780c01d26ec11e670408e569acca",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-WLF.xml",
+      "destination": "registry/places/places-cities-WLF.xml",
+      "bytes": 567,
+      "source_sha256": "926e8db1b202513d785dbfd23598b028c401b9efddcfcc6abde503cf6f39809c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-WSM.xml",
+      "destination": "registry/places/places-cities-WSM.xml",
+      "bytes": 4914,
+      "source_sha256": "eb6e1501121d69da87f74536fea1fc01000b1337f89243e15bfb27b9f8c32ba9",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-XKX.xml",
+      "destination": "registry/places/places-cities-XKX.xml",
+      "bytes": 18524,
+      "source_sha256": "1d29de9b72350349d58168a9de3a15c758446a6417852ea0b845849e3d85bd56",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-YEM.xml",
+      "destination": "registry/places/places-cities-YEM.xml",
+      "bytes": 122005,
+      "source_sha256": "e04807e8fcd18ff87896b0f36abba2084dba8df8dbe0892199107f98cbcfd473",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ZAF.xml",
+      "destination": "registry/places/places-cities-ZAF.xml",
+      "bytes": 121744,
+      "source_sha256": "b3ad5bbbaf8e46c3d317d903d9d9309c5e3dd189d07ff64f203a1cacdad6bcfc",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ZMB.xml",
+      "destination": "registry/places/places-cities-ZMB.xml",
+      "bytes": 24610,
+      "source_sha256": "f61f9d16d21f19d80e682c788ee866b86451aebf87042440ae6c4a7f794832d6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-cities-ZWE.xml",
+      "destination": "registry/places/places-cities-ZWE.xml",
+      "bytes": 40311,
+      "source_sha256": "cf9ae38a0a979b605a3737abdb9dd068635d4a3ca81b19d10cbd65da987156a2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-countries.xml",
+      "destination": "registry/places/places-countries.xml",
+      "bytes": 367598,
+      "source_sha256": "72c489c35c305c40035365de435c5ac92432c65466846c10760c44f8e77cae0e",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\places\\places-states.xml",
+      "destination": "registry/places/places-states.xml",
+      "bytes": 1830554,
+      "source_sha256": "03b28fe0f995fcde161128add1a3e2290e50c32239c79cad180b6b67e2990d57",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-A.xml",
+      "destination": "registry/players/players-A.xml",
+      "bytes": 293374477,
+      "source_sha256": "1b863bcd9d4dcc6b38b09b7d1f0a5953f9002b0c2b799593728973fe4aac5a05",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-B.xml",
+      "destination": "registry/players/players-B.xml",
+      "bytes": 358571731,
+      "source_sha256": "04c1e250a4dda3b0d3d6151e9830bff261e583d4862c016c88570e07b94a8110",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-C.xml",
+      "destination": "registry/players/players-C.xml",
+      "bytes": 245493229,
+      "source_sha256": "41b94a376efc1befb379874f4a785bff2d261d9bb2425939ec44b49cbf6f86fe",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-D.xml",
+      "destination": "registry/players/players-D.xml",
+      "bytes": 234573163,
+      "source_sha256": "2ed5f541f5c301d2a19c2cf2bbedf0b923d77f91cc48c38ffce8c86f41534cb3",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-E.xml",
+      "destination": "registry/players/players-E.xml",
+      "bytes": 79742005,
+      "source_sha256": "7af9f5cd3ae117a7cde68819f0210fa92346dd95ac292002adcbe1df80635ac5",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-F.xml",
+      "destination": "registry/players/players-F.xml",
+      "bytes": 139785103,
+      "source_sha256": "c9e51730095d0f56ae43987da4a35df7eb7841cd353984fd2e273984faa20f4d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-G.xml",
+      "destination": "registry/players/players-G.xml",
+      "bytes": 283177761,
+      "source_sha256": "e873a0f0ee02d970943b18511b86fcf59b494548b3a23ea2f6baf28d4762fceb",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-H.xml",
+      "destination": "registry/players/players-H.xml",
+      "bytes": 191983053,
+      "source_sha256": "d02ae98410637d460022912c074d3401f9ca524168c4c6a5436a745f12264a31",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-I.xml",
+      "destination": "registry/players/players-I.xml",
+      "bytes": 56978968,
+      "source_sha256": "732a32f30da4bfe2410ac3b2ce3bea485e64d8603edc9fb38ad8031df1e2216f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-J.xml",
+      "destination": "registry/players/players-J.xml",
+      "bytes": 105337435,
+      "source_sha256": "57d230b18e7cd529f4743d6047c9a9014068a5f60cb4c066f39e5d594464686c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-K.xml",
+      "destination": "registry/players/players-K.xml",
+      "bytes": 356499991,
+      "source_sha256": "13867efb5aca9ec7b50c085dc3c07b888193b894b8682792a013e8018ac1df49",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-L.xml",
+      "destination": "registry/players/players-L.xml",
+      "bytes": 215312248,
+      "source_sha256": "f278e135870f57e741743c4974db61fa902d86b7336cc2523bbfb3b2060c7fb6",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-M.xml",
+      "destination": "registry/players/players-M.xml",
+      "bytes": 434405077,
+      "source_sha256": "7019c5a75d779c2cf461338dcde71407358357fe9c0b88eaa484e7db52666634",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-N.xml",
+      "destination": "registry/players/players-N.xml",
+      "bytes": 137424738,
+      "source_sha256": "cb3835b3ff4ed827b969d92ca3190e8ac3c51ca4bcd35e0c781f29809ff05eba",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-O.xml",
+      "destination": "registry/players/players-O.xml",
+      "bytes": 79903295,
+      "source_sha256": "785bfbb30064ac2fe65b83dbb3b9375e43140ee8e2e751ddbc740f1ca9f7cb16",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-OTHER.xml",
+      "destination": "registry/players/players-OTHER.xml",
+      "bytes": 353808,
+      "source_sha256": "a783c326397f8afb292699d85387179a18a8a780c08584e54b76c4d44e473b9d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-P.xml",
+      "destination": "registry/players/players-P.xml",
+      "bytes": 297687663,
+      "source_sha256": "ff95bf702477de639616dc15692ef06c29dcd9a9b66b13d53f396da87544026c",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-Q.xml",
+      "destination": "registry/players/players-Q.xml",
+      "bytes": 10539761,
+      "source_sha256": "d9f1180e4cb1390d54d3e77b71173f13290db48219d43e147e4dc5d707635468",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-R.xml",
+      "destination": "registry/players/players-R.xml",
+      "bytes": 251142200,
+      "source_sha256": "474256c96f4b6c571521db0f40cc9f62753277156ed8c4c20c2376a6359430ed",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-S.xml",
+      "destination": "registry/players/players-S.xml",
+      "bytes": 547184905,
+      "source_sha256": "a3ca3ecdf933172dc614eacfa3d8bc6091be509583f5dec85ef172eb1b04d4a2",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-T.xml",
+      "destination": "registry/players/players-T.xml",
+      "bytes": 179666922,
+      "source_sha256": "2577976eb841e2c2ec512b385368d779a0762ba79dfcf0d86f54e6bcb7d91776",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-U.xml",
+      "destination": "registry/players/players-U.xml",
+      "bytes": 27898291,
+      "source_sha256": "739a6f8c8eb3490aa2f50dc9e490bcc06e6aea47db79f64fb6f2503bd1867cfb",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-V.xml",
+      "destination": "registry/players/players-V.xml",
+      "bytes": 169035165,
+      "source_sha256": "b507b4d36d490fa40c8f84015c4a77488de984e7de72d19a0f802e126f74fa3d",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-W.xml",
+      "destination": "registry/players/players-W.xml",
+      "bytes": 89390150,
+      "source_sha256": "da469911bedbab154f9a2133d29450a310837ea1ccc30fa52fe62edba99dd02f",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-X.xml",
+      "destination": "registry/players/players-X.xml",
+      "bytes": 4062209,
+      "source_sha256": "632ce5987642940e9b45a97430acda77bd76643053ae9c3b587aeeb6615584a3",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-Y.xml",
+      "destination": "registry/players/players-Y.xml",
+      "bytes": 38318123,
+      "source_sha256": "cb3e64808db73e5e927ec6aac8ae2bbf6c54c02ea70c7a2797f4b124b38f425a",
+      "action": "copied"
+    },
+    {
+      "source": "D:\\dev\\proj\\ctml-clean\\assets\\registries\\players\\players-Z.xml",
+      "destination": "registry/players/players-Z.xml",
+      "bytes": 85898050,
+      "source_sha256": "6c2a24da3aa6339872c04529554241965e925ba779eb11be5b481b34e0873755",
+      "action": "copied"
+    }
+  ]
+}

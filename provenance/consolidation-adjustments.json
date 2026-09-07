@@ -1,0 +1,118 @@
+{
+  "tools/18571006-18571110_1st-american-chess-congress.py": {
+    "sha256": "4184a63e838065427d793cea32a2851dd961df8abd951d37580daa9d10043b1b",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/18711205-18711215_2nd-american-chess-congress.py": {
+    "sha256": "cce61c3bcc08913eb924c112acf5af2bd70c2067421d54cb41a2614245e6ca1a",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/18860111-18860329_world-championship-steinitz-zukertort.py": {
+    "sha256": "c3fd158e406e0825b9c590ea4b1ec5ccf83cc627e945b2fa301f42d4068e9676",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/18890120-18890224_world-championship-steinitz-chigorin.py": {
+    "sha256": "4fa0bc0e219b770f5977bca11148570cbd3c15973859beb4eececf52f5960bb8",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/18901209-18910122_world-championship-steinitz-gunsberg.py": {
+    "sha256": "aa4d7fca5d2b92117cca9785b480cb951fb59ba07051c87c1ce30c9675758150",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/18920101-18920228_world-championship-steinitz-chigorin.py": {
+    "sha256": "0a4ce5d0996c483c2398349b229b0a91497703a18bad6c0d6d808dd58a80f120",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/19640114-19640202_1st-reykjavik-international.py": {
+    "sha256": "06c8bd5b6070343f17c8d715527d6d7069d9c7bf199ab98dd120a1eca20b084b",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20240727-20240804_british-chess-championship.py": {
+    "sha256": "db4b2096796b8651a979dfcb39f523d68e2f98a89f4aae90ed6d036bfd4f3dd5",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20250403-20250420_fide-womens-world-championship-match.py": {
+    "sha256": "c288fc6c171402444d4c450f17b1ae76a6871608fc54e8d08e5afda6603320a4",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20250526-20250606_13th-norway-chess.py": {
+    "sha256": "877f9855029db38c158e4d859eca19caafa059e35f4df8644c9d5040bbc92a38",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260525-20260605_14th-norway-chess.py": {
+    "sha256": "59e0debaa5a560a56dc4d92251b5c58674d4cf1218bbfdcde3bbd09c1f461f01",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260617-20260619_fide-world-team-rapid-chess-championship.py": {
+    "sha256": "f1f4adcc03d730ff7bd668a4857ebe1c5a09444ceb1a967070bf20972c06e597",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260620-20260621_fide-world-team-blitz-chess-championship.py": {
+    "sha256": "8bce923df654f8167f89c542ac9b48afe28d42610b7f4f10b713d239eb634876",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260801-20260809_112th-british-chess-championship.py": {
+    "sha256": "4fa17c2fd37575170b6edfb5fe8a49db3a0e1412eb9792ecd0f8657e2949c487",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260810-20260819_gct-sinquefield-cup.py": {
+    "sha256": "df45dc25e8e7b74f6c0199183267bf3d3e3d1eac1d072d501a80b723efa4a123",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260814-20260815_2026-esports-world-cup-playoffs.py": {
+    "sha256": "3ca6ff970653fb9c75364db720f3b674853f9dbb409df1e579b7230604e87fe1",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260822-20260827_grand-chess-tour-finals.py": {
+    "sha256": "55029234e9dc6af5225d45c129a95e8e908d5ee749bbd2b5fe4cf0f4a71a21a8",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260824-20260830_11th-menchik-memorial.py": {
+    "sha256": "a4769a7a3fef91e4c2c52758cab7cfcc038ce06b09398dbc64903b399cab4b2c",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260829-20260830_sofia-cup-2026.py": {
+    "sha256": "b58abce31ca2414a9467c4f02711dc09df3e7e7efd7a68e25cca653d7e4dc160",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/20260829-20260831_green-hills-resort-masters.py": {
+    "sha256": "3c6471f01e5b0436e119a39519ec03126f0be9ab600652407bd7647611c17c8f",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "tools/ctml_build.py": {
+    "sha256": "6f65fb6cd16dec895e8621404fcb0d5d0c0d7983e3aba29ce4e6c1d6d2eecf5f",
+    "reason": "Resolve canonical project outputs and local ECO data relative to the imported tool; retain external source provenance."
+  },
+  "scripts/build_enriched_ssp.py": {
+    "sha256": "997705dd7850b291c0514376b7266087564dc40d0b5090ba984ff52ef126297c",
+    "reason": "Restore the consolidated project paths and use the explicitly imported August SSP baseline; external archives remain separate."
+  },
+  "scripts/collect_crosstables_nwchess.py": {
+    "sha256": "6bc68f8f01a9adec05ab4ccc2c9c1a38f16f9ae10dad92480bcf84e0678e3e43",
+    "reason": "Restore the consolidated project paths and use the explicitly imported August SSP baseline; external archives remain separate."
+  },
+  "scripts/collect_crosstables_olimpbase.py": {
+    "sha256": "5b64dcabb6cb9efc3998972848a90e785be2a7e6c4789a3229c7d71e09b5d802",
+    "reason": "Restore the consolidated project paths and use the explicitly imported August SSP baseline; external archives remain separate."
+  },
+  "scripts/cull_strict_rating_floor.py": {
+    "sha256": "bda4fb5551499072ccdf6adc11da435fb94dcbae102b63db2f5f5bad5f121ea7",
+    "reason": "Restore the consolidated project paths and use the explicitly imported August SSP baseline; external archives remain separate."
+  },
+  "scripts/curate_source_tournaments.py": {
+    "sha256": "d8fd01c294e827e708b02acf83248b7b33ee3d6de3aa6a35d7d263bf4ad401b3",
+    "reason": "Restore the consolidated project paths and use the explicitly imported August SSP baseline; external archives remain separate."
+  },
+  "scripts/emit_edo_tournament_sources.py": {
+    "sha256": "69e54bc0447cb9945f0643effdd3b63118fe78c685146aa65f573a3b8b76fa80",
+    "reason": "Restore the consolidated project paths and use the explicitly imported August SSP baseline; external archives remain separate."
+  },
+  "scripts/ssp_to_ctml_players.py": {
+    "sha256": "87cc95994bcc6db5cc65d369e683533406be21deeb073edc537cef031cdfef61",
+    "reason": "Restore the consolidated project paths and use the explicitly imported August SSP baseline; external archives remain separate."
+  },
+  "src/main.rs": {
+    "sha256": "da06957e4725219ede7fc9c03bea15cafc929464270ef68fbf567c2f8b0ce2a8",
+    "reason": "Default Rust commands to the canonical project data layout; retain support for an explicit legacy assets directory."
+  }
+}

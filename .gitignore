@@ -1,0 +1,15 @@
+/target/
+/build/
+/out/
+__pycache__/
+*.pyc
+.claude/
+.pytest_cache/
+/.venv/
+/inputs/
+/*.ssp
+/screening-strict2000.csv
+/registry/players/
+/crosstables/
+/reference/
+*.consolidating

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctml:placeRegistry xmlns:ctml="urn:ctml:2.0" ctmlVersion="2.0">
+  <ctml:place ref="place:sample-city" kind="city">
+    <ctml:name>Sample City</ctml:name>
+    <ctml:country>USA</ctml:country>
+  </ctml:place>
+</ctml:placeRegistry>

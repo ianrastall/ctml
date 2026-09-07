@@ -1,0 +1,37 @@
+[
+  {
+    "path": "readers/chess_results_crosstables.py",
+    "original_sha256": "b2b0b3c3238fae12e8e070f95a8e0aa66470a2e36374fe0ba638c6aa9bc39442",
+    "original_archive": "reference/consolidation-baseline/readers/chess_results_crosstables.py",
+    "sha256": "a4b8188eb16f9f18eceab6c30e4c5c215209c7cee5fb632799959bed3a5f0f99",
+    "reason": "Use the canonical project for source-reader inputs and generated outputs."
+  },
+  {
+    "path": "readers/merge_crosstables.py",
+    "original_sha256": "dd7df808c998bded270b445fef671d1243710f25a4486e579bcda4719e5a3e4f",
+    "original_archive": "reference/consolidation-baseline/readers/merge_crosstables.py",
+    "sha256": "7306c3b6b7b0af6cf1eaf1e695ba9b8d54d4ca97f797910079338794bda431ef",
+    "reason": "Use the canonical project for source-reader inputs and generated outputs."
+  },
+  {
+    "path": "readers/nwchess_minev_crosstables.py",
+    "original_sha256": "6c7d1cb7ead0656113769d86e227d2d22af1a9076faaf8f3b9a6c9f3ff5a80d5",
+    "original_archive": "reference/consolidation-baseline/readers/nwchess_minev_crosstables.py",
+    "sha256": "0cd1f83cc729692ff913955c3a63ca5e68c359247a770e31806a97d285b1dfff",
+    "reason": "Use the canonical project for source-reader inputs and generated outputs."
+  },
+  {
+    "path": "readers/olimpbase_crosstables.py",
+    "original_sha256": "dfc3031162c3fe8fb10932869a31bd13f4120de3fbcaac4d391052fbf0d1129e",
+    "original_archive": "reference/consolidation-baseline/readers/olimpbase_crosstables.py",
+    "sha256": "58b070eac51829d3c90ed3c0bb1e0f066506ecacca5f9f50c8949c3dfbb1f9d3",
+    "reason": "Use the canonical project for source-reader inputs and generated outputs."
+  },
+  {
+    "path": "readers/twic_crosstable_sources.py",
+    "original_sha256": "660ba491229641515416af6f8a9b00fc74219acac1c767974619def6c8cc96eb",
+    "original_archive": "reference/consolidation-baseline/readers/twic_crosstable_sources.py",
+    "sha256": "3f8f8165e4d2312adb6fc5015ecdf3a288572830d20b50f7d6999a180a9c2ad3",
+    "reason": "Use the canonical project for source-reader inputs and generated outputs."
+  }
+]

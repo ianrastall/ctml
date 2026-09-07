@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctml:playerRegistry xmlns:ctml="urn:ctml:2.0" ctmlVersion="2.0">
+  <ctml:player ref="player:alice-example">
+    <ctml:name display="Alice Example">
+      <ctml:family>Example</ctml:family>
+      <ctml:given>Alice</ctml:given>
+    </ctml:name>
+    <ctml:birthDate><ctml:year y="1990"/></ctml:birthDate>
+    <ctml:ratingHistory>
+      <ctml:ratingTrack system="fide">
+        <ctml:current>2200</ctml:current>
+        <ctml:history>
+          <ctml:year value="2026">
+            <ctml:month num="1">2190</ctml:month>
+            <ctml:month num="2">2195</ctml:month>
+          </ctml:year>
+        </ctml:history>
+      </ctml:ratingTrack>
+    </ctml:ratingHistory>
+  </ctml:player>
+</ctml:playerRegistry>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:ctml="urn:ctml:2.0"
+  targetNamespace="urn:ctml:2.0"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+  <xs:annotation>
+    <xs:documentation>
+      CTML 2.1 - Knockout / bracket model (DRAFT / proposal).
+
+      Closes the knockout superstructure gap: a single-elimination (or other)
+      bracket of ties, where each tie is between two competitors and may be
+      decided over several legs. General over BOTH kinds of knockout seen in
+      real data:
+
+        - Individual knockout (e.g. 2026 GCT Finals): a tie is between two
+          PLAYERS; a leg is one game (leg/@game), or a segment carries several
+          games (leg/board/@game).
+        - Team knockout (e.g. 2026 World Team Blitz, Stage 2): a tie is between
+          two TEAMS; a tie has several legs ("Game 1..4"), and each leg is a
+          full board match whose board games are linked by leg/board/@game.
+
+      A tie's two sides reference a competitor by IDREF - a ctml:participant
+      /@id OR a ctml:team/@id - so the same construct serves individual and
+      team events without a separate type for each.
+
+      Purely ADDITIVE. Edits required elsewhere, all optional-element /
+      optional-attribute additions (valid CTML 2.0 stays valid):
+        - ctml-core.xsd: include this module; add optional ctml:bracket to
+          TournamentType (after teamMatches); add optional ctml:placement to
+          ParticipantType (final ranking for individual knockouts).
+        - ctml-teams.xsd: add optional placement to TeamStandingType.
+      Documents that use brackets set ctmlVersion="2.1".
+
+      Scores are permissive decimals; their meaning (match points, legs won,
+      or board/game points) follows the event's scoring and is described in
+      notes. Application code vets internal consistency (legs sum to the tie
+      score, the winner is the higher-scoring side), per the 1.0/app-code
+      split used throughout this schema set.
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:include schemaLocation="ctml-vocab.xsd"/>  <!-- RoundType -->
+
+  <xs:element name="bracket" type="ctml:BracketType"/>
+
+  <xs:complexType name="BracketType">
+    <xs:sequence>
+      <xs:element name="stage" type="ctml:StageType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="notes" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="kind" type="ctml:BracketKindType" use="optional"/>
+  </xs:complexType>
+
+  <xs:simpleType name="BracketKindType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="single-elimination"/>
+      <xs:enumeration value="double-elimination"/>
+      <xs:enumeration value="other"/>
+      <xs:enumeration value="unknown"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="StageType">
+    <xs:sequence>
+      <xs:element name="tie" type="ctml:TieType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <!-- Free token: "round-of-16", "quarterfinal", "semifinal", "final",
+         "third-place", "fifth-place", ... An exporter may standardize these;
+         kept permissive because real events invent stage names. -->
+    <xs:attribute name="name" type="xs:token" use="required"/>
+    <!-- Ordering of stages within the bracket (1 = earliest). -->
+    <xs:attribute name="order" type="xs:positiveInteger" use="optional"/>
+    <!-- The source's own round label for this stage, when it has one. -->
+    <xs:attribute name="round" type="ctml:RoundType" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="TieType">
+    <xs:sequence>
+      <!-- Exactly two sides. side[0] is the "first" side; leg firstScore /
+           secondScore follow this order. -->
+      <xs:element name="side" type="ctml:TieSideType" minOccurs="2" maxOccurs="2"/>
+      <xs:element name="leg" type="ctml:LegType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="notes" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="optional"/>
+    <!-- The competitor id (team or participant) that advanced. -->
+    <xs:attribute name="winner" type="xs:IDREF" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="TieSideType">
+    <!-- IDREF to a ctml:participant/@id or ctml:team/@id. -->
+    <xs:attribute name="competitor" type="xs:IDREF" use="required"/>
+    <xs:attribute name="seed" type="xs:positiveInteger" use="optional"/>
+    <!-- Aggregate tie score for this side (match points, or legs won, or
+         summed board points - whatever the event uses to decide the tie). -->
+    <xs:attribute name="score" type="xs:decimal" use="optional"/>
+    <xs:attribute name="outcome" type="ctml:TieOutcomeType" use="optional"/>
+  </xs:complexType>
+
+  <xs:simpleType name="TieOutcomeType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="win"/>
+      <xs:enumeration value="loss"/>
+      <xs:enumeration value="draw"/>
+      <xs:enumeration value="bye"/>
+      <xs:enumeration value="advance"/>
+      <xs:enumeration value="eliminated"/>
+      <xs:enumeration value="unknown"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="LegType">
+    <xs:sequence>
+      <!-- For a team leg: the board games of this leg, linked by IDREF to
+           ctml:game/@id. For a single-game individual leg, use leg/@game
+           instead and omit these. -->
+      <xs:element name="board" type="ctml:LegBoardType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:positiveInteger" use="optional"/>
+    <!-- Scores for the tie's first and second side in this leg. -->
+    <xs:attribute name="firstScore" type="xs:decimal" use="optional"/>
+    <xs:attribute name="secondScore" type="xs:decimal" use="optional"/>
+    <!-- When the whole leg is a single game (individual knockout). -->
+    <xs:attribute name="game" type="xs:IDREF" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="LegBoardType">
+    <xs:attribute name="number" type="xs:positiveInteger" use="optional"/>
+    <xs:attribute name="game" type="xs:IDREF" use="optional"/>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctml:tournament xmlns:ctml="urn:ctml:2.0" ctmlVersion="2.0">
+  <ctml:header>
+    <ctml:name>Sample Open 2026</ctml:name>
+    <ctml:eventType>swiss</ctml:eventType>
+    <ctml:cadence>classical</ctml:cadence>
+    <ctml:dates>
+      <ctml:start><ctml:day y="2026" m="7" d="20"/></ctml:start>
+      <ctml:end><ctml:day y="2026" m="7" d="27"/></ctml:end>
+    </ctml:dates>
+    <ctml:placeRef ref="place:sample-city">
+      <ctml:name>Sample City</ctml:name>
+    </ctml:placeRef>
+  </ctml:header>
+  <ctml:participants>
+    <ctml:participant id="p1">
+      <ctml:playerRef ref="player:alice-example">
+        <ctml:name display="Alice Example">
+          <ctml:family>Example</ctml:family>
+          <ctml:given>Alice</ctml:given>
+        </ctml:name>
+      </ctml:playerRef>
+    </ctml:participant>
+    <ctml:participant id="p2">
+      <ctml:playerRef ref="player:bob-sample">
+        <ctml:name display="Bob Sample">
+          <ctml:family>Sample</ctml:family>
+          <ctml:given>Bob</ctml:given>
+        </ctml:name>
+      </ctml:playerRef>
+    </ctml:participant>
+  </ctml:participants>
+  <ctml:games>
+    <ctml:game round="1" board="1" white="p1" black="p2" result="1-0">
+      <ctml:eco>C50</ctml:eco>
+      <ctml:moves notation="san">
+        <ctml:move ply="1" value="e4">
+          <ctml:eval kind="cp" value="20" engine="stockfish-16" depth="20"/>
+        </ctml:move>
+        <ctml:move ply="2" value="e5"/>
+      </ctml:moves>
+      <ctml:termination>resignation</ctml:termination>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="0123456789abcdef"/>
+      </ctml:fingerprints>
+    </ctml:game>
+  </ctml:games>
+</ctml:tournament>

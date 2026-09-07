@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "namespace": "urn:ctml:2.0",
+  "document_versions": [
+    "2.0",
+    "2.1"
+  ],
+  "source_root": "D:/ctml/xsd",
+  "source_schema_commit": "031a664cba6fe56750abbd86e2884e1f01f2761e",
+  "files": {
+    "ctml-analysis.xsd": "f10ffbaf5cccbbd0c284a7ab505f06eb5ac917e3da90d795e34900401a457985",
+    "ctml-brackets.xsd": "c228196c9fd7d89598a1bc17150d1d0ee93c686db6c194f2db24636e1ada0b4e",
+    "ctml-core.xsd": "5dd27a863bf752a223421ce4660e495566f96966f02771c3cb26e2b808ad3962",
+    "ctml-dates.xsd": "c3c532cfbf0a9f89c7593b586b94179fd169c7565c4db9cadbe4516e51c15f73",
+    "ctml-entities.xsd": "7170cda7698b41a1a109216470ba29151cbba314b6e9917e778229e2ac9e410d",
+    "ctml-events.xsd": "4063111d1dbe2d3a6933b16aa1e196f61d7762a044bff1150659ba79c3531483",
+    "ctml-game.xsd": "bba08cb52bd01d5bb36b791771abefef66c75a33ab0e49d45c9bbf8e0c01945e",
+    "ctml-groups.xsd": "931bf902e7b689bff67240ffd76c70789550c1f88815f9bd71f51a7d5aaa65d5",
+    "ctml-names.xsd": "f069590e2bcbc1de5203c1ebf9ee80b0474b9108c2dbf018ae67e6fb5c0d09c1",
+    "ctml-places.xsd": "120560198561fc172093be97e56a21bc9670f031c13edce183cdf0b8d0488b93",
+    "ctml-teams.xsd": "0011945827297f6c90f8184250369ea03ab6a1daf9d9a51beb759990db1e61a4",
+    "ctml-vocab.xsd": "567f446fa54bd3cc087d36ec56d71b4ace495555613e9baa6f22fb932c121ded",
+    "ctml.xsd": "a70b1b4a1b6566248ded5ef58c51a99c95699ad565cc53b04ddaaead9677e885"
+  }
+}

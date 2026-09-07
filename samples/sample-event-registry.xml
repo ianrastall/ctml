@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctml:eventRegistry xmlns:ctml="urn:ctml:2.0" ctmlVersion="2.0">
+  <ctml:eventSeries ref="series:sample-open">
+    <ctml:name>Sample Open</ctml:name>
+  </ctml:eventSeries>
+  <ctml:eventOccurrence ref="event:20260720-20260727-sample-open">
+    <ctml:seriesRef>series:sample-open</ctml:seriesRef>
+    <ctml:aliases>
+      <ctml:alias source="mega" site="Sample City USA">Sample Open 2026</ctml:alias>
+    </ctml:aliases>
+    <ctml:eventType>swiss</ctml:eventType>
+    <ctml:cadence>classical</ctml:cadence>
+    <ctml:dates>
+      <ctml:start><ctml:day y="2026" m="7" d="20"/></ctml:start>
+      <ctml:end><ctml:day y="2026" m="7" d="27"/></ctml:end>
+    </ctml:dates>
+    <ctml:placeRef ref="place:sample-city"/>
+  </ctml:eventOccurrence>
+</ctml:eventRegistry>

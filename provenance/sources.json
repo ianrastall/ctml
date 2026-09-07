@@ -1,0 +1,37 @@
+{
+  "format_version": 1,
+  "canonical_project": "D:/dev/proj/ctml",
+  "schema": {"path": "xsd/ctml.xsd", "lock": "provenance/schema-lock.json"},
+  "managed_collections": [
+    {"path": "tours", "role": "curated tournament corpus", "origin": "D:/ctml/tours", "quality": "authored evidence; XSD validation is separate from historical verification"},
+    {"path": "registry", "role": "imported player/place/event baseline", "origin": "D:/dev/proj/ctml-clean/assets/registries", "quality": "legacy CTML baseline; newer historical curation has not yet been reconciled"},
+    {"path": "crosstables/crosstables.json", "role": "source crosstables", "origin": "D:/dev/proj/ctml-clean/assets/crosstables.json", "quality": "source-derived observations with unresolved encoding/identity cases"},
+    {"path": "inputs/ratings260801.ssp", "role": "explicit modern SSP seed", "origin": "D:/dev/proj/ctml-clean/assets/ratings260801.ssp", "quality": "August snapshot; distinct from actively curated historical SSP"},
+    {"path": "assets/all.tsv", "role": "opening reference", "origin": "D:/dev/proj/ctml-clean/assets/all.tsv"}
+  ],
+  "managed_upstream": [
+    {"path": "D:/elysium/db/historical_ssp", "role": "historical source observations and reviewed identity decisions", "decision_file": "decisions.json", "integration": "consume a validated batch; preserve decisions and source observation provenance"},
+    {"path": "D:/dev/proj/ssp", "role": "active historical SSP assembly and maintained site/event/round tail", "integration": "do not overwrite or automatically regenerate while another agent is editing"},
+    {"path": "D:/elysium/db/elysium.db", "role": "broad consolidation workbench", "integration": "schema/identity reconciliation required before publication through current CTML"},
+    {"path": "D:/dev/proj/titania", "role": "structured source staging and reviewed tournament/player/team resolution", "integration": "explicit provenance-preserving adapter; no implied equivalence to CTML IDs"}
+  ],
+  "external_archives": [
+    {"path": "D:/elysium/sources/edo", "role": "Edo snapshots and source-specific builders"},
+    {"path": "D:/edo", "role": "older/raw Edo collection", "known_issue": "old flat CSV/database extraction duplicated ratings; preserve individual source provenance"},
+    {"path": "D:/elysium/sources/chessmetrics", "role": "Chessmetrics player/event/rating evidence"},
+    {"path": "D:/elysium/sources/historical", "role": "older historical integration snapshot", "known_issue": "not equivalent to the newer reviewed historical_ssp database"},
+    {"path": "D:/elysium/sources/fide/xml-originals", "role": "official FIDE rating-list XML snapshots"},
+    {"path": "D:/elysium/sources/fide2", "role": "derived per-player history XML", "known_issue": "damaged IDs verified: Carlsen 150 versus official 1503014; do not join as trusted FIDE IDs"},
+    {"path": "D:/elysium/sources/fide3", "role": "dated FIDE CSV history; overlap and identity audit required"},
+    {"path": "D:/fide", "role": "additional official player-list and historical files"},
+    {"path": "D:/elysium/sources/olimpbase", "role": "OlimpBase crawl and rating archives"},
+    {"path": "D:/elysium/sources/twic", "role": "event PGNs, metadata and other retained source material"},
+    {"path": "D:/dev/pgn", "role": "PGN inputs used by curated historical event builders"},
+    {"path": "D:/titanic", "role": "older PGN/ratings experiment retained for reference"}
+  ],
+  "retained_project_origins": [
+    {"path": "D:/ctml", "role": "original current-schema/corpus repository; retained unchanged for recovery and history"},
+    {"path": "D:/dev/proj/ctml-clean", "role": "original Rust/Python working tree; uncommitted content imported, source retained"},
+    {"path": "D:/ctml2", "role": "older CTML iteration; not the maintained schema authority"}
+  ]
+}

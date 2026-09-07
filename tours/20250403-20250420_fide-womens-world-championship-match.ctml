@@ -1,0 +1,1333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ctml:tournament xmlns:ctml="urn:ctml:2.0" ctmlVersion="2.1" id="tournament-cr-418246">
+  <ctml:header>
+    <ctml:name>FIDE Women's World Championship Match 2025</ctml:name>
+    <ctml:eventRef ref="event:20250403-20250420-fide-womens-world-championship-match-2025" source="file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn">
+      <ctml:name>FIDE Women's World Championship Match 2025</ctml:name>
+    </ctml:eventRef>
+    <ctml:eventType>match</ctml:eventType>
+    <ctml:cadence>classical</ctml:cadence>
+    <ctml:federation>FID</ctml:federation>
+    <ctml:dates>
+      <ctml:start>
+        <ctml:day y="2025" m="4" d="3" iso="2025-04-03" />
+      </ctml:start>
+      <ctml:end>
+        <ctml:day y="2025" m="4" d="20" iso="2025-04-20" />
+      </ctml:end>
+    </ctml:dates>
+    <ctml:placeRef ref="place:multi:CHN-shanghai-chongqing" kind="other">
+      <ctml:name>Shanghai / Chongqing</ctml:name>
+      <ctml:country>CHN</ctml:country>
+    </ctml:placeRef>
+    <ctml:venue>Shanghai (games 1-6) and Chongqing (games 7-9)</ctml:venue>
+    <ctml:organizers>
+      <ctml:organizer>
+        <ctml:name>FIDE</ctml:name>
+        <ctml:role>organizer</ctml:role>
+      </ctml:organizer>
+      <ctml:organizer>
+        <ctml:name>Chinese Chess Association</ctml:name>
+        <ctml:role>organizer</ctml:role>
+      </ctml:organizer>
+    </ctml:organizers>
+    <ctml:arbiters>
+      <ctml:arbiter>
+        <ctml:name>de San Vicente, Sabrina</ctml:name>
+        <ctml:role>chief arbiter</ctml:role>
+        <ctml:ids>
+          <ctml:fideId>3003973</ctml:fideId>
+        </ctml:ids>
+      </ctml:arbiter>
+      <ctml:arbiter>
+        <ctml:name>Zhu, Jiaqi</ctml:name>
+        <ctml:role>deputy chief arbiter</ctml:role>
+        <ctml:ids>
+          <ctml:fideId>8600929</ctml:fideId>
+        </ctml:ids>
+      </ctml:arbiter>
+      <ctml:arbiter>
+        <ctml:name>Wang, Junnan</ctml:name>
+        <ctml:role>deputy chief arbiter</ctml:role>
+        <ctml:ids>
+          <ctml:fideId>8600910</ctml:fideId>
+        </ctml:ids>
+      </ctml:arbiter>
+      <ctml:arbiter>
+        <ctml:name>Bauyrzhan, Kaussar</ctml:name>
+        <ctml:role>fair play officer</ctml:role>
+        <ctml:ids>
+          <ctml:fideId>13707019</ctml:fideId>
+        </ctml:ids>
+      </ctml:arbiter>
+    </ctml:arbiters>
+    <ctml:averageRating system="fide" category="13">2558</ctml:averageRating>
+  </ctml:header>
+  <ctml:participants>
+    <ctml:participant id="p-fide-8603006">
+      <ctml:playerRef ref="player:fide:8603006" source="file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn">
+        <ctml:name display="Ju, Wenjun">
+          <ctml:family>Ju</ctml:family>
+          <ctml:given>Wenjun</ctml:given>
+        </ctml:name>
+        <ctml:federation>CHN</ctml:federation>
+        <ctml:title>GM</ctml:title>
+        <ctml:ids>
+          <ctml:fideId>8603006</ctml:fideId>
+        </ctml:ids>
+        <ctml:resolution method="fide-id" resolver="ctml-wwcm-builder/1" />
+      </ctml:playerRef>
+      <ctml:ratingSnapshot system="fide" scope="standard">
+        <ctml:value>2561</ctml:value>
+        <ctml:asOf>
+          <ctml:month y="2025" m="4" raw="event starting rating (ChessResults)" />
+        </ctml:asOf>
+        <ctml:publishedForEvent>true</ctml:publishedForEvent>
+      </ctml:ratingSnapshot>
+      <ctml:score>6.5</ctml:score>
+      <ctml:placement>1</ctml:placement>
+    </ctml:participant>
+    <ctml:participant id="p-fide-8603642">
+      <ctml:playerRef ref="player:fide:8603642" source="file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn">
+        <ctml:name display="Tan, Zhongyi">
+          <ctml:family>Tan</ctml:family>
+          <ctml:given>Zhongyi</ctml:given>
+        </ctml:name>
+        <ctml:federation>CHN</ctml:federation>
+        <ctml:title>GM</ctml:title>
+        <ctml:ids>
+          <ctml:fideId>8603642</ctml:fideId>
+        </ctml:ids>
+        <ctml:resolution method="fide-id" resolver="ctml-wwcm-builder/1" />
+      </ctml:playerRef>
+      <ctml:ratingSnapshot system="fide" scope="standard">
+        <ctml:value>2555</ctml:value>
+        <ctml:asOf>
+          <ctml:month y="2025" m="4" raw="event starting rating (ChessResults)" />
+        </ctml:asOf>
+        <ctml:publishedForEvent>true</ctml:publishedForEvent>
+      </ctml:ratingSnapshot>
+      <ctml:score>2.5</ctml:score>
+      <ctml:placement>2</ctml:placement>
+    </ctml:participant>
+  </ctml:participants>
+  <ctml:games>
+    <ctml:game id="g-r01" round="1" board="1" white="p-fide-8603006" black="p-fide-8603642" result="1/2-1/2">
+      <ctml:eco>B40</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="77" clockInfo="true">
+        <ctml:move ply="1" value="e2e4" clockSeconds="5457" />
+        <ctml:move ply="2" value="c7c5" clockSeconds="5453" />
+        <ctml:move ply="3" value="g1f3" clockSeconds="5484" />
+        <ctml:move ply="4" value="e7e6" clockSeconds="5477" />
+        <ctml:move ply="5" value="d2d4" clockSeconds="5501" />
+        <ctml:move ply="6" value="c5d4" clockSeconds="5500" />
+        <ctml:move ply="7" value="f3d4" clockSeconds="5528" />
+        <ctml:move ply="8" value="g8f6" clockSeconds="5520" />
+        <ctml:move ply="9" value="f1d3" clockSeconds="5539" />
+        <ctml:move ply="10" value="b8c6" clockSeconds="5497" />
+        <ctml:move ply="11" value="d4c6" clockSeconds="5531" />
+        <ctml:move ply="12" value="b7c6" clockSeconds="5513" />
+        <ctml:move ply="13" value="c1f4" clockSeconds="5509" />
+        <ctml:move ply="14" value="d7d5" clockSeconds="5482" />
+        <ctml:move ply="15" value="b1d2" clockSeconds="5528" />
+        <ctml:move ply="16" value="g7g6" clockSeconds="5502" />
+        <ctml:move ply="17" value="f4g5" clockSeconds="5499" />
+        <ctml:move ply="18" value="h7h6" clockSeconds="5177" />
+        <ctml:move ply="19" value="g5h4" clockSeconds="5494" />
+        <ctml:move ply="20" value="f8e7" clockSeconds="5118" />
+        <ctml:move ply="21" value="e1g1" clockSeconds="5382" />
+        <ctml:move ply="22" value="a7a5" clockSeconds="5029" />
+        <ctml:move ply="23" value="d1e2" clockSeconds="5047" />
+        <ctml:move ply="24" value="e8g8" clockSeconds="4902" />
+        <ctml:move ply="25" value="a1d1" clockSeconds="5049" />
+        <ctml:move ply="26" value="f6d7" clockSeconds="4499" />
+        <ctml:move ply="27" value="h4e7" clockSeconds="3981" />
+        <ctml:move ply="28" value="d8e7" clockSeconds="4521" />
+        <ctml:move ply="29" value="c2c4" clockSeconds="3953" />
+        <ctml:move ply="30" value="d7e5" clockSeconds="4238" />
+        <ctml:move ply="31" value="e4d5" clockSeconds="3543" />
+        <ctml:move ply="32" value="e5d3" clockSeconds="4259" />
+        <ctml:move ply="33" value="e2d3" clockSeconds="3560" />
+        <ctml:move ply="34" value="c6d5" clockSeconds="4281" />
+        <ctml:move ply="35" value="d3e3" clockSeconds="3439" />
+        <ctml:move ply="36" value="e7g5" clockSeconds="3963" />
+        <ctml:move ply="37" value="e3g5" clockSeconds="2894" />
+        <ctml:move ply="38" value="h6g5" clockSeconds="3987" />
+        <ctml:move ply="39" value="c4d5" clockSeconds="2918" />
+        <ctml:move ply="40" value="e6d5" clockSeconds="4012" />
+        <ctml:move ply="41" value="f1e1" clockSeconds="2924" />
+        <ctml:move ply="42" value="a8b8" clockSeconds="3437" />
+        <ctml:move ply="43" value="b2b3" clockSeconds="2922" />
+        <ctml:move ply="44" value="g5g4" clockSeconds="3262" />
+        <ctml:move ply="45" value="d2f1" clockSeconds="2756" />
+        <ctml:move ply="46" value="a5a4" clockSeconds="3252" />
+        <ctml:move ply="47" value="b3a4" clockSeconds="1679" />
+        <ctml:move ply="48" value="b8b4" clockSeconds="3254" />
+        <ctml:move ply="49" value="a4a5" clockSeconds="1470" />
+        <ctml:move ply="50" value="b4a4" clockSeconds="2797" />
+        <ctml:move ply="51" value="d1d5" clockSeconds="1419" />
+        <ctml:move ply="52" value="c8e6" clockSeconds="2816" />
+        <ctml:move ply="53" value="d5c5" clockSeconds="1395" />
+        <ctml:move ply="54" value="a4a2" clockSeconds="2837" />
+        <ctml:move ply="55" value="f1e3" clockSeconds="941" />
+        <ctml:move ply="56" value="f8a8" clockSeconds="2853" />
+        <ctml:move ply="57" value="e3d5" clockSeconds="923" />
+        <ctml:move ply="58" value="a8a5" clockSeconds="2603" />
+        <ctml:move ply="59" value="c5a5" clockSeconds="948" />
+        <ctml:move ply="60" value="a2a5" clockSeconds="2628" />
+        <ctml:move ply="61" value="d5f4" clockSeconds="972" />
+        <ctml:move ply="62" value="e6f5" clockSeconds="2640" />
+        <ctml:move ply="63" value="h2h3" clockSeconds="885" />
+        <ctml:move ply="64" value="g4h3" clockSeconds="2632" />
+        <ctml:move ply="65" value="f4h3" clockSeconds="909" />
+        <ctml:move ply="66" value="f5h3" clockSeconds="2625" />
+        <ctml:move ply="67" value="g2h3" clockSeconds="936" />
+        <ctml:move ply="68" value="g8g7" clockSeconds="2649" />
+        <ctml:move ply="69" value="g1g2" clockSeconds="951" />
+        <ctml:move ply="70" value="a5g5" clockSeconds="2673" />
+        <ctml:move ply="71" value="g2f3" clockSeconds="966" />
+        <ctml:move ply="72" value="g5f5" clockSeconds="2699" />
+        <ctml:move ply="73" value="f3g2" clockSeconds="992" />
+        <ctml:move ply="74" value="f5g5" clockSeconds="2726" />
+        <ctml:move ply="75" value="g2f3" clockSeconds="1020" />
+        <ctml:move ply="76" value="g5f5" clockSeconds="2751" />
+        <ctml:move ply="77" value="f3g2" clockSeconds="1047" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="4ceca5eee72d378d30ef7403cbba8a86838418b5bc5c72cb93a0a54e4695c63f" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="067d702eb0ca4ffa" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=China Shanghai, CN; EndDate=2025.04.03; EndTime=09:37:10. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r02" round="2" board="1" white="p-fide-8603642" black="p-fide-8603006" result="1-0">
+      <ctml:eco>A16</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="123" clockInfo="true">
+        <ctml:move ply="1" value="c2c4" clockSeconds="5455" />
+        <ctml:move ply="2" value="g8f6" clockSeconds="5453" />
+        <ctml:move ply="3" value="b1c3" clockSeconds="5473" />
+        <ctml:move ply="4" value="e7e5" clockSeconds="5476" />
+        <ctml:move ply="5" value="g1f3" clockSeconds="5492" />
+        <ctml:move ply="6" value="b8c6" clockSeconds="5495" />
+        <ctml:move ply="7" value="g2g3" clockSeconds="5511" />
+        <ctml:move ply="8" value="d7d5" clockSeconds="5505" />
+        <ctml:move ply="9" value="c4d5" clockSeconds="5532" />
+        <ctml:move ply="10" value="f6d5" clockSeconds="5530" />
+        <ctml:move ply="11" value="f1g2" clockSeconds="5556" />
+        <ctml:move ply="12" value="f8c5" clockSeconds="5534" />
+        <ctml:move ply="13" value="e1g1" clockSeconds="5437" />
+        <ctml:move ply="14" value="e8g8" clockSeconds="5551" />
+        <ctml:move ply="15" value="d2d3" clockSeconds="5454" />
+        <ctml:move ply="16" value="h7h6" clockSeconds="5501" />
+        <ctml:move ply="17" value="c3d5" clockSeconds="5452" />
+        <ctml:move ply="18" value="d8d5" clockSeconds="5526" />
+        <ctml:move ply="19" value="c1d2" clockSeconds="5470" />
+        <ctml:move ply="20" value="d5d6" clockSeconds="4898" />
+        <ctml:move ply="21" value="d2c3" clockSeconds="5400" />
+        <ctml:move ply="22" value="d6e7" clockSeconds="4235" />
+        <ctml:move ply="23" value="f3d2" clockSeconds="5240" />
+        <ctml:move ply="24" value="c6d4" clockSeconds="3601" />
+        <ctml:move ply="25" value="e2e3" clockSeconds="5216" />
+        <ctml:move ply="26" value="d4b5" clockSeconds="3606" />
+        <ctml:move ply="27" value="a2a4" clockSeconds="4819" />
+        <ctml:move ply="28" value="b5c3" clockSeconds="3545" />
+        <ctml:move ply="29" value="b2c3" clockSeconds="4844" />
+        <ctml:move ply="30" value="c7c6" clockSeconds="3570" />
+        <ctml:move ply="31" value="a4a5" clockSeconds="4793" />
+        <ctml:move ply="32" value="c8d7" clockSeconds="2953" />
+        <ctml:move ply="33" value="d1b3" clockSeconds="4078" />
+        <ctml:move ply="34" value="a8b8" clockSeconds="2947" />
+        <ctml:move ply="35" value="d2e4" clockSeconds="4087" />
+        <ctml:move ply="36" value="c5d6" clockSeconds="2744" />
+        <ctml:move ply="37" value="e4d6" clockSeconds="3893" />
+        <ctml:move ply="38" value="e7d6" clockSeconds="2706" />
+        <ctml:move ply="39" value="d3d4" clockSeconds="3917" />
+        <ctml:move ply="40" value="b7b6" clockSeconds="2446" />
+        <ctml:move ply="41" value="a5b6" clockSeconds="3925" />
+        <ctml:move ply="42" value="a7b6" clockSeconds="2467" />
+        <ctml:move ply="43" value="a1a7" clockSeconds="3244" />
+        <ctml:move ply="44" value="d7e6" clockSeconds="1527" />
+        <ctml:move ply="45" value="b3a4" clockSeconds="3262" />
+        <ctml:move ply="46" value="f8c8" clockSeconds="1484" />
+        <ctml:move ply="47" value="f1b1" clockSeconds="3123" />
+        <ctml:move ply="48" value="e6d5" clockSeconds="1339" />
+        <ctml:move ply="49" value="d4e5" clockSeconds="2525" />
+        <ctml:move ply="50" value="d6e5" clockSeconds="1362" />
+        <ctml:move ply="51" value="a4d4" clockSeconds="2543" />
+        <ctml:move ply="52" value="e5d4" clockSeconds="1226" />
+        <ctml:move ply="53" value="e3d4" clockSeconds="2507" />
+        <ctml:move ply="54" value="d5g2" clockSeconds="1128" />
+        <ctml:move ply="55" value="g1g2" clockSeconds="2531" />
+        <ctml:move ply="56" value="b6b5" clockSeconds="1151" />
+        <ctml:move ply="57" value="b1e1" clockSeconds="2448" />
+        <ctml:move ply="58" value="b8a8" clockSeconds="841" />
+        <ctml:move ply="59" value="e1e7" clockSeconds="2404" />
+        <ctml:move ply="60" value="a8a7" clockSeconds="866" />
+        <ctml:move ply="61" value="e7a7" clockSeconds="2429" />
+        <ctml:move ply="62" value="c6c5" clockSeconds="879" />
+        <ctml:move ply="63" value="g2f3" clockSeconds="2401" />
+        <ctml:move ply="64" value="c5d4" clockSeconds="419" />
+        <ctml:move ply="65" value="c3d4" clockSeconds="2424" />
+        <ctml:move ply="66" value="g8f8" clockSeconds="434" />
+        <ctml:move ply="67" value="a7b7" clockSeconds="2216" />
+        <ctml:move ply="68" value="c8c3" clockSeconds="391" />
+        <ctml:move ply="69" value="f3e4" clockSeconds="2239" />
+        <ctml:move ply="70" value="c3c2" clockSeconds="399" />
+        <ctml:move ply="71" value="e4e3" clockSeconds="1955" />
+        <ctml:move ply="72" value="c2c3" clockSeconds="405" />
+        <ctml:move ply="73" value="e3d2" clockSeconds="1975" />
+        <ctml:move ply="74" value="c3f3" clockSeconds="319" />
+        <ctml:move ply="75" value="d2e2" clockSeconds="1998" />
+        <ctml:move ply="76" value="f3f5" clockSeconds="205" />
+        <ctml:move ply="77" value="e2e3" clockSeconds="2020" />
+        <ctml:move ply="78" value="h6h5" clockSeconds="157" />
+        <ctml:move ply="79" value="f2f4" clockSeconds="2023" />
+        <ctml:move ply="80" value="f8e8" clockSeconds="156" />
+        <ctml:move ply="81" value="e3e4" clockSeconds="2006" />
+        <ctml:move ply="82" value="f5f6" clockSeconds="1716" />
+        <ctml:move ply="83" value="b7b5" clockSeconds="3567" />
+        <ctml:move ply="84" value="g7g6" clockSeconds="1742" />
+        <ctml:move ply="85" value="d4d5" clockSeconds="3569" />
+        <ctml:move ply="86" value="f6a6" clockSeconds="1748" />
+        <ctml:move ply="87" value="e4e5" clockSeconds="3191" />
+        <ctml:move ply="88" value="f7f6" clockSeconds="1554" />
+        <ctml:move ply="89" value="e5d4" clockSeconds="3207" />
+        <ctml:move ply="90" value="a6a2" clockSeconds="1335" />
+        <ctml:move ply="91" value="d4c5" clockSeconds="3173" />
+        <ctml:move ply="92" value="a2h2" clockSeconds="1317" />
+        <ctml:move ply="93" value="b5b8" clockSeconds="3152" />
+        <ctml:move ply="94" value="e8d7" clockSeconds="811" />
+        <ctml:move ply="95" value="b8b7" clockSeconds="3165" />
+        <ctml:move ply="96" value="d7c8" clockSeconds="815" />
+        <ctml:move ply="97" value="b7g7" clockSeconds="3182" />
+        <ctml:move ply="98" value="g6g5" clockSeconds="828" />
+        <ctml:move ply="99" value="f4f5" clockSeconds="2990" />
+        <ctml:move ply="100" value="h5h4" clockSeconds="782" />
+        <ctml:move ply="101" value="g3h4" clockSeconds="3007" />
+        <ctml:move ply="102" value="g5h4" clockSeconds="809" />
+        <ctml:move ply="103" value="g7h7" clockSeconds="2950" />
+        <ctml:move ply="104" value="h4h3" clockSeconds="824" />
+        <ctml:move ply="105" value="c5d6" clockSeconds="1656" />
+        <ctml:move ply="106" value="c8b8" clockSeconds="755" />
+        <ctml:move ply="107" value="d6d7" clockSeconds="1568" />
+        <ctml:move ply="108" value="b8b7" clockSeconds="428" />
+        <ctml:move ply="109" value="d5d6" clockSeconds="1575" />
+        <ctml:move ply="110" value="b7b6" clockSeconds="432" />
+        <ctml:move ply="111" value="d7d8" clockSeconds="1294" />
+        <ctml:move ply="112" value="h2h1" clockSeconds="143" />
+        <ctml:move ply="113" value="d6d7" clockSeconds="1295" />
+        <ctml:move ply="114" value="h3h2" clockSeconds="169" />
+        <ctml:move ply="115" value="h7h3" clockSeconds="1223" />
+        <ctml:move ply="116" value="b6b7" clockSeconds="122" />
+        <ctml:move ply="117" value="h3b3" clockSeconds="1245" />
+        <ctml:move ply="118" value="b7a7" clockSeconds="135" />
+        <ctml:move ply="119" value="b3b2" clockSeconds="1263" />
+        <ctml:move ply="120" value="a7a6" clockSeconds="137" />
+        <ctml:move ply="121" value="b2e2" clockSeconds="1276" />
+        <ctml:move ply="122" value="a6b7" clockSeconds="152" />
+        <ctml:move ply="123" value="d8e7" clockSeconds="1279" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="f1870bc512afff347d14296f3c1406cadfe382f179ac830b18aab84f56b36407" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="b92fcd917e25362f" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=China Shanghai, CN; EndDate=2025.04.04; EndTime=11:39:21. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r03" round="3" board="1" white="p-fide-8603006" black="p-fide-8603642" result="1-0">
+      <ctml:eco>B40</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="173" clockInfo="true">
+        <ctml:move ply="1" value="e2e4" clockSeconds="5456" />
+        <ctml:move ply="2" value="c7c5" clockSeconds="5453" />
+        <ctml:move ply="3" value="g1f3" clockSeconds="5478" />
+        <ctml:move ply="4" value="e7e6" clockSeconds="5476" />
+        <ctml:move ply="5" value="c2c4" clockSeconds="5495" />
+        <ctml:move ply="6" value="b8c6" clockSeconds="5275" />
+        <ctml:move ply="7" value="d2d4" clockSeconds="5509" />
+        <ctml:move ply="8" value="c5d4" clockSeconds="5273" />
+        <ctml:move ply="9" value="f3d4" clockSeconds="5523" />
+        <ctml:move ply="10" value="f8b4" clockSeconds="5281" />
+        <ctml:move ply="11" value="b1c3" clockSeconds="5513" />
+        <ctml:move ply="12" value="g8e7" clockSeconds="5234" />
+        <ctml:move ply="13" value="f1e2" clockSeconds="5155" />
+        <ctml:move ply="14" value="d7d5" clockSeconds="5081" />
+        <ctml:move ply="15" value="e4d5" clockSeconds="4687" />
+        <ctml:move ply="16" value="e6d5" clockSeconds="5094" />
+        <ctml:move ply="17" value="d4c6" clockSeconds="4687" />
+        <ctml:move ply="18" value="b7c6" clockSeconds="5056" />
+        <ctml:move ply="19" value="e1g1" clockSeconds="4709" />
+        <ctml:move ply="20" value="e8g8" clockSeconds="4667" />
+        <ctml:move ply="21" value="c4d5" clockSeconds="4399" />
+        <ctml:move ply="22" value="c6d5" clockSeconds="4690" />
+        <ctml:move ply="23" value="e2f3" clockSeconds="4339" />
+        <ctml:move ply="24" value="c8e6" clockSeconds="4534" />
+        <ctml:move ply="25" value="c1g5" clockSeconds="3896" />
+        <ctml:move ply="26" value="b4c3" clockSeconds="4530" />
+        <ctml:move ply="27" value="b2c3" clockSeconds="3923" />
+        <ctml:move ply="28" value="a8c8" clockSeconds="4553" />
+        <ctml:move ply="29" value="d1a4" clockSeconds="3437" />
+        <ctml:move ply="30" value="h7h6" clockSeconds="4510" />
+        <ctml:move ply="31" value="g5d2" clockSeconds="3459" />
+        <ctml:move ply="32" value="a7a5" clockSeconds="4196" />
+        <ctml:move ply="33" value="f1e1" clockSeconds="3224" />
+        <ctml:move ply="34" value="c8c4" clockSeconds="4190" />
+        <ctml:move ply="35" value="a4a3" clockSeconds="3186" />
+        <ctml:move ply="36" value="e7f5" clockSeconds="4029" />
+        <ctml:move ply="37" value="f3e2" clockSeconds="3039" />
+        <ctml:move ply="38" value="c4c8" clockSeconds="4042" />
+        <ctml:move ply="39" value="a1d1" clockSeconds="2794" />
+        <ctml:move ply="40" value="d8d6" clockSeconds="3407" />
+        <ctml:move ply="41" value="a3a5" clockSeconds="2456" />
+        <ctml:move ply="42" value="c8a8" clockSeconds="3425" />
+        <ctml:move ply="43" value="a5b4" clockSeconds="2411" />
+        <ctml:move ply="44" value="a8a2" clockSeconds="3438" />
+        <ctml:move ply="45" value="d2f4" clockSeconds="2348" />
+        <ctml:move ply="46" value="d6c6" clockSeconds="3356" />
+        <ctml:move ply="47" value="e2b5" clockSeconds="1940" />
+        <ctml:move ply="48" value="c6b6" clockSeconds="3326" />
+        <ctml:move ply="49" value="e1e2" clockSeconds="1966" />
+        <ctml:move ply="50" value="f8a8" clockSeconds="3125" />
+        <ctml:move ply="51" value="b5d3" clockSeconds="1948" />
+        <ctml:move ply="52" value="a2a1" clockSeconds="2904" />
+        <ctml:move ply="53" value="e2e1" clockSeconds="1942" />
+        <ctml:move ply="54" value="a1d1" clockSeconds="2926" />
+        <ctml:move ply="55" value="e1d1" clockSeconds="1967" />
+        <ctml:move ply="56" value="b6d8" clockSeconds="2440" />
+        <ctml:move ply="57" value="h2h3" clockSeconds="1473" />
+        <ctml:move ply="58" value="d8f6" clockSeconds="2249" />
+        <ctml:move ply="59" value="d1e1" clockSeconds="1461" />
+        <ctml:move ply="60" value="a8c8" clockSeconds="2230" />
+        <ctml:move ply="61" value="f4e5" clockSeconds="1447" />
+        <ctml:move ply="62" value="f6g5" clockSeconds="2245" />
+        <ctml:move ply="63" value="d3a6" clockSeconds="1390" />
+        <ctml:move ply="64" value="c8a8" clockSeconds="2157" />
+        <ctml:move ply="65" value="e5f4" clockSeconds="1295" />
+        <ctml:move ply="66" value="g5f6" clockSeconds="2160" />
+        <ctml:move ply="67" value="a6b7" clockSeconds="1124" />
+        <ctml:move ply="68" value="a8d8" clockSeconds="2172" />
+        <ctml:move ply="69" value="f4c7" clockSeconds="883" />
+        <ctml:move ply="70" value="d8f8" clockSeconds="2196" />
+        <ctml:move ply="71" value="e1d1" clockSeconds="729" />
+        <ctml:move ply="72" value="f6g5" clockSeconds="1610" />
+        <ctml:move ply="73" value="b7d5" clockSeconds="362" />
+        <ctml:move ply="74" value="f5e3" clockSeconds="867" />
+        <ctml:move ply="75" value="h3h4" clockSeconds="372" />
+        <ctml:move ply="76" value="g5g4" clockSeconds="634" />
+        <ctml:move ply="77" value="b4g4" clockSeconds="315" />
+        <ctml:move ply="78" value="e6g4" clockSeconds="657" />
+        <ctml:move ply="79" value="d1d3" clockSeconds="332" />
+        <ctml:move ply="80" value="e3d5" clockSeconds="682" />
+        <ctml:move ply="81" value="d3d5" clockSeconds="359" />
+        <ctml:move ply="82" value="f8a8" clockSeconds="694" />
+        <ctml:move ply="83" value="c7b6" clockSeconds="45" />
+        <ctml:move ply="84" value="g4e6" clockSeconds="628" />
+        <ctml:move ply="85" value="d5d6" clockSeconds="1748" />
+        <ctml:move ply="86" value="g8f8" clockSeconds="2030" />
+        <ctml:move ply="87" value="b6d4" clockSeconds="1751" />
+        <ctml:move ply="88" value="f8e7" clockSeconds="2031" />
+        <ctml:move ply="89" value="d6b6" clockSeconds="1778" />
+        <ctml:move ply="90" value="g7g6" clockSeconds="1991" />
+        <ctml:move ply="91" value="g1h2" clockSeconds="1750" />
+        <ctml:move ply="92" value="h6h5" clockSeconds="2008" />
+        <ctml:move ply="93" value="h2g3" clockSeconds="1766" />
+        <ctml:move ply="94" value="a8a5" clockSeconds="1861" />
+        <ctml:move ply="95" value="g3f4" clockSeconds="1612" />
+        <ctml:move ply="96" value="e7d7" clockSeconds="1798" />
+        <ctml:move ply="97" value="g2g3" clockSeconds="1376" />
+        <ctml:move ply="98" value="a5f5" clockSeconds="1805" />
+        <ctml:move ply="99" value="f4e3" clockSeconds="1402" />
+        <ctml:move ply="100" value="f5a5" clockSeconds="1815" />
+        <ctml:move ply="101" value="b6b4" clockSeconds="1407" />
+        <ctml:move ply="102" value="e6d5" clockSeconds="1530" />
+        <ctml:move ply="103" value="d4b6" clockSeconds="1202" />
+        <ctml:move ply="104" value="a5a3" clockSeconds="1454" />
+        <ctml:move ply="105" value="e3d4" clockSeconds="1226" />
+        <ctml:move ply="106" value="d5e6" clockSeconds="1468" />
+        <ctml:move ply="107" value="b6c5" clockSeconds="986" />
+        <ctml:move ply="108" value="a3a2" clockSeconds="1493" />
+        <ctml:move ply="109" value="d4d3" clockSeconds="993" />
+        <ctml:move ply="110" value="e6f5" clockSeconds="1337" />
+        <ctml:move ply="111" value="d3e3" clockSeconds="1001" />
+        <ctml:move ply="112" value="f5e6" clockSeconds="1361" />
+        <ctml:move ply="113" value="c5d4" clockSeconds="1019" />
+        <ctml:move ply="114" value="d7c6" clockSeconds="1362" />
+        <ctml:move ply="115" value="c3c4" clockSeconds="961" />
+        <ctml:move ply="116" value="c6c7" clockSeconds="1173" />
+        <ctml:move ply="117" value="c4c5" clockSeconds="966" />
+        <ctml:move ply="118" value="e6d5" clockSeconds="1169" />
+        <ctml:move ply="119" value="e3f4" clockSeconds="821" />
+        <ctml:move ply="120" value="d5c6" clockSeconds="1155" />
+        <ctml:move ply="121" value="f4g5" clockSeconds="771" />
+        <ctml:move ply="122" value="a2a4" clockSeconds="1106" />
+        <ctml:move ply="123" value="d4e5" clockSeconds="799" />
+        <ctml:move ply="124" value="c7d7" clockSeconds="1130" />
+        <ctml:move ply="125" value="b4b2" clockSeconds="620" />
+        <ctml:move ply="126" value="d7e6" clockSeconds="1134" />
+        <ctml:move ply="127" value="e5f4" clockSeconds="607" />
+        <ctml:move ply="128" value="a4c4" clockSeconds="916" />
+        <ctml:move ply="129" value="f4e3" clockSeconds="627" />
+        <ctml:move ply="130" value="e6e5" clockSeconds="889" />
+        <ctml:move ply="131" value="b2b8" clockSeconds="583" />
+        <ctml:move ply="132" value="c6d7" clockSeconds="823" />
+        <ctml:move ply="133" value="b8d8" clockSeconds="535" />
+        <ctml:move ply="134" value="d7e6" clockSeconds="830" />
+        <ctml:move ply="135" value="d8d6" clockSeconds="519" />
+        <ctml:move ply="136" value="c4c2" clockSeconds="613" />
+        <ctml:move ply="137" value="g5h6" clockSeconds="291" />
+        <ctml:move ply="138" value="e5f6" clockSeconds="637" />
+        <ctml:move ply="139" value="d6d1" clockSeconds="262" />
+        <ctml:move ply="140" value="c2c4" clockSeconds="492" />
+        <ctml:move ply="141" value="d1d6" clockSeconds="227" />
+        <ctml:move ply="142" value="c4c2" clockSeconds="517" />
+        <ctml:move ply="143" value="e3d4" clockSeconds="221" />
+        <ctml:move ply="144" value="f6f5" clockSeconds="535" />
+        <ctml:move ply="145" value="f2f3" clockSeconds="201" />
+        <ctml:move ply="146" value="c2c4" clockSeconds="361" />
+        <ctml:move ply="147" value="c5c6" clockSeconds="228" />
+        <ctml:move ply="148" value="c4c2" clockSeconds="378" />
+        <ctml:move ply="149" value="h6g7" clockSeconds="150" />
+        <ctml:move ply="150" value="g6g5" clockSeconds="356" />
+        <ctml:move ply="151" value="h4g5" clockSeconds="141" />
+        <ctml:move ply="152" value="f5g5" clockSeconds="380" />
+        <ctml:move ply="153" value="d4b6" clockSeconds="158" />
+        <ctml:move ply="154" value="g5f5" clockSeconds="358" />
+        <ctml:move ply="155" value="c6c7" clockSeconds="157" />
+        <ctml:move ply="156" value="c2c3" clockSeconds="318" />
+        <ctml:move ply="157" value="b6a5" clockSeconds="67" />
+        <ctml:move ply="158" value="c3c5" clockSeconds="339" />
+        <ctml:move ply="159" value="d6a6" clockSeconds="38" />
+        <ctml:move ply="160" value="c5c4" clockSeconds="281" />
+        <ctml:move ply="161" value="g7f8" clockSeconds="41" />
+        <ctml:move ply="162" value="e6d5" clockSeconds="244" />
+        <ctml:move ply="163" value="f8e7" clockSeconds="43" />
+        <ctml:move ply="164" value="h5h4" clockSeconds="131" />
+        <ctml:move ply="165" value="a6f6" clockSeconds="38" />
+        <ctml:move ply="166" value="f5e5" clockSeconds="146" />
+        <ctml:move ply="167" value="g3h4" clockSeconds="63" />
+        <ctml:move ply="168" value="d5e6" clockSeconds="95" />
+        <ctml:move ply="169" value="h4h5" clockSeconds="69" />
+        <ctml:move ply="170" value="c4c5" clockSeconds="105" />
+        <ctml:move ply="171" value="h5h6" clockSeconds="71" />
+        <ctml:move ply="172" value="e6c8" clockSeconds="32" />
+        <ctml:move ply="173" value="h6h7" clockSeconds="50" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="f0d6c84c8d10d7639eba154deb32d9600b88f4906d5466e844ea68753be80ec8" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="848986b0aee97155" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=China Shanghai, CN; EndDate=2025.04.06; EndTime=12:25:48. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r04" round="4" board="1" white="p-fide-8603642" black="p-fide-8603006" result="1/2-1/2">
+      <ctml:eco>A13</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="160" clockInfo="true">
+        <ctml:move ply="1" value="c2c4" clockSeconds="5455" />
+        <ctml:move ply="2" value="e7e6" clockSeconds="5451" />
+        <ctml:move ply="3" value="b1c3" clockSeconds="5460" />
+        <ctml:move ply="4" value="f8b4" clockSeconds="5445" />
+        <ctml:move ply="5" value="d1b3" clockSeconds="5360" />
+        <ctml:move ply="6" value="b4a5" clockSeconds="5447" />
+        <ctml:move ply="7" value="g2g3" clockSeconds="5226" />
+        <ctml:move ply="8" value="c7c5" clockSeconds="5006" />
+        <ctml:move ply="9" value="f1g2" clockSeconds="5248" />
+        <ctml:move ply="10" value="b8c6" clockSeconds="5026" />
+        <ctml:move ply="11" value="e2e3" clockSeconds="5253" />
+        <ctml:move ply="12" value="g8e7" clockSeconds="4331" />
+        <ctml:move ply="13" value="g1e2" clockSeconds="5255" />
+        <ctml:move ply="14" value="e8g8" clockSeconds="4323" />
+        <ctml:move ply="15" value="e1g1" clockSeconds="5263" />
+        <ctml:move ply="16" value="a7a6" clockSeconds="3795" />
+        <ctml:move ply="17" value="d2d4" clockSeconds="5185" />
+        <ctml:move ply="18" value="c5d4" clockSeconds="3671" />
+        <ctml:move ply="19" value="e3d4" clockSeconds="5208" />
+        <ctml:move ply="20" value="d7d5" clockSeconds="3632" />
+        <ctml:move ply="21" value="c4d5" clockSeconds="4839" />
+        <ctml:move ply="22" value="e6d5" clockSeconds="3478" />
+        <ctml:move ply="23" value="c1e3" clockSeconds="4782" />
+        <ctml:move ply="24" value="a5c3" clockSeconds="3444" />
+        <ctml:move ply="25" value="e2c3" clockSeconds="4738" />
+        <ctml:move ply="26" value="c6a5" clockSeconds="3438" />
+        <ctml:move ply="27" value="b3b4" clockSeconds="4723" />
+        <ctml:move ply="28" value="a5c6" clockSeconds="3367" />
+        <ctml:move ply="29" value="b4c5" clockSeconds="4340" />
+        <ctml:move ply="30" value="b7b6" clockSeconds="3302" />
+        <ctml:move ply="31" value="c5a3" clockSeconds="4364" />
+        <ctml:move ply="32" value="c8e6" clockSeconds="3207" />
+        <ctml:move ply="33" value="a1c1" clockSeconds="4184" />
+        <ctml:move ply="34" value="e7f5" clockSeconds="3157" />
+        <ctml:move ply="35" value="e3f4" clockSeconds="4200" />
+        <ctml:move ply="36" value="f5d4" clockSeconds="2074" />
+        <ctml:move ply="37" value="f1d1" clockSeconds="4220" />
+        <ctml:move ply="38" value="d4b5" clockSeconds="1404" />
+        <ctml:move ply="39" value="c3b5" clockSeconds="3996" />
+        <ctml:move ply="40" value="a6b5" clockSeconds="1432" />
+        <ctml:move ply="41" value="a3b3" clockSeconds="3961" />
+        <ctml:move ply="42" value="c6e7" clockSeconds="1352" />
+        <ctml:move ply="43" value="b3b5" clockSeconds="3807" />
+        <ctml:move ply="44" value="a8a2" clockSeconds="1359" />
+        <ctml:move ply="45" value="f4c7" clockSeconds="3747" />
+        <ctml:move ply="46" value="d8a8" clockSeconds="1377" />
+        <ctml:move ply="47" value="c7d6" clockSeconds="3592" />
+        <ctml:move ply="48" value="a2a5" clockSeconds="1352" />
+        <ctml:move ply="49" value="b5b4" clockSeconds="3164" />
+        <ctml:move ply="50" value="a5a4" clockSeconds="1380" />
+        <ctml:move ply="51" value="b4b3" clockSeconds="3178" />
+        <ctml:move ply="52" value="a4a7" clockSeconds="1399" />
+        <ctml:move ply="53" value="c1c7" clockSeconds="2936" />
+        <ctml:move ply="54" value="a7c7" clockSeconds="1204" />
+        <ctml:move ply="55" value="d6c7" clockSeconds="2920" />
+        <ctml:move ply="56" value="a8c6" clockSeconds="1232" />
+        <ctml:move ply="57" value="b3b6" clockSeconds="2936" />
+        <ctml:move ply="58" value="c6c2" clockSeconds="1172" />
+        <ctml:move ply="59" value="g2f3" clockSeconds="2903" />
+        <ctml:move ply="60" value="e6f5" clockSeconds="818" />
+        <ctml:move ply="61" value="c7f4" clockSeconds="2675" />
+        <ctml:move ply="62" value="f5e4" clockSeconds="782" />
+        <ctml:move ply="63" value="d1c1" clockSeconds="2493" />
+        <ctml:move ply="64" value="c2d3" clockSeconds="809" />
+        <ctml:move ply="65" value="f3e4" clockSeconds="1799" />
+        <ctml:move ply="66" value="d3e4" clockSeconds="592" />
+        <ctml:move ply="67" value="b6e3" clockSeconds="1815" />
+        <ctml:move ply="68" value="e4e3" clockSeconds="551" />
+        <ctml:move ply="69" value="f4e3" clockSeconds="1838" />
+        <ctml:move ply="70" value="f7f6" clockSeconds="376" />
+        <ctml:move ply="71" value="c1c7" clockSeconds="1723" />
+        <ctml:move ply="72" value="e7f5" clockSeconds="402" />
+        <ctml:move ply="73" value="e3c5" clockSeconds="1719" />
+        <ctml:move ply="74" value="f8d8" clockSeconds="391" />
+        <ctml:move ply="75" value="g1f1" clockSeconds="1736" />
+        <ctml:move ply="76" value="f5d6" clockSeconds="263" />
+        <ctml:move ply="77" value="b2b4" clockSeconds="1749" />
+        <ctml:move ply="78" value="d6e4" clockSeconds="128" />
+        <ctml:move ply="79" value="c5b6" clockSeconds="1283" />
+        <ctml:move ply="80" value="d8b8" clockSeconds="83" />
+        <ctml:move ply="81" value="b6a5" clockSeconds="1270" />
+        <ctml:move ply="82" value="b8b5" clockSeconds="558" />
+        <ctml:move ply="83" value="f1e2" clockSeconds="2880" />
+        <ctml:move ply="84" value="e4d6" clockSeconds="569" />
+        <ctml:move ply="85" value="c7a7" clockSeconds="2431" />
+        <ctml:move ply="86" value="d6c4" clockSeconds="487" />
+        <ctml:move ply="87" value="e2d3" clockSeconds="2448" />
+        <ctml:move ply="88" value="c4e5" clockSeconds="481" />
+        <ctml:move ply="89" value="d3c2" clockSeconds="2239" />
+        <ctml:move ply="90" value="d5d4" clockSeconds="502" />
+        <ctml:move ply="91" value="c2b3" clockSeconds="1730" />
+        <ctml:move ply="92" value="b5d5" clockSeconds="375" />
+        <ctml:move ply="93" value="a5b6" clockSeconds="1721" />
+        <ctml:move ply="94" value="d4d3" clockSeconds="144" />
+        <ctml:move ply="95" value="a7a1" clockSeconds="1746" />
+        <ctml:move ply="96" value="e5f3" clockSeconds="91" />
+        <ctml:move ply="97" value="a1d1" clockSeconds="1757" />
+        <ctml:move ply="98" value="g8f7" clockSeconds="101" />
+        <ctml:move ply="99" value="b3c3" clockSeconds="1535" />
+        <ctml:move ply="100" value="d3d2" clockSeconds="117" />
+        <ctml:move ply="101" value="b6e3" clockSeconds="1558" />
+        <ctml:move ply="102" value="f7e6" clockSeconds="69" />
+        <ctml:move ply="103" value="e3d2" clockSeconds="1574" />
+        <ctml:move ply="104" value="f3h2" clockSeconds="64" />
+        <ctml:move ply="105" value="d1e1" clockSeconds="1547" />
+        <ctml:move ply="106" value="e6d7" clockSeconds="89" />
+        <ctml:move ply="107" value="d2e3" clockSeconds="1408" />
+        <ctml:move ply="108" value="h2g4" clockSeconds="64" />
+        <ctml:move ply="109" value="e3c5" clockSeconds="1403" />
+        <ctml:move ply="110" value="g4e5" clockSeconds="61" />
+        <ctml:move ply="111" value="e1a1" clockSeconds="1428" />
+        <ctml:move ply="112" value="d7e6" clockSeconds="75" />
+        <ctml:move ply="113" value="f2f4" clockSeconds="1424" />
+        <ctml:move ply="114" value="e5d7" clockSeconds="69" />
+        <ctml:move ply="115" value="a1e1" clockSeconds="1421" />
+        <ctml:move ply="116" value="e6f5" clockSeconds="87" />
+        <ctml:move ply="117" value="c3c4" clockSeconds="1438" />
+        <ctml:move ply="118" value="d5d2" clockSeconds="115" />
+        <ctml:move ply="119" value="e1e7" clockSeconds="1440" />
+        <ctml:move ply="120" value="d7c5" clockSeconds="132" />
+        <ctml:move ply="121" value="b4c5" clockSeconds="1436" />
+        <ctml:move ply="122" value="g7g5" clockSeconds="115" />
+        <ctml:move ply="123" value="f4g5" clockSeconds="1356" />
+        <ctml:move ply="124" value="f6g5" clockSeconds="143" />
+        <ctml:move ply="125" value="e7h7" clockSeconds="1366" />
+        <ctml:move ply="126" value="d2c2" clockSeconds="128" />
+        <ctml:move ply="127" value="c4d4" clockSeconds="1380" />
+        <ctml:move ply="128" value="c2d2" clockSeconds="138" />
+        <ctml:move ply="129" value="d4c4" clockSeconds="1374" />
+        <ctml:move ply="130" value="d2c2" clockSeconds="165" />
+        <ctml:move ply="131" value="c4b5" clockSeconds="1078" />
+        <ctml:move ply="132" value="c2c3" clockSeconds="95" />
+        <ctml:move ply="133" value="c5c6" clockSeconds="975" />
+        <ctml:move ply="134" value="c3g3" clockSeconds="121" />
+        <ctml:move ply="135" value="c6c7" clockSeconds="1000" />
+        <ctml:move ply="136" value="g3c3" clockSeconds="149" />
+        <ctml:move ply="137" value="b5b6" clockSeconds="1020" />
+        <ctml:move ply="138" value="f5f4" clockSeconds="65" />
+        <ctml:move ply="139" value="h7f7" clockSeconds="1014" />
+        <ctml:move ply="140" value="f4e4" clockSeconds="51" />
+        <ctml:move ply="141" value="f7g7" clockSeconds="672" />
+        <ctml:move ply="142" value="e4f4" clockSeconds="75" />
+        <ctml:move ply="143" value="g7g6" clockSeconds="598" />
+        <ctml:move ply="144" value="c3c7" clockSeconds="99" />
+        <ctml:move ply="145" value="b6c7" clockSeconds="624" />
+        <ctml:move ply="146" value="g5g4" clockSeconds="127" />
+        <ctml:move ply="147" value="c7d6" clockSeconds="637" />
+        <ctml:move ply="148" value="g4g3" clockSeconds="154" />
+        <ctml:move ply="149" value="d6d5" clockSeconds="656" />
+        <ctml:move ply="150" value="f4f3" clockSeconds="181" />
+        <ctml:move ply="151" value="d5d4" clockSeconds="656" />
+        <ctml:move ply="152" value="g3g2" clockSeconds="208" />
+        <ctml:move ply="153" value="d4d3" clockSeconds="678" />
+        <ctml:move ply="154" value="f3f2" clockSeconds="234" />
+        <ctml:move ply="155" value="g6f6" clockSeconds="703" />
+        <ctml:move ply="156" value="f2e1" clockSeconds="240" />
+        <ctml:move ply="157" value="f6g6" clockSeconds="726" />
+        <ctml:move ply="158" value="e1f2" clockSeconds="267" />
+        <ctml:move ply="159" value="g6g2" clockSeconds="750" />
+        <ctml:move ply="160" value="f2g2" clockSeconds="295" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="488fc21a405caa3368b3e5446c7c11a2de6789c307b6551eeb513f93aaa3b6d1" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="3415e9f1df0b0da4" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=China Shanghai, CN; EndDate=2025.04.07; EndTime=12:03:41. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r05" round="5" board="1" white="p-fide-8603006" black="p-fide-8603642" result="1-0">
+      <ctml:eco>B42</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="117" clockInfo="true">
+        <ctml:move ply="1" value="e2e4" clockSeconds="5457" />
+        <ctml:move ply="2" value="c7c5" clockSeconds="5454" />
+        <ctml:move ply="3" value="g1f3" clockSeconds="5483" />
+        <ctml:move ply="4" value="e7e6" clockSeconds="5479" />
+        <ctml:move ply="5" value="d2d4" clockSeconds="5506" />
+        <ctml:move ply="6" value="c5d4" clockSeconds="5503" />
+        <ctml:move ply="7" value="f3d4" clockSeconds="5532" />
+        <ctml:move ply="8" value="a7a6" clockSeconds="5527" />
+        <ctml:move ply="9" value="f1d3" clockSeconds="5502" />
+        <ctml:move ply="10" value="f8c5" clockSeconds="5549" />
+        <ctml:move ply="11" value="d4b3" clockSeconds="5474" />
+        <ctml:move ply="12" value="c5a7" clockSeconds="5573" />
+        <ctml:move ply="13" value="e1g1" clockSeconds="5426" />
+        <ctml:move ply="14" value="g8e7" clockSeconds="5596" />
+        <ctml:move ply="15" value="c2c4" clockSeconds="5142" />
+        <ctml:move ply="16" value="b8c6" clockSeconds="5477" />
+        <ctml:move ply="17" value="b1c3" clockSeconds="4694" />
+        <ctml:move ply="18" value="c6e5" clockSeconds="5487" />
+        <ctml:move ply="19" value="c4c5" clockSeconds="4349" />
+        <ctml:move ply="20" value="e7g6" clockSeconds="4821" />
+        <ctml:move ply="21" value="d3e2" clockSeconds="3822" />
+        <ctml:move ply="22" value="b7b5" clockSeconds="4838" />
+        <ctml:move ply="23" value="f2f4" clockSeconds="3629" />
+        <ctml:move ply="24" value="e5c4" clockSeconds="4584" />
+        <ctml:move ply="25" value="a2a4" clockSeconds="3628" />
+        <ctml:move ply="26" value="b5b4" clockSeconds="4491" />
+        <ctml:move ply="27" value="e2c4" clockSeconds="3524" />
+        <ctml:move ply="28" value="b4c3" clockSeconds="4514" />
+        <ctml:move ply="29" value="b2c3" clockSeconds="3547" />
+        <ctml:move ply="30" value="c8b7" clockSeconds="4480" />
+        <ctml:move ply="31" value="d1e2" clockSeconds="3290" />
+        <ctml:move ply="32" value="e8g8" clockSeconds="4489" />
+        <ctml:move ply="33" value="c4d3" clockSeconds="2708" />
+        <ctml:move ply="34" value="f7f5" clockSeconds="3776" />
+        <ctml:move ply="35" value="e4f5" clockSeconds="2123" />
+        <ctml:move ply="36" value="e6f5" clockSeconds="3795" />
+        <ctml:move ply="37" value="c1e3" clockSeconds="2129" />
+        <ctml:move ply="38" value="d8c7" clockSeconds="3694" />
+        <ctml:move ply="39" value="d3a6" clockSeconds="2058" />
+        <ctml:move ply="40" value="f8e8" clockSeconds="2866" />
+        <ctml:move ply="41" value="a6b7" clockSeconds="1966" />
+        <ctml:move ply="42" value="c7b7" clockSeconds="2891" />
+        <ctml:move ply="43" value="e2c4" clockSeconds="1978" />
+        <ctml:move ply="44" value="g8h8" clockSeconds="2594" />
+        <ctml:move ply="45" value="e3d4" clockSeconds="2004" />
+        <ctml:move ply="46" value="e8e6" clockSeconds="2536" />
+        <ctml:move ply="47" value="h2h3" clockSeconds="1684" />
+        <ctml:move ply="48" value="a8e8" clockSeconds="2525" />
+        <ctml:move ply="49" value="f1f2" clockSeconds="1670" />
+        <ctml:move ply="50" value="a7b8" clockSeconds="2347" />
+        <ctml:move ply="51" value="a1f1" clockSeconds="1582" />
+        <ctml:move ply="52" value="g6f4" clockSeconds="1588" />
+        <ctml:move ply="53" value="f2f4" clockSeconds="1541" />
+        <ctml:move ply="54" value="b8f4" clockSeconds="1535" />
+        <ctml:move ply="55" value="f1f4" clockSeconds="1568" />
+        <ctml:move ply="56" value="e6e1" clockSeconds="1547" />
+        <ctml:move ply="57" value="f4f1" clockSeconds="1531" />
+        <ctml:move ply="58" value="e1f1" clockSeconds="1551" />
+        <ctml:move ply="59" value="g1f1" clockSeconds="1557" />
+        <ctml:move ply="60" value="b7e4" clockSeconds="1536" />
+        <ctml:move ply="61" value="f1g1" clockSeconds="1262" />
+        <ctml:move ply="62" value="e4b1" clockSeconds="1542" />
+        <ctml:move ply="63" value="g1h2" clockSeconds="1273" />
+        <ctml:move ply="64" value="e8e1" clockSeconds="1566" />
+        <ctml:move ply="65" value="c4d5" clockSeconds="807" />
+        <ctml:move ply="66" value="h7h6" clockSeconds="1392" />
+        <ctml:move ply="67" value="b3d2" clockSeconds="727" />
+        <ctml:move ply="68" value="e1h1" clockSeconds="1261" />
+        <ctml:move ply="69" value="h2g3" clockSeconds="755" />
+        <ctml:move ply="70" value="b1e1" clockSeconds="1278" />
+        <ctml:move ply="71" value="d4f2" clockSeconds="764" />
+        <ctml:move ply="72" value="e1e2" clockSeconds="919" />
+        <ctml:move ply="73" value="d5d4" clockSeconds="775" />
+        <ctml:move ply="74" value="h1d1" clockSeconds="838" />
+        <ctml:move ply="75" value="f2e3" clockSeconds="802" />
+        <ctml:move ply="76" value="h8h7" clockSeconds="775" />
+        <ctml:move ply="77" value="a4a5" clockSeconds="416" />
+        <ctml:move ply="78" value="d1e1" clockSeconds="420" />
+        <ctml:move ply="79" value="e3f2" clockSeconds="162" />
+        <ctml:move ply="80" value="e1d1" clockSeconds="444" />
+        <ctml:move ply="81" value="f2e3" clockSeconds="109" />
+        <ctml:move ply="82" value="d1e1" clockSeconds="450" />
+        <ctml:move ply="83" value="d2c4" clockSeconds="1448" />
+        <ctml:move ply="84" value="e1a1" clockSeconds="2034" />
+        <ctml:move ply="85" value="c4d6" clockSeconds="1190" />
+        <ctml:move ply="86" value="a1a2" clockSeconds="1490" />
+        <ctml:move ply="87" value="e3f2" clockSeconds="1198" />
+        <ctml:move ply="88" value="e2e6" clockSeconds="1445" />
+        <ctml:move ply="89" value="d4f4" clockSeconds="1179" />
+        <ctml:move ply="90" value="h7g6" clockSeconds="1049" />
+        <ctml:move ply="91" value="g3h2" clockSeconds="1125" />
+        <ctml:move ply="92" value="e6f6" clockSeconds="822" />
+        <ctml:move ply="93" value="d6c4" clockSeconds="658" />
+        <ctml:move ply="94" value="g6h7" clockSeconds="802" />
+        <ctml:move ply="95" value="f2d4" clockSeconds="667" />
+        <ctml:move ply="96" value="f6e6" clockSeconds="673" />
+        <ctml:move ply="97" value="c4d6" clockSeconds="341" />
+        <ctml:move ply="98" value="e6g6" clockSeconds="694" />
+        <ctml:move ply="99" value="f4f3" clockSeconds="360" />
+        <ctml:move ply="100" value="f5f4" clockSeconds="564" />
+        <ctml:move ply="101" value="a5a6" clockSeconds="335" />
+        <ctml:move ply="102" value="a2a6" clockSeconds="500" />
+        <ctml:move ply="103" value="f3f4" clockSeconds="361" />
+        <ctml:move ply="104" value="a6a2" clockSeconds="447" />
+        <ctml:move ply="105" value="f4f3" clockSeconds="378" />
+        <ctml:move ply="106" value="g6e6" clockSeconds="258" />
+        <ctml:move ply="107" value="d6f5" clockSeconds="366" />
+        <ctml:move ply="108" value="g7g5" clockSeconds="242" />
+        <ctml:move ply="109" value="f5e3" clockSeconds="360" />
+        <ctml:move ply="110" value="d7d6" clockSeconds="93" />
+        <ctml:move ply="111" value="c5c6" clockSeconds="377" />
+        <ctml:move ply="112" value="a2a8" clockSeconds="84" />
+        <ctml:move ply="113" value="e3d5" clockSeconds="341" />
+        <ctml:move ply="114" value="a8c8" clockSeconds="90" />
+        <ctml:move ply="115" value="f3d3" clockSeconds="306" />
+        <ctml:move ply="116" value="h7g8" clockSeconds="107" />
+        <ctml:move ply="117" value="d5e7" clockSeconds="303" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="8c19f93cd576d66882097ae1bb2b401b7d6bf82d53e5a962cc93770cbb5eca25" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="a76e0427b4992df9" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=China Shanghai, CN; EndDate=2025.04.09; EndTime=11:53:24. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r06" round="6" board="1" white="p-fide-8603642" black="p-fide-8603006" result="0-1">
+      <ctml:eco>A15</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="104" clockInfo="true">
+        <ctml:move ply="1" value="c2c4" clockSeconds="5456" />
+        <ctml:move ply="2" value="g8f6" clockSeconds="5454" />
+        <ctml:move ply="3" value="g1f3" clockSeconds="5462" />
+        <ctml:move ply="4" value="e7e6" clockSeconds="5473" />
+        <ctml:move ply="5" value="b2b3" clockSeconds="5485" />
+        <ctml:move ply="6" value="d7d5" clockSeconds="5481" />
+        <ctml:move ply="7" value="c1b2" clockSeconds="5502" />
+        <ctml:move ply="8" value="c7c5" clockSeconds="5480" />
+        <ctml:move ply="9" value="c4d5" clockSeconds="5474" />
+        <ctml:move ply="10" value="e6d5" clockSeconds="5474" />
+        <ctml:move ply="11" value="g2g3" clockSeconds="5490" />
+        <ctml:move ply="12" value="b8c6" clockSeconds="5363" />
+        <ctml:move ply="13" value="f1g2" clockSeconds="5511" />
+        <ctml:move ply="14" value="d5d4" clockSeconds="5244" />
+        <ctml:move ply="15" value="e1g1" clockSeconds="5523" />
+        <ctml:move ply="16" value="f8e7" clockSeconds="5271" />
+        <ctml:move ply="17" value="b1a3" clockSeconds="5535" />
+        <ctml:move ply="18" value="e8g8" clockSeconds="5280" />
+        <ctml:move ply="19" value="e2e3" clockSeconds="5274" />
+        <ctml:move ply="20" value="d4e3" clockSeconds="4961" />
+        <ctml:move ply="21" value="d2e3" clockSeconds="5221" />
+        <ctml:move ply="22" value="c8f5" clockSeconds="4692" />
+        <ctml:move ply="23" value="f3e5" clockSeconds="4655" />
+        <ctml:move ply="24" value="c6e5" clockSeconds="4627" />
+        <ctml:move ply="25" value="b2e5" clockSeconds="4676" />
+        <ctml:move ply="26" value="d8c8" clockSeconds="4650" />
+        <ctml:move ply="27" value="d1e2" clockSeconds="4623" />
+        <ctml:move ply="28" value="f5h3" clockSeconds="4123" />
+        <ctml:move ply="29" value="e2f3" clockSeconds="4164" />
+        <ctml:move ply="30" value="h3g2" clockSeconds="4133" />
+        <ctml:move ply="31" value="g1g2" clockSeconds="4189" />
+        <ctml:move ply="32" value="c8e6" clockSeconds="3791" />
+        <ctml:move ply="33" value="e5b2" clockSeconds="4202" />
+        <ctml:move ply="34" value="f6e4" clockSeconds="3522" />
+        <ctml:move ply="35" value="f1d1" clockSeconds="4220" />
+        <ctml:move ply="36" value="a8d8" clockSeconds="3377" />
+        <ctml:move ply="37" value="a3c4" clockSeconds="4093" />
+        <ctml:move ply="38" value="b7b5" clockSeconds="2826" />
+        <ctml:move ply="39" value="c4e5" clockSeconds="4022" />
+        <ctml:move ply="40" value="f7f5" clockSeconds="2499" />
+        <ctml:move ply="41" value="e5d3" clockSeconds="3405" />
+        <ctml:move ply="42" value="g7g5" clockSeconds="2026" />
+        <ctml:move ply="43" value="d3e1" clockSeconds="3411" />
+        <ctml:move ply="44" value="e7f6" clockSeconds="1673" />
+        <ctml:move ply="45" value="b2f6" clockSeconds="3218" />
+        <ctml:move ply="46" value="e6f6" clockSeconds="1701" />
+        <ctml:move ply="47" value="d1d8" clockSeconds="3193" />
+        <ctml:move ply="48" value="f8d8" clockSeconds="1725" />
+        <ctml:move ply="49" value="a1d1" clockSeconds="3214" />
+        <ctml:move ply="50" value="d8d1" clockSeconds="1690" />
+        <ctml:move ply="51" value="f3d1" clockSeconds="3238" />
+        <ctml:move ply="52" value="f6d6" clockSeconds="1714" />
+        <ctml:move ply="53" value="d1h5" clockSeconds="2760" />
+        <ctml:move ply="54" value="g8g7" clockSeconds="1634" />
+        <ctml:move ply="55" value="h5e8" clockSeconds="2665" />
+        <ctml:move ply="56" value="a7a6" clockSeconds="1574" />
+        <ctml:move ply="57" value="e1f3" clockSeconds="2263" />
+        <ctml:move ply="58" value="e4f6" clockSeconds="1593" />
+        <ctml:move ply="59" value="e8a8" clockSeconds="2198" />
+        <ctml:move ply="60" value="h7h6" clockSeconds="1573" />
+        <ctml:move ply="61" value="h2h4" clockSeconds="1778" />
+        <ctml:move ply="62" value="g5g4" clockSeconds="1326" />
+        <ctml:move ply="63" value="a8b7" clockSeconds="1784" />
+        <ctml:move ply="64" value="d6d7" clockSeconds="1342" />
+        <ctml:move ply="65" value="b7d7" clockSeconds="1810" />
+        <ctml:move ply="66" value="f6d7" clockSeconds="1370" />
+        <ctml:move ply="67" value="f3d2" clockSeconds="1579" />
+        <ctml:move ply="68" value="g7f6" clockSeconds="988" />
+        <ctml:move ply="69" value="f2f4" clockSeconds="1085" />
+        <ctml:move ply="70" value="f6e6" clockSeconds="932" />
+        <ctml:move ply="71" value="e3e4" clockSeconds="1081" />
+        <ctml:move ply="72" value="f5e4" clockSeconds="934" />
+        <ctml:move ply="73" value="d2e4" clockSeconds="1105" />
+        <ctml:move ply="74" value="e6d5" clockSeconds="952" />
+        <ctml:move ply="75" value="e4f2" clockSeconds="1037" />
+        <ctml:move ply="76" value="d7f6" clockSeconds="738" />
+        <ctml:move ply="77" value="g2f1" clockSeconds="1020" />
+        <ctml:move ply="78" value="d5d4" clockSeconds="758" />
+        <ctml:move ply="79" value="f1e2" clockSeconds="1042" />
+        <ctml:move ply="80" value="h6h5" clockSeconds="668" />
+        <ctml:move ply="81" value="a2a4" clockSeconds="693" />
+        <ctml:move ply="82" value="d4c3" clockSeconds="1516" />
+        <ctml:move ply="83" value="a4b5" clockSeconds="2511" />
+        <ctml:move ply="84" value="a6b5" clockSeconds="1543" />
+        <ctml:move ply="85" value="f2d3" clockSeconds="1814" />
+        <ctml:move ply="86" value="f6e4" clockSeconds="1514" />
+        <ctml:move ply="87" value="e2e3" clockSeconds="1835" />
+        <ctml:move ply="88" value="e4g3" clockSeconds="1295" />
+        <ctml:move ply="89" value="d3c5" clockSeconds="1858" />
+        <ctml:move ply="90" value="g3f5" clockSeconds="1321" />
+        <ctml:move ply="91" value="e3e4" clockSeconds="1330" />
+        <ctml:move ply="92" value="f5h4" clockSeconds="1342" />
+        <ctml:move ply="93" value="e4e5" clockSeconds="1356" />
+        <ctml:move ply="94" value="c3b4" clockSeconds="1157" />
+        <ctml:move ply="95" value="c5e4" clockSeconds="1379" />
+        <ctml:move ply="96" value="b4b3" clockSeconds="1180" />
+        <ctml:move ply="97" value="e5f6" clockSeconds="1057" />
+        <ctml:move ply="98" value="h4f3" clockSeconds="946" />
+        <ctml:move ply="99" value="f4f5" clockSeconds="1070" />
+        <ctml:move ply="100" value="h5h4" clockSeconds="959" />
+        <ctml:move ply="101" value="f6e7" clockSeconds="969" />
+        <ctml:move ply="102" value="g4g3" clockSeconds="959" />
+        <ctml:move ply="103" value="f5f6" clockSeconds="818" />
+        <ctml:move ply="104" value="g3g2" clockSeconds="942" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="96187ca77da892ed793a9cef33283437cbcb6cf730564799727376187a1b38e1" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="db9e8c8f9d66ced4" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=China Shanghai, CN; EndDate=2025.04.10; EndTime=11:25:36. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r07" round="7" board="1" white="p-fide-8603006" black="p-fide-8603642" result="1-0">
+      <ctml:eco>B30</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="93" clockInfo="true">
+        <ctml:move ply="1" value="e2e4" clockSeconds="5456" />
+        <ctml:move ply="2" value="c7c5" clockSeconds="5447" />
+        <ctml:move ply="3" value="g1f3" clockSeconds="5480" />
+        <ctml:move ply="4" value="b8c6" clockSeconds="5470" />
+        <ctml:move ply="5" value="f1b5" clockSeconds="5488" />
+        <ctml:move ply="6" value="e7e6" clockSeconds="5491" />
+        <ctml:move ply="7" value="e1g1" clockSeconds="5492" />
+        <ctml:move ply="8" value="g8e7" clockSeconds="5492" />
+        <ctml:move ply="9" value="d2d4" clockSeconds="5458" />
+        <ctml:move ply="10" value="c5d4" clockSeconds="5468" />
+        <ctml:move ply="11" value="f3d4" clockSeconds="5483" />
+        <ctml:move ply="12" value="d8b6" clockSeconds="5478" />
+        <ctml:move ply="13" value="d4c6" clockSeconds="5426" />
+        <ctml:move ply="14" value="b7c6" clockSeconds="5464" />
+        <ctml:move ply="15" value="b5d3" clockSeconds="5205" />
+        <ctml:move ply="16" value="e7g6" clockSeconds="5444" />
+        <ctml:move ply="17" value="c2c4" clockSeconds="4966" />
+        <ctml:move ply="18" value="f8e7" clockSeconds="5433" />
+        <ctml:move ply="19" value="b1c3" clockSeconds="4984" />
+        <ctml:move ply="20" value="e8g8" clockSeconds="5431" />
+        <ctml:move ply="21" value="c3a4" clockSeconds="4708" />
+        <ctml:move ply="22" value="b6c7" clockSeconds="4871" />
+        <ctml:move ply="23" value="c4c5" clockSeconds="4713" />
+        <ctml:move ply="24" value="d7d5" clockSeconds="4778" />
+        <ctml:move ply="25" value="c5d6" clockSeconds="4716" />
+        <ctml:move ply="26" value="e7d6" clockSeconds="4800" />
+        <ctml:move ply="27" value="d1h5" clockSeconds="4200" />
+        <ctml:move ply="28" value="a8b8" clockSeconds="4139" />
+        <ctml:move ply="29" value="b2b3" clockSeconds="3805" />
+        <ctml:move ply="30" value="f8d8" clockSeconds="3675" />
+        <ctml:move ply="31" value="f1d1" clockSeconds="3671" />
+        <ctml:move ply="32" value="b8b4" clockSeconds="3481" />
+        <ctml:move ply="33" value="c1b2" clockSeconds="2380" />
+        <ctml:move ply="34" value="g6f4" clockSeconds="2754" />
+        <ctml:move ply="35" value="h5f3" clockSeconds="1918" />
+        <ctml:move ply="36" value="f4d3" clockSeconds="2065" />
+        <ctml:move ply="37" value="d1d3" clockSeconds="1946" />
+        <ctml:move ply="38" value="c8a6" clockSeconds="2017" />
+        <ctml:move ply="39" value="d3d1" clockSeconds="1915" />
+        <ctml:move ply="40" value="d6h2" clockSeconds="1551" />
+        <ctml:move ply="41" value="g1h1" clockSeconds="1943" />
+        <ctml:move ply="42" value="h2d6" clockSeconds="1568" />
+        <ctml:move ply="43" value="f3c3" clockSeconds="1914" />
+        <ctml:move ply="44" value="d6f8" clockSeconds="1345" />
+        <ctml:move ply="45" value="a4c5" clockSeconds="1467" />
+        <ctml:move ply="46" value="b4b6" clockSeconds="1367" />
+        <ctml:move ply="47" value="c3e5" clockSeconds="1211" />
+        <ctml:move ply="48" value="c7e7" clockSeconds="1193" />
+        <ctml:move ply="49" value="a1c1" clockSeconds="858" />
+        <ctml:move ply="50" value="b6b5" clockSeconds="844" />
+        <ctml:move ply="51" value="d1d8" clockSeconds="629" />
+        <ctml:move ply="52" value="e7d8" clockSeconds="866" />
+        <ctml:move ply="53" value="e5d4" clockSeconds="649" />
+        <ctml:move ply="54" value="d8h4" clockSeconds="501" />
+        <ctml:move ply="55" value="h1g1" clockSeconds="677" />
+        <ctml:move ply="56" value="a6c8" clockSeconds="523" />
+        <ctml:move ply="57" value="e4e5" clockSeconds="584" />
+        <ctml:move ply="58" value="h4d4" clockSeconds="339" />
+        <ctml:move ply="59" value="b2d4" clockSeconds="612" />
+        <ctml:move ply="60" value="a7a5" clockSeconds="354" />
+        <ctml:move ply="61" value="f2f4" clockSeconds="597" />
+        <ctml:move ply="62" value="h7h5" clockSeconds="337" />
+        <ctml:move ply="63" value="g1f2" clockSeconds="597" />
+        <ctml:move ply="64" value="f8e7" clockSeconds="320" />
+        <ctml:move ply="65" value="f2e3" clockSeconds="500" />
+        <ctml:move ply="66" value="g7g5" clockSeconds="344" />
+        <ctml:move ply="67" value="c5e4" clockSeconds="464" />
+        <ctml:move ply="68" value="g5f4" clockSeconds="368" />
+        <ctml:move ply="69" value="e3f4" clockSeconds="491" />
+        <ctml:move ply="70" value="c8b7" clockSeconds="277" />
+        <ctml:move ply="71" value="d4c5" clockSeconds="478" />
+        <ctml:move ply="72" value="e7c5" clockSeconds="193" />
+        <ctml:move ply="73" value="e4c5" clockSeconds="494" />
+        <ctml:move ply="74" value="g8g7" clockSeconds="143" />
+        <ctml:move ply="75" value="f4g5" clockSeconds="445" />
+        <ctml:move ply="76" value="b7a8" clockSeconds="170" />
+        <ctml:move ply="77" value="g5h5" clockSeconds="419" />
+        <ctml:move ply="78" value="b5b8" clockSeconds="196" />
+        <ctml:move ply="79" value="c1c4" clockSeconds="239" />
+        <ctml:move ply="80" value="b8h8" clockSeconds="108" />
+        <ctml:move ply="81" value="h5g4" clockSeconds="243" />
+        <ctml:move ply="82" value="h8h2" clockSeconds="1715" />
+        <ctml:move ply="83" value="g4g3" clockSeconds="1207" />
+        <ctml:move ply="84" value="h2h5" clockSeconds="1738" />
+        <ctml:move ply="85" value="c4g4" clockSeconds="1232" />
+        <ctml:move ply="86" value="g7f8" clockSeconds="1755" />
+        <ctml:move ply="87" value="g4a4" clockSeconds="1226" />
+        <ctml:move ply="88" value="f8e7" clockSeconds="1741" />
+        <ctml:move ply="89" value="a4a5" clockSeconds="1191" />
+        <ctml:move ply="90" value="h5e5" clockSeconds="1663" />
+        <ctml:move ply="91" value="a5a7" clockSeconds="1190" />
+        <ctml:move ply="92" value="e7d6" clockSeconds="1549" />
+        <ctml:move ply="93" value="b3b4" clockSeconds="1216" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="700ec31f3adc358fc81438fdabe233bc4a552e0b89ed0e954223f65a16ffbe6c" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="f768f44d562fab73" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=chongqing, China; EndDate=2025.04.13; EndTime=11:03:02. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r08" round="8" board="1" white="p-fide-8603642" black="p-fide-8603006" result="0-1">
+      <ctml:eco>C26</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="106" clockInfo="true">
+        <ctml:move ply="1" value="e2e4" clockSeconds="5454" />
+        <ctml:move ply="2" value="e7e5" clockSeconds="5450" />
+        <ctml:move ply="3" value="b1c3" clockSeconds="5477" />
+        <ctml:move ply="4" value="g8f6" clockSeconds="5441" />
+        <ctml:move ply="5" value="f1c4" clockSeconds="5498" />
+        <ctml:move ply="6" value="b8c6" clockSeconds="5297" />
+        <ctml:move ply="7" value="d2d3" clockSeconds="5507" />
+        <ctml:move ply="8" value="f8b4" clockSeconds="5241" />
+        <ctml:move ply="9" value="g1f3" clockSeconds="5486" />
+        <ctml:move ply="10" value="d7d6" clockSeconds="5140" />
+        <ctml:move ply="11" value="e1g1" clockSeconds="5453" />
+        <ctml:move ply="12" value="b4c3" clockSeconds="5108" />
+        <ctml:move ply="13" value="b2c3" clockSeconds="5476" />
+        <ctml:move ply="14" value="e8g8" clockSeconds="5129" />
+        <ctml:move ply="15" value="c1g5" clockSeconds="5134" />
+        <ctml:move ply="16" value="h7h6" clockSeconds="5155" />
+        <ctml:move ply="17" value="g5h4" clockSeconds="5160" />
+        <ctml:move ply="18" value="c6a5" clockSeconds="4416" />
+        <ctml:move ply="19" value="c4b3" clockSeconds="5176" />
+        <ctml:move ply="20" value="a5b3" clockSeconds="4169" />
+        <ctml:move ply="21" value="a2b3" clockSeconds="5201" />
+        <ctml:move ply="22" value="d8e7" clockSeconds="4162" />
+        <ctml:move ply="23" value="f1e1" clockSeconds="4799" />
+        <ctml:move ply="24" value="e7e6" clockSeconds="3328" />
+        <ctml:move ply="25" value="d3d4" clockSeconds="4718" />
+        <ctml:move ply="26" value="f6d7" clockSeconds="3328" />
+        <ctml:move ply="27" value="d1d3" clockSeconds="4395" />
+        <ctml:move ply="28" value="a7a6" clockSeconds="3197" />
+        <ctml:move ply="29" value="a1d1" clockSeconds="4123" />
+        <ctml:move ply="30" value="f8e8" clockSeconds="2852" />
+        <ctml:move ply="31" value="h4g3" clockSeconds="4118" />
+        <ctml:move ply="32" value="b7b5" clockSeconds="2796" />
+        <ctml:move ply="33" value="f3d2" clockSeconds="3891" />
+        <ctml:move ply="34" value="d7f6" clockSeconds="2595" />
+        <ctml:move ply="35" value="b3b4" clockSeconds="2773" />
+        <ctml:move ply="36" value="f6h5" clockSeconds="2452" />
+        <ctml:move ply="37" value="d2b3" clockSeconds="2716" />
+        <ctml:move ply="38" value="e6g6" clockSeconds="2079" />
+        <ctml:move ply="39" value="d4e5" clockSeconds="2312" />
+        <ctml:move ply="40" value="h5g3" clockSeconds="2059" />
+        <ctml:move ply="41" value="h2g3" clockSeconds="1870" />
+        <ctml:move ply="42" value="e8e5" clockSeconds="2086" />
+        <ctml:move ply="43" value="b3a5" clockSeconds="1738" />
+        <ctml:move ply="44" value="c8d7" clockSeconds="1990" />
+        <ctml:move ply="45" value="e1e3" clockSeconds="1607" />
+        <ctml:move ply="46" value="a8e8" clockSeconds="1906" />
+        <ctml:move ply="47" value="d1e1" clockSeconds="1505" />
+        <ctml:move ply="48" value="f7f5" clockSeconds="1928" />
+        <ctml:move ply="49" value="d3d4" clockSeconds="1343" />
+        <ctml:move ply="50" value="e5e4" clockSeconds="1782" />
+        <ctml:move ply="51" value="e3e4" clockSeconds="1246" />
+        <ctml:move ply="52" value="e8e4" clockSeconds="1807" />
+        <ctml:move ply="53" value="e1e4" clockSeconds="1273" />
+        <ctml:move ply="54" value="f5e4" clockSeconds="1835" />
+        <ctml:move ply="55" value="c3c4" clockSeconds="1288" />
+        <ctml:move ply="56" value="e4e3" clockSeconds="1724" />
+        <ctml:move ply="57" value="d4e3" clockSeconds="1131" />
+        <ctml:move ply="58" value="g6c2" clockSeconds="1748" />
+        <ctml:move ply="59" value="e3a7" clockSeconds="1123" />
+        <ctml:move ply="60" value="b5c4" clockSeconds="1412" />
+        <ctml:move ply="61" value="a7c7" clockSeconds="1147" />
+        <ctml:move ply="62" value="d7b5" clockSeconds="1424" />
+        <ctml:move ply="63" value="a5b7" clockSeconds="1091" />
+        <ctml:move ply="64" value="c4c3" clockSeconds="615" />
+        <ctml:move ply="65" value="b7d6" clockSeconds="1111" />
+        <ctml:move ply="66" value="c2d3" clockSeconds="612" />
+        <ctml:move ply="67" value="c7f7" clockSeconds="649" />
+        <ctml:move ply="68" value="g8h7" clockSeconds="634" />
+        <ctml:move ply="69" value="d6f5" clockSeconds="667" />
+        <ctml:move ply="70" value="d3d7" clockSeconds="659" />
+        <ctml:move ply="71" value="f7d7" clockSeconds="671" />
+        <ctml:move ply="72" value="b5d7" clockSeconds="683" />
+        <ctml:move ply="73" value="f5d4" clockSeconds="696" />
+        <ctml:move ply="74" value="d7a4" clockSeconds="620" />
+        <ctml:move ply="75" value="d4e2" clockSeconds="657" />
+        <ctml:move ply="76" value="c3c2" clockSeconds="645" />
+        <ctml:move ply="77" value="f2f3" clockSeconds="650" />
+        <ctml:move ply="78" value="h7g6" clockSeconds="595" />
+        <ctml:move ply="79" value="g1f2" clockSeconds="668" />
+        <ctml:move ply="80" value="a4b5" clockSeconds="605" />
+        <ctml:move ply="81" value="e2c1" clockSeconds="692" />
+        <ctml:move ply="82" value="h6h5" clockSeconds="422" />
+        <ctml:move ply="83" value="f2e3" clockSeconds="640" />
+        <ctml:move ply="84" value="g6g5" clockSeconds="326" />
+        <ctml:move ply="85" value="e3d2" clockSeconds="649" />
+        <ctml:move ply="86" value="b5f1" clockSeconds="345" />
+        <ctml:move ply="87" value="c1b3" clockSeconds="601" />
+        <ctml:move ply="88" value="f1g2" clockSeconds="286" />
+        <ctml:move ply="89" value="b3d4" clockSeconds="624" />
+        <ctml:move ply="90" value="g2f3" clockSeconds="1599" />
+        <ctml:move ply="91" value="d4f3" clockSeconds="2446" />
+        <ctml:move ply="92" value="g5g4" clockSeconds="1627" />
+        <ctml:move ply="93" value="f3d4" clockSeconds="2452" />
+        <ctml:move ply="94" value="g4g3" clockSeconds="1611" />
+        <ctml:move ply="95" value="d4f5" clockSeconds="1121" />
+        <ctml:move ply="96" value="g3g4" clockSeconds="1632" />
+        <ctml:move ply="97" value="f5e3" clockSeconds="981" />
+        <ctml:move ply="98" value="g4f3" clockSeconds="1650" />
+        <ctml:move ply="99" value="e3c2" clockSeconds="986" />
+        <ctml:move ply="100" value="h5h4" clockSeconds="1662" />
+        <ctml:move ply="101" value="c2e1" clockSeconds="796" />
+        <ctml:move ply="102" value="f3g3" clockSeconds="1624" />
+        <ctml:move ply="103" value="d2e3" clockSeconds="526" />
+        <ctml:move ply="104" value="h4h3" clockSeconds="1623" />
+        <ctml:move ply="105" value="e1f3" clockSeconds="496" />
+        <ctml:move ply="106" value="h3h2" clockSeconds="1616" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="2cc339b79863a3441d883c3921e72533de3ee9086bde4165c497b9a039335a42" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="6a68f3f3501b0389" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=chongqing, CN; EndDate=2025.04.14; EndTime=11:20:54. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r09" round="9" board="1" white="p-fide-8603006" black="p-fide-8603642" result="1/2-1/2">
+      <ctml:eco>B30</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>40/5400+30:1800+30</ctml:raw>
+        <ctml:initialSeconds>5400</ctml:initialSeconds>
+        <ctml:incrementSeconds>30</ctml:incrementSeconds>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="76" clockInfo="true">
+        <ctml:move ply="1" value="e2e4" clockSeconds="5456" />
+        <ctml:move ply="2" value="c7c5" clockSeconds="5454" />
+        <ctml:move ply="3" value="g1f3" clockSeconds="5481" />
+        <ctml:move ply="4" value="b8c6" clockSeconds="5478" />
+        <ctml:move ply="5" value="f1b5" clockSeconds="5501" />
+        <ctml:move ply="6" value="e7e6" clockSeconds="5502" />
+        <ctml:move ply="7" value="e1g1" clockSeconds="5506" />
+        <ctml:move ply="8" value="g8e7" clockSeconds="5526" />
+        <ctml:move ply="9" value="f1e1" clockSeconds="5515" />
+        <ctml:move ply="10" value="c6d4" clockSeconds="5543" />
+        <ctml:move ply="11" value="f3d4" clockSeconds="5473" />
+        <ctml:move ply="12" value="c5d4" clockSeconds="5565" />
+        <ctml:move ply="13" value="c2c3" clockSeconds="5424" />
+        <ctml:move ply="14" value="a7a6" clockSeconds="5555" />
+        <ctml:move ply="15" value="b5f1" clockSeconds="5243" />
+        <ctml:move ply="16" value="e7c6" clockSeconds="5577" />
+        <ctml:move ply="17" value="b1a3" clockSeconds="5091" />
+        <ctml:move ply="18" value="f8e7" clockSeconds="5471" />
+        <ctml:move ply="19" value="a3c2" clockSeconds="5008" />
+        <ctml:move ply="20" value="d7d5" clockSeconds="5476" />
+        <ctml:move ply="21" value="c2d4" clockSeconds="4500" />
+        <ctml:move ply="22" value="c6d4" clockSeconds="5469" />
+        <ctml:move ply="23" value="c3d4" clockSeconds="4527" />
+        <ctml:move ply="24" value="d5e4" clockSeconds="5489" />
+        <ctml:move ply="25" value="d2d3" clockSeconds="4519" />
+        <ctml:move ply="26" value="e4d3" clockSeconds="5358" />
+        <ctml:move ply="27" value="f1d3" clockSeconds="4209" />
+        <ctml:move ply="28" value="e8g8" clockSeconds="5368" />
+        <ctml:move ply="29" value="d3e4" clockSeconds="4118" />
+        <ctml:move ply="30" value="e7f6" clockSeconds="5121" />
+        <ctml:move ply="31" value="c1e3" clockSeconds="4021" />
+        <ctml:move ply="32" value="g7g6" clockSeconds="4724" />
+        <ctml:move ply="33" value="d1b3" clockSeconds="3242" />
+        <ctml:move ply="34" value="f6d4" clockSeconds="4332" />
+        <ctml:move ply="35" value="a1d1" clockSeconds="2986" />
+        <ctml:move ply="36" value="e6e5" clockSeconds="4351" />
+        <ctml:move ply="37" value="e3d4" clockSeconds="2890" />
+        <ctml:move ply="38" value="e5d4" clockSeconds="4374" />
+        <ctml:move ply="39" value="b3b4" clockSeconds="2912" />
+        <ctml:move ply="40" value="a6a5" clockSeconds="4193" />
+        <ctml:move ply="41" value="b4d4" clockSeconds="2928" />
+        <ctml:move ply="42" value="d8d4" clockSeconds="4202" />
+        <ctml:move ply="43" value="d1d4" clockSeconds="2956" />
+        <ctml:move ply="44" value="c8e6" clockSeconds="4211" />
+        <ctml:move ply="45" value="e4d5" clockSeconds="2516" />
+        <ctml:move ply="46" value="f8d8" clockSeconds="3993" />
+        <ctml:move ply="47" value="e1d1" clockSeconds="2534" />
+        <ctml:move ply="48" value="a8c8" clockSeconds="3994" />
+        <ctml:move ply="49" value="g1f1" clockSeconds="2548" />
+        <ctml:move ply="50" value="d8d6" clockSeconds="3818" />
+        <ctml:move ply="51" value="d5e6" clockSeconds="2014" />
+        <ctml:move ply="52" value="d6e6" clockSeconds="3841" />
+        <ctml:move ply="53" value="d4d8" clockSeconds="2041" />
+        <ctml:move ply="54" value="c8d8" clockSeconds="3859" />
+        <ctml:move ply="55" value="d1d8" clockSeconds="2068" />
+        <ctml:move ply="56" value="g8g7" clockSeconds="3878" />
+        <ctml:move ply="57" value="d8d7" clockSeconds="2092" />
+        <ctml:move ply="58" value="b7b6" clockSeconds="3876" />
+        <ctml:move ply="59" value="g2g4" clockSeconds="2086" />
+        <ctml:move ply="60" value="g7f6" clockSeconds="3776" />
+        <ctml:move ply="61" value="d7b7" clockSeconds="1957" />
+        <ctml:move ply="62" value="h7h5" clockSeconds="3773" />
+        <ctml:move ply="63" value="g4h5" clockSeconds="1970" />
+        <ctml:move ply="64" value="g6h5" clockSeconds="3796" />
+        <ctml:move ply="65" value="f1g2" clockSeconds="1993" />
+        <ctml:move ply="66" value="f6g6" clockSeconds="3815" />
+        <ctml:move ply="67" value="g2g3" clockSeconds="2018" />
+        <ctml:move ply="68" value="f7f6" clockSeconds="3836" />
+        <ctml:move ply="69" value="h2h4" clockSeconds="1952" />
+        <ctml:move ply="70" value="g6f5" clockSeconds="3823" />
+        <ctml:move ply="71" value="b7h7" clockSeconds="1967" />
+        <ctml:move ply="72" value="f5g6" clockSeconds="3834" />
+        <ctml:move ply="73" value="h7b7" clockSeconds="1994" />
+        <ctml:move ply="74" value="g6f5" clockSeconds="3702" />
+        <ctml:move ply="75" value="b7h7" clockSeconds="1991" />
+        <ctml:move ply="76" value="f5g6" clockSeconds="3716" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="db6b0a9d3aeb7312c0334c864f2318d33bbef6aabdfd60155884553325972f4b" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="07821d8c5fb43aa7" />
+      </ctml:fingerprints>
+      <ctml:source kind="chess.com-pgn">
+        <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+        <ctml:note>Site=chongqing, CN; EndDate=2025.04.16; EndTime=09:05:39. Second time control 30 min after move 40 (raw 40/5400+30:1800+30).</ctml:note>
+      </ctml:source>
+    </ctml:game>
+  </ctml:games>
+  <ctml:notes>FIDE Women's World Championship Match 2025: a head-to-head classical match (up to 12 games, first to 6.5) between defending champion Ju Wenjun and challenger Tan Zhongyi, both of China, across their home cities of Shanghai (games 1-6) and Chongqing (games 7-9), 3-20 April 2025. Ju Wenjun won 6.5-2.5 after game 9 (16 April), retaining the title; games 10-12 and all tiebreaks (rapid 15+10, then 10+5, then 3+2) were unneeded. Primary source: the chess.com broadcast PGN (per-move clocks, FIDE ids, live Elo); the match crosstable, officials, and player federations/start ratings come from ChessResults (event 418246). The builder recomputes each player's per-game and total score from the games and reproduces the crosstable exactly (Ju 6.5, Tan 2.5). Two independent sources -- the chess.com broadcast and the ChessResults PGN (tnr 1149784) -- agree on all nine games move for move. Time control 40 moves/90 min + 30 min, 30 sec increment from move 1.</ctml:notes>
+  <ctml:source kind="chess.com-pgn">
+    <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.pgn</ctml:uri>
+    <ctml:note>9 games; SHA-256 e2e94ac7bd81a650278a9aca7225fb8569a6b751e35a2683f52580f67f93693d. Moves, clocks, and results authoritative.</ctml:note>
+  </ctml:source>
+  <ctml:source kind="chess-results-pgn">
+    <ctml:uri>file:///D:/elysium/sources/twic/1149784.pgn</ctml:uri>
+    <ctml:note>9 games (tnr 1149784); SHA-256 08bdfe9b27d87380179a7f409b66d7f9a0f77b1d6193f5aa67590a3ab48df6b6. Independent movetext/result corroboration: agrees with the chess.com PGN on all nine games, move for move.</ctml:note>
+  </ctml:source>
+  <ctml:source kind="chess-results-metadata">
+    <ctml:uri>file:///D:/elysium/sources/twic/2025-womens-world-chess-championship.txt</ctml:uri>
+    <ctml:note>Match crosstable, officials, schedule, start ratings; SHA-256 cd4ba51a284aa895838fd0d6b4464abc16d9f85938bd43d7504a990c883b7c3a.</ctml:note>
+  </ctml:source>
+  <ctml:source kind="eco-table">
+    <ctml:uri>file:///D:/dev/proj/ctml-clean/assets/all.tsv</ctml:uri>
+    <ctml:note>Opening classification table; SHA-256 7c5f1cbf4606e890d047417c552006cebbc04c76514ad3c2bb5a9c06d7c6be09.</ctml:note>
+  </ctml:source>
+</ctml:tournament>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:ctml="urn:ctml:2.0"
+  targetNamespace="urn:ctml:2.0"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+  <xs:annotation>
+    <xs:documentation>
+      CTML 2.1 - Group / pool stage model (DRAFT / proposal).
+
+      Closes the group-stage gap: an event whose competitors are partitioned
+      into several parallel groups (pools), each playing its own round robin (or
+      other format), often feeding a later knockout. Seen in the 2026 World Team
+      Blitz, where 48 teams split into Pools A-D (12-team round robins) before
+      the top teams advance to the Stage 2 knockout.
+
+      A ctml:group just NAMES a pool and lists its members by IDREF - each a
+      ctml:team/@id or ctml:participant/@id - so it serves team and individual
+      pool events alike, and reuses the existing standings: a competitor's rank
+      within its pool already lives in team/standing (or participant/score), and
+      the pool's matches are the ctml:teamMatch entries, which gain an optional
+      @group to say which pool they belong to. A ctml:bracket then carries the
+      knockout the pools feed into.
+
+      Purely ADDITIVE. Edits elsewhere are optional-element / optional-attribute
+      additions (valid CTML 2.0 stays valid):
+        - ctml-core.xsd: include this module; add optional ctml:groups to
+          TournamentType (after teams).
+        - ctml-teams.xsd: add optional @group (IDREF) to TeamMatchType.
+      Documents that use groups set ctmlVersion="2.1".
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:include schemaLocation="ctml-vocab.xsd"/>  <!-- EventFormatType -->
+
+  <xs:element name="groups" type="ctml:GroupsType"/>
+
+  <xs:complexType name="GroupsType">
+    <xs:sequence>
+      <xs:element name="group" type="ctml:GroupType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="GroupType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="member" type="ctml:GroupMemberType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="notes" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <!-- Pairing format within the pool; defaults conceptually to round-robin. -->
+    <xs:attribute name="format" type="ctml:EventFormatType" use="optional"/>
+    <xs:attribute name="rounds" type="xs:positiveInteger" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="GroupMemberType">
+    <!-- IDREF to a ctml:team/@id or ctml:participant/@id. -->
+    <xs:attribute name="competitor" type="xs:IDREF" use="required"/>
+    <xs:attribute name="seed" type="xs:positiveInteger" use="optional"/>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:ctml="urn:ctml:2.0"
+  targetNamespace="urn:ctml:2.0"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+  <xs:annotation>
+    <xs:documentation>
+      CTML 2.1 - Team model (DRAFT / proposal).
+
+      Adds first-class teams to the tournament document so a team event (a team
+      Swiss, a team round robin, a club knockout) can be represented as what it
+      is, rather than as loose individual games with the team names hidden in
+      free text or per-game tags.
+
+      This module is purely ADDITIVE. It defines two new optional tournament
+      children (ctml:teams, ctml:teamMatches). The only edits it requires in
+      the pre-existing schema are:
+        - ctml-core.xsd: include this module; add the two optional children to
+          TournamentType (teams after participants, teamMatches after games).
+        - ctml-game.xsd: two optional IDREF attributes on GameType
+          (@whiteTeam, @blackTeam).
+      Both edits are optional-element / optional-attribute additions, so every
+      valid CTML 2.0 document remains valid; documents that USE teams should
+      set ctmlVersion="2.1".
+
+      Design notes:
+      - A team reuses the existing participant model rather than duplicating
+        it: every player is still a ctml:participant (with playerRef, ratings,
+        etc.); a ctml:team just GROUPS them, by IDREF, with board order. There
+        is a single source of truth for a player's identity.
+      - A team carries an optional @ref + resolution, mirroring playerRef /
+        eventRef, because teams recur across events ("WR Chess" plays many)
+        and should deduplicate the same way players and events do. Ref
+        convention (proposed): team:&lt;slug&gt;.
+      - ctml:teamMatch aggregates a round's board games by IDREF to their
+        ctml:game/@id, so team results and standings are first-class and
+        machine-checkable without copying any game data. The board games
+        themselves stay exactly where they are, in ctml:games.
+      - Scores are permissive decimals (board/game points) with optional
+        match points, since team scoring systems differ (match points 2/1/0,
+        board points, Olympiad-style). Application code vets internal
+        consistency (board games sum to the match score, match points follow
+        from the score), consistent with the 1.0/app-code split used
+        elsewhere in this schema set.
+    </xs:documentation>
+  </xs:annotation>
+
+  <!-- FederationCodeType, RoundType (vocab); ResolutionType (entities). -->
+  <xs:include schemaLocation="ctml-vocab.xsd"/>
+  <xs:include schemaLocation="ctml-entities.xsd"/>
+
+  <!-- ===== Tournament children ===== -->
+  <xs:element name="teams" type="ctml:TeamsType"/>
+  <xs:element name="teamMatches" type="ctml:TeamMatchesType"/>
+
+  <xs:complexType name="TeamsType">
+    <xs:sequence>
+      <xs:element name="team" type="ctml:TeamType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TeamType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <!-- Team's representing federation, when it is a national team; club and
+           invitational teams may have none. -->
+      <xs:element name="federation" type="ctml:FederationCodeType" minOccurs="0"/>
+      <xs:element name="captain" type="xs:string" minOccurs="0"/>
+      <xs:element name="roster" type="ctml:RosterType" minOccurs="0"/>
+      <xs:element name="standing" type="ctml:TeamStandingType" minOccurs="0"/>
+      <xs:element name="resolution" type="ctml:ResolutionType" minOccurs="0"/>
+      <xs:element name="notes" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <!-- Local team id, referenced by games (@whiteTeam/@blackTeam),
+         teamMatch (@home/@away) and roster members. -->
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+    <!-- Optional link to a canonical team identity in a future team registry
+         (team:<slug>), for cross-event deduplication. -->
+    <xs:attribute name="ref" type="xs:token" use="optional"/>
+    <xs:attribute name="seed" type="xs:positiveInteger" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="RosterType">
+    <xs:sequence>
+      <xs:element name="member" type="ctml:TeamMemberType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TeamMemberType">
+    <!-- References a ctml:participant/@id in the same tournament. -->
+    <xs:attribute name="participant" type="xs:IDREF" use="required"/>
+    <!-- Fixed board order within the team (1 = top board). Reserves may share
+         no fixed board or sit above/below by regulation; kept optional. -->
+    <xs:attribute name="boardOrder" type="xs:positiveInteger" use="optional"/>
+    <xs:attribute name="reserve" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="TeamStandingType">
+    <xs:sequence>
+      <xs:element name="rank" type="xs:positiveInteger" minOccurs="0"/>
+      <!-- Primary competition score. In a team Swiss this is usually match
+           points; gamePoints (a.k.a. board points) is the common first
+           tiebreak. Both optional so either scoring basis can lead. -->
+      <xs:element name="matchPoints" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="gamePoints" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="tiebreaks" type="ctml:TiebreakSetType" minOccurs="0"/>
+      <!-- CTML 2.1 (additive): the team's final placement in the overall event
+           (e.g. after a knockout stage), distinct from rank within this table
+           or pool. -->
+      <xs:element name="placement" type="xs:positiveInteger" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TiebreakSetType">
+    <xs:sequence>
+      <xs:element name="tiebreak" type="ctml:TiebreakType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- name is the system used ("buchholz", "sonneborn-berger", "board-points",
+       "direct-encounter", ...); value kept as a string since tiebreaks are
+       sometimes decimals and sometimes ordinals. -->
+  <xs:complexType name="TiebreakType">
+    <xs:attribute name="name" type="xs:token" use="required"/>
+    <xs:attribute name="value" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- ===== Team matches (per-round pairings) ===== -->
+  <xs:complexType name="TeamMatchesType">
+    <xs:sequence>
+      <xs:element name="teamMatch" type="ctml:TeamMatchType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TeamMatchType">
+    <xs:sequence>
+      <!-- Aggregate board/game score for the two sides (e.g. 3.5 vs 2.5). -->
+      <xs:element name="homeScore" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="awayScore" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="matchPoints" type="ctml:MatchPointsType" minOccurs="0"/>
+      <xs:element name="boards" type="ctml:BoardSetType" minOccurs="0"/>
+      <xs:element name="notes" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="round" type="ctml:RoundType" use="required"/>
+    <!-- IDREFs to ctml:team/@id. "home" is the higher-listed / first-named
+         side; a team Swiss has no real home/away, so the labels are only a
+         stable ordering. -->
+    <xs:attribute name="home" type="xs:IDREF" use="required"/>
+    <xs:attribute name="away" type="xs:IDREF" use="required"/>
+    <!-- CTML 2.1 (additive): the ctml:group/@id this match belongs to, in a
+         pool/group-stage event. -->
+    <xs:attribute name="group" type="xs:IDREF" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="MatchPointsType">
+    <xs:attribute name="home" type="xs:decimal" use="required"/>
+    <xs:attribute name="away" type="xs:decimal" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="BoardSetType">
+    <xs:sequence>
+      <xs:element name="board" type="ctml:BoardRefType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- One board of a team match: the board number and an IDREF to the
+       ctml:game that was played there. The game itself lives in ctml:games. -->
+  <xs:complexType name="BoardRefType">
+    <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="game" type="xs:IDREF" use="optional"/>
+  </xs:complexType>
+
+</xs:schema>

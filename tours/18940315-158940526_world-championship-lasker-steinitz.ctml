@@ -1,0 +1,2621 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ctml:tournament xmlns:ctml="urn:ctml:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ctmlVersion="2.1" id="tournament-wcc-1894" xsi:schemaLocation="urn:ctml:2.0 file:///D:/ctml/xsd/ctml.xsd">
+  <ctml:header>
+    <ctml:name>World Chess Championship Match 1894 (Lasker-Steinitz)</ctml:name>
+    <ctml:eventRef ref="event:18940315-18940526-world-championship-lasker-steinitz" source="file:///D:/dev/pgn/world-1894%27.pgn">
+      <ctml:name>World-ch05 Lasker-Steinitz +10-5=4</ctml:name>
+    </ctml:eventRef>
+    <ctml:eventType>match</ctml:eventType>
+    <ctml:cadence>classical</ctml:cadence>
+    <ctml:dates>
+      <ctml:start>
+        <ctml:day y="1894" m="3" d="15" iso="1894-03-15"/>
+      </ctml:start>
+      <ctml:end>
+        <ctml:day y="1894" m="5" d="26" iso="1894-05-26"/>
+      </ctml:end>
+    </ctml:dates>
+    <ctml:venue>New York / Philadelphia, United States / Montreal, Canada</ctml:venue>
+  </ctml:header>
+  <ctml:participants>
+    <ctml:participant id="p-lasker">
+      <ctml:playerRef ref="player:name:lasker-emanuel">
+        <ctml:name display="Lasker, Emanuel">
+          <ctml:family>Lasker</ctml:family>
+          <ctml:given>Emanuel</ctml:given>
+        </ctml:name>
+        <ctml:resolution method="manual" resolver="ctml-wcc1894-builder/1" note="Identified by supplied PGN and match table; William/Wilhelm Steinitz refer to the same participant."/>
+      </ctml:playerRef>
+      <ctml:score>12.0</ctml:score>
+      <ctml:placement>1</ctml:placement>
+      <ctml:notes>Challenger; match winner and new world champion; +10-5=4. Played 19 games. Result sequence: 1010½½11111½00110½1. Unlabelled source-table value: +94; meaning unspecified. Source PGN Elo: 2714; rating system and provenance unspecified, so no ratingSnapshot is asserted.</ctml:notes>
+    </ctml:participant>
+    <ctml:participant id="p-steinitz">
+      <ctml:playerRef ref="player:name:steinitz-wilhelm">
+        <ctml:name display="Steinitz, Wilhelm">
+          <ctml:family>Steinitz</ctml:family>
+          <ctml:given>Wilhelm</ctml:given>
+        </ctml:name>
+        <ctml:resolution method="manual" resolver="ctml-wcc1894-builder/1" note="Identified by supplied PGN and match table; William/Wilhelm Steinitz refer to the same participant."/>
+      </ctml:playerRef>
+      <ctml:score>7.0</ctml:score>
+      <ctml:placement>2</ctml:placement>
+      <ctml:notes>Defending champion; +5-10=4. Source-table name: Steinitz, William. Played 19 games. Result sequence: 0101½½00000½11001½0. Unlabelled source-table value: -94; meaning unspecified. Source PGN Elo: 2631; rating system and provenance unspecified, so no ratingSnapshot is asserted.</ctml:notes>
+    </ctml:participant>
+  </ctml:participants>
+  <ctml:games>
+    <ctml:game id="g-r01" round="1" board="1" white="p-lasker" black="p-steinitz" result="1-0">
+      <ctml:eco>C62</ctml:eco>
+      <ctml:opening>Ruy Lopez, Old Steinitz Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="119" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1b5"/>
+        <ctml:move ply="6" value="d7d6"/>
+        <ctml:move ply="7" value="d2d4"/>
+        <ctml:move ply="8" value="c8d7"/>
+        <ctml:move ply="9" value="b1c3"/>
+        <ctml:move ply="10" value="g8e7"/>
+        <ctml:move ply="11" value="b5c4"/>
+        <ctml:move ply="12" value="c6d4"/>
+        <ctml:move ply="13" value="f3d4"/>
+        <ctml:move ply="14" value="e5d4"/>
+        <ctml:move ply="15" value="d1d4"/>
+        <ctml:move ply="16" value="e7c6"/>
+        <ctml:move ply="17" value="d4e3"/>
+        <ctml:move ply="18" value="c6e5"/>
+        <ctml:move ply="19" value="c4b3"/>
+        <ctml:move ply="20" value="c7c6"/>
+        <ctml:move ply="21" value="e3g3"/>
+        <ctml:move ply="22" value="e5g6"/>
+        <ctml:move ply="23" value="h2h4"/>
+        <ctml:move ply="24" value="d7e6"/>
+        <ctml:move ply="25" value="b3e6"/>
+        <ctml:move ply="26" value="f7e6"/>
+        <ctml:move ply="27" value="c1g5"/>
+        <ctml:move ply="28" value="f8e7"/>
+        <ctml:move ply="29" value="e1c1"/>
+        <ctml:move ply="30" value="e6e5"/>
+        <ctml:move ply="31" value="g5e3"/>
+        <ctml:move ply="32" value="e8g8"/>
+        <ctml:move ply="33" value="c3e2"/>
+        <ctml:move ply="34" value="f8f7"/>
+        <ctml:move ply="35" value="h4h5"/>
+        <ctml:move ply="36" value="g6f4"/>
+        <ctml:move ply="37" value="e3f4"/>
+        <ctml:move ply="38" value="e5f4"/>
+        <ctml:move ply="39" value="g3f3"/>
+        <ctml:move ply="40" value="d8a5"/>
+        <ctml:move ply="41" value="c1b1"/>
+        <ctml:move ply="42" value="a5e5"/>
+        <ctml:move ply="43" value="e2d4"/>
+        <ctml:move ply="44" value="e7f6"/>
+        <ctml:move ply="45" value="c2c3"/>
+        <ctml:move ply="46" value="a8e8"/>
+        <ctml:move ply="47" value="h1e1"/>
+        <ctml:move ply="48" value="f6d8"/>
+        <ctml:move ply="49" value="f3g4"/>
+        <ctml:move ply="50" value="d8c7"/>
+        <ctml:move ply="51" value="d4f3"/>
+        <ctml:move ply="52" value="e5f6"/>
+        <ctml:move ply="53" value="f3d2"/>
+        <ctml:move ply="54" value="f7e7"/>
+        <ctml:move ply="55" value="f2f3"/>
+        <ctml:move ply="56" value="d6d5"/>
+        <ctml:move ply="57" value="e1h1"/>
+        <ctml:move ply="58" value="e7e5"/>
+        <ctml:move ply="59" value="g2g3"/>
+        <ctml:move ply="60" value="e5g5"/>
+        <ctml:move ply="61" value="g4d7"/>
+        <ctml:move ply="62" value="f6f7"/>
+        <ctml:move ply="63" value="d7f7"/>
+        <ctml:move ply="64" value="g8f7"/>
+        <ctml:move ply="65" value="g3g4"/>
+        <ctml:move ply="66" value="c7b6"/>
+        <ctml:move ply="67" value="e4d5"/>
+        <ctml:move ply="68" value="c6d5"/>
+        <ctml:move ply="69" value="d2b3"/>
+        <ctml:move ply="70" value="e8e3"/>
+        <ctml:move ply="71" value="h1f1"/>
+        <ctml:move ply="72" value="g5e5"/>
+        <ctml:move ply="73" value="b3c1"/>
+        <ctml:move ply="74" value="b6c7"/>
+        <ctml:move ply="75" value="c1d3"/>
+        <ctml:move ply="76" value="e5g5"/>
+        <ctml:move ply="77" value="d3b4"/>
+        <ctml:move ply="78" value="e3e5"/>
+        <ctml:move ply="79" value="d1d4"/>
+        <ctml:move ply="80" value="c7b6"/>
+        <ctml:move ply="81" value="d4f4"/>
+        <ctml:move ply="82" value="f7g8"/>
+        <ctml:move ply="83" value="b4d3"/>
+        <ctml:move ply="84" value="e5e2"/>
+        <ctml:move ply="85" value="f1d1"/>
+        <ctml:move ply="86" value="b6e3"/>
+        <ctml:move ply="87" value="f4b4"/>
+        <ctml:move ply="88" value="b7b6"/>
+        <ctml:move ply="89" value="b4a4"/>
+        <ctml:move ply="90" value="a7a5"/>
+        <ctml:move ply="91" value="b2b4"/>
+        <ctml:move ply="92" value="d5d4"/>
+        <ctml:move ply="93" value="c3c4"/>
+        <ctml:move ply="94" value="e3d2"/>
+        <ctml:move ply="95" value="b4b5"/>
+        <ctml:move ply="96" value="d2c3"/>
+        <ctml:move ply="97" value="d1g1"/>
+        <ctml:move ply="98" value="e2d2"/>
+        <ctml:move ply="99" value="f3f4"/>
+        <ctml:move ply="100" value="g5g4"/>
+        <ctml:move ply="101" value="g1g4"/>
+        <ctml:move ply="102" value="d2d3"/>
+        <ctml:move ply="103" value="c4c5"/>
+        <ctml:move ply="104" value="d3e3"/>
+        <ctml:move ply="105" value="a4c4"/>
+        <ctml:move ply="106" value="d4d3"/>
+        <ctml:move ply="107" value="g4g1"/>
+        <ctml:move ply="108" value="d3d2"/>
+        <ctml:move ply="109" value="g1d1"/>
+        <ctml:move ply="110" value="b6c5"/>
+        <ctml:move ply="111" value="b5b6"/>
+        <ctml:move ply="112" value="c3d4"/>
+        <ctml:move ply="113" value="b6b7"/>
+        <ctml:move ply="114" value="e3e8"/>
+        <ctml:move ply="115" value="b1c2"/>
+        <ctml:move ply="116" value="e8b8"/>
+        <ctml:move ply="117" value="d1b1"/>
+        <ctml:move ply="118" value="g8f7"/>
+        <ctml:move ply="119" value="c4a4"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="4166a95b000ab2bfdd64e9df9f22943ee7a790a49cd287d249fe6d269c7146d3"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="ce4278567af3caea"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.03.15", "Round": "1", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1-0", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "C62", "EventDate": "1894.03.15", "PlyCount": "119", "Beauty": "6393193042984", "GameId": "2235863508285592", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 60; ECO: C62; opening: Ruy Lopez, Old Steinitz Defense.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r02" round="2" board="1" white="p-steinitz" black="p-lasker" result="1-0">
+      <ctml:eco>C65</ctml:eco>
+      <ctml:opening>Ruy Lopez, Berlin Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="83" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1b5"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="d2d3"/>
+        <ctml:move ply="8" value="d7d6"/>
+        <ctml:move ply="9" value="c2c3"/>
+        <ctml:move ply="10" value="c8d7"/>
+        <ctml:move ply="11" value="b5a4"/>
+        <ctml:move ply="12" value="g7g6"/>
+        <ctml:move ply="13" value="b1d2"/>
+        <ctml:move ply="14" value="f8g7"/>
+        <ctml:move ply="15" value="d2c4"/>
+        <ctml:move ply="16" value="e8g8"/>
+        <ctml:move ply="17" value="c4e3"/>
+        <ctml:move ply="18" value="c6e7"/>
+        <ctml:move ply="19" value="a4b3"/>
+        <ctml:move ply="20" value="c7c6"/>
+        <ctml:move ply="21" value="h2h4"/>
+        <ctml:move ply="22" value="d8c7"/>
+        <ctml:move ply="23" value="f3g5"/>
+        <ctml:move ply="24" value="d6d5"/>
+        <ctml:move ply="25" value="f2f3"/>
+        <ctml:move ply="26" value="a8d8"/>
+        <ctml:move ply="27" value="g2g4"/>
+        <ctml:move ply="28" value="d5e4"/>
+        <ctml:move ply="29" value="f3e4"/>
+        <ctml:move ply="30" value="h7h6"/>
+        <ctml:move ply="31" value="d1f3"/>
+        <ctml:move ply="32" value="d7e8"/>
+        <ctml:move ply="33" value="b3c2"/>
+        <ctml:move ply="34" value="f6d7"/>
+        <ctml:move ply="35" value="g5h3"/>
+        <ctml:move ply="36" value="d7c5"/>
+        <ctml:move ply="37" value="h3f2"/>
+        <ctml:move ply="38" value="b7b5"/>
+        <ctml:move ply="39" value="g4g5"/>
+        <ctml:move ply="40" value="h6h5"/>
+        <ctml:move ply="41" value="e3f5"/>
+        <ctml:move ply="42" value="g6f5"/>
+        <ctml:move ply="43" value="e4f5"/>
+        <ctml:move ply="44" value="f7f6"/>
+        <ctml:move ply="45" value="g5g6"/>
+        <ctml:move ply="46" value="e7g6"/>
+        <ctml:move ply="47" value="f5g6"/>
+        <ctml:move ply="48" value="e8g6"/>
+        <ctml:move ply="49" value="h1g1"/>
+        <ctml:move ply="50" value="e5e4"/>
+        <ctml:move ply="51" value="d3e4"/>
+        <ctml:move ply="52" value="g8h7"/>
+        <ctml:move ply="53" value="g1g6"/>
+        <ctml:move ply="54" value="h7g6"/>
+        <ctml:move ply="55" value="f3f5"/>
+        <ctml:move ply="56" value="g6f7"/>
+        <ctml:move ply="57" value="f5h5"/>
+        <ctml:move ply="58" value="f7g8"/>
+        <ctml:move ply="59" value="h5c5"/>
+        <ctml:move ply="60" value="c7e5"/>
+        <ctml:move ply="61" value="c1e3"/>
+        <ctml:move ply="62" value="a7a6"/>
+        <ctml:move ply="63" value="a2a4"/>
+        <ctml:move ply="64" value="f8e8"/>
+        <ctml:move ply="65" value="a4b5"/>
+        <ctml:move ply="66" value="a6b5"/>
+        <ctml:move ply="67" value="c5e5"/>
+        <ctml:move ply="68" value="e8e5"/>
+        <ctml:move ply="69" value="a1a6"/>
+        <ctml:move ply="70" value="d8c8"/>
+        <ctml:move ply="71" value="f2g4"/>
+        <ctml:move ply="72" value="e5e7"/>
+        <ctml:move ply="73" value="e3c5"/>
+        <ctml:move ply="74" value="e7e8"/>
+        <ctml:move ply="75" value="g4e3"/>
+        <ctml:move ply="76" value="g7f8"/>
+        <ctml:move ply="77" value="c5d4"/>
+        <ctml:move ply="78" value="g8f7"/>
+        <ctml:move ply="79" value="h4h5"/>
+        <ctml:move ply="80" value="f8e7"/>
+        <ctml:move ply="81" value="c2b3"/>
+        <ctml:move ply="82" value="f7f8"/>
+        <ctml:move ply="83" value="e3f5"/>
+      </ctml:moves>
+      <ctml:tags>
+        <ctml:tag>notable</ctml:tag>
+      </ctml:tags>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="19d5ac428d2a15c1525ffb9f9b335ee9a9f54fd3f26933487a91ed6e74e2da45"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="8b0169f5e84d6b73"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.03.19", "Round": "2", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "1-0", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "C65", "EventDate": "1894.03.15", "PlyCount": "83", "Beauty": "7560350448165", "GameId": "2235863508285593", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 42; ECO: C65; opening: Ruy Lopez, Berlin Defense. Source-labelled sacrifice: 27.Rxg6 (verified against PGN). Included in the source's notable-games list.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r03" round="3" board="1" white="p-lasker" black="p-steinitz" result="1-0">
+      <ctml:eco>C62</ctml:eco>
+      <ctml:opening>Ruy Lopez, Old Steinitz Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="103" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1b5"/>
+        <ctml:move ply="6" value="d7d6"/>
+        <ctml:move ply="7" value="d2d4"/>
+        <ctml:move ply="8" value="c8d7"/>
+        <ctml:move ply="9" value="b1c3"/>
+        <ctml:move ply="10" value="g8e7"/>
+        <ctml:move ply="11" value="b5c4"/>
+        <ctml:move ply="12" value="e5d4"/>
+        <ctml:move ply="13" value="f3d4"/>
+        <ctml:move ply="14" value="c6d4"/>
+        <ctml:move ply="15" value="d1d4"/>
+        <ctml:move ply="16" value="e7c6"/>
+        <ctml:move ply="17" value="d4e3"/>
+        <ctml:move ply="18" value="c6e5"/>
+        <ctml:move ply="19" value="c4b3"/>
+        <ctml:move ply="20" value="d7e6"/>
+        <ctml:move ply="21" value="f2f4"/>
+        <ctml:move ply="22" value="e5c4"/>
+        <ctml:move ply="23" value="e3g3"/>
+        <ctml:move ply="24" value="c4b6"/>
+        <ctml:move ply="25" value="c1e3"/>
+        <ctml:move ply="26" value="c7c6"/>
+        <ctml:move ply="27" value="f4f5"/>
+        <ctml:move ply="28" value="e6b3"/>
+        <ctml:move ply="29" value="a2b3"/>
+        <ctml:move ply="30" value="b6d7"/>
+        <ctml:move ply="31" value="e3f4"/>
+        <ctml:move ply="32" value="d8c7"/>
+        <ctml:move ply="33" value="b3b4"/>
+        <ctml:move ply="34" value="f7f6"/>
+        <ctml:move ply="35" value="c3e2"/>
+        <ctml:move ply="36" value="d7e5"/>
+        <ctml:move ply="37" value="e2d4"/>
+        <ctml:move ply="38" value="c7b6"/>
+        <ctml:move ply="39" value="c2c3"/>
+        <ctml:move ply="40" value="e8c8"/>
+        <ctml:move ply="41" value="d4e6"/>
+        <ctml:move ply="42" value="d8d7"/>
+        <ctml:move ply="43" value="f4e3"/>
+        <ctml:move ply="44" value="b6b5"/>
+        <ctml:move ply="45" value="a1a7"/>
+        <ctml:move ply="46" value="b7b6"/>
+        <ctml:move ply="47" value="a7a8"/>
+        <ctml:move ply="48" value="c8b7"/>
+        <ctml:move ply="49" value="a8f8"/>
+        <ctml:move ply="50" value="h8f8"/>
+        <ctml:move ply="51" value="e6f8"/>
+        <ctml:move ply="52" value="b5d3"/>
+        <ctml:move ply="53" value="h1f1"/>
+        <ctml:move ply="54" value="d3c2"/>
+        <ctml:move ply="55" value="e3d2"/>
+        <ctml:move ply="56" value="d7e7"/>
+        <ctml:move ply="57" value="f8e6"/>
+        <ctml:move ply="58" value="c2e4"/>
+        <ctml:move ply="59" value="g3e3"/>
+        <ctml:move ply="60" value="e4g2"/>
+        <ctml:move ply="61" value="b2b3"/>
+        <ctml:move ply="62" value="e7e8"/>
+        <ctml:move ply="63" value="e3e2"/>
+        <ctml:move ply="64" value="g2h3"/>
+        <ctml:move ply="65" value="e1d1"/>
+        <ctml:move ply="66" value="e8a8"/>
+        <ctml:move ply="67" value="f1f2"/>
+        <ctml:move ply="68" value="a8a2"/>
+        <ctml:move ply="69" value="b4b5"/>
+        <ctml:move ply="70" value="c6c5"/>
+        <ctml:move ply="71" value="e6g7"/>
+        <ctml:move ply="72" value="d6d5"/>
+        <ctml:move ply="73" value="d1c1"/>
+        <ctml:move ply="74" value="h3d3"/>
+        <ctml:move ply="75" value="e2d3"/>
+        <ctml:move ply="76" value="e5d3"/>
+        <ctml:move ply="77" value="c1b1"/>
+        <ctml:move ply="78" value="a2b2"/>
+        <ctml:move ply="79" value="b1a1"/>
+        <ctml:move ply="80" value="b2b3"/>
+        <ctml:move ply="81" value="f2f3"/>
+        <ctml:move ply="82" value="c5c4"/>
+        <ctml:move ply="83" value="g7e8"/>
+        <ctml:move ply="84" value="d3b4"/>
+        <ctml:move ply="85" value="f3g3"/>
+        <ctml:move ply="86" value="b3a3"/>
+        <ctml:move ply="87" value="a1b1"/>
+        <ctml:move ply="88" value="a3b3"/>
+        <ctml:move ply="89" value="b1c1"/>
+        <ctml:move ply="90" value="b4d3"/>
+        <ctml:move ply="91" value="g3d3"/>
+        <ctml:move ply="92" value="c4d3"/>
+        <ctml:move ply="93" value="e8f6"/>
+        <ctml:move ply="94" value="b3b5"/>
+        <ctml:move ply="95" value="f6e8"/>
+        <ctml:move ply="96" value="b7c6"/>
+        <ctml:move ply="97" value="f5f6"/>
+        <ctml:move ply="98" value="d5d4"/>
+        <ctml:move ply="99" value="e8g7"/>
+        <ctml:move ply="100" value="d4c3"/>
+        <ctml:move ply="101" value="d2c3"/>
+        <ctml:move ply="102" value="b5g5"/>
+        <ctml:move ply="103" value="f6f7"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="d3ee979a04eb6e4c72ed86b8ec165fd12bb9a96c080eaf7d370e92922634a2be"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="8a4a54ba9e5627bd"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.03.21", "Round": "3", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1-0", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "C62", "EventDate": "1894.03.15", "PlyCount": "103", "Beauty": "6877316390480", "GameId": "2235863508285594", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 52; ECO: C62; opening: Ruy Lopez, Old Steinitz Defense.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r04" round="4" board="1" white="p-steinitz" black="p-lasker" result="1-0">
+      <ctml:eco>C54</ctml:eco>
+      <ctml:opening>Giuoco Piano</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="119" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1c4"/>
+        <ctml:move ply="6" value="f8c5"/>
+        <ctml:move ply="7" value="c2c3"/>
+        <ctml:move ply="8" value="g8f6"/>
+        <ctml:move ply="9" value="d2d4"/>
+        <ctml:move ply="10" value="e5d4"/>
+        <ctml:move ply="11" value="e4e5"/>
+        <ctml:move ply="12" value="d7d5"/>
+        <ctml:move ply="13" value="c4b5"/>
+        <ctml:move ply="14" value="f6e4"/>
+        <ctml:move ply="15" value="c3d4"/>
+        <ctml:move ply="16" value="c5e7"/>
+        <ctml:move ply="17" value="b1c3"/>
+        <ctml:move ply="18" value="e8g8"/>
+        <ctml:move ply="19" value="b5d3"/>
+        <ctml:move ply="20" value="f7f5"/>
+        <ctml:move ply="21" value="e5f6"/>
+        <ctml:move ply="22" value="e4f6"/>
+        <ctml:move ply="23" value="c1e3"/>
+        <ctml:move ply="24" value="c6b4"/>
+        <ctml:move ply="25" value="d3b1"/>
+        <ctml:move ply="26" value="f6g4"/>
+        <ctml:move ply="27" value="a2a3"/>
+        <ctml:move ply="28" value="g4e3"/>
+        <ctml:move ply="29" value="f2e3"/>
+        <ctml:move ply="30" value="e7h4"/>
+        <ctml:move ply="31" value="g2g3"/>
+        <ctml:move ply="32" value="c8g4"/>
+        <ctml:move ply="33" value="e1g1"/>
+        <ctml:move ply="34" value="d8e8"/>
+        <ctml:move ply="35" value="a3b4"/>
+        <ctml:move ply="36" value="e8h5"/>
+        <ctml:move ply="37" value="c3d5"/>
+        <ctml:move ply="38" value="f8f3"/>
+        <ctml:move ply="39" value="d5f4"/>
+        <ctml:move ply="40" value="f3f4"/>
+        <ctml:move ply="41" value="d1b3"/>
+        <ctml:move ply="42" value="f4f7"/>
+        <ctml:move ply="43" value="f1f7"/>
+        <ctml:move ply="44" value="h5f7"/>
+        <ctml:move ply="45" value="b1a2"/>
+        <ctml:move ply="46" value="f7b3"/>
+        <ctml:move ply="47" value="a2b3"/>
+        <ctml:move ply="48" value="g8f8"/>
+        <ctml:move ply="49" value="g3h4"/>
+        <ctml:move ply="50" value="f8e7"/>
+        <ctml:move ply="51" value="b3d5"/>
+        <ctml:move ply="52" value="c7c6"/>
+        <ctml:move ply="53" value="d5e4"/>
+        <ctml:move ply="54" value="a7a6"/>
+        <ctml:move ply="55" value="a1a5"/>
+        <ctml:move ply="56" value="h7h6"/>
+        <ctml:move ply="57" value="b4b5"/>
+        <ctml:move ply="58" value="c6b5"/>
+        <ctml:move ply="59" value="e4b7"/>
+        <ctml:move ply="60" value="a8a7"/>
+        <ctml:move ply="61" value="b7c6"/>
+        <ctml:move ply="62" value="g4d7"/>
+        <ctml:move ply="63" value="c6d7"/>
+        <ctml:move ply="64" value="e7d7"/>
+        <ctml:move ply="65" value="g1f2"/>
+        <ctml:move ply="66" value="d7c6"/>
+        <ctml:move ply="67" value="f2e2"/>
+        <ctml:move ply="68" value="c6b6"/>
+        <ctml:move ply="69" value="a5a1"/>
+        <ctml:move ply="70" value="a6a5"/>
+        <ctml:move ply="71" value="e2d3"/>
+        <ctml:move ply="72" value="a5a4"/>
+        <ctml:move ply="73" value="e3e4"/>
+        <ctml:move ply="74" value="a7f7"/>
+        <ctml:move ply="75" value="e4e5"/>
+        <ctml:move ply="76" value="f7f3"/>
+        <ctml:move ply="77" value="d3e4"/>
+        <ctml:move ply="78" value="f3f2"/>
+        <ctml:move ply="79" value="a1b1"/>
+        <ctml:move ply="80" value="b6c6"/>
+        <ctml:move ply="81" value="d4d5"/>
+        <ctml:move ply="82" value="c6d7"/>
+        <ctml:move ply="83" value="e4d4"/>
+        <ctml:move ply="84" value="f2d2"/>
+        <ctml:move ply="85" value="d4c5"/>
+        <ctml:move ply="86" value="d2c2"/>
+        <ctml:move ply="87" value="c5b5"/>
+        <ctml:move ply="88" value="c2e2"/>
+        <ctml:move ply="89" value="e5e6"/>
+        <ctml:move ply="90" value="d7d6"/>
+        <ctml:move ply="91" value="b1d1"/>
+        <ctml:move ply="92" value="e2b2"/>
+        <ctml:move ply="93" value="b5a4"/>
+        <ctml:move ply="94" value="b2h2"/>
+        <ctml:move ply="95" value="d1e1"/>
+        <ctml:move ply="96" value="h2a2"/>
+        <ctml:move ply="97" value="a4b3"/>
+        <ctml:move ply="98" value="a2a8"/>
+        <ctml:move ply="99" value="b3c4"/>
+        <ctml:move ply="100" value="g7g5"/>
+        <ctml:move ply="101" value="h4g5"/>
+        <ctml:move ply="102" value="h6g5"/>
+        <ctml:move ply="103" value="c4d4"/>
+        <ctml:move ply="104" value="a8a4"/>
+        <ctml:move ply="105" value="d4d3"/>
+        <ctml:move ply="106" value="a4a3"/>
+        <ctml:move ply="107" value="d3e4"/>
+        <ctml:move ply="108" value="g5g4"/>
+        <ctml:move ply="109" value="e4f5"/>
+        <ctml:move ply="110" value="a3a8"/>
+        <ctml:move ply="111" value="e6e7"/>
+        <ctml:move ply="112" value="a8e8"/>
+        <ctml:move ply="113" value="f5f6"/>
+        <ctml:move ply="114" value="g4g3"/>
+        <ctml:move ply="115" value="f6f7"/>
+        <ctml:move ply="116" value="d6d7"/>
+        <ctml:move ply="117" value="d5d6"/>
+        <ctml:move ply="118" value="g3g2"/>
+        <ctml:move ply="119" value="e1g1"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="40899477f51e0219c0a0a73365e2f15f5593253316b043d426d6744d28e62f28"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="e01d6ada69002371"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.03.23", "Round": "4", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "1-0", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "C54", "EventDate": "1894.03.15", "PlyCount": "119", "Beauty": "6391582438436", "GameId": "2235863508285595", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 60; ECO: C53; opening: Giuoco Piano. Source-labelled sacrifice: 20.Nf4 (verified against PGN). ECO differs from PGN; the game eco element preserves PGN classification.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r05" round="5" board="1" white="p-lasker" black="p-steinitz" result="1/2-1/2">
+      <ctml:eco>C62</ctml:eco>
+      <ctml:opening>Ruy Lopez, Old Steinitz Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="99" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1b5"/>
+        <ctml:move ply="6" value="d7d6"/>
+        <ctml:move ply="7" value="d2d4"/>
+        <ctml:move ply="8" value="c8d7"/>
+        <ctml:move ply="9" value="b1c3"/>
+        <ctml:move ply="10" value="g8e7"/>
+        <ctml:move ply="11" value="b5c4"/>
+        <ctml:move ply="12" value="e5d4"/>
+        <ctml:move ply="13" value="f3d4"/>
+        <ctml:move ply="14" value="c6d4"/>
+        <ctml:move ply="15" value="d1d4"/>
+        <ctml:move ply="16" value="e7c6"/>
+        <ctml:move ply="17" value="d4e3"/>
+        <ctml:move ply="18" value="d7e6"/>
+        <ctml:move ply="19" value="c3d5"/>
+        <ctml:move ply="20" value="f8e7"/>
+        <ctml:move ply="21" value="c1d2"/>
+        <ctml:move ply="22" value="e8g8"/>
+        <ctml:move ply="23" value="e1g1"/>
+        <ctml:move ply="24" value="c6e5"/>
+        <ctml:move ply="25" value="c4b3"/>
+        <ctml:move ply="26" value="e6d5"/>
+        <ctml:move ply="27" value="b3d5"/>
+        <ctml:move ply="28" value="c7c6"/>
+        <ctml:move ply="29" value="d5b3"/>
+        <ctml:move ply="30" value="e5d7"/>
+        <ctml:move ply="31" value="a1d1"/>
+        <ctml:move ply="32" value="a7a5"/>
+        <ctml:move ply="33" value="c2c3"/>
+        <ctml:move ply="34" value="a5a4"/>
+        <ctml:move ply="35" value="b3c2"/>
+        <ctml:move ply="36" value="f8e8"/>
+        <ctml:move ply="37" value="e3h3"/>
+        <ctml:move ply="38" value="d7f8"/>
+        <ctml:move ply="39" value="d2e3"/>
+        <ctml:move ply="40" value="d8a5"/>
+        <ctml:move ply="41" value="a2a3"/>
+        <ctml:move ply="42" value="a5b5"/>
+        <ctml:move ply="43" value="e3c1"/>
+        <ctml:move ply="44" value="a8d8"/>
+        <ctml:move ply="45" value="d1d4"/>
+        <ctml:move ply="46" value="d6d5"/>
+        <ctml:move ply="47" value="e4d5"/>
+        <ctml:move ply="48" value="e7c5"/>
+        <ctml:move ply="49" value="d4f4"/>
+        <ctml:move ply="50" value="f8g6"/>
+        <ctml:move ply="51" value="c3c4"/>
+        <ctml:move ply="52" value="b5a6"/>
+        <ctml:move ply="53" value="c2g6"/>
+        <ctml:move ply="54" value="f7g6"/>
+        <ctml:move ply="55" value="f4h4"/>
+        <ctml:move ply="56" value="h7h5"/>
+        <ctml:move ply="57" value="c1g5"/>
+        <ctml:move ply="58" value="d8d6"/>
+        <ctml:move ply="59" value="d5c6"/>
+        <ctml:move ply="60" value="a6c6"/>
+        <ctml:move ply="61" value="h3f3"/>
+        <ctml:move ply="62" value="c6f3"/>
+        <ctml:move ply="63" value="g2f3"/>
+        <ctml:move ply="64" value="e8e2"/>
+        <ctml:move ply="65" value="g5c1"/>
+        <ctml:move ply="66" value="e2f2"/>
+        <ctml:move ply="67" value="f1f2"/>
+        <ctml:move ply="68" value="d6d1"/>
+        <ctml:move ply="69" value="g1g2"/>
+        <ctml:move ply="70" value="c5f2"/>
+        <ctml:move ply="71" value="g2f2"/>
+        <ctml:move ply="72" value="d1c1"/>
+        <ctml:move ply="73" value="f2g3"/>
+        <ctml:move ply="74" value="b7b6"/>
+        <ctml:move ply="75" value="h4d4"/>
+        <ctml:move ply="76" value="c1c2"/>
+        <ctml:move ply="77" value="d4d8"/>
+        <ctml:move ply="78" value="g8h7"/>
+        <ctml:move ply="79" value="d8b8"/>
+        <ctml:move ply="80" value="c2b2"/>
+        <ctml:move ply="81" value="b8a8"/>
+        <ctml:move ply="82" value="g6g5"/>
+        <ctml:move ply="83" value="a8a4"/>
+        <ctml:move ply="84" value="h5h4"/>
+        <ctml:move ply="85" value="g3h3"/>
+        <ctml:move ply="86" value="b2f2"/>
+        <ctml:move ply="87" value="a4b4"/>
+        <ctml:move ply="88" value="f2f3"/>
+        <ctml:move ply="89" value="h3g4"/>
+        <ctml:move ply="90" value="f3a3"/>
+        <ctml:move ply="91" value="b4b6"/>
+        <ctml:move ply="92" value="a3a2"/>
+        <ctml:move ply="93" value="g4g5"/>
+        <ctml:move ply="94" value="a2h2"/>
+        <ctml:move ply="95" value="b6b3"/>
+        <ctml:move ply="96" value="h2h1"/>
+        <ctml:move ply="97" value="b3c3"/>
+        <ctml:move ply="98" value="h4h3"/>
+        <ctml:move ply="99" value="g5g4"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="ef27341f89381cdde7283ee6577fcd017363fd0d72f0cfb54bea8fe35e6ede90"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="ddfce35ced320d53"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.03.27", "Round": "5", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1/2-1/2", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "C62", "EventDate": "1894.03.15", "PlyCount": "99", "Beauty": "5639963152912", "GameId": "2235863508285596", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 50; ECO: C62; opening: Ruy Lopez, Old Steinitz Defense.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r06" round="6" board="1" white="p-steinitz" black="p-lasker" result="1/2-1/2">
+      <ctml:eco>C54</ctml:eco>
+      <ctml:opening>Giuoco Piano</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="142" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1c4"/>
+        <ctml:move ply="6" value="f8c5"/>
+        <ctml:move ply="7" value="c2c3"/>
+        <ctml:move ply="8" value="g8f6"/>
+        <ctml:move ply="9" value="d2d4"/>
+        <ctml:move ply="10" value="e5d4"/>
+        <ctml:move ply="11" value="e4e5"/>
+        <ctml:move ply="12" value="d7d5"/>
+        <ctml:move ply="13" value="c4b5"/>
+        <ctml:move ply="14" value="f6e4"/>
+        <ctml:move ply="15" value="c3d4"/>
+        <ctml:move ply="16" value="c5b6"/>
+        <ctml:move ply="17" value="b1c3"/>
+        <ctml:move ply="18" value="e8g8"/>
+        <ctml:move ply="19" value="c1e3"/>
+        <ctml:move ply="20" value="f7f5"/>
+        <ctml:move ply="21" value="e5f6"/>
+        <ctml:move ply="22" value="e4f6"/>
+        <ctml:move ply="23" value="a1c1"/>
+        <ctml:move ply="24" value="d8d6"/>
+        <ctml:move ply="25" value="e1g1"/>
+        <ctml:move ply="26" value="c8g4"/>
+        <ctml:move ply="27" value="b5e2"/>
+        <ctml:move ply="28" value="a8e8"/>
+        <ctml:move ply="29" value="h2h3"/>
+        <ctml:move ply="30" value="g4f3"/>
+        <ctml:move ply="31" value="e2f3"/>
+        <ctml:move ply="32" value="c6e7"/>
+        <ctml:move ply="33" value="c3e2"/>
+        <ctml:move ply="34" value="e7g6"/>
+        <ctml:move ply="35" value="g2g3"/>
+        <ctml:move ply="36" value="c7c6"/>
+        <ctml:move ply="37" value="f3g2"/>
+        <ctml:move ply="38" value="f6e4"/>
+        <ctml:move ply="39" value="d1b3"/>
+        <ctml:move ply="40" value="d6f6"/>
+        <ctml:move ply="41" value="a2a4"/>
+        <ctml:move ply="42" value="e4d6"/>
+        <ctml:move ply="43" value="b3b4"/>
+        <ctml:move ply="44" value="d6c4"/>
+        <ctml:move ply="45" value="c1c4"/>
+        <ctml:move ply="46" value="d5c4"/>
+        <ctml:move ply="47" value="a4a5"/>
+        <ctml:move ply="48" value="b6d8"/>
+        <ctml:move ply="49" value="b4b7"/>
+        <ctml:move ply="50" value="d8a5"/>
+        <ctml:move ply="51" value="b7a7"/>
+        <ctml:move ply="52" value="a5d2"/>
+        <ctml:move ply="53" value="a7c5"/>
+        <ctml:move ply="54" value="d2e3"/>
+        <ctml:move ply="55" value="f2e3"/>
+        <ctml:move ply="56" value="f6e6"/>
+        <ctml:move ply="57" value="f1f8"/>
+        <ctml:move ply="58" value="e8f8"/>
+        <ctml:move ply="59" value="e3e4"/>
+        <ctml:move ply="60" value="e6f7"/>
+        <ctml:move ply="61" value="g1h2"/>
+        <ctml:move ply="62" value="f8b8"/>
+        <ctml:move ply="63" value="c5c6"/>
+        <ctml:move ply="64" value="g6e7"/>
+        <ctml:move ply="65" value="c6c7"/>
+        <ctml:move ply="66" value="b8b2"/>
+        <ctml:move ply="67" value="e2f4"/>
+        <ctml:move ply="68" value="g7g5"/>
+        <ctml:move ply="69" value="f4d5"/>
+        <ctml:move ply="70" value="e7d5"/>
+        <ctml:move ply="71" value="c7d8"/>
+        <ctml:move ply="72" value="g8g7"/>
+        <ctml:move ply="73" value="d8g5"/>
+        <ctml:move ply="74" value="g7h8"/>
+        <ctml:move ply="75" value="e4d5"/>
+        <ctml:move ply="76" value="b2e2"/>
+        <ctml:move ply="77" value="g5d8"/>
+        <ctml:move ply="78" value="e2e8"/>
+        <ctml:move ply="79" value="d8g5"/>
+        <ctml:move ply="80" value="f7g7"/>
+        <ctml:move ply="81" value="g5d2"/>
+        <ctml:move ply="82" value="g7f6"/>
+        <ctml:move ply="83" value="d2c3"/>
+        <ctml:move ply="84" value="e8c8"/>
+        <ctml:move ply="85" value="g2f3"/>
+        <ctml:move ply="86" value="c8b8"/>
+        <ctml:move ply="87" value="f3g2"/>
+        <ctml:move ply="88" value="b8c8"/>
+        <ctml:move ply="89" value="h3h4"/>
+        <ctml:move ply="90" value="f6d6"/>
+        <ctml:move ply="91" value="g2h3"/>
+        <ctml:move ply="92" value="c8c7"/>
+        <ctml:move ply="93" value="h3e6"/>
+        <ctml:move ply="94" value="d6f8"/>
+        <ctml:move ply="95" value="h2g2"/>
+        <ctml:move ply="96" value="f8f6"/>
+        <ctml:move ply="97" value="c3a5"/>
+        <ctml:move ply="98" value="c7e7"/>
+        <ctml:move ply="99" value="a5c5"/>
+        <ctml:move ply="100" value="e7e8"/>
+        <ctml:move ply="101" value="c5c4"/>
+        <ctml:move ply="102" value="e8f8"/>
+        <ctml:move ply="103" value="c4e2"/>
+        <ctml:move ply="104" value="f6d4"/>
+        <ctml:move ply="105" value="d5d6"/>
+        <ctml:move ply="106" value="f8d8"/>
+        <ctml:move ply="107" value="d6d7"/>
+        <ctml:move ply="108" value="d8d7"/>
+        <ctml:move ply="109" value="e6d7"/>
+        <ctml:move ply="110" value="d4d7"/>
+        <ctml:move ply="111" value="e2e5"/>
+        <ctml:move ply="112" value="h8g8"/>
+        <ctml:move ply="113" value="h4h5"/>
+        <ctml:move ply="114" value="d7g7"/>
+        <ctml:move ply="115" value="e5e8"/>
+        <ctml:move ply="116" value="g7f8"/>
+        <ctml:move ply="117" value="e8f8"/>
+        <ctml:move ply="118" value="g8f8"/>
+        <ctml:move ply="119" value="g2f3"/>
+        <ctml:move ply="120" value="f8f7"/>
+        <ctml:move ply="121" value="f3g4"/>
+        <ctml:move ply="122" value="f7g7"/>
+        <ctml:move ply="123" value="g4g5"/>
+        <ctml:move ply="124" value="g7f7"/>
+        <ctml:move ply="125" value="g5h6"/>
+        <ctml:move ply="126" value="f7g8"/>
+        <ctml:move ply="127" value="h6g5"/>
+        <ctml:move ply="128" value="g8f7"/>
+        <ctml:move ply="129" value="g5f4"/>
+        <ctml:move ply="130" value="f7g7"/>
+        <ctml:move ply="131" value="f4f5"/>
+        <ctml:move ply="132" value="g7f7"/>
+        <ctml:move ply="133" value="g3g4"/>
+        <ctml:move ply="134" value="h7h6"/>
+        <ctml:move ply="135" value="f5e5"/>
+        <ctml:move ply="136" value="f7e7"/>
+        <ctml:move ply="137" value="e5d5"/>
+        <ctml:move ply="138" value="e7f6"/>
+        <ctml:move ply="139" value="d5e4"/>
+        <ctml:move ply="140" value="f6e6"/>
+        <ctml:move ply="141" value="e4d4"/>
+        <ctml:move ply="142" value="e6f6"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="9ae81b1e9ee73a388a099f7c44d64f00c9e16f1ca8741c0d39b438c67fbbfbf9"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="326694407f5fd994"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.03.29", "Round": "6", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "1/2-1/2", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "C54", "EventDate": "1894.03.15", "PlyCount": "142", "Beauty": "4606352438306", "GameId": "2235863508285597", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 71; ECO: C53; opening: Giuoco Piano. ECO differs from PGN; the game eco element preserves PGN classification.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r07" round="7" board="1" white="p-lasker" black="p-steinitz" result="1-0">
+      <ctml:eco>C62</ctml:eco>
+      <ctml:opening>Ruy Lopez, Old Steinitz Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="91" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1b5"/>
+        <ctml:move ply="6" value="d7d6"/>
+        <ctml:move ply="7" value="d2d4"/>
+        <ctml:move ply="8" value="c8d7"/>
+        <ctml:move ply="9" value="b1c3"/>
+        <ctml:move ply="10" value="g8e7"/>
+        <ctml:move ply="11" value="c1e3"/>
+        <ctml:move ply="12" value="e7g6"/>
+        <ctml:move ply="13" value="d1d2"/>
+        <ctml:move ply="14" value="f8e7"/>
+        <ctml:move ply="15" value="e1c1"/>
+        <ctml:move ply="16" value="a7a6"/>
+        <ctml:move ply="17" value="b5e2"/>
+        <ctml:move ply="18" value="e5d4"/>
+        <ctml:move ply="19" value="f3d4"/>
+        <ctml:move ply="20" value="c6d4"/>
+        <ctml:move ply="21" value="d2d4"/>
+        <ctml:move ply="22" value="e7f6"/>
+        <ctml:move ply="23" value="d4d2"/>
+        <ctml:move ply="24" value="d7c6"/>
+        <ctml:move ply="25" value="c3d5"/>
+        <ctml:move ply="26" value="e8g8"/>
+        <ctml:move ply="27" value="g2g4"/>
+        <ctml:move ply="28" value="f8e8"/>
+        <ctml:move ply="29" value="g4g5"/>
+        <ctml:move ply="30" value="c6d5"/>
+        <ctml:move ply="31" value="d2d5"/>
+        <ctml:move ply="32" value="e8e5"/>
+        <ctml:move ply="33" value="d5d2"/>
+        <ctml:move ply="34" value="f6g5"/>
+        <ctml:move ply="35" value="f2f4"/>
+        <ctml:move ply="36" value="e5e4"/>
+        <ctml:move ply="37" value="f4g5"/>
+        <ctml:move ply="38" value="d8e7"/>
+        <ctml:move ply="39" value="d1f1"/>
+        <ctml:move ply="40" value="e4e3"/>
+        <ctml:move ply="41" value="e2c4"/>
+        <ctml:move ply="42" value="g6h8"/>
+        <ctml:move ply="43" value="h2h4"/>
+        <ctml:move ply="44" value="c7c6"/>
+        <ctml:move ply="45" value="g5g6"/>
+        <ctml:move ply="46" value="d6d5"/>
+        <ctml:move ply="47" value="g6h7"/>
+        <ctml:move ply="48" value="g8h7"/>
+        <ctml:move ply="49" value="c4d3"/>
+        <ctml:move ply="50" value="h7g8"/>
+        <ctml:move ply="51" value="h4h5"/>
+        <ctml:move ply="52" value="a8e8"/>
+        <ctml:move ply="53" value="h5h6"/>
+        <ctml:move ply="54" value="g7g6"/>
+        <ctml:move ply="55" value="h6h7"/>
+        <ctml:move ply="56" value="g8g7"/>
+        <ctml:move ply="57" value="c1b1"/>
+        <ctml:move ply="58" value="e7e5"/>
+        <ctml:move ply="59" value="a2a3"/>
+        <ctml:move ply="60" value="c6c5"/>
+        <ctml:move ply="61" value="d2f2"/>
+        <ctml:move ply="62" value="c5c4"/>
+        <ctml:move ply="63" value="f2h4"/>
+        <ctml:move ply="64" value="f7f6"/>
+        <ctml:move ply="65" value="d3f5"/>
+        <ctml:move ply="66" value="g7f7"/>
+        <ctml:move ply="67" value="h1g1"/>
+        <ctml:move ply="68" value="g6f5"/>
+        <ctml:move ply="69" value="h4h5"/>
+        <ctml:move ply="70" value="f7e7"/>
+        <ctml:move ply="71" value="g1g8"/>
+        <ctml:move ply="72" value="e7d6"/>
+        <ctml:move ply="73" value="f1f5"/>
+        <ctml:move ply="74" value="e5e6"/>
+        <ctml:move ply="75" value="g8e8"/>
+        <ctml:move ply="76" value="e6e8"/>
+        <ctml:move ply="77" value="f5f6"/>
+        <ctml:move ply="78" value="d6c5"/>
+        <ctml:move ply="79" value="h5h6"/>
+        <ctml:move ply="80" value="e3e7"/>
+        <ctml:move ply="81" value="h6h2"/>
+        <ctml:move ply="82" value="e8d7"/>
+        <ctml:move ply="83" value="h2g1"/>
+        <ctml:move ply="84" value="d5d4"/>
+        <ctml:move ply="85" value="g1g5"/>
+        <ctml:move ply="86" value="d7d5"/>
+        <ctml:move ply="87" value="f6f5"/>
+        <ctml:move ply="88" value="d5f5"/>
+        <ctml:move ply="89" value="g5f5"/>
+        <ctml:move ply="90" value="c5d6"/>
+        <ctml:move ply="91" value="f5f6"/>
+      </ctml:moves>
+      <ctml:tags>
+        <ctml:tag>notable</ctml:tag>
+      </ctml:tags>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="68c3ca3920053592eaebf0ab289ca9555e8cdadf8fd4899ec8eedaa0862677b4"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="3e506469bbfe2a5e"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.04.03", "Round": "7", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1-0", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "C62", "EventDate": "1894.03.15", "Annotator": "Knaak,Rainer", "PlyCount": "91", "Beauty": "7285761947729", "GameId": "2235863508285598", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "100 Jahre Schach", "Source": "ChessBase", "SourceDate": "2000.04.19", "SourceVersion": "1", "SourceVersionDate": "2000.04.19", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 46; ECO: C62; opening: Ruy Lopez, Old Steinitz Defense. Source-labelled sacrifice: 34.Rhg1 (verified against PGN). Included in the source's notable-games list.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r08" round="8" board="1" white="p-steinitz" black="p-lasker" result="0-1">
+      <ctml:eco>C10</ctml:eco>
+      <ctml:opening>French</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="152" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e6"/>
+        <ctml:move ply="3" value="d2d4"/>
+        <ctml:move ply="4" value="d7d5"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="d5e4"/>
+        <ctml:move ply="7" value="c3e4"/>
+        <ctml:move ply="8" value="b8d7"/>
+        <ctml:move ply="9" value="g1f3"/>
+        <ctml:move ply="10" value="g8f6"/>
+        <ctml:move ply="11" value="e4g3"/>
+        <ctml:move ply="12" value="c7c5"/>
+        <ctml:move ply="13" value="f1e2"/>
+        <ctml:move ply="14" value="c5d4"/>
+        <ctml:move ply="15" value="f3d4"/>
+        <ctml:move ply="16" value="f8c5"/>
+        <ctml:move ply="17" value="d4b3"/>
+        <ctml:move ply="18" value="c5e7"/>
+        <ctml:move ply="19" value="e1g1"/>
+        <ctml:move ply="20" value="e8g8"/>
+        <ctml:move ply="21" value="c1d2"/>
+        <ctml:move ply="22" value="d8c7"/>
+        <ctml:move ply="23" value="c2c4"/>
+        <ctml:move ply="24" value="d7e5"/>
+        <ctml:move ply="25" value="d1c2"/>
+        <ctml:move ply="26" value="e5g6"/>
+        <ctml:move ply="27" value="f1e1"/>
+        <ctml:move ply="28" value="c8d7"/>
+        <ctml:move ply="29" value="a1c1"/>
+        <ctml:move ply="30" value="f8c8"/>
+        <ctml:move ply="31" value="e2f1"/>
+        <ctml:move ply="32" value="d7a4"/>
+        <ctml:move ply="33" value="d2c3"/>
+        <ctml:move ply="34" value="f6g4"/>
+        <ctml:move ply="35" value="c2e2"/>
+        <ctml:move ply="36" value="g4f6"/>
+        <ctml:move ply="37" value="b3d4"/>
+        <ctml:move ply="38" value="a4d7"/>
+        <ctml:move ply="39" value="b2b4"/>
+        <ctml:move ply="40" value="c8d8"/>
+        <ctml:move ply="41" value="e2b2"/>
+        <ctml:move ply="42" value="a8c8"/>
+        <ctml:move ply="43" value="d4b3"/>
+        <ctml:move ply="44" value="c7f4"/>
+        <ctml:move ply="45" value="c3d2"/>
+        <ctml:move ply="46" value="f4b8"/>
+        <ctml:move ply="47" value="b4b5"/>
+        <ctml:move ply="48" value="b7b6"/>
+        <ctml:move ply="49" value="d2c3"/>
+        <ctml:move ply="50" value="f6e8"/>
+        <ctml:move ply="51" value="g3h5"/>
+        <ctml:move ply="52" value="f7f6"/>
+        <ctml:move ply="53" value="a2a4"/>
+        <ctml:move ply="54" value="e6e5"/>
+        <ctml:move ply="55" value="a4a5"/>
+        <ctml:move ply="56" value="d7g4"/>
+        <ctml:move ply="57" value="h5g3"/>
+        <ctml:move ply="58" value="g4e6"/>
+        <ctml:move ply="59" value="b3d2"/>
+        <ctml:move ply="60" value="g6f4"/>
+        <ctml:move ply="61" value="b2b1"/>
+        <ctml:move ply="62" value="e6f7"/>
+        <ctml:move ply="63" value="g3f5"/>
+        <ctml:move ply="64" value="e7f8"/>
+        <ctml:move ply="65" value="c3b4"/>
+        <ctml:move ply="66" value="e8d6"/>
+        <ctml:move ply="67" value="f5d6"/>
+        <ctml:move ply="68" value="f8d6"/>
+        <ctml:move ply="69" value="d2e4"/>
+        <ctml:move ply="70" value="d6b4"/>
+        <ctml:move ply="71" value="b1b4"/>
+        <ctml:move ply="72" value="d8d4"/>
+        <ctml:move ply="73" value="a5b6"/>
+        <ctml:move ply="74" value="a7b6"/>
+        <ctml:move ply="75" value="g2g3"/>
+        <ctml:move ply="76" value="f4d3"/>
+        <ctml:move ply="77" value="f1d3"/>
+        <ctml:move ply="78" value="d4d3"/>
+        <ctml:move ply="79" value="c4c5"/>
+        <ctml:move ply="80" value="d3d4"/>
+        <ctml:move ply="81" value="b4b1"/>
+        <ctml:move ply="82" value="b6c5"/>
+        <ctml:move ply="83" value="e4c5"/>
+        <ctml:move ply="84" value="d4c4"/>
+        <ctml:move ply="85" value="c5d7"/>
+        <ctml:move ply="86" value="b8b7"/>
+        <ctml:move ply="87" value="c1d1"/>
+        <ctml:move ply="88" value="f7e6"/>
+        <ctml:move ply="89" value="d7e5"/>
+        <ctml:move ply="90" value="f6e5"/>
+        <ctml:move ply="91" value="e1e5"/>
+        <ctml:move ply="92" value="e6h3"/>
+        <ctml:move ply="93" value="e5d5"/>
+        <ctml:move ply="94" value="c4c1"/>
+        <ctml:move ply="95" value="b1d3"/>
+        <ctml:move ply="96" value="h7h6"/>
+        <ctml:move ply="97" value="g3g4"/>
+        <ctml:move ply="98" value="h3g4"/>
+        <ctml:move ply="99" value="f2f3"/>
+        <ctml:move ply="100" value="c1d1"/>
+        <ctml:move ply="101" value="d3d1"/>
+        <ctml:move ply="102" value="g4e6"/>
+        <ctml:move ply="103" value="d5d6"/>
+        <ctml:move ply="104" value="b7e7"/>
+        <ctml:move ply="105" value="b5b6"/>
+        <ctml:move ply="106" value="c8c1"/>
+        <ctml:move ply="107" value="d1c1"/>
+        <ctml:move ply="108" value="e7d6"/>
+        <ctml:move ply="109" value="c1e3"/>
+        <ctml:move ply="110" value="e6d5"/>
+        <ctml:move ply="111" value="g1g2"/>
+        <ctml:move ply="112" value="d6g6"/>
+        <ctml:move ply="113" value="g2f2"/>
+        <ctml:move ply="114" value="g6c2"/>
+        <ctml:move ply="115" value="f2g3"/>
+        <ctml:move ply="116" value="c2g6"/>
+        <ctml:move ply="117" value="g3f2"/>
+        <ctml:move ply="118" value="g6c2"/>
+        <ctml:move ply="119" value="f2g3"/>
+        <ctml:move ply="120" value="c2g6"/>
+        <ctml:move ply="121" value="g3f2"/>
+        <ctml:move ply="122" value="d5b7"/>
+        <ctml:move ply="123" value="e3b3"/>
+        <ctml:move ply="124" value="g6f7"/>
+        <ctml:move ply="125" value="b3d3"/>
+        <ctml:move ply="126" value="f7d5"/>
+        <ctml:move ply="127" value="d3e3"/>
+        <ctml:move ply="128" value="d5d6"/>
+        <ctml:move ply="129" value="f2g2"/>
+        <ctml:move ply="130" value="g8f7"/>
+        <ctml:move ply="131" value="h2h4"/>
+        <ctml:move ply="132" value="d6e6"/>
+        <ctml:move ply="133" value="e3f4"/>
+        <ctml:move ply="134" value="f7g6"/>
+        <ctml:move ply="135" value="f4g3"/>
+        <ctml:move ply="136" value="g6h7"/>
+        <ctml:move ply="137" value="g3f2"/>
+        <ctml:move ply="138" value="e6g4"/>
+        <ctml:move ply="139" value="g2h2"/>
+        <ctml:move ply="140" value="g4f3"/>
+        <ctml:move ply="141" value="f2c2"/>
+        <ctml:move ply="142" value="f3e4"/>
+        <ctml:move ply="143" value="c2f2"/>
+        <ctml:move ply="144" value="e4f3"/>
+        <ctml:move ply="145" value="f2c2"/>
+        <ctml:move ply="146" value="b7e4"/>
+        <ctml:move ply="147" value="c2d2"/>
+        <ctml:move ply="148" value="f3f6"/>
+        <ctml:move ply="149" value="d2e3"/>
+        <ctml:move ply="150" value="f6h4"/>
+        <ctml:move ply="151" value="h2g1"/>
+        <ctml:move ply="152" value="h4g5"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="66a223e033aa6682ea2395d5e76b6d520eb5ab6302cc7b2fc0bbf7aa38f74c96"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="d7bdfb378ba1b718"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.04.05", "Round": "8", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "0-1", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "C10", "EventDate": "1894.03.15", "PlyCount": "152", "Beauty": "5499097485843", "GameId": "2235863508285599", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 76; ECO: C10; opening: French.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: New York. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r09" round="9" board="1" white="p-lasker" black="p-steinitz" result="1-0">
+      <ctml:eco>C62</ctml:eco>
+      <ctml:opening>Ruy Lopez, Old Steinitz Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="97" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1b5"/>
+        <ctml:move ply="6" value="d7d6"/>
+        <ctml:move ply="7" value="b1c3"/>
+        <ctml:move ply="8" value="a7a6"/>
+        <ctml:move ply="9" value="b5c4"/>
+        <ctml:move ply="10" value="c8e6"/>
+        <ctml:move ply="11" value="c4e6"/>
+        <ctml:move ply="12" value="f7e6"/>
+        <ctml:move ply="13" value="d2d4"/>
+        <ctml:move ply="14" value="e5d4"/>
+        <ctml:move ply="15" value="f3d4"/>
+        <ctml:move ply="16" value="c6d4"/>
+        <ctml:move ply="17" value="d1d4"/>
+        <ctml:move ply="18" value="g8e7"/>
+        <ctml:move ply="19" value="c1g5"/>
+        <ctml:move ply="20" value="e7c6"/>
+        <ctml:move ply="21" value="g5d8"/>
+        <ctml:move ply="22" value="c6d4"/>
+        <ctml:move ply="23" value="e1c1"/>
+        <ctml:move ply="24" value="d4b5"/>
+        <ctml:move ply="25" value="c3b5"/>
+        <ctml:move ply="26" value="a6b5"/>
+        <ctml:move ply="27" value="d8c7"/>
+        <ctml:move ply="28" value="a8a2"/>
+        <ctml:move ply="29" value="c7b6"/>
+        <ctml:move ply="30" value="f8e7"/>
+        <ctml:move ply="31" value="c2c3"/>
+        <ctml:move ply="32" value="e8f7"/>
+        <ctml:move ply="33" value="c1c2"/>
+        <ctml:move ply="34" value="h8a8"/>
+        <ctml:move ply="35" value="c2b3"/>
+        <ctml:move ply="36" value="a2a4"/>
+        <ctml:move ply="37" value="f2f3"/>
+        <ctml:move ply="38" value="a8a6"/>
+        <ctml:move ply="39" value="b6d4"/>
+        <ctml:move ply="40" value="g7g6"/>
+        <ctml:move ply="41" value="d1d3"/>
+        <ctml:move ply="42" value="f7e8"/>
+        <ctml:move ply="43" value="h1d1"/>
+        <ctml:move ply="44" value="e6e5"/>
+        <ctml:move ply="45" value="d4e3"/>
+        <ctml:move ply="46" value="e8d7"/>
+        <ctml:move ply="47" value="e3c5"/>
+        <ctml:move ply="48" value="a4a1"/>
+        <ctml:move ply="49" value="d1d2"/>
+        <ctml:move ply="50" value="d7e6"/>
+        <ctml:move ply="51" value="c5a3"/>
+        <ctml:move ply="52" value="g6g5"/>
+        <ctml:move ply="53" value="d3d5"/>
+        <ctml:move ply="54" value="a6b6"/>
+        <ctml:move ply="55" value="b3b4"/>
+        <ctml:move ply="56" value="g5g4"/>
+        <ctml:move ply="57" value="b4a5"/>
+        <ctml:move ply="58" value="b6a6"/>
+        <ctml:move ply="59" value="a5b5"/>
+        <ctml:move ply="60" value="h7h5"/>
+        <ctml:move ply="61" value="d2d1"/>
+        <ctml:move ply="62" value="a1d1"/>
+        <ctml:move ply="63" value="d5d1"/>
+        <ctml:move ply="64" value="g4f3"/>
+        <ctml:move ply="65" value="g2f3"/>
+        <ctml:move ply="66" value="a6a8"/>
+        <ctml:move ply="67" value="b5b6"/>
+        <ctml:move ply="68" value="a8g8"/>
+        <ctml:move ply="69" value="b6b7"/>
+        <ctml:move ply="70" value="g8g2"/>
+        <ctml:move ply="71" value="h2h4"/>
+        <ctml:move ply="72" value="g2h2"/>
+        <ctml:move ply="73" value="b7c6"/>
+        <ctml:move ply="74" value="e7h4"/>
+        <ctml:move ply="75" value="d1d6"/>
+        <ctml:move ply="76" value="e6f7"/>
+        <ctml:move ply="77" value="c6d5"/>
+        <ctml:move ply="78" value="h4f6"/>
+        <ctml:move ply="79" value="d6d7"/>
+        <ctml:move ply="80" value="f7g6"/>
+        <ctml:move ply="81" value="d5e6"/>
+        <ctml:move ply="82" value="h5h4"/>
+        <ctml:move ply="83" value="d7d1"/>
+        <ctml:move ply="84" value="h4h3"/>
+        <ctml:move ply="85" value="d1g1"/>
+        <ctml:move ply="86" value="h2g2"/>
+        <ctml:move ply="87" value="g1g2"/>
+        <ctml:move ply="88" value="h3g2"/>
+        <ctml:move ply="89" value="a3c5"/>
+        <ctml:move ply="90" value="f6d8"/>
+        <ctml:move ply="91" value="b2b4"/>
+        <ctml:move ply="92" value="g6g5"/>
+        <ctml:move ply="93" value="e6d7"/>
+        <ctml:move ply="94" value="d8f6"/>
+        <ctml:move ply="95" value="b4b5"/>
+        <ctml:move ply="96" value="g5f4"/>
+        <ctml:move ply="97" value="b5b6"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="14db4d05f80e6e535183eceee5485dbf3586b31e701db860f0f7b53ae9c27a79"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="00a809d54bb262fc"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.04.14", "Round": "9", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1-0", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "C62", "EventDate": "1894.03.15", "PlyCount": "97", "Beauty": "7078106108936", "GameId": "2235863508285600", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 49; ECO: C62; opening: Ruy Lopez, Old Steinitz Defense.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Philadelphia. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r10" round="10" board="1" white="p-steinitz" black="p-lasker" result="0-1">
+      <ctml:eco>D35</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="68" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="f2f3"/>
+        <ctml:move ply="8" value="c7c5"/>
+        <ctml:move ply="9" value="d4c5"/>
+        <ctml:move ply="10" value="f8c5"/>
+        <ctml:move ply="11" value="c4d5"/>
+        <ctml:move ply="12" value="f6d5"/>
+        <ctml:move ply="13" value="e2e4"/>
+        <ctml:move ply="14" value="d5c3"/>
+        <ctml:move ply="15" value="d1d8"/>
+        <ctml:move ply="16" value="e8d8"/>
+        <ctml:move ply="17" value="b2c3"/>
+        <ctml:move ply="18" value="b8c6"/>
+        <ctml:move ply="19" value="g1h3"/>
+        <ctml:move ply="20" value="d8c7"/>
+        <ctml:move ply="21" value="h3f4"/>
+        <ctml:move ply="22" value="h8d8"/>
+        <ctml:move ply="23" value="f4d3"/>
+        <ctml:move ply="24" value="c5d6"/>
+        <ctml:move ply="25" value="f3f4"/>
+        <ctml:move ply="26" value="b7b6"/>
+        <ctml:move ply="27" value="d3f2"/>
+        <ctml:move ply="28" value="d6c5"/>
+        <ctml:move ply="29" value="f1e2"/>
+        <ctml:move ply="30" value="c8b7"/>
+        <ctml:move ply="31" value="f2d3"/>
+        <ctml:move ply="32" value="c5f8"/>
+        <ctml:move ply="33" value="f4f5"/>
+        <ctml:move ply="34" value="e6e5"/>
+        <ctml:move ply="35" value="c1g5"/>
+        <ctml:move ply="36" value="f7f6"/>
+        <ctml:move ply="37" value="g5e3"/>
+        <ctml:move ply="38" value="a8c8"/>
+        <ctml:move ply="39" value="e1c1"/>
+        <ctml:move ply="40" value="c7b8"/>
+        <ctml:move ply="41" value="d3f2"/>
+        <ctml:move ply="42" value="c6d4"/>
+        <ctml:move ply="43" value="e3d4"/>
+        <ctml:move ply="44" value="e5d4"/>
+        <ctml:move ply="45" value="e2d3"/>
+        <ctml:move ply="46" value="d4c3"/>
+        <ctml:move ply="47" value="g2g4"/>
+        <ctml:move ply="48" value="f8a3"/>
+        <ctml:move ply="49" value="c1c2"/>
+        <ctml:move ply="50" value="b7c6"/>
+        <ctml:move ply="51" value="c2b3"/>
+        <ctml:move ply="52" value="a3c5"/>
+        <ctml:move ply="53" value="f2h3"/>
+        <ctml:move ply="54" value="c5e3"/>
+        <ctml:move ply="55" value="d3c2"/>
+        <ctml:move ply="56" value="e3d2"/>
+        <ctml:move ply="57" value="h3f2"/>
+        <ctml:move ply="58" value="d8d4"/>
+        <ctml:move ply="59" value="b3a3"/>
+        <ctml:move ply="60" value="c6e8"/>
+        <ctml:move ply="61" value="f2d3"/>
+        <ctml:move ply="62" value="d4e4"/>
+        <ctml:move ply="63" value="d3b4"/>
+        <ctml:move ply="64" value="e4d4"/>
+        <ctml:move ply="65" value="c2b3"/>
+        <ctml:move ply="66" value="a7a5"/>
+        <ctml:move ply="67" value="b4c2"/>
+        <ctml:move ply="68" value="b6b5"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="84a0d57911cb7f08fd6fd5fadc4107069fc1792964e61a6270f05ab935c7f589"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="4d41c35561d11cb4"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.04.19", "Round": "10", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "0-1", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "D35", "EventDate": "1894.03.15", "PlyCount": "68", "Beauty": "8045547503113", "GameId": "2235863508285601", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 34; ECO: D35; opening: Queen's Gambit Declined.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Philadelphia. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r11" round="11" board="1" white="p-lasker" black="p-steinitz" result="1-0">
+      <ctml:eco>D40</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="75" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="g1f3"/>
+        <ctml:move ply="8" value="f8e7"/>
+        <ctml:move ply="9" value="e2e3"/>
+        <ctml:move ply="10" value="e8g8"/>
+        <ctml:move ply="11" value="f1d3"/>
+        <ctml:move ply="12" value="c7c5"/>
+        <ctml:move ply="13" value="d4c5"/>
+        <ctml:move ply="14" value="d5c4"/>
+        <ctml:move ply="15" value="d3c4"/>
+        <ctml:move ply="16" value="d8d1"/>
+        <ctml:move ply="17" value="e1d1"/>
+        <ctml:move ply="18" value="b8c6"/>
+        <ctml:move ply="19" value="a2a3"/>
+        <ctml:move ply="20" value="e7c5"/>
+        <ctml:move ply="21" value="b2b4"/>
+        <ctml:move ply="22" value="c5b6"/>
+        <ctml:move ply="23" value="d1e2"/>
+        <ctml:move ply="24" value="c8d7"/>
+        <ctml:move ply="25" value="c4b3"/>
+        <ctml:move ply="26" value="a8c8"/>
+        <ctml:move ply="27" value="c1b2"/>
+        <ctml:move ply="28" value="a7a5"/>
+        <ctml:move ply="29" value="b4b5"/>
+        <ctml:move ply="30" value="c6e7"/>
+        <ctml:move ply="31" value="f3e5"/>
+        <ctml:move ply="32" value="d7e8"/>
+        <ctml:move ply="33" value="a3a4"/>
+        <ctml:move ply="34" value="b6c7"/>
+        <ctml:move ply="35" value="e5c4"/>
+        <ctml:move ply="36" value="e8d7"/>
+        <ctml:move ply="37" value="a1c1"/>
+        <ctml:move ply="38" value="e7d5"/>
+        <ctml:move ply="39" value="c3d5"/>
+        <ctml:move ply="40" value="f6d5"/>
+        <ctml:move ply="41" value="c4e5"/>
+        <ctml:move ply="42" value="c7e5"/>
+        <ctml:move ply="43" value="b2e5"/>
+        <ctml:move ply="44" value="f7f6"/>
+        <ctml:move ply="45" value="e3e4"/>
+        <ctml:move ply="46" value="f6e5"/>
+        <ctml:move ply="47" value="e4d5"/>
+        <ctml:move ply="48" value="g8f7"/>
+        <ctml:move ply="49" value="h1d1"/>
+        <ctml:move ply="50" value="f7e7"/>
+        <ctml:move ply="51" value="d5d6"/>
+        <ctml:move ply="52" value="e7f6"/>
+        <ctml:move ply="53" value="e2e3"/>
+        <ctml:move ply="54" value="c8c1"/>
+        <ctml:move ply="55" value="d1c1"/>
+        <ctml:move ply="56" value="f8c8"/>
+        <ctml:move ply="57" value="c1c8"/>
+        <ctml:move ply="58" value="d7c8"/>
+        <ctml:move ply="59" value="b3c2"/>
+        <ctml:move ply="60" value="f6f7"/>
+        <ctml:move ply="61" value="c2h7"/>
+        <ctml:move ply="62" value="g7g6"/>
+        <ctml:move ply="63" value="e3e4"/>
+        <ctml:move ply="64" value="f7f6"/>
+        <ctml:move ply="65" value="g2g4"/>
+        <ctml:move ply="66" value="g6g5"/>
+        <ctml:move ply="67" value="e4f3"/>
+        <ctml:move ply="68" value="f6f7"/>
+        <ctml:move ply="69" value="h7e4"/>
+        <ctml:move ply="70" value="f7e8"/>
+        <ctml:move ply="71" value="h2h4"/>
+        <ctml:move ply="72" value="e8d7"/>
+        <ctml:move ply="73" value="h4h5"/>
+        <ctml:move ply="74" value="d7e8"/>
+        <ctml:move ply="75" value="f3e3"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="0362e8bd462fb526414cc77743d6da25ba5e5564eccbede8db9bae0fdbe07050"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="ab1d5e7958d5c059"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.04.21", "Round": "11", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1-0", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "D40", "EventDate": "1894.03.15", "PlyCount": "75", "Beauty": "7835094092807", "GameId": "2235863508285602", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 38; ECO: D37; opening: Queen's Gambit Declined. ECO differs from PGN; the game eco element preserves PGN classification.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Philadelphia. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r12" round="12" board="1" white="p-steinitz" black="p-lasker" result="1/2-1/2">
+      <ctml:eco>D60</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined, Orthodox Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="100" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="c1g5"/>
+        <ctml:move ply="8" value="f8e7"/>
+        <ctml:move ply="9" value="g1f3"/>
+        <ctml:move ply="10" value="e8g8"/>
+        <ctml:move ply="11" value="e2e3"/>
+        <ctml:move ply="12" value="b8d7"/>
+        <ctml:move ply="13" value="c4c5"/>
+        <ctml:move ply="14" value="c7c6"/>
+        <ctml:move ply="15" value="f1d3"/>
+        <ctml:move ply="16" value="h7h6"/>
+        <ctml:move ply="17" value="g5h4"/>
+        <ctml:move ply="18" value="e6e5"/>
+        <ctml:move ply="19" value="d4e5"/>
+        <ctml:move ply="20" value="f6e4"/>
+        <ctml:move ply="21" value="d3e4"/>
+        <ctml:move ply="22" value="e7h4"/>
+        <ctml:move ply="23" value="e4c2"/>
+        <ctml:move ply="24" value="d7c5"/>
+        <ctml:move ply="25" value="d1d4"/>
+        <ctml:move ply="26" value="h4e7"/>
+        <ctml:move ply="27" value="e1c1"/>
+        <ctml:move ply="28" value="a7a5"/>
+        <ctml:move ply="29" value="h2h4"/>
+        <ctml:move ply="30" value="b7b5"/>
+        <ctml:move ply="31" value="c3e2"/>
+        <ctml:move ply="32" value="b5b4"/>
+        <ctml:move ply="33" value="g2g4"/>
+        <ctml:move ply="34" value="b4b3"/>
+        <ctml:move ply="35" value="a2b3"/>
+        <ctml:move ply="36" value="a8b8"/>
+        <ctml:move ply="37" value="d4c3"/>
+        <ctml:move ply="38" value="c8g4"/>
+        <ctml:move ply="39" value="f3d4"/>
+        <ctml:move ply="40" value="d8b6"/>
+        <ctml:move ply="41" value="f2f3"/>
+        <ctml:move ply="42" value="g4d7"/>
+        <ctml:move ply="43" value="e2f4"/>
+        <ctml:move ply="44" value="b6b4"/>
+        <ctml:move ply="45" value="d1g1"/>
+        <ctml:move ply="46" value="b4c3"/>
+        <ctml:move ply="47" value="b2c3"/>
+        <ctml:move ply="48" value="f8c8"/>
+        <ctml:move ply="49" value="f4h5"/>
+        <ctml:move ply="50" value="g7g6"/>
+        <ctml:move ply="51" value="h5f4"/>
+        <ctml:move ply="52" value="e7f8"/>
+        <ctml:move ply="53" value="f4e2"/>
+        <ctml:move ply="54" value="f8g7"/>
+        <ctml:move ply="55" value="h4h5"/>
+        <ctml:move ply="56" value="g6g5"/>
+        <ctml:move ply="57" value="f3f4"/>
+        <ctml:move ply="58" value="c5e4"/>
+        <ctml:move ply="59" value="g1g2"/>
+        <ctml:move ply="60" value="c6c5"/>
+        <ctml:move ply="61" value="d4f3"/>
+        <ctml:move ply="62" value="c5c4"/>
+        <ctml:move ply="63" value="b3c4"/>
+        <ctml:move ply="64" value="c8c4"/>
+        <ctml:move ply="65" value="f3d2"/>
+        <ctml:move ply="66" value="e4d2"/>
+        <ctml:move ply="67" value="c1d2"/>
+        <ctml:move ply="68" value="f7f6"/>
+        <ctml:move ply="69" value="e5f6"/>
+        <ctml:move ply="70" value="g7f6"/>
+        <ctml:move ply="71" value="f4g5"/>
+        <ctml:move ply="72" value="f6g5"/>
+        <ctml:move ply="73" value="h1b1"/>
+        <ctml:move ply="74" value="b8b1"/>
+        <ctml:move ply="75" value="c2b1"/>
+        <ctml:move ply="76" value="g8f8"/>
+        <ctml:move ply="77" value="e2d4"/>
+        <ctml:move ply="78" value="f8e7"/>
+        <ctml:move ply="79" value="b1a2"/>
+        <ctml:move ply="80" value="c4c5"/>
+        <ctml:move ply="81" value="d2d3"/>
+        <ctml:move ply="82" value="e7d6"/>
+        <ctml:move ply="83" value="g2b2"/>
+        <ctml:move ply="84" value="d7g4"/>
+        <ctml:move ply="85" value="b2b6"/>
+        <ctml:move ply="86" value="d6c7"/>
+        <ctml:move ply="87" value="b6a6"/>
+        <ctml:move ply="88" value="c7b7"/>
+        <ctml:move ply="89" value="a6d6"/>
+        <ctml:move ply="90" value="b7c7"/>
+        <ctml:move ply="91" value="d6a6"/>
+        <ctml:move ply="92" value="c7b7"/>
+        <ctml:move ply="93" value="a6d6"/>
+        <ctml:move ply="94" value="b7c7"/>
+        <ctml:move ply="95" value="d6a6"/>
+        <ctml:move ply="96" value="c7b7"/>
+        <ctml:move ply="97" value="a6d6"/>
+        <ctml:move ply="98" value="b7c7"/>
+        <ctml:move ply="99" value="d6a6"/>
+        <ctml:move ply="100" value="c7b7"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="a583ab442eedb360b0323f105f4535c4595e360f89b8b292c8919d5930ea893f"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="9107f8e8869b3cfe"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.03", "Round": "12", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "1/2-1/2", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "D60", "EventDate": "1894.03.15", "PlyCount": "100", "Beauty": "5568290886688", "GameId": "2235863508285603", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 50; ECO: D60; opening: Queen's Gambit Declined, Orthodox Defense.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r13" round="13" board="1" white="p-lasker" black="p-steinitz" result="0-1">
+      <ctml:eco>C68</ctml:eco>
+      <ctml:opening>Ruy Lopez, Exchange</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="110" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1b5"/>
+        <ctml:move ply="6" value="a7a6"/>
+        <ctml:move ply="7" value="b5c6"/>
+        <ctml:move ply="8" value="d7c6"/>
+        <ctml:move ply="9" value="d2d4"/>
+        <ctml:move ply="10" value="e5d4"/>
+        <ctml:move ply="11" value="d1d4"/>
+        <ctml:move ply="12" value="d8d4"/>
+        <ctml:move ply="13" value="f3d4"/>
+        <ctml:move ply="14" value="c6c5"/>
+        <ctml:move ply="15" value="d4e2"/>
+        <ctml:move ply="16" value="c8d7"/>
+        <ctml:move ply="17" value="b1c3"/>
+        <ctml:move ply="18" value="e8c8"/>
+        <ctml:move ply="19" value="c1f4"/>
+        <ctml:move ply="20" value="d7c6"/>
+        <ctml:move ply="21" value="e1g1"/>
+        <ctml:move ply="22" value="g8f6"/>
+        <ctml:move ply="23" value="f2f3"/>
+        <ctml:move ply="24" value="f8e7"/>
+        <ctml:move ply="25" value="e2g3"/>
+        <ctml:move ply="26" value="g7g6"/>
+        <ctml:move ply="27" value="f1e1"/>
+        <ctml:move ply="28" value="f6d7"/>
+        <ctml:move ply="29" value="c3d1"/>
+        <ctml:move ply="30" value="d7b6"/>
+        <ctml:move ply="31" value="g3f1"/>
+        <ctml:move ply="32" value="d8d7"/>
+        <ctml:move ply="33" value="f4e3"/>
+        <ctml:move ply="34" value="h8d8"/>
+        <ctml:move ply="35" value="b2b3"/>
+        <ctml:move ply="36" value="c5c4"/>
+        <ctml:move ply="37" value="e3b6"/>
+        <ctml:move ply="38" value="c7b6"/>
+        <ctml:move ply="39" value="b3c4"/>
+        <ctml:move ply="40" value="e7b4"/>
+        <ctml:move ply="41" value="c2c3"/>
+        <ctml:move ply="42" value="b4c5"/>
+        <ctml:move ply="43" value="g1h1"/>
+        <ctml:move ply="44" value="d7d3"/>
+        <ctml:move ply="45" value="a1c1"/>
+        <ctml:move ply="46" value="a6a5"/>
+        <ctml:move ply="47" value="d1e3"/>
+        <ctml:move ply="48" value="f7f5"/>
+        <ctml:move ply="49" value="e4f5"/>
+        <ctml:move ply="50" value="g6f5"/>
+        <ctml:move ply="51" value="h2h3"/>
+        <ctml:move ply="52" value="d8g8"/>
+        <ctml:move ply="53" value="e3d5"/>
+        <ctml:move ply="54" value="c6d5"/>
+        <ctml:move ply="55" value="c4d5"/>
+        <ctml:move ply="56" value="d3d5"/>
+        <ctml:move ply="57" value="c1d1"/>
+        <ctml:move ply="58" value="d5d1"/>
+        <ctml:move ply="59" value="e1d1"/>
+        <ctml:move ply="60" value="f5f4"/>
+        <ctml:move ply="61" value="h1h2"/>
+        <ctml:move ply="62" value="g8e8"/>
+        <ctml:move ply="63" value="a2a4"/>
+        <ctml:move ply="64" value="c8c7"/>
+        <ctml:move ply="65" value="h3h4"/>
+        <ctml:move ply="66" value="c7c6"/>
+        <ctml:move ply="67" value="c3c4"/>
+        <ctml:move ply="68" value="c5b4"/>
+        <ctml:move ply="69" value="h2h3"/>
+        <ctml:move ply="70" value="e8e1"/>
+        <ctml:move ply="71" value="d1e1"/>
+        <ctml:move ply="72" value="b4e1"/>
+        <ctml:move ply="73" value="h3g4"/>
+        <ctml:move ply="74" value="c6c5"/>
+        <ctml:move ply="75" value="g4f4"/>
+        <ctml:move ply="76" value="c5c4"/>
+        <ctml:move ply="77" value="f4e4"/>
+        <ctml:move ply="78" value="e1h4"/>
+        <ctml:move ply="79" value="g2g3"/>
+        <ctml:move ply="80" value="h4d8"/>
+        <ctml:move ply="81" value="f1e3"/>
+        <ctml:move ply="82" value="c4b4"/>
+        <ctml:move ply="83" value="e4d3"/>
+        <ctml:move ply="84" value="b4a4"/>
+        <ctml:move ply="85" value="d3c2"/>
+        <ctml:move ply="86" value="a4b4"/>
+        <ctml:move ply="87" value="f3f4"/>
+        <ctml:move ply="88" value="b4c5"/>
+        <ctml:move ply="89" value="f4f5"/>
+        <ctml:move ply="90" value="c5d6"/>
+        <ctml:move ply="91" value="g3g4"/>
+        <ctml:move ply="92" value="b6b5"/>
+        <ctml:move ply="93" value="e3d1"/>
+        <ctml:move ply="94" value="d6e5"/>
+        <ctml:move ply="95" value="d1c3"/>
+        <ctml:move ply="96" value="b5b4"/>
+        <ctml:move ply="97" value="c3a4"/>
+        <ctml:move ply="98" value="e5d4"/>
+        <ctml:move ply="99" value="a4b2"/>
+        <ctml:move ply="100" value="b7b5"/>
+        <ctml:move ply="101" value="c2b3"/>
+        <ctml:move ply="102" value="d8e7"/>
+        <ctml:move ply="103" value="g4g5"/>
+        <ctml:move ply="104" value="a5a4"/>
+        <ctml:move ply="105" value="b2a4"/>
+        <ctml:move ply="106" value="b5a4"/>
+        <ctml:move ply="107" value="b3a4"/>
+        <ctml:move ply="108" value="d4e5"/>
+        <ctml:move ply="109" value="a4b3"/>
+        <ctml:move ply="110" value="e5f5"/>
+      </ctml:moves>
+      <ctml:tags>
+        <ctml:tag>notable</ctml:tag>
+      </ctml:tags>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="06c363254773b4cc92b14998deed1baa6522a953c3314c4e77b5fdc56fe22c8b"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="d71b272ba1d3a11a"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.05", "Round": "13", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "0-1", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "C68", "EventDate": "1894.03.15", "PlyCount": "110", "Beauty": "6670889520134", "GameId": "2235863508285604", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 55; ECO: C68; opening: Ruy Lopez, Exchange. Included in the source's notable-games list.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r14" round="14" board="1" white="p-steinitz" black="p-lasker" result="1-0">
+      <ctml:eco>D46</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined Semi-Slav</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="91" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="c7c6"/>
+        <ctml:move ply="7" value="e2e3"/>
+        <ctml:move ply="8" value="g8f6"/>
+        <ctml:move ply="9" value="g1f3"/>
+        <ctml:move ply="10" value="f8d6"/>
+        <ctml:move ply="11" value="f1d3"/>
+        <ctml:move ply="12" value="b8d7"/>
+        <ctml:move ply="13" value="e1g1"/>
+        <ctml:move ply="14" value="e8g8"/>
+        <ctml:move ply="15" value="e3e4"/>
+        <ctml:move ply="16" value="d5e4"/>
+        <ctml:move ply="17" value="c3e4"/>
+        <ctml:move ply="18" value="f6e4"/>
+        <ctml:move ply="19" value="d3e4"/>
+        <ctml:move ply="20" value="h7h6"/>
+        <ctml:move ply="21" value="e4c2"/>
+        <ctml:move ply="22" value="f7f5"/>
+        <ctml:move ply="23" value="f1e1"/>
+        <ctml:move ply="24" value="d7f6"/>
+        <ctml:move ply="25" value="c1d2"/>
+        <ctml:move ply="26" value="c8d7"/>
+        <ctml:move ply="27" value="d2c3"/>
+        <ctml:move ply="28" value="d8c7"/>
+        <ctml:move ply="29" value="f3e5"/>
+        <ctml:move ply="30" value="d7e8"/>
+        <ctml:move ply="31" value="d1d3"/>
+        <ctml:move ply="32" value="g7g5"/>
+        <ctml:move ply="33" value="d3h3"/>
+        <ctml:move ply="34" value="c7g7"/>
+        <ctml:move ply="35" value="a1d1"/>
+        <ctml:move ply="36" value="g5g4"/>
+        <ctml:move ply="37" value="h3e3"/>
+        <ctml:move ply="38" value="e8h5"/>
+        <ctml:move ply="39" value="e5c6"/>
+        <ctml:move ply="40" value="d6h2"/>
+        <ctml:move ply="41" value="g1h2"/>
+        <ctml:move ply="42" value="g4g3"/>
+        <ctml:move ply="43" value="e3g3"/>
+        <ctml:move ply="44" value="g7g3"/>
+        <ctml:move ply="45" value="f2g3"/>
+        <ctml:move ply="46" value="h5d1"/>
+        <ctml:move ply="47" value="c2d1"/>
+        <ctml:move ply="48" value="b7c6"/>
+        <ctml:move ply="49" value="e1e6"/>
+        <ctml:move ply="50" value="f6e4"/>
+        <ctml:move ply="51" value="e6c6"/>
+        <ctml:move ply="52" value="e4c3"/>
+        <ctml:move ply="53" value="b2c3"/>
+        <ctml:move ply="54" value="g8g7"/>
+        <ctml:move ply="55" value="c6a6"/>
+        <ctml:move ply="56" value="f8f7"/>
+        <ctml:move ply="57" value="c4c5"/>
+        <ctml:move ply="58" value="a8d8"/>
+        <ctml:move ply="59" value="h2g1"/>
+        <ctml:move ply="60" value="f7e7"/>
+        <ctml:move ply="61" value="g1f2"/>
+        <ctml:move ply="62" value="d8b8"/>
+        <ctml:move ply="63" value="d1b3"/>
+        <ctml:move ply="64" value="b8e8"/>
+        <ctml:move ply="65" value="b3c4"/>
+        <ctml:move ply="66" value="e8b8"/>
+        <ctml:move ply="67" value="c4d3"/>
+        <ctml:move ply="68" value="h6h5"/>
+        <ctml:move ply="69" value="f2f3"/>
+        <ctml:move ply="70" value="b8b2"/>
+        <ctml:move ply="71" value="d3f5"/>
+        <ctml:move ply="72" value="e7f7"/>
+        <ctml:move ply="73" value="f3e4"/>
+        <ctml:move ply="74" value="b2e2"/>
+        <ctml:move ply="75" value="e4d3"/>
+        <ctml:move ply="76" value="e2g2"/>
+        <ctml:move ply="77" value="a6g6"/>
+        <ctml:move ply="78" value="g7f8"/>
+        <ctml:move ply="79" value="f5e4"/>
+        <ctml:move ply="80" value="g2g1"/>
+        <ctml:move ply="81" value="d4d5"/>
+        <ctml:move ply="82" value="f7g7"/>
+        <ctml:move ply="83" value="g6g7"/>
+        <ctml:move ply="84" value="f8g7"/>
+        <ctml:move ply="85" value="c5c6"/>
+        <ctml:move ply="86" value="g7f6"/>
+        <ctml:move ply="87" value="c6c7"/>
+        <ctml:move ply="88" value="g1g3"/>
+        <ctml:move ply="89" value="d3d4"/>
+        <ctml:move ply="90" value="g3g8"/>
+        <ctml:move ply="91" value="d5d6"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="4fbf628c5e141d31a1b03bf571bfa0bbff07d7408635869c606eda368f2ec8f5"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="369d1b815caaddb1"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.08", "Round": "14", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "1-0", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "D46", "EventDate": "1894.03.15", "PlyCount": "91", "Beauty": "7288559514637", "GameId": "2235863508285605", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 46; ECO: D46; opening: Queen's Gambit Declined Semi-Slav.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r15" round="15" board="1" white="p-lasker" black="p-steinitz" result="1-0">
+      <ctml:eco>D40</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="87" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="g1f3"/>
+        <ctml:move ply="8" value="f8e7"/>
+        <ctml:move ply="9" value="e2e3"/>
+        <ctml:move ply="10" value="e8g8"/>
+        <ctml:move ply="11" value="f1d3"/>
+        <ctml:move ply="12" value="c7c5"/>
+        <ctml:move ply="13" value="e1g1"/>
+        <ctml:move ply="14" value="c5d4"/>
+        <ctml:move ply="15" value="e3d4"/>
+        <ctml:move ply="16" value="d5c4"/>
+        <ctml:move ply="17" value="d3c4"/>
+        <ctml:move ply="18" value="b8d7"/>
+        <ctml:move ply="19" value="c4b3"/>
+        <ctml:move ply="20" value="d7b6"/>
+        <ctml:move ply="21" value="c1g5"/>
+        <ctml:move ply="22" value="c8d7"/>
+        <ctml:move ply="23" value="d1d3"/>
+        <ctml:move ply="24" value="a8c8"/>
+        <ctml:move ply="25" value="f3e5"/>
+        <ctml:move ply="26" value="d7c6"/>
+        <ctml:move ply="27" value="e5c6"/>
+        <ctml:move ply="28" value="c8c6"/>
+        <ctml:move ply="29" value="f1d1"/>
+        <ctml:move ply="30" value="f6d5"/>
+        <ctml:move ply="31" value="g5e7"/>
+        <ctml:move ply="32" value="d5e7"/>
+        <ctml:move ply="33" value="b3c2"/>
+        <ctml:move ply="34" value="e7g6"/>
+        <ctml:move ply="35" value="d3f3"/>
+        <ctml:move ply="36" value="b6d5"/>
+        <ctml:move ply="37" value="c2e4"/>
+        <ctml:move ply="38" value="d5c3"/>
+        <ctml:move ply="39" value="b2c3"/>
+        <ctml:move ply="40" value="c6b6"/>
+        <ctml:move ply="41" value="c3c4"/>
+        <ctml:move ply="42" value="f7f5"/>
+        <ctml:move ply="43" value="e4c2"/>
+        <ctml:move ply="44" value="d8f6"/>
+        <ctml:move ply="45" value="c4c5"/>
+        <ctml:move ply="46" value="b6c6"/>
+        <ctml:move ply="47" value="a1b1"/>
+        <ctml:move ply="48" value="g6h4"/>
+        <ctml:move ply="49" value="f3e3"/>
+        <ctml:move ply="50" value="c6c7"/>
+        <ctml:move ply="51" value="f2f4"/>
+        <ctml:move ply="52" value="h4g6"/>
+        <ctml:move ply="53" value="c2b3"/>
+        <ctml:move ply="54" value="c7e7"/>
+        <ctml:move ply="55" value="a2a4"/>
+        <ctml:move ply="56" value="f8d8"/>
+        <ctml:move ply="57" value="a4a5"/>
+        <ctml:move ply="58" value="a7a6"/>
+        <ctml:move ply="59" value="b3a4"/>
+        <ctml:move ply="60" value="f6h4"/>
+        <ctml:move ply="61" value="g2g3"/>
+        <ctml:move ply="62" value="h4g4"/>
+        <ctml:move ply="63" value="d1d2"/>
+        <ctml:move ply="64" value="g6f8"/>
+        <ctml:move ply="65" value="a4d1"/>
+        <ctml:move ply="66" value="g4g6"/>
+        <ctml:move ply="67" value="d4d5"/>
+        <ctml:move ply="68" value="e7f7"/>
+        <ctml:move ply="69" value="d5d6"/>
+        <ctml:move ply="70" value="g6f6"/>
+        <ctml:move ply="71" value="d2b2"/>
+        <ctml:move ply="72" value="g7g5"/>
+        <ctml:move ply="73" value="b2b7"/>
+        <ctml:move ply="74" value="g5f4"/>
+        <ctml:move ply="75" value="b7f7"/>
+        <ctml:move ply="76" value="f6f7"/>
+        <ctml:move ply="77" value="g3f4"/>
+        <ctml:move ply="78" value="f7g7"/>
+        <ctml:move ply="79" value="g1h1"/>
+        <ctml:move ply="80" value="f8g6"/>
+        <ctml:move ply="81" value="e3e6"/>
+        <ctml:move ply="82" value="g8h8"/>
+        <ctml:move ply="83" value="e6e3"/>
+        <ctml:move ply="84" value="d8g8"/>
+        <ctml:move ply="85" value="d1f3"/>
+        <ctml:move ply="86" value="g6h4"/>
+        <ctml:move ply="87" value="f3d5"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="e94ea286ca39c3f7262269a0c13a5fdad2cc17068bdd32ec969a0ec11b3e906f"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="8627004213220e63"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.15", "Round": "15", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1-0", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "D40", "EventDate": "1894.03.15", "PlyCount": "87", "Beauty": "7425058934286", "GameId": "2235863508285606", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 44; ECO: D37; opening: Queen's Gambit Declined. ECO differs from PGN; the game eco element preserves PGN classification.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r16" round="16" board="1" white="p-steinitz" black="p-lasker" result="0-1">
+      <ctml:eco>D60</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined, Orthodox Defense</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="108" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="c1g5"/>
+        <ctml:move ply="8" value="f8e7"/>
+        <ctml:move ply="9" value="g1f3"/>
+        <ctml:move ply="10" value="b8d7"/>
+        <ctml:move ply="11" value="e2e3"/>
+        <ctml:move ply="12" value="e8g8"/>
+        <ctml:move ply="13" value="c4c5"/>
+        <ctml:move ply="14" value="f6e4"/>
+        <ctml:move ply="15" value="c3e4"/>
+        <ctml:move ply="16" value="d5e4"/>
+        <ctml:move ply="17" value="g5e7"/>
+        <ctml:move ply="18" value="d8e7"/>
+        <ctml:move ply="19" value="f3d2"/>
+        <ctml:move ply="20" value="d7f6"/>
+        <ctml:move ply="21" value="d2c4"/>
+        <ctml:move ply="22" value="b7b6"/>
+        <ctml:move ply="23" value="b2b4"/>
+        <ctml:move ply="24" value="f6d5"/>
+        <ctml:move ply="25" value="d1b1"/>
+        <ctml:move ply="26" value="f7f5"/>
+        <ctml:move ply="27" value="c4e5"/>
+        <ctml:move ply="28" value="a7a5"/>
+        <ctml:move ply="29" value="e5c6"/>
+        <ctml:move ply="30" value="e7g5"/>
+        <ctml:move ply="31" value="h2h4"/>
+        <ctml:move ply="32" value="g5f6"/>
+        <ctml:move ply="33" value="c5b6"/>
+        <ctml:move ply="34" value="f5f4"/>
+        <ctml:move ply="35" value="b1e4"/>
+        <ctml:move ply="36" value="f4e3"/>
+        <ctml:move ply="37" value="f2f3"/>
+        <ctml:move ply="38" value="c8b7"/>
+        <ctml:move ply="39" value="b4b5"/>
+        <ctml:move ply="40" value="b7c6"/>
+        <ctml:move ply="41" value="b5c6"/>
+        <ctml:move ply="42" value="c7b6"/>
+        <ctml:move ply="43" value="f1d3"/>
+        <ctml:move ply="44" value="f6h6"/>
+        <ctml:move ply="45" value="g2g3"/>
+        <ctml:move ply="46" value="a8c8"/>
+        <ctml:move ply="47" value="a1c1"/>
+        <ctml:move ply="48" value="c8c7"/>
+        <ctml:move ply="49" value="e1g1"/>
+        <ctml:move ply="50" value="f8d8"/>
+        <ctml:move ply="51" value="f3f4"/>
+        <ctml:move ply="52" value="h6g6"/>
+        <ctml:move ply="53" value="e4g6"/>
+        <ctml:move ply="54" value="h7g6"/>
+        <ctml:move ply="55" value="d3g6"/>
+        <ctml:move ply="56" value="d5e7"/>
+        <ctml:move ply="57" value="g6e4"/>
+        <ctml:move ply="58" value="d8d4"/>
+        <ctml:move ply="59" value="e4f3"/>
+        <ctml:move ply="60" value="e7f5"/>
+        <ctml:move ply="61" value="f1e1"/>
+        <ctml:move ply="62" value="g8f7"/>
+        <ctml:move ply="63" value="c1b1"/>
+        <ctml:move ply="64" value="f5g3"/>
+        <ctml:move ply="65" value="b1b6"/>
+        <ctml:move ply="66" value="g3f5"/>
+        <ctml:move ply="67" value="b6b7"/>
+        <ctml:move ply="68" value="c7b7"/>
+        <ctml:move ply="69" value="c6b7"/>
+        <ctml:move ply="70" value="d4b4"/>
+        <ctml:move ply="71" value="e1c1"/>
+        <ctml:move ply="72" value="f5d4"/>
+        <ctml:move ply="73" value="g1g2"/>
+        <ctml:move ply="74" value="b4b2"/>
+        <ctml:move ply="75" value="g2g3"/>
+        <ctml:move ply="76" value="b2b7"/>
+        <ctml:move ply="77" value="f3b7"/>
+        <ctml:move ply="78" value="d4e2"/>
+        <ctml:move ply="79" value="g3f3"/>
+        <ctml:move ply="80" value="e2c1"/>
+        <ctml:move ply="81" value="f3e3"/>
+        <ctml:move ply="82" value="c1a2"/>
+        <ctml:move ply="83" value="e3d4"/>
+        <ctml:move ply="84" value="f7f6"/>
+        <ctml:move ply="85" value="d4c5"/>
+        <ctml:move ply="86" value="a2c3"/>
+        <ctml:move ply="87" value="c5c4"/>
+        <ctml:move ply="88" value="c3e2"/>
+        <ctml:move ply="89" value="c4b5"/>
+        <ctml:move ply="90" value="e2f4"/>
+        <ctml:move ply="91" value="b5a5"/>
+        <ctml:move ply="92" value="f4g6"/>
+        <ctml:move ply="93" value="h4h5"/>
+        <ctml:move ply="94" value="g6f4"/>
+        <ctml:move ply="95" value="b7f3"/>
+        <ctml:move ply="96" value="f6f5"/>
+        <ctml:move ply="97" value="a5b4"/>
+        <ctml:move ply="98" value="e6e5"/>
+        <ctml:move ply="99" value="b4c3"/>
+        <ctml:move ply="100" value="e5e4"/>
+        <ctml:move ply="101" value="f3d1"/>
+        <ctml:move ply="102" value="e4e3"/>
+        <ctml:move ply="103" value="d1f3"/>
+        <ctml:move ply="104" value="f5g5"/>
+        <ctml:move ply="105" value="c3c2"/>
+        <ctml:move ply="106" value="g5h4"/>
+        <ctml:move ply="107" value="c2d1"/>
+        <ctml:move ply="108" value="h4g3"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="d174a7e982ada895c72eb941de66328848a43f1384bb6815d225f41b09aa137a"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="b6f20a713b8b126a"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.17", "Round": "16", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "0-1", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "D60", "EventDate": "1894.03.15", "PlyCount": "108", "Beauty": "6735448256066", "GameId": "2235863508285607", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 54; ECO: D60; opening: Queen's Gambit Declined, Orthodox Defense. Source-labelled sacrifice: 38...Rxb7 (verified against PGN).</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r17" round="17" board="1" white="p-lasker" black="p-steinitz" result="0-1">
+      <ctml:eco>C50</ctml:eco>
+      <ctml:opening>Giuoco Piano</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="102" clockInfo="false">
+        <ctml:move ply="1" value="e2e4"/>
+        <ctml:move ply="2" value="e7e5"/>
+        <ctml:move ply="3" value="g1f3"/>
+        <ctml:move ply="4" value="b8c6"/>
+        <ctml:move ply="5" value="f1c4"/>
+        <ctml:move ply="6" value="f8c5"/>
+        <ctml:move ply="7" value="d2d3"/>
+        <ctml:move ply="8" value="g8f6"/>
+        <ctml:move ply="9" value="b1c3"/>
+        <ctml:move ply="10" value="d7d6"/>
+        <ctml:move ply="11" value="c1e3"/>
+        <ctml:move ply="12" value="c5b6"/>
+        <ctml:move ply="13" value="d1d2"/>
+        <ctml:move ply="14" value="c6a5"/>
+        <ctml:move ply="15" value="c4b5"/>
+        <ctml:move ply="16" value="c7c6"/>
+        <ctml:move ply="17" value="b5a4"/>
+        <ctml:move ply="18" value="b6e3"/>
+        <ctml:move ply="19" value="f2e3"/>
+        <ctml:move ply="20" value="b7b5"/>
+        <ctml:move ply="21" value="a4b3"/>
+        <ctml:move ply="22" value="d8b6"/>
+        <ctml:move ply="23" value="e1g1"/>
+        <ctml:move ply="24" value="f6g4"/>
+        <ctml:move ply="25" value="a1e1"/>
+        <ctml:move ply="26" value="f7f6"/>
+        <ctml:move ply="27" value="h2h3"/>
+        <ctml:move ply="28" value="g4h6"/>
+        <ctml:move ply="29" value="c3e2"/>
+        <ctml:move ply="30" value="a5b3"/>
+        <ctml:move ply="31" value="a2b3"/>
+        <ctml:move ply="32" value="e8g8"/>
+        <ctml:move ply="33" value="e2g3"/>
+        <ctml:move ply="34" value="a7a5"/>
+        <ctml:move ply="35" value="d3d4"/>
+        <ctml:move ply="36" value="h6f7"/>
+        <ctml:move ply="37" value="d2f2"/>
+        <ctml:move ply="38" value="a8a7"/>
+        <ctml:move ply="39" value="e1d1"/>
+        <ctml:move ply="40" value="a5a4"/>
+        <ctml:move ply="41" value="b3b4"/>
+        <ctml:move ply="42" value="b6c7"/>
+        <ctml:move ply="43" value="f3e1"/>
+        <ctml:move ply="44" value="c6c5"/>
+        <ctml:move ply="45" value="f2d2"/>
+        <ctml:move ply="46" value="c8e6"/>
+        <ctml:move ply="47" value="d4d5"/>
+        <ctml:move ply="48" value="e6d7"/>
+        <ctml:move ply="49" value="d1a1"/>
+        <ctml:move ply="50" value="c5b4"/>
+        <ctml:move ply="51" value="d2b4"/>
+        <ctml:move ply="52" value="f8c8"/>
+        <ctml:move ply="53" value="b4d2"/>
+        <ctml:move ply="54" value="c7c4"/>
+        <ctml:move ply="55" value="f1f2"/>
+        <ctml:move ply="56" value="f7g5"/>
+        <ctml:move ply="57" value="d2d3"/>
+        <ctml:move ply="58" value="a7c7"/>
+        <ctml:move ply="59" value="h3h4"/>
+        <ctml:move ply="60" value="g5f7"/>
+        <ctml:move ply="61" value="d3c4"/>
+        <ctml:move ply="62" value="c7c4"/>
+        <ctml:move ply="63" value="f2d2"/>
+        <ctml:move ply="64" value="g7g6"/>
+        <ctml:move ply="65" value="g1f2"/>
+        <ctml:move ply="66" value="f7d8"/>
+        <ctml:move ply="67" value="b2b3"/>
+        <ctml:move ply="68" value="c4c7"/>
+        <ctml:move ply="69" value="d2d1"/>
+        <ctml:move ply="70" value="d8b7"/>
+        <ctml:move ply="71" value="d1b1"/>
+        <ctml:move ply="72" value="g8f7"/>
+        <ctml:move ply="73" value="f2e2"/>
+        <ctml:move ply="74" value="c8a8"/>
+        <ctml:move ply="75" value="e2d2"/>
+        <ctml:move ply="76" value="b7a5"/>
+        <ctml:move ply="77" value="d2d3"/>
+        <ctml:move ply="78" value="h7h5"/>
+        <ctml:move ply="79" value="a1a2"/>
+        <ctml:move ply="80" value="a8a7"/>
+        <ctml:move ply="81" value="b3b4"/>
+        <ctml:move ply="82" value="a5c4"/>
+        <ctml:move ply="83" value="e1f3"/>
+        <ctml:move ply="84" value="a7a8"/>
+        <ctml:move ply="85" value="f3d2"/>
+        <ctml:move ply="86" value="c4b6"/>
+        <ctml:move ply="87" value="b1f1"/>
+        <ctml:move ply="88" value="a8c8"/>
+        <ctml:move ply="89" value="d2b1"/>
+        <ctml:move ply="90" value="f7e7"/>
+        <ctml:move ply="91" value="c2c3"/>
+        <ctml:move ply="92" value="b6c4"/>
+        <ctml:move ply="93" value="a2f2"/>
+        <ctml:move ply="94" value="c4a3"/>
+        <ctml:move ply="95" value="g3e2"/>
+        <ctml:move ply="96" value="a3b1"/>
+        <ctml:move ply="97" value="f1b1"/>
+        <ctml:move ply="98" value="d7g4"/>
+        <ctml:move ply="99" value="b1c1"/>
+        <ctml:move ply="100" value="c7c4"/>
+        <ctml:move ply="101" value="c1c2"/>
+        <ctml:move ply="102" value="f6f5"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="d4ede54d664a362187a4f8dd59f2dd497c9ebf7c0d09d944de0f7607e8e667cf"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="dc98d6262886208b"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.19", "Round": "17", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "0-1", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "C50", "EventDate": "1894.03.15", "PlyCount": "102", "Beauty": "6941606692883", "GameId": "2235863508285608", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 51; ECO: C50; opening: Giuoco Piano.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r18" round="18" board="1" white="p-steinitz" black="p-lasker" result="1/2-1/2">
+      <ctml:eco>D67</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined, Orthodox Defense, Bd3 line</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="122" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="c1g5"/>
+        <ctml:move ply="8" value="f8e7"/>
+        <ctml:move ply="9" value="g1f3"/>
+        <ctml:move ply="10" value="e8g8"/>
+        <ctml:move ply="11" value="e2e3"/>
+        <ctml:move ply="12" value="b8d7"/>
+        <ctml:move ply="13" value="a1c1"/>
+        <ctml:move ply="14" value="c7c6"/>
+        <ctml:move ply="15" value="f1d3"/>
+        <ctml:move ply="16" value="d5c4"/>
+        <ctml:move ply="17" value="d3c4"/>
+        <ctml:move ply="18" value="f6d5"/>
+        <ctml:move ply="19" value="g5e7"/>
+        <ctml:move ply="20" value="d8e7"/>
+        <ctml:move ply="21" value="e3e4"/>
+        <ctml:move ply="22" value="d5f4"/>
+        <ctml:move ply="23" value="g2g3"/>
+        <ctml:move ply="24" value="f4g6"/>
+        <ctml:move ply="25" value="e1g1"/>
+        <ctml:move ply="26" value="f8d8"/>
+        <ctml:move ply="27" value="d1e2"/>
+        <ctml:move ply="28" value="b7b5"/>
+        <ctml:move ply="29" value="c4b3"/>
+        <ctml:move ply="30" value="c8b7"/>
+        <ctml:move ply="31" value="e2e3"/>
+        <ctml:move ply="32" value="a7a6"/>
+        <ctml:move ply="33" value="c3e2"/>
+        <ctml:move ply="34" value="a8c8"/>
+        <ctml:move ply="35" value="f1d1"/>
+        <ctml:move ply="36" value="d8e8"/>
+        <ctml:move ply="37" value="f3e1"/>
+        <ctml:move ply="38" value="c6c5"/>
+        <ctml:move ply="39" value="d4c5"/>
+        <ctml:move ply="40" value="d7c5"/>
+        <ctml:move ply="41" value="b3c2"/>
+        <ctml:move ply="42" value="c8c7"/>
+        <ctml:move ply="43" value="f2f3"/>
+        <ctml:move ply="44" value="e8c8"/>
+        <ctml:move ply="45" value="c2b1"/>
+        <ctml:move ply="46" value="g6e5"/>
+        <ctml:move ply="47" value="b2b3"/>
+        <ctml:move ply="48" value="f7f6"/>
+        <ctml:move ply="49" value="c1c2"/>
+        <ctml:move ply="50" value="f6f5"/>
+        <ctml:move ply="51" value="e4f5"/>
+        <ctml:move ply="52" value="e6f5"/>
+        <ctml:move ply="53" value="e3f2"/>
+        <ctml:move ply="54" value="g7g6"/>
+        <ctml:move ply="55" value="e2f4"/>
+        <ctml:move ply="56" value="c5d7"/>
+        <ctml:move ply="57" value="f4d5"/>
+        <ctml:move ply="58" value="e7d6"/>
+        <ctml:move ply="59" value="c2d2"/>
+        <ctml:move ply="60" value="c7c1"/>
+        <ctml:move ply="61" value="d5e3"/>
+        <ctml:move ply="62" value="c1d1"/>
+        <ctml:move ply="63" value="e3d1"/>
+        <ctml:move ply="64" value="d6e6"/>
+        <ctml:move ply="65" value="g1f1"/>
+        <ctml:move ply="66" value="c8c5"/>
+        <ctml:move ply="67" value="f2e3"/>
+        <ctml:move ply="68" value="c5d5"/>
+        <ctml:move ply="69" value="d2d5"/>
+        <ctml:move ply="70" value="e6d5"/>
+        <ctml:move ply="71" value="d1c3"/>
+        <ctml:move ply="72" value="d5c6"/>
+        <ctml:move ply="73" value="f1f2"/>
+        <ctml:move ply="74" value="g8g7"/>
+        <ctml:move ply="75" value="c3e2"/>
+        <ctml:move ply="76" value="c6d6"/>
+        <ctml:move ply="77" value="e2d4"/>
+        <ctml:move ply="78" value="d6f6"/>
+        <ctml:move ply="79" value="e1g2"/>
+        <ctml:move ply="80" value="e5c6"/>
+        <ctml:move ply="81" value="d4e6"/>
+        <ctml:move ply="82" value="g7g8"/>
+        <ctml:move ply="83" value="b1c2"/>
+        <ctml:move ply="84" value="f6e5"/>
+        <ctml:move ply="85" value="g2f4"/>
+        <ctml:move ply="86" value="e5e3"/>
+        <ctml:move ply="87" value="f2e3"/>
+        <ctml:move ply="88" value="c6b4"/>
+        <ctml:move ply="89" value="c2b1"/>
+        <ctml:move ply="90" value="d7e5"/>
+        <ctml:move ply="91" value="e6d4"/>
+        <ctml:move ply="92" value="g8f7"/>
+        <ctml:move ply="93" value="a2a3"/>
+        <ctml:move ply="94" value="b4d5"/>
+        <ctml:move ply="95" value="f4d5"/>
+        <ctml:move ply="96" value="b7d5"/>
+        <ctml:move ply="97" value="b1d3"/>
+        <ctml:move ply="98" value="f7e7"/>
+        <ctml:move ply="99" value="d3e2"/>
+        <ctml:move ply="100" value="e7d6"/>
+        <ctml:move ply="101" value="f3f4"/>
+        <ctml:move ply="102" value="e5d7"/>
+        <ctml:move ply="103" value="g3g4"/>
+        <ctml:move ply="104" value="f5g4"/>
+        <ctml:move ply="105" value="e2g4"/>
+        <ctml:move ply="106" value="d7b6"/>
+        <ctml:move ply="107" value="h2h4"/>
+        <ctml:move ply="108" value="d5b7"/>
+        <ctml:move ply="109" value="g4e6"/>
+        <ctml:move ply="110" value="b6d5"/>
+        <ctml:move ply="111" value="e6d5"/>
+        <ctml:move ply="112" value="d6d5"/>
+        <ctml:move ply="113" value="d4f3"/>
+        <ctml:move ply="114" value="b7c8"/>
+        <ctml:move ply="115" value="f3g5"/>
+        <ctml:move ply="116" value="h7h5"/>
+        <ctml:move ply="117" value="g5e4"/>
+        <ctml:move ply="118" value="c8f5"/>
+        <ctml:move ply="119" value="e4c3"/>
+        <ctml:move ply="120" value="d5c5"/>
+        <ctml:move ply="121" value="c3e4"/>
+        <ctml:move ply="122" value="c5d5"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="6ac019a3e8566befb03d3e9e1ca67d7db3905657c335a3e8d0a618129e333bb0"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="25e5b09be245ddde"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.22", "Round": "18", "White": "Steinitz, Wilhelm", "Black": "Lasker, Emanuel", "Result": "1/2-1/2", "WhiteElo": "2631", "BlackElo": "2714", "ECO": "D67", "EventDate": "1894.03.15", "PlyCount": "122", "Beauty": "5086717673480", "GameId": "2235863508285609", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 61; ECO: D67; opening: Queen's Gambit Declined, Orthodox Defense, Bd3 line.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r19" round="19" board="1" white="p-lasker" black="p-steinitz" result="1-0">
+      <ctml:eco>D40</ctml:eco>
+      <ctml:opening>Queen's Gambit Declined</ctml:opening>
+      <ctml:start standard="true"/>
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>15 moves per hour</ctml:raw>
+        <ctml:note>As reported in the supplied narrative; repeating move quota, not a one-hour sudden-death control. No clock readings supplied.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="103" clockInfo="false">
+        <ctml:move ply="1" value="d2d4"/>
+        <ctml:move ply="2" value="d7d5"/>
+        <ctml:move ply="3" value="c2c4"/>
+        <ctml:move ply="4" value="e7e6"/>
+        <ctml:move ply="5" value="b1c3"/>
+        <ctml:move ply="6" value="g8f6"/>
+        <ctml:move ply="7" value="g1f3"/>
+        <ctml:move ply="8" value="f8e7"/>
+        <ctml:move ply="9" value="e2e3"/>
+        <ctml:move ply="10" value="e8g8"/>
+        <ctml:move ply="11" value="f1d3"/>
+        <ctml:move ply="12" value="c7c5"/>
+        <ctml:move ply="13" value="d4c5"/>
+        <ctml:move ply="14" value="d5c4"/>
+        <ctml:move ply="15" value="d3c4"/>
+        <ctml:move ply="16" value="d8d1"/>
+        <ctml:move ply="17" value="e1d1"/>
+        <ctml:move ply="18" value="b8c6"/>
+        <ctml:move ply="19" value="a2a3"/>
+        <ctml:move ply="20" value="e7c5"/>
+        <ctml:move ply="21" value="b2b4"/>
+        <ctml:move ply="22" value="f8d8"/>
+        <ctml:move ply="23" value="d1e2"/>
+        <ctml:move ply="24" value="c5f8"/>
+        <ctml:move ply="25" value="c1b2"/>
+        <ctml:move ply="26" value="c8d7"/>
+        <ctml:move ply="27" value="h1d1"/>
+        <ctml:move ply="28" value="a8c8"/>
+        <ctml:move ply="29" value="c4b3"/>
+        <ctml:move ply="30" value="c6e7"/>
+        <ctml:move ply="31" value="f3d4"/>
+        <ctml:move ply="32" value="e7g6"/>
+        <ctml:move ply="33" value="d1d2"/>
+        <ctml:move ply="34" value="e6e5"/>
+        <ctml:move ply="35" value="d4f3"/>
+        <ctml:move ply="36" value="d7g4"/>
+        <ctml:move ply="37" value="d2d8"/>
+        <ctml:move ply="38" value="c8d8"/>
+        <ctml:move ply="39" value="h2h3"/>
+        <ctml:move ply="40" value="g4f3"/>
+        <ctml:move ply="41" value="g2f3"/>
+        <ctml:move ply="42" value="f8e7"/>
+        <ctml:move ply="43" value="a1c1"/>
+        <ctml:move ply="44" value="g8f8"/>
+        <ctml:move ply="45" value="c3a4"/>
+        <ctml:move ply="46" value="b7b6"/>
+        <ctml:move ply="47" value="a4c3"/>
+        <ctml:move ply="48" value="e7d6"/>
+        <ctml:move ply="49" value="c1d1"/>
+        <ctml:move ply="50" value="f6e8"/>
+        <ctml:move ply="51" value="c3b5"/>
+        <ctml:move ply="52" value="d8d7"/>
+        <ctml:move ply="53" value="b3c2"/>
+        <ctml:move ply="54" value="f8e7"/>
+        <ctml:move ply="55" value="c2f5"/>
+        <ctml:move ply="56" value="a7a6"/>
+        <ctml:move ply="57" value="f5d7"/>
+        <ctml:move ply="58" value="e7d7"/>
+        <ctml:move ply="59" value="b5c3"/>
+        <ctml:move ply="60" value="f7f5"/>
+        <ctml:move ply="61" value="b4b5"/>
+        <ctml:move ply="62" value="a6b5"/>
+        <ctml:move ply="63" value="c3b5"/>
+        <ctml:move ply="64" value="d7e6"/>
+        <ctml:move ply="65" value="b2c3"/>
+        <ctml:move ply="66" value="g6e7"/>
+        <ctml:move ply="67" value="b5d6"/>
+        <ctml:move ply="68" value="e8d6"/>
+        <ctml:move ply="69" value="c3b4"/>
+        <ctml:move ply="70" value="e7d5"/>
+        <ctml:move ply="71" value="d1c1"/>
+        <ctml:move ply="72" value="d6f7"/>
+        <ctml:move ply="73" value="b4d2"/>
+        <ctml:move ply="74" value="f7d6"/>
+        <ctml:move ply="75" value="e2d3"/>
+        <ctml:move ply="76" value="e6d7"/>
+        <ctml:move ply="77" value="e3e4"/>
+        <ctml:move ply="78" value="d5f6"/>
+        <ctml:move ply="79" value="d2e3"/>
+        <ctml:move ply="80" value="f5e4"/>
+        <ctml:move ply="81" value="f3e4"/>
+        <ctml:move ply="82" value="b6b5"/>
+        <ctml:move ply="83" value="f2f3"/>
+        <ctml:move ply="84" value="d6c4"/>
+        <ctml:move ply="85" value="c1c3"/>
+        <ctml:move ply="86" value="f6e8"/>
+        <ctml:move ply="87" value="e3c1"/>
+        <ctml:move ply="88" value="c4d6"/>
+        <ctml:move ply="89" value="c3c5"/>
+        <ctml:move ply="90" value="e8c7"/>
+        <ctml:move ply="91" value="c5e5"/>
+        <ctml:move ply="92" value="c7e6"/>
+        <ctml:move ply="93" value="e5h5"/>
+        <ctml:move ply="94" value="h7h6"/>
+        <ctml:move ply="95" value="h5e5"/>
+        <ctml:move ply="96" value="g7g5"/>
+        <ctml:move ply="97" value="h3h4"/>
+        <ctml:move ply="98" value="g5h4"/>
+        <ctml:move ply="99" value="e5h5"/>
+        <ctml:move ply="100" value="d7c6"/>
+        <ctml:move ply="101" value="h5h6"/>
+        <ctml:move ply="102" value="e6c5"/>
+        <ctml:move ply="103" value="d3c2"/>
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="847f6187dffc83f76dbb194f49f47971972cd60fee025929b28540d71819e91e"/>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="485ac53d40826280"/>
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+        <ctml:note>Original PGN headers: {"Event": "World-ch05 Lasker-Steinitz +10-5=4", "Site": "NY Philadelphia &amp; Montreal", "Date": "1894.05.26", "Round": "19", "White": "Lasker, Emanuel", "Black": "Steinitz, Wilhelm", "Result": "1-0", "WhiteElo": "2714", "BlackElo": "2631", "ECO": "D40", "EventDate": "1894.03.15", "PlyCount": "103", "Beauty": "6873155634695", "GameId": "2235863508285610", "EventType": "match", "EventRounds": "19", "EventCountry": "USA", "SourceTitle": "MainBase", "Source": "ChessBase", "SourceDate": "1999.07.01", "SourceVersion": "2", "SourceVersionDate": "1999.07.01", "SourceQuality": "1"}. Structured moves contain the main line; original annotations remain in the source PGN. Unattributed engine evaluation arrays are not interpreted as CTML eval records.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="user-supplied-game-list">
+        <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+        <ctml:note>Listed full-move count: 52; ECO: D37; opening: Queen's Gambit Declined. ECO differs from PGN; the game eco element preserves PGN classification.</ctml:note>
+      </ctml:source>
+      <ctml:source kind="historical-cross-check">
+        <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+        <ctml:note>Game location: Montreal. City assignment follows the published game ranges: New York 1-8, Philadelphia 9-11, Montreal 12-19.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+  </ctml:games>
+  <ctml:notes>The fifth World Chess Championship match, 15 March-26 May 1894. Emanuel Lasker defeated defending champion Wilhelm (William) Steinitz, becoming the second world champion. Match condition: first to win ten games; draws did not count toward the winning target. Lasker +10-5=4; points 12.0-7.0 over 19 games. The supplied narrative reports stakes of $2,000 per side and a time control of 15 moves per hour. Its historical commentary and quotations are preserved verbatim in the source record below. Corrections: Lasker's five consecutive wins were games 7-11, spanning New York (7-8) and Philadelphia (9-11), not all Philadelphia. After game 14 the win count was 7-4 and the point score 8.5-5.5. The match ended when Lasker achieved his tenth win in game 19. The PGN supplies all dates, colors, results and main-line moves. PGN ECO classifications take precedence in the eco elements; differing pasted classifications remain in each game's source note. Opening names come from the pasted list. The unexplained +94/-94 table values and PGN Elo 2714/2631 are preserved without assigning a rating system. The multi-country venue is recorded as text: the schema permits only one header placeRef/federation. Per-game dates and city assignments are in source notes because CTML 2.1 GameType has no date/place fields. Nineteen games were played; header rounds is omitted because its schema meaning is scheduled rounds, whereas this match was first-to-ten-wins. No new ratings, FIDE identifiers, clock readings or unrecorded resignation reasons are inferred.</ctml:notes>
+  <ctml:source kind="chessbase-pgn">
+    <ctml:uri>file:///D:/dev/pgn/world-1894%27.pgn</ctml:uri>
+    <ctml:note>Supplied 19-game PGN. SHA-256: 6d74da517d2d6e1c8f3ece193db2b3bf51032bcfcb16bb05e14ebc1466c246d3. All main-line moves retained; original file retains annotations and engine arrays.</ctml:note>
+  </ctml:source>
+  <ctml:source kind="user-supplied-crosstable">
+    <ctml:note>World-ch05 Lasker-Steinitz +10-5=4 1894
+1234567890123456789
+1 Lasker,Emanuel +94 1010½½11111½00110½1 12.0/19
+2 Steinitz,William -94 0101½½00000½11001½0 7.0/19</ctml:note>
+  </ctml:source>
+  <ctml:source kind="user-supplied-narrative">
+    <ctml:uri>file:///C:/Users/Ian/.codex/attachments/cadaacec-820d-43ce-a6db-91833daf8049/pasted-text.txt</ctml:uri>
+    <ctml:note>SHA-256: e5302767532ef06e212f513233dcb270e911061026a3dc9a90aa08268f0a95cd. Verbatim supplied text follows; claims and quotations are source material, not independently authenticated:
+
+ Lasker vs Steinitz 1894
+New York / Philadelphia / Montreal
+
+In 1894, defending champion Wilhelm Steinitz was challenged by a fresh 25 year old talent from Prussia by the name of Emanuel Lasker.
+
+ 	Steinitz and Lasker, 1894
+ 	Lasker and Steinitz in Montreal, 1894
+After the necessary negotations, the following conditions were agreed upon: The winner of the match was to be the first to win 10 games, draws not counting. The time control was 15 moves per hour. The stakes were $2,000 per side. The match was to be played in New York, Philadelphia and Montreal, in that order.[1]
+
+The match began in New York on March 15, 1894, and was fairly even with two victories to each player in the first six games. However, Lasker then won five consecutive games in Philadelphia. IM Jack Peters attributed this success to Lasker's ability to convert queenless middlegames into advantageous endings:
+
+    Lasker had noticed signs of uncertainty in Steinitz' handling of "simplified" middlegames, without Queens. Recognizing the champion's superiority in managing a full army of pieces, Lasker deliberately sought early Queen exchanges. This strategy certainly worked in Philadelphia.[2] 
+
+Steinitz was tenacious and managed to respond with back-to-back victories in the 13th game and the 14th game in Montreal, but the score was still heavily in Lasker's favor, 7 to 4.
+
+On the 19th game, Lasker achieved his 10th win, thereby becoming the 2nd World Chess Champion. It was no great surprise that Steinitz, then 58 years old, was unable to defend against the rising tide of players who had spent years studying his ideas. As Siegbert Tarrasch said,
+
+    In my opinion the match with Steinitz does not have the great importance that they themselves attribute to it. For Steinitz has grown old, and the old Steinitz is no longer the Steinitz of old. 
+
+Although Lasker was widely respected, few people at the time suspected the impact that he would have on chess during the decades to come, for he was no ordinary challenger--this victory marked the beginning of a reign which was to last 27 years.
+
+click on a game number to replay game 	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+Lasker	1	0	1	0	½	½	1	1	1	1	1	½	0	0	1	1	0	½	1
+Steinitz	0	1	0	1	½	½	0	0	0	0	0	½	1	1	0	0	1	½	0
+
+FINAL SCORE:  Lasker 10;  Steinitz 5 (4 draws)
+Reference: game collection WCC Index [Steinitz-Lasker 1894]
+
+NOTABLE GAMES   [what is this?]
+    	· Game #7 	    	Lasker vs Steinitz, 1894 	    	1-0
+    	· Game #13 	    	Lasker vs Steinitz, 1894 	    	0-1
+    	· Game #2 	    	Steinitz vs Lasker, 1894 	    	1-0
+
+FOOTNOTES
+
+    New York Recorder, March 11, 1894
+    2 Chess Life, December 1994 (p40)
+
+ page 1 of 1; 19 games  	PGN Download 
+Game 	 	Result	Sacrifice	Moves 	Year	Event/Locale	Opening
+1. Lasker vs Steinitz 		1-0	 	 	60	1894	Steinitz - Lasker World Championship Match	C62 Ruy Lopez, Old Steinitz Defense
+2. Steinitz vs Lasker 		1-0	  	 27.Rxg6	42	1894	Steinitz - Lasker World Championship Match	C65 Ruy Lopez, Berlin Defense
+3. Lasker vs Steinitz 		1-0	 	 	52	1894	Steinitz - Lasker World Championship Match	C62 Ruy Lopez, Old Steinitz Defense
+4. Steinitz vs Lasker 		1-0	  	 20.Nf4	60	1894	Steinitz - Lasker World Championship Match	C53 Giuoco Piano
+5. Lasker vs Steinitz 		½-½	 	 	50	1894	Steinitz - Lasker World Championship Match	C62 Ruy Lopez, Old Steinitz Defense
+6. Steinitz vs Lasker 		½-½	 	 	71	1894	Steinitz - Lasker World Championship Match	C53 Giuoco Piano
+7. Lasker vs Steinitz 		1-0	  	 34.Rhg1	46	1894	Steinitz - Lasker World Championship Match	C62 Ruy Lopez, Old Steinitz Defense
+8. Steinitz vs Lasker 		0-1	 	 	76	1894	Steinitz - Lasker World Championship Match	C10 French
+9. Lasker vs Steinitz 		1-0	 	 	49	1894	Steinitz - Lasker World Championship Match	C62 Ruy Lopez, Old Steinitz Defense
+10. Steinitz vs Lasker 		0-1	 	 	34	1894	Steinitz - Lasker World Championship Match	D35 Queen's Gambit Declined
+11. Lasker vs Steinitz 		1-0	 	 	38	1894	Steinitz - Lasker World Championship Match	D37 Queen's Gambit Declined
+12. Steinitz vs Lasker 		½-½	 	 	50	1894	Steinitz - Lasker World Championship Match	D60 Queen's Gambit Declined, Orthodox Defense
+13. Lasker vs Steinitz 		0-1	 	 	55	1894	Steinitz - Lasker World Championship Match	C68 Ruy Lopez, Exchange
+14. Steinitz vs Lasker 		1-0	 	 	46	1894	Steinitz - Lasker World Championship Match	D46 Queen's Gambit Declined Semi-Slav
+15. Lasker vs Steinitz 		1-0	 	 	44	1894	Steinitz - Lasker World Championship Match	D37 Queen's Gambit Declined
+16. Steinitz vs Lasker 		0-1	  	 38...Rxb7	54	1894	Steinitz - Lasker World Championship Match	D60 Queen's Gambit Declined, Orthodox Defense
+17. Lasker vs Steinitz 		0-1	 	 	51	1894	Steinitz - Lasker World Championship Match	C50 Giuoco Piano
+18. Steinitz vs Lasker 		½-½	 	 	61	1894	Steinitz - Lasker World Championship Match	D67 Queen's Gambit Declined, Orthodox Defense, Bd3 line
+19. Lasker vs Steinitz 		1-0	 	 	52	1894	Steinitz - Lasker World Championship Match	D37 Queen's Gambit Declined</ctml:note>
+  </ctml:source>
+  <ctml:source kind="historical-cross-check">
+    <ctml:uri>https://en.wikipedia.org/wiki/World_Chess_Championship_1894</ctml:uri>
+    <ctml:note>Used to corroborate match dates and city ranges and correct the winning-streak location. The newspaper and Chess Life references in the pasted narrative were not consulted directly.</ctml:note>
+    <ctml:retrieved>2026-09-05</ctml:retrieved>
+  </ctml:source>
+</ctml:tournament>

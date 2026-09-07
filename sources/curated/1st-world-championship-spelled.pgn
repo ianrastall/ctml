@@ -1,0 +1,1212 @@
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.01.11"]
+[Round "1"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "0-1"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "D11"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "92"]
+[Beauty "7218766312538"]
+[GameId "2235863508175435"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{[%evp 
+0,92,16,25,25,-2,34,26,37,43,18,-7,8,-20,1,-4,-3,-8,2,-8,-4,-8,-9,-2,-4,4,24,11,36,23,29,1,86,110,110,92,92,87,118,109,102,-16,-45,-45,-18,-60,-60,-78,-85,-68,-68,-43,-65,-53,-78,-137,-86,-146,-58,-112,-108,-163,-121,-107,-160,-218,-7,-177,-177,-209,-254,-350,-422,-420,-406,-540,-604,-621,-612,-612,-654,-947,-487,-619,-478,-619,-552,-673,-638,-832,-1016,-953,-1371,-1433,-1242]
+Games 1 to 5 were played in New York City.} 
+1.d4 d5 2.c4 c6 3.e3 Bf5 $6 4.Nc3 ( 4.cxd5 $1 cxd5 5.Qb3 Bc8 6.Nf3 Nc6 7.
+Ne5 e6 8.Bb5 Qc7 9.Bd2 Bd6 10.f4 $16 {Zukertort,J-Steinitz,W 
+(05)/Wch/1886/} ) 4...e6 5.Nf3 Nd7 6.a3 $6 { c5, b4} ( 6.c5 b6 7.b4 a5 
+$17 {Steinitz} ) 6...Bd6 $1 {Provocative. Very good chess psychology. Sehr
+gutes psychologisches Schach.} ( 6...Ngf6 7.Bd3 Bxd3 8.Qxd3 Qb6 {! Euwe} )
+7.c5 $6 ( 7.Bd3 Bxd3 8.Qxd3 Ngf6 9.e4 $10 {Vukovic} ) 7...Bc7 8.b4 e5 9.
+Be2 ( 9.dxe5 Nxe5 10.Nd4 $15 ) 9...Ngf6 10.Bb2 ( 10.dxe5 Nxe5 11.Nd4 ) 
+10...e4 $1 11.Nd2 h5 $1 12.h3 $8 ( 12.b5 $6 Ng4 13.h3 Qh4 $1 $17 {Steinitz
+} ) 12...Nf8 13.a4 Ng6 14.b5 $6 ( 14.Nb3 $1 {Minckwitz} 14...Nh4 15.g3 $15
+) ( 14.g3 {Schallopp} 14...Qb8 $1 15.Nf1 Qc8 16.h4 Ng4 $17 {Vukovic} ) 
+14...Nh4 15.g3 ( 15.Bf1 g5 $1 $17 {Steinitz} ) 15...Ng2+ $1 16.Kf1 Nxe3+ 
+17.fxe3 Bxg3 18.Kg2 Bc7 {18...h6!? g6 Euwe} 19.Qg1 $2 ( 19.Qf1 
+Qd7 20.Kf2 Rh6 21.Ke1 Rg6 $40 { g3  Steinitz} ) ( 19.Nf1 $5 Rh6 
+20.Rg1 ( 20.Kf2 Qd7 21.h4 Bh3 22.Ke1 Bg2 23.Rg1 Qh3 24.Kd2 Ng4 25.Qe1 Rf6 
+$17 26.Nd1 Bxf1 27.Bxf1 Qh2+ 28.Rg2 Qh1 { h2 -+ Steinitz} ) 20...Qd7
+$1 ( 20...Rg6+ 21.Kh1 Rxg1+ 22.Kxg1 Bxh3 $17 23.Bxh5 Ng4 24.Bxg4 Qg5 $19 {
+Steinitz} ) 21.Kh1 Bh7 $19 {Steinitz} ) 19...Rh6 20.Kf1 Rg6 {1h} 21.Qf2 
+Qd7 22.bxc6 {1h} 22...bxc6 23.Rg1 Bxh3+ 24.Ke1 Ng4 25.Bxg4 ( 25.Qh4 Nxe3 
+26.Rxg6 fxg6 27.Qg5 Ng2+ 28.Kd1 Nf4 $19 ) 25...Bxg4 26.Ne2 Qe7 27.Nf4 Rh6 
+( 27...Rf6 28.Rxg4 hxg4 29.Qh4 Bxf4 30.exf4 Rxf4 31.Qh8+ Qf8 32.Qh5 Kd7 
+33.Qg5 Rf6 34.Nf1 { g3 Steinitz} ) 28.Bc3 g5 29.Ne2 Rf6 30.Qg2 
+Rf3 31.Nf1 ( 31.Nxf3 exf3 $19 ) 31...Rb8 ( 31...Bh3 $6 32.Qxg5 Rxf1+ 33.
+Kd2 Qxg5 34.Rxg5 Rxa1 35.Bxa1 Ke7 36.Rxh5 $15 ) 32.Kd2 f5 {2h} 33.a5 $2 {
+2h} ( 33.Rh1 { g1 /-+ Minckwitz} ) ( 33.Nh2 Rh3 34.Nxg4 hxg4 35.
+Rh1 Qh7 36.Rag1 Kf7 37.Rxh3 gxh3 38.Qxg5 h2 39.Rh1 Rg8 $19 {Steinitz} ) 
+33...f4 34.Rh1 Qf7 35.Re1 fxe3+ 36.Nxe3 Rf2 ( 36...Rxe3 37.Kxe3 Bf4+ 38.
+Kf2 $1 Rb3 39.Rhf1 Bxe2 40.Rxe2 Rxc3 41.Kg1 Rg3 42.Qxg3 $19 ) 37.Qxf2 ( 
+37.Qg1 Qf3 38.Nxg4 Bf4+ 39.Kd1 Qd3+ 40.Bd2 Qxd2# {Steinitz} ) 37...Qxf2 
+38.Nxg4 ( 38.Rhf1 Qh4 39.Rh1 Bh2 40.Nf1 Qf2 41.Rxh2 e3+ 42.Kd3 ( 42.Kc1 
+Bf5 43.Bb2 Qxe1# {Schallopp} ) ( 42.Kd1 Rb1+ 43.Kc2 Bf5# {Schallopp} ) ( 
+42.Kc2 Bf5+ 43.Kd1 Rb1+ 44.Nc1 Bc2# {Schallopp} ) 42...Bf5# {Schallopp} ) 
+38...Bf4+ 39.Kc2 hxg4 40.Bd2 $1 e3 ( 40...Bxd2 41.Ref1 Qxe2 ( 41...Qxf1 
+42.Rxf1 Bf4 $19 ) 42.Rh8+ Ke7 43.Rh7+ Ke6 44.Rh6+ Ke7 45.Rh7+ $10 Ke6 ( 
+45...Kd8 $4 46.Rf8# ) ) 41.Bc1 Qg2 42.Kc3 Kd7 43.Rh7+ Ke6 44.Rh6+ Kf5 45.
+Bxe3 Bxe3 46.Rf1+ Bf4 {Zukertort: 2h 30min Steinitz: 2h 45min} ( 46...Qxf1
+47.Ng3+ ) 0-1
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.01.13"]
+[Round "2"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "0-1"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C47"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "92"]
+[Beauty "7218497905163"]
+[GameId "2235863508175436"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3 Bb4 6.Nxc6 bxc6 7.Bd3 ( 7.Qd4
+Qe7 8.f3 d5 9.Bg5 c5 10.Bb5+ Kf8 11.Qd3 ( 11.Bxf6 cxd4 12.Bxe7+ Kxe7 13.a3
+dxc3 14.axb4 cxb2 15.Rb1 Rb8 16.Bc6 Rxb4 17.Bxd5 a5 ) ( 11.Qd2 d4 12.O-O-O
+Bb7 ) 11...d4 ( 11...c4 12.Bxf6 ) 12.O-O-O ) 7...d5 8.exd5 cxd5 ( 8...Nxd5
+9.O-O Nxc3 10.Qe1+ ) ( 8...Qe7+ 9.Qe2 Qxe2+ 10.Kxe2 cxd5 11.Nb5 Kd8 12.Rd1
+c6 13.Nd4 Kc7 ) 9.O-O O-O 10.Bg5 c6 ( 10...Bxc3 11.bxc3 ) ( 10...Be7 11.
+Bxf6 Bxf6 12.Nxd5 Bxb2 ( 12...Qxd5 13.Bxh7+ ) 13.Rb1 Bf6 ( 13...Be5 14.
+Bxh7+ Kxh7 15.Qh5+ ) 14.Qh5 g6 15.Qf3 Bg7 ) ( 10...Be6 11.Nb5 Be7 12.Nd4 
+Qd6 13.Nxe6 fxe6 14.c4 Qe5 15.Bh4 Qxb2 16.cxd5 exd5 17.Bxf6 Qxf6 18.Qh5 ) 
+11.Ne2 ( 11.Qf3 Bd6 12.Na4 Be5 13.Bf4 Re8 ) 11...Bd6 12.Ng3 h6 13.Bd2 ( 
+13.Be3 Ng4 14.Qf3 Qh4 15.h3 Bxg3 16.fxg3 ) 13...Ng4 14.Be2 ( 14.h3 Nxf2 
+15.Kxf2 Qh4 ) 14...Qh4 15.Bxg4 Bxg4 16.Qc1 Be2 17.Re1 Ba6 18.Bc3 f5 19.Re6
+Rad8 20.Qd2 d4 21.Ba5 ( 21.Rxd6 dxc3 22.Qd1 f4 23.Ne4 f3 24.Nxc3 Qg4 ) 
+21...Rd7 22.Rxd6 Rxd6 23.Bb4 Qf6 24.Rd1 ( 24.Nxf5 Rd7 25.Bxf8 Qxf5 26.Ba3 
+) ( 24.Re1 ) 24...Rd5 25.Bxf8 Qxf8 26.Nh5 Qe8 27.Nf4 Re5 28.h4 c5 ( 28...
+g5 29.hxg5 hxg5 30.Nd3 ) 29.h5 Re4 30.c3 Qb8 ( 30...Qe5 31.Nd3 Qd6 32.f3 
+Re3 33.Nf2 Rxf3 34.gxf3 Qg3+ 35.Kh1 Bb7 ) 31.g3 ( 31.Nd3 Rh4 32.g3 Rxh5 
+33.Nxc5 Qa8 ) 31...Qe5 32.Ng6 ( 32.f3 Re3 33.cxd4 cxd4 34.Qxd4 Qxd4 35.
+Rxd4 Rxf3 36.Kg2 Bb7 37.Nd5 Re3 38.Kf2 Re5 39.Nf4 ) 32...Qd6 {Sources: 
+Yorkshire Post and Leeds Intelligencer, 15 August 1921; Times Literary 
+Supplement, 8 Sept 1921; BCM, Nov 1921, p422} 33.Nf4 d3 34.b3 ( 34.Nxd3 
+Bxd3 35.Qxd3 Re1+ 36.Kg2 Rxd1 ) 34...c4 35.Rb1 Kh7 36.Kh2 ( 36.Kg2 Bb7 37.
+f3 ) ( 36.bxc4 Bxc4 37.Rb7 ) 36...Qb6 37.Kg1 ( 37.b4 Re2 38.Nxe2 Qxf2+ 39.
+Kh3 f4 ) 37...Bb7 38.Rb2 Qc6 39.f3 Qc5+ 40.Qf2 ( 40.Kh2 Re2+ 41.Nxe2 Qf2+ 
+42.Kh3 Qxf3 ) ( 40.Kg2 Re3 ) 40...Re1+ 41.Kh2 ( 41.Kg2 Re3 42.Ne6 Bxf3+ 
+43.Qxf3 Rxe6 44.bxc4 Re3 45.Qd5 Qc7 ( 45...Re2+ 46.Rxe2 dxe2 47.Qxc5 e1=Q 
+48.Qxf5+ ) 46.Qxf5+ Kg8 47.Qg6 Qe5 48.Rb5 Qc7 ( 48...Re2+ 49.Kh3 Qc7 50.
+Qxd3 ) 49.Rd5 ) 41...Qxf2+ 42.Rxf2 Bxf3 43.g4 ( 43.Ng2 Bxg2 44.Kxg2 cxb3 
+45.axb3 Rc1 46.c4 Rc2 47.Kf1 d2 48.Ke2 d1=Q+ ) 43...Be2 44.Ng2 d2 45.Ne3 
+cxb3 46.axb3 Bxg4 0-1
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.01.15"]
+[Round "3"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "1-0"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "D10"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "93"]
+[Beauty "7218766344758"]
+[GameId "2235863508175437"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 1 to 5 were played in New York City.} 
+1.d4 d5 2.c4 c6 3.e3 Bf5 4.a3 e6 5.c5 $6 a5 $1 6.Qb3 Qc7 7.Nc3 Nd7 ( 7...
+Ne7 {e7-c8} ) 8.Na4 Ngf6 9.Ne2 ( 9.Nb6 Nxb6 10.cxb6 Qd8 $17 {
+f6-d7} ) 9...Be7 10.Ng3 ( 10.Nec3 {! Minckwitz a4-b6, c3-a4} 
+) 10...Bg6 11.Bd2 O-O 12.Be2 Rfb8 13.O-O $6 ( 13.Qd1 b5 $1 ( 13...b6 14.b4
+$10 ) 14.Nc3 a4 $17 ) 13...b6 14.cxb6 Nxb6 15.Nxb6 Rxb6 16.Qc3 Qb7 17.Ra2 
+( 17.Bc1 $17 {Steinitz} ) 17...Nd7 18.Bd1 $5 c5 $1 ( 18...Bb1 19.Ra1 Rxb2 
+20.Ba4 $1 $14 {G.Barcza} 20...Nb8 21.Rc1 Ra6 $17 {Minckwitz g6} ) 
+19.Ba4 c4 20.Qc1 {1h} 20...Nf6 21.Bc3 Bd6 {1h} 22.f3 $2 ( 22.f4 $13 {
+Steinitz} ) ( 22.Qd2 {Minckwitz a2-a1, f1-c1} ) 22...Qb8 $1 23.f4
+Bd3 24.Re1 h5 $1 {25...h4, 26...e4 Steinitz} 25.h4 {?: Minckwitz 
+!: Steinitz} 25...Qd8 26.Bd1 g6 27.Qd2 Rbb8 ( 27...Rb5 $1 $13 {Steinitz} )
+( 27...Rb7 $13 {Minckwitz} ) 28.Qf2 Be7 29.Bf3 ( 29.Be2 Bxe2 30.Nxe2 Ng4 
+$19 ) 29...Ne4 ( 29...Ne8 $1 {Steinitz e8-d6-b5} 30.e4 Bxh4 31.exd5 
+exd5 32.Re5 Rb5 $17 {e8-g7-f5} ) 30.Bxe4 dxe4 31.Nh1 Bxh4 $19 32.g3 
+Be7 33.Qd2 Qd5 34.Nf2 a4 $6 ( 34...g5 $1 35.Kg2 ( 35.fxg5 Qxg5 36.Kg2 Bd6 
+$19 { 37...h4, 37...h7} ) 35...gxf4 36.gxf4 Kh7 $19 ) 35.Kg2 Rb3 $6 
+( 35...Rb7 {Minckwitz} ) ( 35...Bd8 {d8-a5 Minckwitz} ) 36.Rh1 Kg7 {
+36...f5!} 37.Raa1 Bd8 {2h} 38.g4 hxg4 {Sealed move. Steinitz: 2h 5min 
+Zukertort:1h 57min} ( 38...Ba5 $1 $19 39.gxh5 ( 39.Bxa5 Qxa5 40.Qxa5 Rxa5 
+$19 { b2} ) 39...Bxc3 40.bxc3 Rab8 41.hxg6 fxg6 42.Qd1 Qf5 $19 {
+b2, c3, a3} ) 39.Nxg4 {2h} 39...Ba5 $2 ( 39...Be7 {g8, 
+f8 Steinitz} ) ( 39...Kf8 {f8-e7 Barcza} ) 40.Rh7+ $1 Kf8 ( 40...
+Kxh7 41.Nf6+ Kg7 42.Nxd5 Bxc3 43.Nxc3 $18 ) 41.Rh8+ Kg7 ( 41...Ke7 42.Rxa8
+Bxc3 ( 42...Qxa8 43.Bxa5 $18 ) 43.Ra7+ $1 $18 ) 42.Rh7+ Kf8 43.Qf2 $1 Bd8 
+( 43...Bxc3 44.bxc3 ( 44.Qh4 $2 Rxb2+ 45.Kg3 g5 $1 ) 44...g5 45.Ne5 $18 ) 
+44.Ne5 Kg8 ( 44...Ra7 45.Rh8+ $18 Ke7 46.Qh4+ ) 45.Rah1 Bf6 46.Rxf7 Rf8 
+47.Rxf6 ( 47.Rxf6 Rxf6 48.Qh4 $18 ) 1-0
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.01.18"]
+[Round "4"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "0-1"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C67"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "78"]
+[Beauty "7699823592457"]
+[GameId "2235863508175438"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 1 to 5 were played in New York City.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 {5.d4!} 5...Nd6 6.Nxe5 Nxe5 
+$6 7.Rxe5+ Be7 8.Bf1 {8.c3! cf. 6th match game. vgl. 6.Matchpartie} 
+8...O-O 9.d4 Bf6 10.Re1 Re8 ( 10...Nf5 $15 11.g4 $2 Nxd4 12.g5 Bxg5 13.
+Qxd4 Bxc1 14.Rxc1 Qg5+ $19 ) 11.c3 Rxe1 12.Qxe1 Nf5 13.Bf4 d6 ( 13...d5 
+14.Bxc7 $1 Qxc7 15.Qe8# ) 14.Nd2 Be6 {? 14...g5! and then h5 , 
+Minckwitz . 14...g5? weakens the kingside too much. Steinitz ? 14...g5! 
+nebst h5  Minckwitz;  14...g5? schwächt zu sehr den Königsflügel, 
+Steinitz} 15.Bd3 Nh4 16.Ne4 Ng6 17.Bd2 ( 17.Nxf6+ Qxf6 18.Bxg6 $10 ) 17...
+d5 18.Nc5 { 18.g3} 18...Bc8 19.Qe3 b6 20.Nb3 $6 { 20.a6  
+a6-b4-c2 possiblty to b2-b4-b5  20.a6  a6-b4-c2 evtl. nach 
+b2-b4-b5} 20...Qd6 $2 21.Qe8+ $6 ( 21.Bxg6 $1 hxg6 22.Qe8+ Kh7 $1 ( 22...
+Qf8 23.Qc6 $1 ) 23.Re1 ( 23.Qxf7 Be6 $19 ) 23...Qd7 24.Bf4 c6 25.Nc1 ( 25.
+Re3 Qb7 $1 $17 { 26...e6} ) 25...Qxe8 26.Rxe8 Bb7 27.Rxa8 Bxa8 28.
+Bb8 a6 29.Bc7 b5 30.Nb3 $16 { 31.c5 or 31.a5  31.c5 oder 
+31.a5} ) 21...Nf8 ( 21...Qf8 $2 22.Qc6 $1 ) 22.Re1 Bb7 23.Qe3 Ne6 $6 {
+23...d8!} 24.Qf3 Rd8 ( 24...c5 $2 25.Qf5 Nf8 ( 25...h6 26.Bxh6 $18 )
+26.Bf4 Qc6 27.dxc5 bxc5 28.Na5 Qb6 29.Nxb7 Qxb7 30.Bd6 $16 ) 25.Qf5 Nf8 
+26.Bf4 Qc6 ( 26...Qd7 27.Qxd7 Rxd7 28.Bf5 Rd8 29.Bxc7 ) 27.Nd2 Bc8 28.Qh5 
+g6 29.Qe2 Ne6 30.Bg3 Qb7 {1h} 31.Nf3 $6 {31.e5} 31...c5 32.dxc5 bxc5
+33.Ne5 c4 34.Bb1 $1 ( 34.Bc2 $2 Bxe5 ( 34...Qxb2 35.Nxf7 $1 $18 ) 35.Bxe5 
+Qxb2 36.Bf6 Re8 37.Qe3 Qxc2 ( 37...Qa3 38.Qh6 Qf8 $17 ) ( 37...Ng7 38.
+Qxe8+ Nxe8 39.Rxe8# ) 38.Qh6 Qf5 $19 39.Bd4 ( 39.Rxe6 Qb1+ $19 ) ) 34...
+Bg7 35.Rd1 { 36.c4} 35...Bd7 36.Qf3 {2h} 36...Be8 37.Nxc4 $4 ( 37.
+Bc2 Qxb2 ( 37...Bxe5 38.Bxe5 Qxb2 39.Qf6 $36 ) 38.Ba4 Bxa4 ( 38...Qb7 39.
+Bxe8 Rxe8 40.Qxd5 $14 ) 39.Qxf7+ Kh8 40.Qxe6 $16 { e5-f7-h6, g8, 
+f7#} ) 37...dxc4 38.Rxd8 Nxd8 39.Qe2 Ne6 {Time:Total duration of this 
+game: 3h 30min Zeit:Gesamtdauer der Partie:3h 30min.} 0-1
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.01.20"]
+[Round "5"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "1-0"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "D10"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "63"]
+[Beauty "8248618925064"]
+[GameId "2235863508175439"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 1 to 5 were played in New York City.} 
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 Bf5 $2 5.cxd5 $1 cxd5 6.Qb3 Bc8 ( 6...Qd7 
+$2 7.Bb5 Nc6 8.Nf3 e6 ( 8...O-O-O 9.Ne5 Qc7 10.Nxc6 bxc6 11.Ba6+ $16 ) 9.
+Ne5 Qc7 10.Qa4 Rc8 11.Qxa7 ) ( 6...b6 $2 7.Bb5+ Bd7 8.Nxd5 ) 7.Nf3 Nc6 8.
+Ne5 $1 ( 8.Bd3 e6 9.O-O Bd7 $1 ( 9...Qb6 10.Qxb6 axb6 11.Nb5 $16 ) ( 9...
+Be7 10.Ne5 { f4 } ) ( 9...Bd6 10.e4 dxe4 11.Nxe4 Nxe4 12.Bxe4 O-O 
+13.d5 $1 ( 13.Bxh7+ $2 Kxh7 14.Ng5+ Kg6 15.Qd3+ f5 ) ( 13.Qc2 h6 14.Bxc6 
+bxc6 15.Qxc6 Rb8 $13 ) 13...exd5 14.Qxd5 $16 ) 10.Bd2 ( 10.Ne5 $6 Nxe5 11.
+dxe5 Ng4 12.f4 Bc5 $17 ) ( 10.e4 $6 Nb4 11.Bb1 dxe4 12.Nxe4 Bc6 13.Nxf6+ 
+gxf6 $17 ) ( 10.Qxb7 $4 Nb4 11.Ba6 Bc6 $19 ) 10...Qb6 11.Qd1 Bd6 12.Rc1 ( 
+12.e4 Nxd4 13.exd5 ( 13.Nxd4 Qxd4 14.Be3 Qb4 $15 ) 13...O-O $10 ) 12...O-O
+13.Na4 Qd8 14.Nc5 Bxc5 15.Rxc5 ( 15.dxc5 e5 $132 {} ) 15...Ne4 16.Bxe4 
+( 16.Rc2 Nxd2 17.Qxd2 Qb6 $10 ) 16...dxe4 17.Ne5 ( 17.Ng5 $4 b6 $19 ) 
+17...Nxe5 18.dxe5 {Draw: Alekhine-Capablanca New York 1924 Remis 
+Aljechin-Capablanca New York 1924} ) 8...e6 ( 8...Nxe5 $2 9.dxe5 Nd7 10.
+Qxd5 e6 11.Qe4 Nc5 12.Qd4 ) 9.Bb5 Qc7 {9...d7!} 10.Bd2 Bd6 11.f4 $1 O-O
+12.Rc1 Bxe5 $8 ( 12...Bd7 13.Bxc6 bxc6 ( 13...Bxc6 14.Nb5 Qe7 15.Nxc6 bxc6
+16.Rxc6 ) 14.Nb5 Qb8 15.Nxd7 Nxd7 16.Rxc6 ) 13.fxe5 Ne8 ( 13...Nd7 14.Bxc6
+bxc6 15.Nb5 Qb6 16.Nd6 c5 17.dxc5 Nxc5 18.Qc2 Nd7 ( 18...Ne4 19.Nxc8 $18 )
+19.Qa4 $16 ) 14.O-O f6 ( 14...f5 15.g4 $1 ) 15.Bd3 $1 Rf7 ( 15...fxe5 $2 
+16.Bxh7+ ) ( 15...Bd7 $2 16.Nxd5 exd5 17.Qxd5+ Kh8 18.e6 Bc8 19.Qh5 g6 20.
+Bxg6 Qe7 21.d5 Ne5 22.Bb4 $18 ) 16.Qc2 f5 ( 16...fxe5 17.Bxh7+ Kh8 18.Bg6 
+Rxf1+ 19.Rxf1 Nf6 20.Qd1 $18 ) ( 16...g6 17.Bxg6 hxg6 18.Qxg6+ Kh8 19.exf6
+$18 { f4} ) ( 16...h6 17.Bg6 Re7 18.Bxe8 Rxe8 19.exf6 $18 ) 17.Ne2 
+Bd7 {1h} 18.Rf2 {18.g4 Steinitz} 18...Rc8 19.Bc3 Qb6 20.Qd2 Ne7 21.Rcf1 
+Bb5 22.Bb1 Qa6 23.g4 g6 24.h3 Rc7 $2 ( 24...Bc4 25.a3 {Steinitz} ) 25.Re1 
+Ng7 $6 $18 ( 25...Bxe2 $1 ) 26.Nf4 Nc8 27.gxf5 gxf5 ( 27...Nxf5 28.e4 ) 
+28.Rg2 Kh8 29.Kh2 Qc6 30.Reg1 { h5} 30...Ne7 31.Qf2 Qe8 $2 {2h} ( 
+31...Ne8 32.Qh4 { 33.g8 g8 34.g6 g7 35.e7 then 36.g8 
+mate. nebst 36.g8 Matt} 32...Rg7 33.Rxg7 Nxg7 34.Qh6 Nc8 35.Nh5 $18 ) (
+31...Ng8 32.Ng6+ hxg6 33.Qh4+ Nh5 34.Rxg6 $18 ) ( 31...Rc8 32.Qh4 Rg8 33.
+Rg4 Nh5 34.Qxe7 fxg4 35.Qxf7 Ng7 36.Ng6+ hxg6 37.Qxg6 Nf5 38.Qh5+ Kg7 39.
+Rxg4+ Kf8 40.Bb4+ Ne7 41.Rf4+ Kg7 42.Qh7# ) ( 31...Qd7 32.Qh4 ( 32.Bb4 Nc6
+33.Bd6 Rc8 34.Qh4 $18 ) 32...Rc8 33.Nh5 ( 33.Qh6 Rg8 34.Bb4 $18 ) 33...Rg8
+34.Nf6 $18 ) 32.Rxg7 {32...g7 33.g7 g7 34.e6  Time:Steinitz:2h
+33min   Zukertort:  57min Zeit:Steinitz:2h 33min   Zukertort:  57min} 1-0
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.02.03"]
+[Round "6"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1-0"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C67"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "121"]
+[Beauty "6327581551170"]
+[GameId "2235863508175440"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 6 to 9 were played in Saint Louis.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 ( 5...Nf6 $6 6.Nxe5 Be7 
+7.d4 O-O 8.Nc3 $16 ) 6.Nxe5 Nxe5 { 6...e7 cf. 12th match game vgl 
+12.Matchpartie} 7.Rxe5+ Be7 8.Nc3 $1 O-O $1 ( 8...Nxb5 9.Nd5 $1 O-O ( 9...
+d6 10.Rxe7+ Kf8 11.Qf3 f6 12.Qh5 $18 ) ( 9...Nd4 10.Rxe7+ Kf8 11.Qh5 $18 )
+( 9...Nd6 10.Nxe7 $16 {possibly +- evtl.+-} ) 10.Nxe7+ Kh8 11.Qh5 { 
+h7 then h5 mate nebst h5 Matt} 11...g6 ( 11...h6 12.d4 Kh7 ( 
+12...d6 13.Bxh6 g6 14.Bxf8+ $18 ) 13.Nf5 $1 $18 ) 12.Qh6 Re8 ( 12...f6 13.
+Nxg6+ $18 ) 13.Rh5 $18 ) 9.Bd3 Bf6 ( 9...c6 10.Qh5 g6 11.Qf3 Ne8 $10 {
+Tarrasch-Pillsbury Wien 1898} ) 10.Re3 { h7} 10...g6 $6 { 
+10...e8 Lasker} 11.b3 Re8 $6 { 11...e8 Tchigorin} 12.Qf3 Bg5 $6 (
+12...Bd4 13.Rxe8+ Nxe8 14.Bb2 d5 15.Re1 Be6 $10 {Steinitz} ) 13.Rxe8+ ( 
+13.Bb2 $1 Bxe3 14.fxe3 { d5} 14...c6 ( 14...f5 15.e4 $1 $40 ) ( 
+14...Re6 15.Rf1 { c4} ) 15.Rf1 Qe7 16.Ba3 $40 {Lasker} ) 13...
+Nxe8 14.Bb2 $1 c6 $1 {He leaves his original plan Er nimmt Abschied von 
+seinem Plan} ( 14...Bxd2 $2 15.Bc4 $1 ( 15.Ne4 Bg5 ( 15...Bh6 16.Bc4 d5 {
+16...e7 leads to the variation 16...e7 führt zur Variante} 17.Bxd5 
+$1 ( 17.Nf6+ Nxf6 18.Bxf6 Qe8 19.Bxd5 c6 $10 {Minckwitz} ) 17...Qxd5 18.
+Nf6+ Nxf6 19.Qxf6 Kf8 20.Re1 Be6 21.Qh8+ $18 {Neistadt} ) 16.Bc4 $1 ( 16.
+Nxg5 Qxg5 17.Re1 Ng7 $17 {Schallopp} ) 16...d5 17.Nxg5 Qxg5 18.Bxd5 $18 {
+Lasker} ) 15...Qe7 ( 15...Nd6 16.Ne4 Nxc4 17.Nf6+ Kf8 18.Nxh7+ Ke8 19.Nf6+
+Kf8 $40 {/+-} ) ( 15...Qf6 16.Qxf6 Nxf6 17.Nb1 Bg5 18.f4 $18 ) 16.Ne4 
+Bh6 ( 16...Ba5 17.Ng5 Nd6 18.Ba3 $18 ) 17.Re1 $1 $40 Kf8 18.Re2 { 
+f6!} ) 15.Ne4 Be7 16.Qe3 d5 17.Qd4 f6 18.Ng3 Be6 ( 18...c5 19.Qf4
+$16 {} ) 19.Re1 Ng7 {?! 19...f7 then f8 and d7 = Minckwitz ?! 
+19...f7 nebst f8 und d7 = Minckwitz} 20.h4 Qd7 21.h5 {1h} 21...
+Bf7 ( 21...gxh5 $2 22.Qf4 Rf8 23.Qh6 $18 ) 22.hxg6 Bxg6 ( 22...hxg6 23.Qh4
+$1 $16 ) 23.Qe3 ( 23.Qf4 $6 Re8 $1 24.Bxf6 $2 Bxf6 25.Rxe8+ Nxe8 $19 ) 
+23...Kf7 24.Qf4 Re8 ( 24...Bxd3 25.cxd3 Re8 26.Qh6 Kg8 27.Nh5 Nxh5 28.Qxh5
+$16 {Neistadt} ) 25.Re3 Ne6 {25...d8!? Minckwitz 25...f8!? Euwe 1h} 
+( 25...c5 {Schallopp} 26.Qh6 Nf5 27.Bxf5 Bxf5 28.Nh5 $18 {Neistadt} ) 26.
+Qg4 Nf8 27.Nf5 $1 Bc5 28.Nh6+ ( 28.Qh4 {! +- Minckwitz} 28...Re6 $1 $16 ( 
+28...d4 29.Bc4+ $18 ) ) 28...Kg7 29.Nf5+ Kf7 ( 29...Kg8 30.Rf3 $16 ( 30.
+Nh6+ {leads to the game führt zur Partie} ) ) 30.Nh6+ Kg7 31.Nf5+ Kf7 32.
+Nh6+ Kg7 33.Nf5+ Kf7 34.Nh6+ Kg7 35.Bxg6 {2h} 35...Qxg4 36.Nxg4 Rxe3 37.
+fxe3 {37.de! (Euwe) White gets a passed pawn. Weiß erhält einen 
+Freibauern} 37...Kxg6 38.Nxf6 Bb4 39.d3 Ne6 40.Kf2 {40.g4! D.Hooper} 
+40...h5 41.g4 h4 $2 {41...hg!} 42.Nh5 $18 Bd6 ( 42...Kg5 43.Kf3 { 
+f6+-} ) 43.Kg2 c5 44.Bf6 $1 Ng5 45.Bxg5 $1 Kxg5 46.Kh3 Be5 { d4 and 
+the  has no more squares und der  hat keine Felder mehr} 47.Nf4 $1 {
+sealed move Abgabezug} 47...d4 48.Ne6+ Kf6 49.exd4 cxd4 50.Nc5 Kg5 51.Nxb7
+Kf4 52.Na5 {3h} 52...Bf6 53.Nc6 Ke3 54.Nxa7 Kd2 55.Nc6 Kxc2 56.a4 Kxd3 57.
+Nb4+ $1 Ke2 ( 57...Ke3 58.Nd5+ Ke4 59.Nxf6+ Ke5 60.g5 d3 61.Ng4+ $18 { 
+f2} ) ( 57...Ke4 58.a5 Be7 ( 58...d3 59.Nxd3 $18 ) 59.a6 Bc5 60.Kxh4 
+$18 ) 58.a5 Be7 59.Nd5 $1 ( 59.a6 Bxb4 60.a7 d3 61.a8=Q d2 62.Qe4+ Kf2 63.
+Qd3 Ke1 $18 ) 59...Kf3 ( 59...d3 60.Nf4+ Ke3 61.Nxd3 $18 ) ( 59...Bc5 60.
+g5 d3 61.Nf4+ Ke3 62.Nxd3 Kxd3 63.g6 $18 ) 60.Nxe7 d3 61.Nd5 {Time: 
+Steinitz:3h 33min   Zukertort:1h 53min     Zeit: Steinitz:3h 33min   
+Zukertort:1h 53min} 1-0
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.02.05"]
+[Round "7"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "0-1"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "E57"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "70"]
+[Beauty "7972264656920"]
+[GameId "2235863508175441"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 6 to 9 were played in Saint Louis.} 
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3 c5 5.Nf3 Nc6 6.a3 dxc4 ( 6...cxd4 7.exd4 
+Be7 8.Bd3 dxc4 ) ( 6...Ne4 $5 7.Qc2 Nxc3 8.Qxc3 ( 8.bxc3 Be7 9.Bb2 $6 {
+9.d3  O-O,e4} 9...O-O 10.Bd3 h6 11.O-O $15 {Petrosjan-Fischer (8) 
+Buenos Aires cm f} ) 8...cxd4 9.Nxd4 Nxd4 10.Qxd4 dxc4 $10 {
+Petrosjan-Korchnoi (5) Moskau cm sf 1971} ) 7.Bxc4 cxd4 8.exd4 Be7 9.O-O 
+O-O 10.Be3 $6 {10.d3!  g5} 10...Bd7 11.Qd3 ( 11.d5 exd5 12.Nxd5 
+Nxd5 13.Bxd5 $10 ) 11...Rc8 12.Rac1 $2 {In such positions you have to play
+ad1, fe1, e5 In solchen Stellungen spielt man: ad1, fe1, 
+e5} 12...Qa5 13.Ba2 Rfd8 14.Rfe1 $6 { 14.fd1 Minckwitz} 14...Be8 
+$1 15.Bb1 g6 $17 {× d4} 16.Qe2 Bf8 17.Red1 Bg7 {1h} 18.Ba2 Ne7 19.Qd2 {
+ d5  White lacks a plan Weiß spielt etwas planlos} ( 19.Bg5 Nf5 20.
+d5 $1 {Horowitz} ) 19...Qa6 $1 {19...b6? cf. White's 23rd. move. 
+Steinitz vgl.den 23.Zug von Weiß. Steinitz} 20.Bg5 {1h} ( 20.Qe1 $5 { 
+d5 Lasker} 20...Nf5 $1 21.d5 Nxe3 22.Qxe3 exd5 23.Nxd5 Nxd5 24.Bxd5 Bxb2 
+$17 {Neistadt} ) 20...Nf5 21.g4 $2 ( 21.Qe1 $5 { d5 Lasker} ) ( 21.d5 
+$2 Bc6 $1 ) ( 21.Qf4 { d2, cd1 Minckwitz} ) ( 21.Bxf6 Bxf6 22.Ne4
+Bg7 23.Rxc8 Rxc8 $17 {Neistadt} ) 21...Nxd4 $3 22.Nxd4 e5 23.Nd5 ( 23.Qe2 
+exd4 24.Qxa6 bxa6 25.Nd5 Rxc1 26.Rxc1 Rxd5 $1 $19 {Steinitz} ) 23...Rxc1 
+24.Qxc1 ( 24.Nxf6+ Bxf6 25.Qxc1 exd4 $19 {Minckwitz} ) 24...exd4 25.Rxd4 
+Nxd5 26.Rxd5 ( 26.Bxd8 Bxd4 27.Bxd5 Qd6 $19 {Steinitz, 27...e2-+ 
+Horowitz} ) 26...Rxd5 27.Bxd5 Qe2 $1 28.h3 ( 28.f3 Bd4+ 29.Kh1 Bc6 30.Bxc6
+bxc6 $19 ) 28...h6 $5 ( 28...Bxb2 $1 29.Qc8 ( 29.Qc5 $6 Qd1+ 30.Kh2 Be5+ 
+31.Kg2 ( 31.f4 Bd4 $1 $19 { g1#} ) 31...Qxd5+ 32.Qxd5 Bc6 $19 ) 
+29...Qd1+ 30.Kh2 Be5+ $1 ( 30...Qxd5 31.Qxe8+ Kg7 32.Be7 Be5+ 33.Kg1 $10 )
+31.f4 Qd2+ 32.Kg3 $10 {Steinitz} 32...Qe3+ 33.Kg2 ( 33.Bf3 Bd4 { 
+34.c2 e1 then f2# or 34.f5 e1 and then e5# or g1#  
+34.c2 e1 nebst f2# oder 34.f5 e1 nebst e5# oder g1#} 34.
+h4 Qf2+ 35.Kh3 Qxf3+ 36.Kh2 Qf2+ 37.Kh3 Qf1+ 38.Kg3 ( 38.Kh2 Bg1+ 39.Kg3 
+Qf2+ 40.Kh3 Qh2# ) 38...Bf2+ 39.Kf3 Bg1+ 40.Ke4 Qe2+ 41.Kd5 Qd3+ 42.Ke5 
+Qd4# ) 33...Qe2+ 34.Kg3 Bd4 35.h4 ( 35.Bxf7+ Kg7 $19 ) 35...Bf2+ 36.Kh3 
+Qf1+ 37.Bg2 Qd3+ 38.Kh2 Bg3+ 39.Kg1 Qe3+ 40.Kh1 Qe1+ 41.Bf1 Qxf1# {von 
+Kockelkorn} ) 29.Bc4 $2 ( 29.Bxh6 $2 Bxh6 30.Qxh6 Qd1+ $19 ) ( 29.Qd2 Qb5 
+30.Be3 Bxb2 $19 {Steinitz} ) ( 29.Be3 {! Neistadt} 29...Bxb2 30.Qb1 Kh7 
+31.Bxb7 Bb5 { d3 Steinitz} 32.Be4 $17 {Horowitz} ) 29...Qf3 30.Qe3 (
+30.Qe1 Bc6 $19 ) 30...Qd1+ 31.Kh2 Bc6 32.Be7 {2h} ( 32.Bxh6 Bxh6 33.Qxh6 
+Qh1+ 34.Kg3 Qg1+ $19 {Minckwitz} ) 32...Be5+ $1 {The sealed move; 2h 
+Abgabezug 2h} 33.f4 ( 33.Qxe5 Qh1+ 34.Kg3 Qg2+ 35.Kh4 Qxf2+ 36.Qg3 g5+ $19
+{Steinitz} ) 33...Bxf4+ ( 33...g5 $3 $19 { g1, g2#} ) 34.Qxf4 
+Qh1+ 35.Kg3 Qg1+ {Time: Zukertort: 2h 5min Steinitz: 2h 10min Zeit: 
+Zukertort: 2h 5min   Steinitz: 2h 10min} 0-1
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.02.08"]
+[Round "8"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1/2-1/2"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C67"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "43"]
+[Beauty "6599485685767"]
+[GameId "2235863508175442"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 6 to 9 were played in Saint Louis.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.Nxe5 Be7 $1 {The best 
+defence in this line Die beste Verteidigung in dieser Variante} 7.Bd3 O-O 
+8.Qh5 { 8.c3 Steinitz} 8...f5 $5 ( 8...g6 9.Nxg6 fxg6 10.Bxg6 hxg6 (
+10...Rf7 11.Bxf7+ $40 Nxf7 ) 11.Qxg6+ Kh8 $10 12.b3 $6 ( 12.Re3 Nf5 13.
+Rh3+ Bh4 $17 { f6} ) 12...Nf5 13.Bb2+ Bf6 14.Re8 $8 Bxb2 15.Rxd8 
+Rxd8 16.Qxf5 Bxa1 $17 {Steinitz} ) 9.Nc3 { 9.c6 then b3 Steinitz 
+9.c6 nebst b3 Steinitz} 9...Nxe5 10.Rxe5 g6 11.Qf3 c6 ( 11...Bf6 12.
+Qd5+ $6 ( 12.Re2 {leads back to the game. führt zurück zur Partie.} ) 
+12...Kh8 13.Re2 Nf7 14.b3 c6 15.Qf3 d5 $15 {Minckwitz} ) 12.b3 Nf7 13.Re2 
+( 13.Bc4 d5 $6 ( 13...Bf6 $1 $17 ) 14.Nxd5 cxd5 15.Rxd5 Qe8 16.Qc3 $18 {
+Steinitz} ) 13...d5 14.Bb2 Bf6 15.Rae1 Qd6 $1 $15 {Minckwitz, Steinitz} 
+16.Re8 $1 ( 16.a3 Ng5 17.Qg3 ( 17.Qe3 d4 $19 ) 17...f4 18.Qh4 Nf3+ $19 ) 
+16...Bd7 17.Rxa8 Rxa8 18.Nd1 { 18.a4 d1 Steinitz` draw offer 
+was declined here Ein Remisangebot von Steinitz wird abgelehnt} 18...Ng5 
+19.Qe2 Re8 20.Qf1 Bxb2 21.Rxe8+ Bxe8 22.Nxb2 {Zukertort's offer of a draw 
+was accepted. 22...a3 23.b1 and if e4 then e4! with a better 
+endgame () Steinitz. Time: Steinitz: 1h 15min, Zukertort: 20min. 
+Remisangebot von Zukertort akzeptiert. 22...a3 23.b1 und falls e4
+dann e4! mit besserem Endspiel () Steinitz. Zeit: Steinitz: 1h 
+15min, Zukertort: 20min} 1/2-1/2
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.02.10"]
+[Round "9"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "0-1"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "D26"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "76"]
+[Beauty "7767179938853"]
+[GameId "2235863508175443"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 6 to 9 were played in Saint Louis.} 
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 dxc4 5.e3 ( 5.e4 $1 Bb4 6.Bg5 $1 $16 {ECO 
+D39} ) 5...c5 6.Bxc4 cxd4 7.exd4 ( 7.Nxd4 $1 ) 7...Be7 8.O-O O-O {
+8...c6! D.Hooper vgl. Pillsbury-Steinitz St.Petersburg 1895/96} 9.Qe2 
+Nbd7 10.Bb3 {10.d5=} 10...Nb6 11.Bf4 ( 11.Rd1 $1 Nbd5 12.Bg5 Qa5 13.Rac1 
+$10 ) 11...Nbd5 12.Bg3 Qa5 13.Rac1 Bd7 14.Ne5 Rfd8 15.Qf3 ( 15.Nxd7 Rxd7 {
+ ad8} ) 15...Be8 16.Rfe1 Rac8 17.Bh4 { 18.d5 d5 (ed5) 
+19.e7 e7 20.b7} 17...Nxc3 18.bxc3 Qc7 19.Qd3 $6 ( 19.Bg3 Bd6 
+20.c4 $13 {Lasker} ) 19...Nd5 20.Bxe7 ( 20.Bg3 Qa5 $13 ) ( 20.Bc2 g6 21.
+Bxe7 Qxe7 22.Bb3 b5 $1 $15 ) 20...Qxe7 21.Bxd5 $2 {Zukertort believed the 
+knight to be superior since he now had the better game with his central 
+pawn. Steinitz refutes this. Zukertort glaubte, daß der Springer dem 
+Läufer überlegen sei und da er mit seinen Zentrumsbauern nun das bessere
+Spiel hat. Steinitz widerlegt dies.} ( 21.c4 $5 Qg5 22.g3 Nf4 23.Qe4 $13 )
+( 21.Bc2 $5 Nf6 $2 22.Ng4 $40 ) 21...Rxd5 22.c4 Rdd8 23.Re3 $2 {White has 
+a weak centre and should support it. Any attack on the king here is 
+doomed. 23.ed1  b3, c5, c4, d6 Neistadt 23.d5?! b5! 
+Steinitz Weiß hat ein schwaches Zentrum und sollte es stützen. Ein 
+Königsangriff ist hier zum Scheitern verurteilt. 23.ed1  b3, c5,
+c4, d6 Neistadt 23.d5?! b5! Steinitz} 23...Qd6 24.Rd1 ( 24.Rh3 $2
+h6 $1 ( 24...Qxd4 $6 25.Qxh7+ Kf8 26.Re3 $13 ) 25.Rd1 f6 $17 {Neistadt} ) 
+24...f6 25.Rh3 $5 ( 25.Nf3 Qa6 {25...h5! G.Barcza} 26.Nd2 ( 26.Qb3 Rxc4
+27.Nd2 Rcxd4 28.Rxe6 Bf7 $17 ) 26...e5 27.d5 Qxa2 $17 {Euwe} ) 25...h6 $1 
+( 25...fxe5 26.Qxh7+ Kf8 27.Rf3+ ( 27.Rg3 $5 Rd7 ( 27...Rc7 28.Qh8+ Ke7 
+29.Rxg7+ Bf7 30.Qh5 $10 {or 30.h4= oder 30.h4=} ) ( 27...Bf7 28.Rxg7
+Rc7 29.c5 ( 29.Qh8+ Ke7 $10 {cf. the line with 27...c7 Schallopp 
+vgl.Variante mit 27...c7 Schallopp} ) 29...Qd7 ( 29...Qxc5 $2 30.Qh8+ 
+Ke7 31.Qxd8+ $18 ) 30.Rd3 $3 ( 30.Qh8+ Ke7 31.Qh4+ $10 ) 30...e4 31.Rdg3 
+$1 Qxd4 ( 31...Rxc5 32.Rg8+ Ke7 33.Qh4+ $18 ) 32.Qh8+ Ke7 33.Rxf7+ Kxf7 
+34.Qh7+ $18 {Ravinski} ) 28.Qh8+ Ke7 29.Qh4+ Kf7 30.Qh7 $10 ) 27...Bf7 28.
+Qh5 Qd7 ( 28...Rd7 $2 29.Qh8+ $18 ) ( 28...Rc7 29.c5 Qd5 {or 29...d7 
+oder 29...d7} 30.Qh8+ Ke7 31.Qh4+ $10 ( 31.Qxg7 Rf8 32.h4 $13 ) ) 29.
+Qh8+ Ke7 30.Qh4+ $10 {Steinitz} ( 30.Qxg7 Rf8 31.h4 ( 31.d5 Rxc4 $17 ) 
+31...Rxc4 32.h5 Rxd4 $17 ) ) 26.Ng4 ( 26.Ng6 Bxg6 27.Qxg6 Rxc4 28.Rxh6 
+Qxd4 $1 29.Qh7+ Kf8 30.Qh8+ Kf7 31.Qxd8 Qxd8 $1 $19 ) 26...Qf4 $1 27.Ne3 (
+27.Rg3 b5 28.cxb5 Rxd4 $1 29.Nxh6+ Kf8 30.Qa3+ Qd6 $19 {Steinitz} ) 27...
+Ba4 $1 28.Rf3 ( 28.Rd2 $5 b5 29.Rf3 ( 29.cxb5 Rc1+ 30.Nd1 ( 30.Nf1 Bxb5 
+$19 {or 30...e5 oder 30...e5} ) 30...e5 $19 31.d5 Qb4 ) 29...Qb8 ( 29...
+bxc4 $2 30.Qa3 ) 30.cxb5 Rc1+ 31.Nd1 e5 $19 { 32...d4 or e4 -+ 
+Steinitz  32...d4 oder e4 -+ Steinitz} ) 28...Qd6 29.Rd2 ( 29.Rxf6 
+Bxd1 $1 $19 ( 29...gxf6 30.Qg6+ Kf8 31.Qxf6+ Ke8 32.Nf5 exf5 33.Re1+ Kd7 
+34.Qf7+ Kc6 35.Re6 $13 {} ) ) 29...Bc6 ( 29...b5 $1 30.Rg3 ( 30.cxb5 
+Rc1+ 31.Nf1 ( 31.Nd1 Qxd4 32.Qxd4 Rxd4 33.Rxd4 Bxd1 $19 ) 31...Qb4 $19 ) 
+30...bxc4 31.Qg6 Qf8 32.Ng4 Kh8 33.Nxh6 Be8 $1 34.Nf7+ Qxf7 $19 {V.Vukovic
+} ) 30.Rg3 ( 30.Rxf6 $2 gxf6 31.Qg6+ Kf8 32.Qxf6+ Ke8 $19 ) ( 30.d5 $5 Qe5
+$1 ( 30...exd5 31.Nf5 $5 ( 31.cxd5 Bxd5 32.Nxd5 Qxd5 33.Qxd5+ Rxd5 $19 {
+Steinitz} 34.Rfd3 Rc1+ ) 31...Qd7 $2 ( 31...Qe5 $2 32.Re3 Qa1+ 33.Rd1 $16 
+) ( 31...Qf8 32.Rg3 Rd7 33.Nxh6+ Kh8 34.Ng4 f5 35.Ne5 Rd6 36.Rg5 $16 ) 32.
+Rg3 dxc4 33.Nxh6+ Kh8 34.Qg6 Re8 35.h4 { f7 +- Euwe} ) 31.Rg3 exd5 
+32.Qg6 Rc7 $17 { 33...e8 Euwe} ) 30...f5 $1 $17 31.Rg6 Be4 32.Qb3 
+Kh7 $1 ( 32...f4 33.c5 fxe3 34.cxd6 exd2 35.Qxe6+ Kh7 36.Rxh6+ gxh6 37.
+Qf7+ Kh8 38.Qf6+ Kg8 39.Qe6+ Kg7 40.Qe7+ $10 ) 33.c5 Rxc5 34.Rxe6 ( 34.
+Qxe6 Rc1+ 35.Nd1 ( 35.Nf1 Qxe6 36.Rxe6 Bd5 37.Re7 Bc4 $19 ) 35...Qxe6 36.
+Rxe6 Bd5 37.Re1 Bxa2 38.Rxa2 Rxd4 $19 {Steinitz} ) 34...Rc1+ 35.Nd1 ( 35.
+Nf1 Qf4 $1 $19 ) 35...Qf4 36.Qb2 Rb1 37.Qc3 Rc8 38.Rxe4 Qxe4 {Time: 
+Zukertort:1h 55min    Steinitz: 2h 12min Zeit: Zukertort:1h 55min    
+Steinitz: 2h 12min} 0-1
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.02.26"]
+[Round "10"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1/2-1/2"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C67"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "42"]
+[Beauty "6599393432585"]
+[GameId "2235863508175444"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.Nxe5 Be7 7.Bd3 O-O 8.
+Nc3 $5 {cf. 8th game of the match vgl.8. Matchpartie} 8...Nxe5 9.Rxe5 c6 
+10.b3 Re8 {10...e8!? Minckwitz 10...f6!?  f7, d5 Schallopp} 11.
+Ba3 { 12.e7 e7 13.e4+- Steinitz} 11...Bf8 12.Re3 ( 12.Qe2 $5 
+Re6 $14 {Steinitz} ( 12...f6 13.Bc4+ Kh8 ( 13...Nxc4 14.Rxe8 $18 ) 14.Rxe8
+$18 ) ) 12...Rxe3 13.fxe3 Ne4 $1 14.Bxf8 ( 14.Nxe4 Bxa3 15.Qh5 g6 16.Qe5 
+Be7 17.Nd6 ( 17.Rf1 d6 $10 ) 17...Qf8 $10 {Steinitz} ) ( 14.Bb2 {! 
+Minckwitz} ) 14...Nxc3 15.Qh5 $1 g6 16.Qe5 Qxf8 17.Qxc3 Qg7 $10 18.Qxg7+ 
+Kxg7 19.e4 d6 20.Re1 Bd7 21.Kf2 Re8 {Time: Steinitz: 58 min   Zukertort: 
+23 min Zeit: Steinitz: 58 min   Zukertort: 23 min} 1/2-1/2
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.01"]
+[Round "11"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "0-1"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "C49"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "84"]
+[Beauty "7490691403295"]
+[GameId "2235863508175445"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 ( 3...g6 4.d4 exd4 5.Nxd4 Bg7 6.Be3 Nf6 7.Be2 
+O-O 8.O-O $10 {Steinitz} ) 4.Bb5 Bb4 5.O-O O-O 6.Nd5 Nxd5 7.exd5 e4 $1 {
+Gunsberg} 8.dxc6 ( 8.Ne1 {! Minckwitz,Schallopp} 8...Ne7 9.Bc4 ( 9.d3 c6 
+10.dxc6 dxc6 11.Bc4 b5 12.Bb3 Bxe1 13.Rxe1 exd3 14.Qxd3 Qxd3 15.cxd3 Nf5 
+16.Bf4 Bd7 17.Rac1 Rfe8 $10 {Minckwitz (Not convincing e.g. 10...dc?, 
+obviously better 10...bc) (Nicht überzeugend z.B.10...dc? offenbar besser
+10...bc)} ) 9...c6 $1 ( 9...d6 10.f3 Bc5+ 11.Kh1 f5 12.d4 Bb6 13.c3 Ng6 
+14.Nc2 Qh4 15.Be3 $10 {Minckwitz} ) 10.dxc6 bxc6 { d5 Steinitz} ) 
+8...exf3 {8...dc 8...bc Keres} 9.Qxf3 ( 9.cxb7 Bxb7 10.gxf3 Qg5+ $19
+) ( 9.cxd7 fxg2 $17 ) 9...dxc6 10.Bd3 $6 {10.e2! =  10.c4  c3, d4
+Minckwitz} 10...Bd6 11.b3 $6 { c3 Steinitz} 11...Qg5 12.Bb2 ( 12.h3 $4 
+Qe5 $19 ) ( 12.c3 f5 $17 {Steinitz} ) 12...Qxd2 13.Bc1 ( 13.Qe4 Qh6 14.h3 
+Bd7 { 15...ae8} ) ( 13.Rae1 Qf4 14.Qxf4 Bxf4 15.Re2 $15 { 
+fe1 Minckwitz} ) ( 13.Qh5 $5 g6 14.Qh4 Qf4 $15 ) 13...Qa5 $17 14.Bf4 
+Be6 {? 14...d7!  ae8 Minckwitz} 15.Rae1 Rfe8 ( 15...Qxa2 $2 
+16.Bd2 { 17.a1 b2 18.c3 c3 19.h7 +-} 16...Qa3 ( 16...Kh8
+17.Qh5 $40 ) 17.b4 { 18.e4,d4} ) 16.Re3 $1 Bd5 $6 ( 16...Qxa2 
+$1 17.Bxd6 ( 17.Rfe1 Qb2 $1 $19 ) 17...cxd6 18.Qe4 g6 19.Qd4 Qa3 20.b4 a5 
+$19 {Steinitz} ) ( 16...Bf5 $2 17.Bxd6 Bxd3 ( 17...Rxe3 $4 18.fxe3 $18 ) 
+18.Rxd3 cxd6 19.Rxd6 Qxa2 20.Rd7 Rf8 21.Qd3 $15 {Minckwitz} ) 17.Bxh7+ $2 
+( 17.Qh3 g6 18.Rxe8+ ( 18.Bxd6 Rxe3 19.Qxe3 cxd6 20.Qe7 Qb4 21.a3 Qg4 ( 
+21...Qxa3 $2 22.Qxb7 Re8 23.c4 $16 ) 22.f3 Qe6 ( 22...Qc8 23.Qxd6 $10 ) 
+23.Qxb7 $10 {Minckwitz} ) 18...Rxe8 19.Bxd6 cxd6 20.Qd7 $1 $10 {Lasker} ) 
+17...Kxh7 18.Qh5+ Kg8 19.Rh3 f6 20.Qh7+ ( 20.Bxd6 cxd6 21.c4 Qd2 ( 21...
+Qxa2 22.cxd5 Qb2 23.dxc6 bxc6 24.Rd1 Qe5 $17 {Minckwitz} ) ( 21...Rac8 22.
+cxd5 Qxd5 $17 {} ) 22.cxd5 Re1 $17 { ae8} 23.Qh8+ $4 Kf7 24.Qxa8 
+Rxf1+ 25.Kxf1 Qd1# {Steinitz} ) 20...Kf7 21.Qh5+ Kf8 22.Qh8+ Kf7 23.Qh5+ 
+Kf8 24.Qh8+ Kf7 25.Qh5+ Kf8 26.Qh8+ Kf7 27.Qh5+ Kf8 28.Qh8+ Kf7 29.Qh5+ 
+Kf8 30.Qh8+ Kf7 {2h} 31.Qh5+ Ke7 32.Re3+ Kf8 ( 32...Kd7 33.Qf5+ ( 33.Qg4+ 
+$2 Be6 $19 ) 33...Kd8 34.Rxe8+ Kxe8 35.Bxd6 cxd6 36.c4 $44 {} ) 33.Qh8+
+Bg8 34.Bh6 $5 {1h 34. 34.g3 leads to the game. g3 führt zur 
+Partiefortsetzung} 34...Re7 $8 ( 34...gxh6 35.Qxf6+ Bf7 36.Qxh6+ Kg8 37.
+Rh3 Bd5 ( 37...Qe5 38.Rg3+ $18 ) ( 37...Be5 38.Qg5+ Kf8 39.Rh8+ Bxh8 40.
+Qxa5 $18 {Minckwitz} ) 38.Qg6+ Kf8 39.Qf6+ Kg8 40.Rh8# {Steinitz} ) 35.
+Rxe7 ( 35.Rfe1 $4 Qxe1+ $19 ) 35...Kxe7 36.Bxg7 ( 36.Qxg7+ Bf7 $19 { 
+g8 Steinitz} ) 36...Qf5 $19 37.Re1+ Kf7 38.Bh6 Qh7 39.Qxh7+ Bxh7 40.c4 
+a5 $1 41.Be3 c5 42.Rd1 a4 {Time: Zukertort: 1h 25min    Steinitz: 2h 39min
+Zeit: Zukertort:1h 25min    Steinitz: 2h 39min} 0-1
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.03"]
+[Round "12"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1-0"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C67"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "87"]
+[Beauty "7424119409161"]
+[GameId "2235863508175446"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.Nxe5 Be7 7.Bxc6 dxc6 8.
+Qe2 Be6 ( 8...O-O $2 9.Nxc6 $1 bxc6 10.Qxe7 Re8 11.Qxd8 $19 ) 9.d3 {Not 
+d4, since Black gets the chance to resolve his doubled pawns and would 
+then have the better game thanks to his bishop pair. Weiß spielt nicht 
+d4, um Schwarz nicht die Chance zu geben, seine Doppelbauern mit c5 
+aufzulösen, da dieser dann aufgrund des Läuferpaares das bessere Spiel 
+hätte.} 9...Nf5 ( 9...O-O 10.Nxf7 $17 ) 10.Nd2 O-O ( 10...Nd4 $5 11.Qd1 (
+11.Qe4 Nxc2 ( 11...f5 12.Qf4 g5 13.Qg3 f4 $19 ) 12.Nxc6 Qd6 $1 13.Nxe7 
+Nxe1 $19 ) 11...O-O 12.c3 Nb5 13.Ndf3 Bf5 14.Qe2 Bf6 15.Bd2 ( 15.Bf4 $2 g5
+16.Bg3 g4 17.Nd2 Bxe5 18.Qxe5 Qxd3 $17 ) 15...Re8 $15 {Minckwitz} ) 11.c3 
+Re8 12.Ne4 Qd5 $1 13.Bf4 Rad8 14.d4 Nd6 ( 14...c5 $2 15.dxc5 ( 15.c4 Qxd4 
+16.Rad1 $18 {Minckwitz} ) 15...Bxc5 16.Rad1 $18 {Steinitz} ) ( 14...f6 15.
+Nd3 Nd6 16.Nec5 Bc8 17.Nb4 {Minckwitz This position is very similar to the
+game after the 17th move. Diese Stellung ist sehr ähnlich mit der 
+Partiestellung nach dem 17.Zug.} ) ( 14...Bd6 $6 15.Ng4 $16 {Steinitz} ) 
+15.Nc5 Bc8 16.Ncd3 {1h} ( 16.Be3 Nf5 17.c4 Nxd4 18.cxd5 Nxe2+ 19.Rxe2 Bxc5
+20.Bxc5 Rxd5 $1 21.Rae1 f6 $40 { Steinitz} ) 16...f6 17.Nb4 ( 17.Nf3 
+Bg4 $1 $15 {Schallopp} ) 17...Qb5 ( 17...Qe6 18.Nexc6 ( 18.Ned3 Qxe2 19.
+Rxe2 Bf8 $10 ) 18...Qxe2 19.Rxe2 bxc6 20.Nxc6 Rd7 21.Nxa7 $2 Bb7 $19 {
+Minckwitz} ) 18.Qxb5 Nxb5 ( 18...cxb5 19.Ned3 c6 ( 19...a6 $2 20.Nd5 $1 
+$16 ) 20.Nc5 a5 21.Nbd3 b6 22.Nb3 Bf5 $17 {Minckwitz} ) 19.Ned3 Bf5 $2 {1h
+} ( 19...a5 $1 20.Nc2 Bf5 21.Rad1 { 21.ed1 Steinitz} 21...a4 $17 {
+Minckwitz} ) 20.a4 $1 Nd6 $2 ( 20...a5 $1 21.axb5 axb4 22.Nxb4 $1 ( 22.
+bxc6 $2 Bxd3 23.cxb7 Rb8 24.Ra8 Kf7 $19 ) 22...Bxb4 23.cxb4 cxb5 $10 {
+Steinitz} ) 21.a5 $1 $16 Nb5 $6 ( 21...a6 22.Nc5 $1 $40 {Steinitz} 22...
+Bc8 23.Ne6 ( 23.Nbd3 Bf8 $13 ) 23...Bxe6 24.Rxe6 Nb5 25.Rae1 Kf7 $14 {
+Minckwitz} ) 22.a6 Bxd3 23.Nxd3 b6 24.Re3 Kf7 25.Rae1 Rd7 $2 { 
+ed8,f8,c5} ( 25...Bd6 $1 {Steinitz, Minckwitz} 26.Rxe8 Rxe8 27.Rxe8 
+Kxe8 28.Bxd6 $6 { 28.e3  c4} 28...cxd6 29.Nb4 Kd7 30.d5 cxd5 
+31.Nxd5 Ke6 32.Nb4 Kd7 $10 {Minckwitz} ) ( 25...g5 $2 26.Bg3 h5 27.h4 $16 
+) 26.Nb4 $1 g5 27.Bg3 f5 28.f4 ( 28.Nxc6 $1 f4 29.Ne5+ Ke6 30.Bxf4 gxf4 
+31.Rh3 $40 {+- Steinitz} ) 28...c5 29.Nc6 cxd4 30.cxd4 Kf8 31.Re5 Nxd4 32.
+Nxd4 $1 ( 32.Rxe7 Rdxe7 33.Rxe7 Rxe7 34.Nxd4 gxf4 35.Bxf4 Re4 36.Bh6+ Ke7 
+37.Nb5 Ra4 38.Nxc7 Kd7 $13 ) 32...Rxd4 33.Rxf5+ Kg7 ( 33...Kg8 34.Rxg5+ 
+Bxg5 35.Rxe8+ $18 { c8, a8 Steinitz} ) 34.fxg5 ( 34.Rxg5+ Bxg5 
+35.Rxe8 Bxf4 $18 {Steinitz The win would be very wearisome. Der Gewinn 
+wäre sehr langwierig.} ) 34...Bc5 ( 34...Rd7 35.h4 Kg6 ( 35...Bc5+ 36.
+Rxc5 {see the game. siehe: Partie} ) 36.Rfe5 Kf7 37.h5 Bc5+ 38.Rxc5 bxc5 
+39.g6+ hxg6 40.hxg6+ Kf8 41.g7+ $18 {Steinitz} ) 35.Rxc5 $1 ( 35.Rxe8 Rd1#
+) ( 35.Kf1 Rxe1+ 36.Kxe1 Kg6 $16 ) 35...Rxe1+ 36.Bxe1 bxc5 37.Bc3 Kg6 38.
+Bxd4 cxd4 39.h4 Kf5 40.Kf2 Ke4 ( 40...Kg4 41.g3 $18 { e2, g3, h5,
+g6} ) 41.Ke2 c5 42.b3 Ke5 43.Kd3 Kf4 44.b4 {Time: Steinitz: 2h 39min   
+Zukertort: 1h 35min Zeit: Steinitz: 2h 39min   Zukertort: 1h 35min} 1-0
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.05"]
+[Round "13"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "1-0"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "E57"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "171"]
+[Beauty "5090610000460"]
+[GameId "2235863508175447"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bf4 c5 5.e3 ( 5.Nb5 $2 cxd4 6.Nc7+ ( 6.Qa4 Bd7
+$17 ) ( 6.Qxd4 Nc6 7.Qd2 Bb4 $17 ) 6...Qxc7 7.Bxc7 Bb4+ $17 ) 5...cxd4 ( 
+5...a6 6.dxc5 Bxc5 7.cxd5 Nxd5 $10 {Janowski-Lasker London 1899} ) 6.exd4 
+dxc4 {Minckwitz: Premature. Verfrüht.} 7.Bxc4 Nc6 ( 7...Nbd7 $5 8.Nb5 $6 
+Bb4+ 9.Kf1 O-O 10.Nc7 Nb6 11.Nxa8 ( 11.Bb3 Nbd5 $17 ) 11...Nxc4 12.Nc7 e5 
+13.Bxe5 Bg4 $40 { Steinitz} ) 8.Nf3 Be7 $10 {Matanovic} 9.O-O O-O 10.
+Re1 { 10.c1 Pillsbury} 10...Bd7 { 10.b6! D.Hooper} 11.Qe2 Qa5 
+{?! Minckwitz  11...a6, 11...ac8} 12.Nb5 $5 a6 13.Bc7 b6 $8 14.Nc3 
+Rfc8 15.Bf4 b5 16.Bb3 Qb6 17.Red1 {17.d5! D.Hooper} 17...Na5 $1 {Lasker} 
+18.Bc2 Nc4 {1h} 19.Bd3 Nd6 {19...e8} 20.Ne5 Be8 21.Bg5 { d5, ed, 
+f7, f7, e7!, d5 Minckwitz} 21...Qd8 ( 21...Ra7 22.Be3 $14 ) ( 
+21...Rc7 22.Qf3 Rac8 23.Qh3 h6 ( 23...g6 24.Qh4 ) 24.Bxh6 $40 {Steinitz} )
+22.Qf3 Ra7 {?!  b4  a6-a5-a4, ab8 Minckwitz} 23.Qh3 h6 {?!  g6
+Minckwitz} 24.Be3 {1h} 24...Rac7 { Lasker ? Minckwitz} 25.d5 {!  
+Minckwitz} 25...b4 ( 25...Nxd5 $4 26.Nxd5 exd5 27.Bb6 $16 ) 26.Ne2 Nxd5 
+27.Bxa6 Ra8 28.Bd3 Bf6 29.Bd4 Nb5 30.Nf3 Nxd4 31.Nfxd4 Ra5 $17 { 
+32...d4 33.d4 f4 and then d3 and ad5 and cd7 Steinitz
+×a2 Lasker   32...d4 33.d4 f4 nebst d3 und ad5 und 
+cd7 Steinitz ×a2 Lasker} 32.Qf3 Ba4 33.Re1 Ne7 34.Qe4 g6 {?  
+34...a8 ( 35.h7 f8 36.h8 g8  g6) Minckwitz} 35.b3 Be8 
+36.Bc4 Nf5 $1 $19 {Steinitz} 37.Nxe6 $8 ( 37.Rad1 Rd7 38.Nxe6 Rxd1 $19 ) 
+37...fxe6 {Sealed move. Time :Steinitz: 2h 40min Zukertort: 1h 54min  
+Abgabezug Zeit: Steinitz: 2h 40min Zukertort:1h 54min} 38.Bxe6+ Kg7 { 
+38...f7 Schallopp} 39.Rad1 Qe7 $2 ( 39...Qb8 40.Nf4 Re5 41.Qb1 Re7 $19 
+{Steinitz} ) ( 39...Qa8 40.Qxb4 Nh4 $19 { a2 Lasker} ) 40.Nf4 Re5 
+41.Qb1 Rxe1+ ( 41...Bc6 42.Nxg6 Rxe1+ ( 42...Kxg6 43.Bxf5+ $16 ) ( 42...
+Qxe6 43.Nxe5 Bxe5 44.f4 $18 ) 43.Rxe1 Kxg6 44.Bxf5+ $18 {
+Steinitz,Minckwitz} ) 42.Rxe1 Bc3 43.Nd5 Qc5 ( 43...Qd8 $5 44.Nxc7 ( 44.
+Rd1 Nd4 45.Nxc7 Qxc7 {Leads to the game. Führt zur Partie.} ) 44...Bxe1 
+45.Nxe8+ Qxe8 46.Qxe1 Kf6 $1 $10 {Schallopp} ) 44.Nxc7 Qxc7 45.Rd1 Nd4 46.
+Bc4 {2h} 46...Bc6 { 46...e5 Minckwitz 3h} 47.Qd3 Ba8 $2 ( 47...Qf4 
+$1 48.Qe3 Qf6 $10 {Steinitz} ) 48.Qe3 Qd6 {48...b7 49.f3+-  
+50.e8, 50.d4, 50.a3 Steinitz} 49.a3 $1 Bc6 50.axb4 Qf6 51.Kf1 Nb5 
+52.Qe6 Qxe6 53.Bxe6 Bxb4 $2 $18 ( 53...Nd4 54.Bc4 Kf6 $16 {Steinitz} ) 54.
+Bd7 $1 Nc3 ( 54...Na7 $2 55.Ra1 Bc5 56.Bxc6 Nxc6 57.Rc1 $18 {Steinitz} ) 
+55.Rd4 Bxd7 56.Rxd7+ Kf6 57.Rd4 Be7 58.b4 Ke5 59.Rc4 Nb5 60.Rc6 Bd6 61.Rb6
+Nd4 {4h} 62.Rb7 g5 63.b5 Kd5 64.b6 $1 Kc6 65.Rh7 Kxb6 66.Rxh6 Kc7 67.h4 $1
+gxh4 68.Rxh4 Nf5 69.Rh7+ Kd8 70.g4 {3h} 70...Ne7 71.Kg2 Ke8 {71...g6 
+ f4 also loses. White plays f3-e4 attacking the  or plays 
+f5; Steinitz.  Auch 71...g6  f4 verliert. Weiß spielt 
+f3-e4 greift den  an oder spielt f5; Steinitz.} 72.Kf3 Bc5 73.Rh5
+Bd4 74.Kg3 Kf7 75.f4 Bc3 76.Rb5 Be1+ 77.Kf3 Bc3 78.g5 Ba1 79.Kg4 Bc3 80.f5
+Bd4 81.Rb7 Bc3 82.Kh5 ( 82.f6 $4 Bxf6 $10 ) 82...Bd4 83.Kh6 {Steinitz: 
+Zukertort played excellently after the exchange of queens. Nach dem 
+Damentausch spielte Zukertort ausgezeichnet.} 83...Bg7+ 84.Kh7 Be5 85.g6+ 
+Kf8 86.Rxe7 {Time: Zukertort: 3h 10min    Steinitz: 4h 55min Zeit: 
+Zukertort: 3h 10min    Steinitz: 4h 55min} 1-0
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.12"]
+[Round "14"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1/2-1/2"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C67"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "96"]
+[Beauty "5707072013321"]
+[GameId "2235863508175448"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.Nxe5 Be7 7.Bd3 O-O 8.
+Nc3 Nxe5 9.Rxe5 c6 10.b3 Ne8 $1 {Steinitz: The correct defence. Die 
+richtige Verteidigung.} 11.Bb2 d5 12.Qf3 Bf6 ( 12...g6 13.Rae1 Bf6 $4 14.
+Rxe8 Rxe8 15.Rxe8+ Qxe8 16.Qxf6 $18 ) ( 12...Nd6 $5 13.Rae1 Be6 14.Ba3 ( 
+14.Rh5 $6 g6 15.Rh6 Bf6 $17 ) 14...Re8 15.Ne2 Bf8 16.Nf4 Bd7 $10 {
+Minckwitz} ) 13.Re2 Nc7 $1 {Steinitz} 14.Ba3 Re8 15.Rae1 Ne6 16.Na4 Bd7 {
+16...b6 17.c4! Steinitz} 17.Nc5 Nxc5 18.Rxe8+ Bxe8 19.Bxc5 b6 20.Ba3 {
+1h} 20...Bd7 21.Qg3 { 21.c3  b1,d4 Steinitz} 21...c5 22.c3 Be6 
+23.Bb2 Qd7 24.Bc2 Re8 { c8! d4, c4  Minckwitz 1h} 25.h3 b5 26.
+d4 cxd4 27.cxd4 Rc8 28.Bd3 Bf5 29.Bxf5 Qxf5 { 30...c2} 30.Qg4 Qxg4 {
+Zukertort offers a draw, but Steinitz prefers to play on.} 31.hxg4 h6 32.
+Re2 {2h} 32...b4 33.g3 a5 $1 34.Kf1 {Steinitz offers a draw, but Zukertort
+prefers to play on} 34...a4 35.bxa4 Ra8 36.Re1 Rxa4 37.Ra1 {White's last 
+four moves were forced - Steinitz.} 37...Kf8 38.Ke2 Ke7 39.Kd3 Ra6 40.a3 (
+40.Kc2 Rc6+ 41.Kb3 Rc4 $10 {Steinitz} ) 40...bxa3 41.Rxa3 Rxa3+ 42.Bxa3+ 
+Kd7 43.Bf8 Ke8 44.Bd6 g6 45.Be5 Bd8 46.Bg7 h5 ( 46...f6 $1 47.Bxh6 g5 48.
+f4 Kf7 49.f5 $1 {Steinitz} 49...Kg8 50.Kc3 Be7 51.Kb3 Kh7 52.Bxg5 fxg5 53.
+Ka4 Bf6 54.Kb5 Bxd4 55.Kc6 Kg7 56.Kxd5 Bb2 ( 56...Bf2 57.Ke6 Bxg3 58.Ke7 
+Bc7 59.Ke6 Bd8 60.Kd6 Kf7 $10 {Steinitz} ) 57.Ke6 Bf6 58.Kd6 Kf7 59.Kd5 
+Bc3 60.Kd6 Be1 61.Kd5 Bxg3 62.Ke4 Ke7 63.Kd5 Kd7 64.Kc5 Bh2 65.Kd5 Bd6 66.
+Ke4 Kc6 67.f6 $10 {Hooper} ) 47.gxh5 gxh5 48.Be5 Kd7 {Time: Steinitz: 2h 
+55min   Zukertort: 1h 21min Zeit: Steinitz: 2h 55min   Zukertort:1h 21min}
+1/2-1/2
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.15"]
+[Round "15"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "1/2-1/2"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "D35"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "97"]
+[Beauty "5637815665160"]
+[GameId "2235863508175449"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.cxd5 exd5 {5...cd! Hooper} 6.Bxf6 
+gxf6 7.e3 ( 7.dxc5 d4 {7...e6!?} 8.Ne4 Bf5 ( 8...f5 9.Nd6+ Bxd6 10.Qxd4
+$18 ) ( 8...Bxc5 9.Qa4+ Bd7 10.Qc4 $16 ) ( 8...Qa5+ 9.Qd2 Qxd2+ 10.Kxd2 f5
+11.Nf6+ Kd8 12.Rc1 Na6 13.Nf3 $14 {Minckwitz} ) 9.Qa4+ Nc6 10.Ng3 Bd7 $13 
+{Steinitz} ) 7...Be6 ( 7...c4 $6 8.e4 Bb4 9.Qa4+ $1 Nc6 10.exd5 Qxd5 11.
+Qxb4 Nxb4 12.Nxd5 Nxd5 $1 13.Bxc4 $16 {Steinitz} ) 8.Qb3 ( 8.Nge2 $1 Nc6 
+9.g3 cxd4 10.exd4 Bb4 11.Bg2 Qb6 12.O-O $16 {Pillsbury-Steinitz Hastings 
+1895} ) 8...Qd7 9.Bb5 Nc6 10.e4 $2 O-O-O $1 ( 10...cxd4 11.exd5 ( 11.Nxd5 
+$2 O-O-O $19 ) 11...dxc3 12.dxe6 Qd2+ 13.Kf1 c2 ( 13...cxb2 14.exf7+ Ke7 
+15.Re1+ $18 ) 14.exf7+ Kd8 15.Ne2 Kc7 16.Bd3 Nb4 17.Bxc2 $16 { 18.c1
+Steinitz} ) 11.exd5 Bxd5 12.Nxd5 Qxd5 13.Qxd5 Rxd5 14.Bxc6 bxc6 15.dxc5 
+Bxc5 16.Nf3 Re8+ 17.Kf1 Bb6 $19 {Hooper} 18.g3 ( 18.Rc1 Rc5 19.Re1 Rxe1+ 
+20.Nxe1 Rc1 { 21...b1} ) ( 18.Re1 Rxe1+ 19.Kxe1 Ra5 20.a3 Rb5 21.b4 
+a5 $19 {Steinitz} ) 18...Rf5 19.Kg2 Re2 20.Rhf1 Rxb2 21.a4 Rc5 ( 21...Ra5 
+22.Rac1 c5 23.Rc4 { 24.f4} 23...Rb4 24.Rxb4 cxb4 25.Ra1 Rf5 26.Ra2 
+$19 {Steinitz: The win has now clearly become more difficult. Der Gewinn 
+ist deutlich schwieriger geworden.} ) 22.Ng1 {1h} 22...Ra5 23.Ra3 ( 23.
+Rac1 c5 24.Rc4 Rb4 25.Rxb4 cxb4 26.Ra1 Bd4 $1 $19 {Steinitz} ) 23...Kb7 
+24.Nh3 $5 {Steinitz: White's knight manoeuvres are very skilful. Weiß 
+manövriert sehr geschickt mit dem Springer.} 24...Bd4 25.Re1 Re5 26.Rd1 
+c5 27.Rf3 Ree2 28.Rf1 Rb6 29.Nf4 Ra2 30.Nd5 Re6 ( 30...Rd6 31.Rb1+ Kc8 32.
+Ne7+ Kd8 33.Nf5 Rd7 34.Rd1 Rxa4 35.Rf4 Kc7 36.Kf3 Ra3+ 37.Ke4 $146 {
+Minckwitz} ) 31.Nf4 Rd6 32.Rb1+ Kc6 $2 ( 32...Kc7 33.Rfb3 Rxf2+ 34.Kh1 ( 
+34.Kh3 f5 35.Kh4 Bf6+ 36.Kh3 Bg5 $19 ) 34...Be5 $40 {+- Steinitz} ) 33.Rb8
+$1 Rxa4 {33...f5 34.h5 Steinitz} 34.Rh8 Ra2 $2 ( 34...c4 $1 35.Ne2 
+Be5 36.Rxh7 Rd3 37.Rxf7 Raa3 38.Ng1 Rxf3 39.Nxf3 c3 $19 {Steinitz} ) 35.
+Rxh7 a5 $2 {35...c4 Hooper} 36.Rxf7 a4 37.h4 Rd7 $1 {Steinitz: Not 37...c4
+now. He might even lose. White advances the h-pawn and if ...c2, d3 
+with the threat of b4.  Jetzt ist 37...c4 nicht mehr angebracht. Es 
+droht dann sogar noch zu verlieren.Weiß rückt den h-bauern vor und 
+spielt im Falle von c2 d3 mit der Drohung b4.} 38.Rxd7 Kxd7 {2h} 39.
+h5 {1h} 39...Ke7 40.h6 Kf7 41.h7 Kg7 42.Ne6+ Kxh7 43.Nxd4 cxd4 44.Rd3 $1 (
+44.Rxf6 d3 45.Rd6 ( 45.Kf3 a3 46.Ra6 Ra1 47.Ke3 a2 48.Kd2 Rf1 $19 ) 45...
+d2 46.Kf3 Rb2 47.Ke2 a3 48.Ra6 a2 $19 { 49...b1 Steinitz} ) 44...Rb2
+45.Rxd4 a3 46.Ra4 a2 47.g4 Kg6 48.Kg3 Kf7 49.f4 {Time: Zukertort: 1h 12min
+   Steinitz: 3h 26min Zeit: Zukertort: 1h 12min    Steinitz: 3h 26min} 
+1/2-1/2
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.17"]
+[Round "16"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1-0"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C65"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "97"]
+[Beauty "7079448282664"]
+[GameId "2235863508175450"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 {Anderssen's continuation Anderssen's 
+Fortsetzung} 4...d6 5.c3 g6 {Paulsen's plan  Paulsen's Plan} 6.d4 {
+Rosenthal} 6...Bd7 7.Nbd2 Bg7 8.dxe5 Nxe5 ( 8...dxe5 9.Bxc6 Bxc6 10.Nxe5 
+Bxe4 11.Qa4+ $18 {Steinitz} ) 9.Nxe5 dxe5 ( 9...Bxb5 $2 10.Nxf7 $1 Kxf7 
+11.Qb3+ $18 ) 10.Qe2 O-O 11.Bd3 Qe7 12.f3 Bc6 {12...e6! Hooper} 13.Nb3 
+{13.f1! Hooper cf.18th match game. 13.f1! Hooper vgl.18.Matchpartie}
+13...a5 14.Be3 Nd7 15.h4 a4 16.Nd2 h6 17.h5 g5 18.Nf1 Nc5 19.Bc2 Rfd8 20.
+Ng3 Bd7 $2 ( 20...Bf8 21.Nf5 Qf6 22.g4 Rd7 23.O-O Rad8 24.Rad1 Rxd1 25.
+Rxd1 Rxd1+ 26.Qxd1 Kh7 27.Kg2 b5 $17 { e6-f4 Minckwitz} ) ( 20...Ne6
+21.Nf5 Qe8 $13 {Hooper} ) 21.O-O-O {1h} ( 21.Qf2 Na6 22.Nf5 Bxf5 23.exf5 
+b5 $40 {Minckwitz} ) 21...c6 22.Rd2 ( 22.b4 axb3 23.axb3 Ra1+ 24.Kb2 Nd3+ 
+$1 $19 {Zukertort} ) 22...Be6 23.Nf5 Bxf5 24.exf5 Rxd2 25.Qxd2 Nd7 26.g4 
+$16 {Steinitz} 26...Nf6 {Steinitz:  27...d5 28...e3 or if the 
+bishop moves away 28...a3 and then 29...e4.   27...d5 28...e3 
+oder falls der Läufer wegzieht 28...a3 nebst 29...e4} 27.Be4 Rd8 {?  
+27...e4  d8, f8, b5, g7 =Minckwitz} 28.Qc2 Nd5 {? 
+28...e4  b5 = Minckwitz} 29.Bf2 ( 29.Bxd5 cxd5 30.Qxa4 d4 31.Bd2 $1 
+( 31.cxd4 exd4 32.Bd2 Qe2 33.Qd1 Rc8+ 34.Kb1 Qd3+ 35.Ka1 Rc2 36.Bc1 Qc4 
+$40 {} ) 31...e4 $40 {Steinitz} ) 29...b5 {1h} 30.a3 Bf8 ( 30...Qe8 $1 
+31.Rd1 Nf4 ( 31...Ne7 32.Rxd8 Qxd8 33.Bc5 Nd5 $14 ) 32.Rxd8 Qxd8 33.Bxc6 
+Nd3+ 34.Kb1 Nxf2 35.Qxf2 Qd1+ 36.Ka2 Qb3+ $10 {Minckwitz} ) 31.Rd1 Qb7 {??
+Minckwitz} ( 31...Qe8 32.c4 Nf4 $14 {Minckwitz} ) 32.c4 $1 bxc4 $6 ( 32...
+Rc8 $1 33.Rd3 Nf4 34.Rd2 b4 35.Qxa4 bxa3 36.bxa3 Ra8 37.Qxc6 Bxa3+ 38.Kd1 
+$14 {Steinitz} ) 33.Qxc4 {2h} 33...Rb8 34.Rd2 Nb6 35.Qc3 ( 35.Qxc6 Qxc6+ 
+36.Bxc6 Nc4 $15 { 37...b2 and later a3 Minckwitz  37...b2 
+und später a3 Minckwitz} ) 35...Nd5 36.Qc4 ( 36.Qxe5 $4 Bg7 $19 {
+Steinitz} ) 36...Nb6 37.Qd3 $1 Be7 38.Rc2 Nd5 39.Qc4 Bxa3 $2 ( 39...Nb6 
+40.Qxc6 $1 $18 {Schallopp} ( 40.Bxb6 $16 {Hooper} ) ) 40.bxa3 $18 Qb1+ 41.
+Kd2 Rd8 42.Bxd5 Rxd5+ 43.Ke3 Rb5 44.Qxc6 Rb3+ 45.Ke2 Kh7 46.f6 Rb2 47.Rxb2
+Qxb2+ 48.Kf1 Qxa3 49.Qe8 {Time: Zukertort: 2h 10min    Steinitz: 2h 45min 
+Zeit: Zukertort: 2h 10min    Steinitz: 2h 45min} 1-0
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.19"]
+[Round "17"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "1/2-1/2"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "D60"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "104"]
+[Beauty "5500263469586"]
+[GameId "2235863508175451"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 {cf. game 4 of the match.  
+vgl.15.Matchpartie} 5.Nf3 O-O 6.e3 dxc4 7.Bxc4 Nbd7 8.O-O c5 9.Qe2 h6 10.
+Bh4 Nb6 $4 {10...cd! Steinitz} 11.dxc5 $1 $16 {Steinitz   11.fd1 
+11...c7 12.g3 c6 13.e5 and here 11...bd7 leads back to 
+the game. Minckwitz  Steinitz   11.fd1  11...c7 12.g3 c6
+13.e5 hier führt 11...bd7 zur Partie Minckwitz} 11...Bxc5 12.
+Rfd1 Nbd7 ( 12...Qe7 13.e4 $40 ) ( 12...Qe8 13.Nb5 $18 ) ( 12...Bd7 13.Ne5
+Qe7 ( 13...Be7 14.Bxf6 Bxf6 15.Nxd7 Nxd7 16.Bb5 $18 ) 14.Bxf6 gxf6 15.Nxd7
+Nxd7 16.Qh5 { 17.d7,18.c5} 16...Ne5 17.Qxh6 Nxc4 18.Ne4 $18 {
+Steinitz} ) 13.e4 Be7 14.e5 { 15.e7, 16.b5, 17.d6} 14...Ne8 ( 
+14...Nd5 15.Bxe7 Nxc3 16.Bxd8 Nxe2+ 17.Bxe2 Rxd8 18.Rd6 Kf8 19.Rad1 Ke8 {
+19...e7} 20.Nd4 $16 { 21.f4 or 21.b5  21.f4 oder 21.b5} 
+20...Nxe5 $4 21.Rxd8+ Kxd8 22.Nc6+ $18 {Steinitz} ) 15.Bg3 Qb6 16.a3 $1 {
+Steinitz} 16...a5 17.Rac1 Nc5 18.Bf4 $1 {Steinitz: Excellent bishop 
+manoeuvering. Die Läufermanöver sind exzellent.} 18...Bd7 19.Be3 { 
+20.e4} 19...Bc6 20.Nd4 Rd8 ( 20...Qc7 21.f4 $40 {/+- Steinitz} ) 21.
+Ndb5 $6 { 21.f4  g4, f5+- Minckwitz} ( 21.Nxc6 $1 Rxd1+ 22.Qxd1 Qxc6
+( 22...bxc6 23.Na4 $18 ) 23.Bb5 Qc7 24.Na4 b6 25.b4 Qxe5 26.bxc5 Nc7 27.
+Be2 $18 {Steinitz} ) 21...Rxd1+ 22.Rxd1 Bxb5 23.Nxb5 Qc6 24.b4 axb4 25.
+axb4 Nd7 {?  25...a6! Minckwitz (but cf. variations) ?  
+25...a6! Minckwitz (vgl. aber Varianten)} ( 25...Na4 26.Rc1 $40 { 
+27.d3 or 27.b3   27.d3 oder 27.b3 } ) ( 25...Na6 26.
+Na7 Qa4 27.Bb5 Qxb4 28.Bxa6 bxa6 29.Nc6 Qa3 30.Qc4 $18 { 30...g5 
+31.c5 30...c7 31.e7, 32.c5 Steinitz} ) 26.Nd4 Qe4 27.Nxe6 $1 
+Nxe5 $1 28.Nxf8 ( 28.Bd5 $1 Qxb4 ( 28...Qf5 29.Nxf8 Bxf8 30.Bxb7 $18 ) 29.
+Nxf8 Bxf8 30.Bxh6 gxh6 31.Qxe5 $18 {Minckwitz} ) 28...Nxc4 29.Nd7 Bxb4 30.
+Qd3 Qg4 {2h   30...e6! Steinitz} 31.h3 Qe6 32.Rb1 Nxe3 33.Qxe3 $2 ( 
+33.Rxb4 $1 Nd5 34.Rxb7 Qc6 35.Qb1 ( 35.Ra7 Qc1+ 36.Qf1 $18 {Minckwitz} ) 
+35...Nf4 36.f3 Ne2+ 37.Kf2 ( 37.Kh1 Ng3+ 38.Kh2 Nf1+ $10 ) 37...Nd4 { 
+38...e6  Steinitz} ) 33...Qxd7 34.Rxb4 Qd1+ 35.Kh2 Qd6+ 36.Qf4 Kf8 
+$1 37.Qxd6+ {37.g3 g6 Steinitz} 37...Nxd6 38.Kg3 Ke7 39.Kf4 Ke6 40.
+h4 $6 { 40.e3  41.d3/ Steinitz} 40...Kd5 $10 {Minckwitz}
+41.g4 b5 42.Rb1 Kc5 43.Rc1+ Kd5 $1 ( 43...Nc4 44.Ke4 b4 $4 45.Kd3 $18 {
+Steinitz} ) 44.Ke3 {44.c7 Hooper} 44...Nc4+ 45.Ke2 b4 46.Rb1 Kc5 47.
+f4 Na3 48.Rc1+ Kd4 49.Rc7 b3 50.Rb7 Kc3 51.Rc7+ Kd4 ( 51...Nc4 52.Rxf7 b2 
+53.Rb7 Na5 54.Rxb2 Kxb2 55.h5 $1 Nc6 56.g5 Nd4+ {56...e7} 57.Ke3 Nf5+ 
+58.Ke4 Ng3+ 59.Ke5 Nxh5 60.gxh6 gxh6 61.Kf5 $10 {Minckwitz  According to 
+Steinitz this variation (c4, f7, b7, b2(1), h5!, g5) if played
+correcctly should lead to a win for White. Nach Steinitz sollte diese 
+Fortsetzung (c4,f7,b7,b2(1),h5!,g5) richtig durchgeführt zum 
+Gewinn von Weiß führen.} ) ( 51...Kb2 52.Rxf7 Ka2 53.Rxg7 b2 54.Rb7 b1=Q
+55.Rxb1 Nxb1 {55...b1} 56.h5 $18 {Minckwitz} ( 56.Kd3 Kb3 57.f5 Nc3 58.
+f6 Nd5 59.f7 Nf4+ 60.Ke4 Ng6 61.h5 Nf8 62.Kd5 $18 {Schallopp} ) ) 52.Rb7 
+Kc3 1/2-1/2
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.22"]
+[Round "18"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1-0"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C65"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "79"]
+[Beauty "7701438136839"]
+[GameId "2235863508175452"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.c3 g6 6.d4 Bd7 7.Nbd2 Bg7 8.dxe5 
+Nxe5 9.Nxe5 dxe5 10.Qe2 O-O 11.f3 a5 12.Bd3 Qe7 13.Nf1 $1 {Deviating from 
+the 16h match game. Hier weicht die Partie von der 16.Matchpartie ab.} 
+13...Be6 { h6, h7, g8, c6, fd8 Playing these moves in the 
+correct order make Black invincible. Minckwitz Diese Züge in der 
+richtigen Reihenfolge gespielt machen Schwarz unbesiegbar. Minckwitz} 14.
+g4 $5 Rfd8 ( 14...Nd7 15.g5 f6 16.h4 fxg5 17.hxg5 Qf7 $2 18.Qh2 Qxf3 19.
+Be2 Qxe4 20.Ng3 Qc6 21.Qxh7+ Kf7 22.Rf1+ $18 {Minckwitz} ) ( 14...h6 15.g5
+$1 $40 ) 15.h4 Qd7 ( 15...h5 $1 16.g5 Nd7 $14 {Hooper} ) 16.Bc2 h5 $1 {
+Steinitz} 17.g5 {17.gh h5 = Steinitz} 17...Ne8 18.Ne3 Qc6 $6 ( 18...c6 
+$1 {Hooper} 19.Nc4 Qc7 20.Be3 Bxc4 21.Qxc4 b5 $10 {Minckwitz} ) 19.c4 $1 {
+Steinitz} 19...Nd6 ( 19...Rd4 20.Bd3 Nd6 21.b3 $16 { 22.c2, 22.b2
+Steinitz} ) 20.Bd3 Rab8 $6 {Steinitz   b6 Minckwitz} 21.Nd5 Bxd5 $2 {
+ 21...e8! 22.a4 d5  Minckwitz   f8  Steinitz} 22.cxd5
+{1h} 22...Qd7 23.Bd2 Ra8 {?!  23...b6  b7 (c5), f8, 
+e8 Minckwitz  (!)  23...b6 24.ac1  c6 Steinitz} 24.Rc1 c6 25.
+Rc5 cxd5 26.Rxd5 Qa4 {26...b6 27.c3 e8(e7) Steinitz} 27.a3 b6 
+28.Bc3 Qe8 29.Qf2 $1 { f4 Steinitz  29.O-O b7 Hooper} 29...Nc8
+30.Bb5 {Steinitz: Serves no purpose! Nutzlos!} 30...Qe7 31.Rxd8+ Qxd8 32.
+O-O Na7 33.Bc4 Nc6 $6 ( 33...Rc8 34.Bd5 Nb5 35.f4 $40 {Steinitz: The 
+attack is weakened through the exchange of the c3. Der Angriff wird 
+durch den noch folgenden Abtausch des c3 geschwächt.} ) 34.Bd5 Rc8 35.
+f4 $1 $18 {Steinitz  2h} 35...Qd7 {1h 35...ef 36.f4+- Steinitz} 36.f5 
+Ne7 ( 36...gxf5 37.Qxf5 Qxf5 38.Rxf5 Nd8 ( 38...Ne7 39.Bxf7+ Kh8 40.Rf3 ) 
+39.g6 $18 {Steinitz} ) ( 36...Bf8 37.Qf3 Bc5+ 38.Kg2 Nd8 $1 ( 38...Ne7 39.
+fxg6 $18 ) 39.Bxe5 $18 {Minckwitz} ) 37.Ba2 { f6 Steinitz} 37...gxf5 ( 
+37...Bf8 38.Bxf7+ Kxf7 39.fxg6+ Ke6 40.Qf7+ Kd6 41.Rd1+ $18 {Steinitz} ) 
+38.exf5 Bf8 {Steinitz:  39.b6 d5 and then 40...c5    
+39.b6 d5 nebst 40...c5 } 39.Qf3 $1 e4 40.Qxh5 {40...c3 
+41.f7 h8 42.h5 g7 43.h6# Steinitz; Zukertort: 1h 15min    
+Steinitz: 2h 9min} 1-0
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.24"]
+[Round "19"]
+[White "Zukertort, Johannes"]
+[Black "Steinitz, Wilhelm"]
+[Result "0-1"]
+[WhiteElo "2542"]
+[BlackElo "2673"]
+[ECO "D53"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "58"]
+[Beauty "8251034855993"]
+[GameId "2235863508175453"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.Nf3 O-O 6.c5 $6 b6 $1 7.b4 bxc5 8.
+dxc5 ( 8.bxc5 Ba6 9.g3 Nc6 ( 9...Ne4 10.Bxe7 Qxe7 11.Nxe4 dxe4 12.Ne5 $2 (
+12.Nd2 f5 $17 {e5} ) 12...f6 13.Ng4 e5 14.dxe5 Qxc5 $17 {Euwe} ) 10.Bg2
+Ne4 11.Bxe7 Qxe7 $17 {Steinitz} ) 8...a5 9.a3 d4 $1 10.Bxf6 ( 10.Nxd4 axb4
+$17 ) ( 10.Qxd4 Qxd4 11.Nxd4 axb4 $17 {Steinitz} ) 10...gxf6 ( 10...Bxf6 
+11.Ne4 $15 {Euwe} ) 11.Na4 ( 11.Nb5 e5 {c6 -+} ) ( 11.Ne4 f5 12.Ng3 ( 
+12.Ned2 axb4 13.axb4 Rxa1 14.Qxa1 Nc6 15.b5 Nb4 $1 $17 {Euwe} ) 12...Bf6 
+$17 {  Minckwitz} ) 11...e5 ( 11...axb4 $1 12.axb4 Nc6 13.b5 Nb4 {
+14...xc5 15.xc5 xa1 16.xa1 c2-+ or 14.c1 e5!  
+Steinitz 14...xc5 15.xc5 xa1 16.xa1 c2-+ oder 14.c1 
+e5!  Steinitz} 14.Nxd4 $4 Qxd4 15.Qxd4 Nc2+ $19 {Steinitz} ) 12.b5 Be6 
+$2 {12...d5  13...e6 14...b3 Steinitz  c6 Euwe} 13.g3 ( 13.
+c6 $1 Bc4 $1 ( 13...Qd5 14.e3 dxe3 15.Qxd5 exf2+ 16.Kxf2 Bxd5 17.Nc3 $16 )
+14.e4 ( 14.e3 Bxf1 15.Kxf1 Qd5 16.Qe2 ( 16.Qe1 Qc4+ $19 ) 16...Qb3 17.Nb2 
+Bxa3 18.Nd1 Bc5 $19 ) 14...d3 15.Nc3 a4 16.Qc1 ( 16.Nd2 Qd4 $19 ) 16...Ra5
+17.Rb1 Bc5 18.Nd2 Be6 {19...d6, 19...d4} 19.Nxa4 Bxf2+ ( 19...Ba7
+20.Rb4 $16 ) 20.Kxf2 Qd4+ $17 {Steinitz} ) 13...c6 $1 14.bxc6 ( 14.b6 Qd5 
+{15...a6 Steinitz} ) 14...Nxc6 $17 { } 15.Bg2 Rb8 16.Qc1 ( 
+16.O-O Bb3 $19 ) 16...d3 $1 17.e3 e4 18.Nd2 f5 19.O-O ( 19.g4 Nd4 20.exd4 
+Qxd4 21.Nc3 Bf6 22.Ndb1 Rxb1 {or 22...c8 oder 22...c8} 23.Rxb1 Qxc3+
+$40 {/-+ Steinitz} ) 19...Re8 $1 20.f3 $4 Nd4 $1 $19 {Steinitz} 21.exd4
+Qxd4+ 22.Kh1 e3 $1 ( 22...Qxa4 23.fxe4 fxe4 24.Nxe4 $13 {Euwe} ) 23.Nc3 
+Bf6 24.Ndb1 d2 25.Qc2 Bb3 26.Qxf5 d1=Q 27.Nxd1 Bxd1 28.Nc3 e2 $5 ( 28...
+Qxc3 $1 29.Rfxd1 ( 29.Raxd1 e2 {cf. game Siehe Partie} ) 29...e2 30.Re1 
+Qxa1 31.Rxa1 Bxa1 $19 ) 29.Raxd1 ( 29.Rfxd1 exd1=Q+ 30.Rxd1 Qxc3 $19 {Euwe
+} ) 29...Qxc3 {Time: Zukertort: 1h    Steinitz: 1h 4min Zeit: Zukertort: 
+1h    Steinitz: 1h 4min} 0-1
+
+[Event "World-ch01 Steinitz-Zukertort +10-5=5"]
+[Site "USA"]
+[Date "1886.03.29"]
+[Round "20"]
+[White "Steinitz, Wilhelm"]
+[Black "Zukertort, Johannes"]
+[Result "1-0"]
+[WhiteElo "2673"]
+[BlackElo "2542"]
+[ECO "C25"]
+[EventDate "1886.01.11"]
+[Annotator "ChessBase"]
+[PlyCount "37"]
+[Beauty "8247008302124"]
+[GameId "2235863508175454"]
+[EventType "match"]
+[EventRounds "20"]
+[EventCountry "USA"]
+[SourceTitle "MainBase"]
+[Source "ChessBase"]
+[SourceDate "1999.07.01"]
+[SourceVersion "2"]
+[SourceVersionDate "1999.07.01"]
+[SourceQuality "1"]
+
+{Games 10 to 20 were played in New Orleans.} 
+1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 $5 {Steinitz Gambit} 4...d5 5.exd5 Qh4+ 
+6.Ke2 Qe7+ 7.Kf2 ( 7.Kf3 Qh4 8.Ke2 Qe7+ 9.Kf3 $10 {Steinitz-Mackenzie New 
+York 1883} ) 7...Qh4+ 8.g3 fxg3+ 9.Kg2 Nxd4 ( 9...Bd6 10.Qe1+ Nce7 11.hxg3
+Qxd4 12.Nf3 {12.h4= Steinitz-Tschigorin London 1883} 12...Qb6 13.Be3 
+Qxb2 14.Bd3 Bb4 15.Bd4 f6 16.Rb1 Bxc3 17.Bxc3 Qxa2 18.Rb5 $40 { Analyse
+R.Steel Calcutta Steinitz} ) 10.hxg3 ( 10.Qe1+ Be7 11.hxg3 Nxc2 $13 {
+Steinitz} ) 10...Qg4 11.Qe1+ Be7 12.Bd3 { 13.h4 +- Seinitz} ( 12.Rh4
+Nxc2 13.Qe5 Qg6 14.Rb1 Qf6 15.Bb5+ ( 15.Qxc7 Ne1+ 16.Kh2 Qxf1 $19 ) 15...
+Kd8 $17 {Steinitz} ) 12...Nf5 ( 12...Kd8 13.Ne4 $40 {Steinitz} ) 13.Nf3 
+Bd7 14.Bf4 ( 14.Ne5 Qxg3+ 15.Qxg3 Nxg3 16.Nxd7 ( 16.Kxg3 Bd6 17.Bf4 g5 $17
+) 16...Nxh1 17.Ne5 f6 18.Bb5+ Kf8 $44 ) 14...f6 $8 15.Ne4 Ngh6 ( 15...
+O-O-O 16.Nf2 ( 16.Qa5 $18 ) 16...Qg6 17.g4 h5 ( 17...Ngh6 18.Bxh6 $18 ) 
+18.Bxf5 Bxf5 19.Nh4 $18 {Steinitz} ) ( 15...h5 16.Nh4 { 17.f2} 16...
+Bc8 ( 16...Nd6 17.Nxd6+ cxd6 18.Ng6 $18 { 19.h4} ) 17.d6 Nxd6 ( 
+17...cxd6 18.Nxf5 $18 ) 18.Bxd6 cxd6 19.Nxd6+ Kd8 ( 19...Kf8 20.Ng6+ $18 )
+( 19...Kd7 20.Bf5+ $18 ) 20.Nf7+ $18 {Steinitz} ) 16.Bxh6 Nxh6 17.Rxh6 
+gxh6 ( 17...Bc8 18.Rh4 Qd7 19.d6 cxd6 20.Bb5 Qxb5 21.Nxd6+ $18 ) ( 17...
+Kd8 18.Nf2 Qa4 19.Rh4 Bb4 20.Rxb4 $18 {Steinitz} ) 18.Nxf6+ Kf7 19.Nxg4 {
+Time: Zukertort: 34min  Steinitz: 30min  Final result: Steinitz won 10 
+games, Zukertort 5, drawn 5 Zeit: Zukertort: 34min    Steinitz: 30min  
+Endstand: Steinitz gewann 10 Partien, Zukertort 5, Remis 5} 1-0
+

@@ -1,0 +1,1907 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ctml:tournament xmlns:ctml="urn:ctml:2.0" ctmlVersion="2.1" id="tournament-wcc-1889">
+  <ctml:header>
+    <ctml:name>World Chess Championship Match 1889</ctml:name>
+    <ctml:eventRef ref="event:18890120-18890224-world-championship-steinitz-chigorin" source="file:///D:/dev/pgn/2nd-w-ch-rated.pgn">
+      <ctml:name>World Chess Championship Match 1889 (Steinitz-Chigorin)</ctml:name>
+    </ctml:eventRef>
+    <ctml:eventType>match</ctml:eventType>
+    <ctml:cadence>classical</ctml:cadence>
+    <ctml:dates>
+      <ctml:start>
+        <ctml:day y="1889" m="1" d="20" iso="1889-01-20" />
+      </ctml:start>
+      <ctml:end>
+        <ctml:day y="1889" m="2" d="24" iso="1889-02-24" />
+      </ctml:end>
+    </ctml:dates>
+    <ctml:placeRef ref="place:city:CUB-havana" kind="city" source="https://www.wikidata.org/wiki/Q1563">
+      <ctml:name>Havana</ctml:name>
+      <ctml:country>CUB</ctml:country>
+      <ctml:city>Havana</ctml:city>
+    </ctml:placeRef>
+    <ctml:venue>Club de Ajedrez de La Habana</ctml:venue>
+    <ctml:averageRating system="edo" category="16">2631</ctml:averageRating>
+  </ctml:header>
+  <ctml:participants>
+    <ctml:participant id="p-steinitz">
+      <ctml:playerRef ref="player:name:steinitz-wilhelm">
+        <ctml:name display="Steinitz, Wilhelm">
+          <ctml:family>Steinitz</ctml:family>
+          <ctml:given>Wilhelm</ctml:given>
+        </ctml:name>
+        <ctml:ids>
+          <ctml:internalId>wcc1889:steinitz</ctml:internalId>
+        </ctml:ids>
+        <ctml:resolution method="manual" resolver="ctml-wcc1889-builder/1" note="1889 World Championship player; identified by name (no FIDE id)." />
+      </ctml:playerRef>
+      <ctml:ratingSnapshot system="edo" scope="standard">
+        <ctml:value>2675</ctml:value>
+        <ctml:asOf>
+          <ctml:year y="1889" raw="1889 Edo rating (from source PGN)" />
+        </ctml:asOf>
+        <ctml:publishedForEvent>false</ctml:publishedForEvent>
+      </ctml:ratingSnapshot>
+      <ctml:score>10.5</ctml:score>
+      <ctml:placement>1</ctml:placement>
+    </ctml:participant>
+    <ctml:participant id="p-chigorin">
+      <ctml:playerRef ref="player:name:chigorin-mikhail">
+        <ctml:name display="Chigorin, Mikhail">
+          <ctml:family>Chigorin</ctml:family>
+          <ctml:given>Mikhail</ctml:given>
+        </ctml:name>
+        <ctml:ids>
+          <ctml:internalId>wcc1889:chigorin</ctml:internalId>
+        </ctml:ids>
+        <ctml:resolution method="manual" resolver="ctml-wcc1889-builder/1" note="1889 World Championship player; identified by name (no FIDE id)." />
+      </ctml:playerRef>
+      <ctml:ratingSnapshot system="edo" scope="standard">
+        <ctml:value>2586</ctml:value>
+        <ctml:asOf>
+          <ctml:year y="1889" raw="1889 Edo rating (from source PGN)" />
+        </ctml:asOf>
+        <ctml:publishedForEvent>false</ctml:publishedForEvent>
+      </ctml:ratingSnapshot>
+      <ctml:score>6.5</ctml:score>
+      <ctml:placement>2</ctml:placement>
+    </ctml:participant>
+  </ctml:participants>
+  <ctml:games>
+    <ctml:game id="g-r01" round="1" board="1" white="p-chigorin" black="p-steinitz" result="1-0">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="115" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="f3g5" />
+        <ctml:move ply="16" value="c6d8" />
+        <ctml:move ply="17" value="f2f4" />
+        <ctml:move ply="18" value="e5d4" />
+        <ctml:move ply="19" value="c3d4" />
+        <ctml:move ply="20" value="a5b6" />
+        <ctml:move ply="21" value="c1e3" />
+        <ctml:move ply="22" value="d7d5" />
+        <ctml:move ply="23" value="c4d5" />
+        <ctml:move ply="24" value="e7d5" />
+        <ctml:move ply="25" value="e4d5" />
+        <ctml:move ply="26" value="e8g8" />
+        <ctml:move ply="27" value="b1c3" />
+        <ctml:move ply="28" value="f8e8" />
+        <ctml:move ply="29" value="g5e4" />
+        <ctml:move ply="30" value="f6g6" />
+        <ctml:move ply="31" value="e3f2" />
+        <ctml:move ply="32" value="c7c6" />
+        <ctml:move ply="33" value="f1e1" />
+        <ctml:move ply="34" value="c8d7" />
+        <ctml:move ply="35" value="e4c5" />
+        <ctml:move ply="36" value="e8e1" />
+        <ctml:move ply="37" value="d1e1" />
+        <ctml:move ply="38" value="g6d6" />
+        <ctml:move ply="39" value="e1e3" />
+        <ctml:move ply="40" value="c6d5" />
+        <ctml:move ply="41" value="c5d7" />
+        <ctml:move ply="42" value="d6d7" />
+        <ctml:move ply="43" value="c3d5" />
+        <ctml:move ply="44" value="d8c6" />
+        <ctml:move ply="45" value="d5b6" />
+        <ctml:move ply="46" value="a7b6" />
+        <ctml:move ply="47" value="a1e1" />
+        <ctml:move ply="48" value="h7h6" />
+        <ctml:move ply="49" value="d4d5" />
+        <ctml:move ply="50" value="c6b4" />
+        <ctml:move ply="51" value="e1d1" />
+        <ctml:move ply="52" value="b4d5" />
+        <ctml:move ply="53" value="e3e5" />
+        <ctml:move ply="54" value="a8a2" />
+        <ctml:move ply="55" value="d1d5" />
+        <ctml:move ply="56" value="a2a1" />
+        <ctml:move ply="57" value="e5a1" />
+        <ctml:move ply="58" value="d7d5" />
+        <ctml:move ply="59" value="f2b6" />
+        <ctml:move ply="60" value="d5e4" />
+        <ctml:move ply="61" value="g2g3" />
+        <ctml:move ply="62" value="h6h5" />
+        <ctml:move ply="63" value="a1d4" />
+        <ctml:move ply="64" value="e4f3" />
+        <ctml:move ply="65" value="d4e3" />
+        <ctml:move ply="66" value="f3d1" />
+        <ctml:move ply="67" value="g1g2" />
+        <ctml:move ply="68" value="d1c2" />
+        <ctml:move ply="69" value="e3f2" />
+        <ctml:move ply="70" value="c2c6" />
+        <ctml:move ply="71" value="g2g1" />
+        <ctml:move ply="72" value="h5h4" />
+        <ctml:move ply="73" value="f2c5" />
+        <ctml:move ply="74" value="h4g3" />
+        <ctml:move ply="75" value="h2g3" />
+        <ctml:move ply="76" value="c6e4" />
+        <ctml:move ply="77" value="g1f2" />
+        <ctml:move ply="78" value="e4h1" />
+        <ctml:move ply="79" value="c5c8" />
+        <ctml:move ply="80" value="g8h7" />
+        <ctml:move ply="81" value="c8g4" />
+        <ctml:move ply="82" value="h1h2" />
+        <ctml:move ply="83" value="f2f1" />
+        <ctml:move ply="84" value="h2h1" />
+        <ctml:move ply="85" value="b6g1" />
+        <ctml:move ply="86" value="h1d5" />
+        <ctml:move ply="87" value="g4h3" />
+        <ctml:move ply="88" value="h7g8" />
+        <ctml:move ply="89" value="h3c8" />
+        <ctml:move ply="90" value="g8h7" />
+        <ctml:move ply="91" value="c8c5" />
+        <ctml:move ply="92" value="d5d3" />
+        <ctml:move ply="93" value="f1g2" />
+        <ctml:move ply="94" value="d3d7" />
+        <ctml:move ply="95" value="g1d4" />
+        <ctml:move ply="96" value="f7f6" />
+        <ctml:move ply="97" value="g2f3" />
+        <ctml:move ply="98" value="b7b5" />
+        <ctml:move ply="99" value="g3g4" />
+        <ctml:move ply="100" value="d7b7" />
+        <ctml:move ply="101" value="f3g3" />
+        <ctml:move ply="102" value="b5b4" />
+        <ctml:move ply="103" value="c5f5" />
+        <ctml:move ply="104" value="h7g8" />
+        <ctml:move ply="105" value="g4g5" />
+        <ctml:move ply="106" value="f6g5" />
+        <ctml:move ply="107" value="f5e6" />
+        <ctml:move ply="108" value="g8h7" />
+        <ctml:move ply="109" value="f4g5" />
+        <ctml:move ply="110" value="b7c7" />
+        <ctml:move ply="111" value="g3g4" />
+        <ctml:move ply="112" value="g7g6" />
+        <ctml:move ply="113" value="e6f6" />
+        <ctml:move ply="114" value="c7c8" />
+        <ctml:move ply="115" value="g4h4" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="17b6d97a4db743a0755671d059f91ff64f1ea47e3494352aaf73cad52c1ce501" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="43d4e8011fbc3dbf" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.01.20; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r02" round="2" board="1" white="p-steinitz" black="p-chigorin" result="1-0">
+      <ctml:eco>D02</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="75" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="d7d5" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="c8g4" />
+        <ctml:move ply="5" value="f3e5" />
+        <ctml:move ply="6" value="g4h5" />
+        <ctml:move ply="7" value="d1d3" />
+        <ctml:move ply="8" value="d8c8" />
+        <ctml:move ply="9" value="c2c4" />
+        <ctml:move ply="10" value="f7f6" />
+        <ctml:move ply="11" value="e5f3" />
+        <ctml:move ply="12" value="e7e6" />
+        <ctml:move ply="13" value="b1c3" />
+        <ctml:move ply="14" value="h5g6" />
+        <ctml:move ply="15" value="d3d1" />
+        <ctml:move ply="16" value="c7c6" />
+        <ctml:move ply="17" value="e2e3" />
+        <ctml:move ply="18" value="f8d6" />
+        <ctml:move ply="19" value="c1d2" />
+        <ctml:move ply="20" value="g8e7" />
+        <ctml:move ply="21" value="a1c1" />
+        <ctml:move ply="22" value="b8d7" />
+        <ctml:move ply="23" value="f3h4" />
+        <ctml:move ply="24" value="f6f5" />
+        <ctml:move ply="25" value="g2g4" />
+        <ctml:move ply="26" value="d7f6" />
+        <ctml:move ply="27" value="h2h3" />
+        <ctml:move ply="28" value="f6e4" />
+        <ctml:move ply="29" value="f1d3" />
+        <ctml:move ply="30" value="f5g4" />
+        <ctml:move ply="31" value="h4g6" />
+        <ctml:move ply="32" value="e7g6" />
+        <ctml:move ply="33" value="d3e4" />
+        <ctml:move ply="34" value="d5e4" />
+        <ctml:move ply="35" value="c3e4" />
+        <ctml:move ply="36" value="d6e7" />
+        <ctml:move ply="37" value="h3g4" />
+        <ctml:move ply="38" value="e6e5" />
+        <ctml:move ply="39" value="d4d5" />
+        <ctml:move ply="40" value="c8d7" />
+        <ctml:move ply="41" value="d2c3" />
+        <ctml:move ply="42" value="a8d8" />
+        <ctml:move ply="43" value="h1h5" />
+        <ctml:move ply="44" value="c6d5" />
+        <ctml:move ply="45" value="c4d5" />
+        <ctml:move ply="46" value="e8g8" />
+        <ctml:move ply="47" value="d5d6" />
+        <ctml:move ply="48" value="d7e6" />
+        <ctml:move ply="49" value="d1b3" />
+        <ctml:move ply="50" value="e6b3" />
+        <ctml:move ply="51" value="a2b3" />
+        <ctml:move ply="52" value="e7d6" />
+        <ctml:move ply="53" value="e4d6" />
+        <ctml:move ply="54" value="d8d6" />
+        <ctml:move ply="55" value="c3b4" />
+        <ctml:move ply="56" value="d6b6" />
+        <ctml:move ply="57" value="b4f8" />
+        <ctml:move ply="58" value="g8f8" />
+        <ctml:move ply="59" value="c1c8" />
+        <ctml:move ply="60" value="f8f7" />
+        <ctml:move ply="61" value="c8c7" />
+        <ctml:move ply="62" value="f7f6" />
+        <ctml:move ply="63" value="h5f5" />
+        <ctml:move ply="64" value="f6e6" />
+        <ctml:move ply="65" value="f5f7" />
+        <ctml:move ply="66" value="b6b4" />
+        <ctml:move ply="67" value="c7b7" />
+        <ctml:move ply="68" value="b4g4" />
+        <ctml:move ply="69" value="f7g7" />
+        <ctml:move ply="70" value="h7h5" />
+        <ctml:move ply="71" value="b7a7" />
+        <ctml:move ply="72" value="e6f5" />
+        <ctml:move ply="73" value="f2f3" />
+        <ctml:move ply="74" value="g4g2" />
+        <ctml:move ply="75" value="a7a6" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="ce8f6926573df6f26a80580269314cd3eb47ff898d7a60d707347bf3e67cd26d" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="08fbdf23331291b4" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.01.22; Site=Havana; ECO='D02'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r03" round="3" board="1" white="p-chigorin" black="p-steinitz" result="1-0">
+      <ctml:eco>C62</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="165" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1b5" />
+        <ctml:move ply="6" value="d7d6" />
+        <ctml:move ply="7" value="d2d4" />
+        <ctml:move ply="8" value="c8d7" />
+        <ctml:move ply="9" value="d4e5" />
+        <ctml:move ply="10" value="d6e5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="f8d6" />
+        <ctml:move ply="13" value="b1c3" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="c1g5" />
+        <ctml:move ply="16" value="f7f6" />
+        <ctml:move ply="17" value="g5e3" />
+        <ctml:move ply="18" value="e8g8" />
+        <ctml:move ply="19" value="b5c4" />
+        <ctml:move ply="20" value="g8h8" />
+        <ctml:move ply="21" value="c3b5" />
+        <ctml:move ply="22" value="e7c8" />
+        <ctml:move ply="23" value="d1d2" />
+        <ctml:move ply="24" value="d8e8" />
+        <ctml:move ply="25" value="a1d1" />
+        <ctml:move ply="26" value="d7g4" />
+        <ctml:move ply="27" value="c4e2" />
+        <ctml:move ply="28" value="c6d8" />
+        <ctml:move ply="29" value="c2c4" />
+        <ctml:move ply="30" value="d8e6" />
+        <ctml:move ply="31" value="h2h3" />
+        <ctml:move ply="32" value="g4h5" />
+        <ctml:move ply="33" value="c4c5" />
+        <ctml:move ply="34" value="d6e7" />
+        <ctml:move ply="35" value="d2d5" />
+        <ctml:move ply="36" value="e8c6" />
+        <ctml:move ply="37" value="e2c4" />
+        <ctml:move ply="38" value="h5e8" />
+        <ctml:move ply="39" value="a2a4" />
+        <ctml:move ply="40" value="e6c5" />
+        <ctml:move ply="41" value="e3c5" />
+        <ctml:move ply="42" value="e7c5" />
+        <ctml:move ply="43" value="d5c6" />
+        <ctml:move ply="44" value="e8c6" />
+        <ctml:move ply="45" value="b5c7" />
+        <ctml:move ply="46" value="c8d6" />
+        <ctml:move ply="47" value="c4b3" />
+        <ctml:move ply="48" value="c6e4" />
+        <ctml:move ply="49" value="c7a8" />
+        <ctml:move ply="50" value="e4f3" />
+        <ctml:move ply="51" value="g2f3" />
+        <ctml:move ply="52" value="f8a8" />
+        <ctml:move ply="53" value="d1d5" />
+        <ctml:move ply="54" value="b7b6" />
+        <ctml:move ply="55" value="f1d1" />
+        <ctml:move ply="56" value="a8d8" />
+        <ctml:move ply="57" value="g1g2" />
+        <ctml:move ply="58" value="a7a5" />
+        <ctml:move ply="59" value="b3c2" />
+        <ctml:move ply="60" value="g7g6" />
+        <ctml:move ply="61" value="h3h4" />
+        <ctml:move ply="62" value="h8g7" />
+        <ctml:move ply="63" value="f3f4" />
+        <ctml:move ply="64" value="e5f4" />
+        <ctml:move ply="65" value="g2f3" />
+        <ctml:move ply="66" value="f6f5" />
+        <ctml:move ply="67" value="f3f4" />
+        <ctml:move ply="68" value="g7f6" />
+        <ctml:move ply="69" value="c2b3" />
+        <ctml:move ply="70" value="h7h6" />
+        <ctml:move ply="71" value="h4h5" />
+        <ctml:move ply="72" value="g6h5" />
+        <ctml:move ply="73" value="b3c2" />
+        <ctml:move ply="74" value="f6e7" />
+        <ctml:move ply="75" value="d5e5" />
+        <ctml:move ply="76" value="e7f8" />
+        <ctml:move ply="77" value="e5f5" />
+        <ctml:move ply="78" value="f8e7" />
+        <ctml:move ply="79" value="f5e5" />
+        <ctml:move ply="80" value="e7d7" />
+        <ctml:move ply="81" value="f2f3" />
+        <ctml:move ply="82" value="h5h4" />
+        <ctml:move ply="83" value="f4g4" />
+        <ctml:move ply="84" value="d8g8" />
+        <ctml:move ply="85" value="g4h4" />
+        <ctml:move ply="86" value="g8g2" />
+        <ctml:move ply="87" value="c2f5" />
+        <ctml:move ply="88" value="d7c6" />
+        <ctml:move ply="89" value="b2b3" />
+        <ctml:move ply="90" value="c5f2" />
+        <ctml:move ply="91" value="h4h3" />
+        <ctml:move ply="92" value="g2g3" />
+        <ctml:move ply="93" value="h3h2" />
+        <ctml:move ply="94" value="g3f3" />
+        <ctml:move ply="95" value="h2g2" />
+        <ctml:move ply="96" value="f3f4" />
+        <ctml:move ply="97" value="f5e6" />
+        <ctml:move ply="98" value="f2c5" />
+        <ctml:move ply="99" value="e6d5" />
+        <ctml:move ply="100" value="c6d7" />
+        <ctml:move ply="101" value="e5e6" />
+        <ctml:move ply="102" value="d6f5" />
+        <ctml:move ply="103" value="d5c4" />
+        <ctml:move ply="104" value="d7c7" />
+        <ctml:move ply="105" value="d1d3" />
+        <ctml:move ply="106" value="h6h5" />
+        <ctml:move ply="107" value="c4b5" />
+        <ctml:move ply="108" value="f4g4" />
+        <ctml:move ply="109" value="g2h2" />
+        <ctml:move ply="110" value="g4h4" />
+        <ctml:move ply="111" value="d3h3" />
+        <ctml:move ply="112" value="c5d6" />
+        <ctml:move ply="113" value="h2g2" />
+        <ctml:move ply="114" value="h4g4" />
+        <ctml:move ply="115" value="g2f1" />
+        <ctml:move ply="116" value="f5g3" />
+        <ctml:move ply="117" value="f1f2" />
+        <ctml:move ply="118" value="h5h4" />
+        <ctml:move ply="119" value="e6h6" />
+        <ctml:move ply="120" value="g4f4" />
+        <ctml:move ply="121" value="f2g2" />
+        <ctml:move ply="122" value="d6e7" />
+        <ctml:move ply="123" value="h6c6" />
+        <ctml:move ply="124" value="c7b7" />
+        <ctml:move ply="125" value="c6c4" />
+        <ctml:move ply="126" value="f4f8" />
+        <ctml:move ply="127" value="c4d4" />
+        <ctml:move ply="128" value="b7c8" />
+        <ctml:move ply="129" value="d4d7" />
+        <ctml:move ply="130" value="e7d8" />
+        <ctml:move ply="131" value="h3h2" />
+        <ctml:move ply="132" value="g3e4" />
+        <ctml:move ply="133" value="d7g7" />
+        <ctml:move ply="134" value="e4c5" />
+        <ctml:move ply="135" value="h2h3" />
+        <ctml:move ply="136" value="d8f6" />
+        <ctml:move ply="137" value="g7g6" />
+        <ctml:move ply="138" value="f6d8" />
+        <ctml:move ply="139" value="b5c4" />
+        <ctml:move ply="140" value="f8f4" />
+        <ctml:move ply="141" value="h3f3" />
+        <ctml:move ply="142" value="f4d4" />
+        <ctml:move ply="143" value="g6g7" />
+        <ctml:move ply="144" value="c8b8" />
+        <ctml:move ply="145" value="f3f7" />
+        <ctml:move ply="146" value="d4d6" />
+        <ctml:move ply="147" value="g2h3" />
+        <ctml:move ply="148" value="d6d2" />
+        <ctml:move ply="149" value="g7h7" />
+        <ctml:move ply="150" value="d2d6" />
+        <ctml:move ply="151" value="c4f1" />
+        <ctml:move ply="152" value="c5e6" />
+        <ctml:move ply="153" value="f7d7" />
+        <ctml:move ply="154" value="d6c6" />
+        <ctml:move ply="155" value="h3g4" />
+        <ctml:move ply="156" value="c6c7" />
+        <ctml:move ply="157" value="f1c4" />
+        <ctml:move ply="158" value="c7c4" />
+        <ctml:move ply="159" value="b3c4" />
+        <ctml:move ply="160" value="b8c8" />
+        <ctml:move ply="161" value="d7d6" />
+        <ctml:move ply="162" value="e6c5" />
+        <ctml:move ply="163" value="d6c6" />
+        <ctml:move ply="164" value="c8b8" />
+        <ctml:move ply="165" value="h7h8" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="898b544f0f73215e8687d2b8565aa39602888c8598a4145bd60bd5f57db929ba" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="901cc4a35bb9c2af" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.01.24; Site=Havana; ECO='C62'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r04" round="4" board="1" white="p-steinitz" black="p-chigorin" result="1-0">
+      <ctml:eco>D02</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="43" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="d7d5" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="c8g4" />
+        <ctml:move ply="5" value="c2c4" />
+        <ctml:move ply="6" value="g4f3" />
+        <ctml:move ply="7" value="g2f3" />
+        <ctml:move ply="8" value="e7e6" />
+        <ctml:move ply="9" value="c4d5" />
+        <ctml:move ply="10" value="d8d5" />
+        <ctml:move ply="11" value="e2e4" />
+        <ctml:move ply="12" value="f8b4" />
+        <ctml:move ply="13" value="b1c3" />
+        <ctml:move ply="14" value="d5a5" />
+        <ctml:move ply="15" value="c1d2" />
+        <ctml:move ply="16" value="b8c6" />
+        <ctml:move ply="17" value="d4d5" />
+        <ctml:move ply="18" value="e6d5" />
+        <ctml:move ply="19" value="a2a3" />
+        <ctml:move ply="20" value="c6d4" />
+        <ctml:move ply="21" value="f1d3" />
+        <ctml:move ply="22" value="e8c8" />
+        <ctml:move ply="23" value="a3b4" />
+        <ctml:move ply="24" value="d4f3" />
+        <ctml:move ply="25" value="d1f3" />
+        <ctml:move ply="26" value="a5a1" />
+        <ctml:move ply="27" value="e1e2" />
+        <ctml:move ply="28" value="a1b2" />
+        <ctml:move ply="29" value="h1b1" />
+        <ctml:move ply="30" value="b2a3" />
+        <ctml:move ply="31" value="c3b5" />
+        <ctml:move ply="32" value="a3a6" />
+        <ctml:move ply="33" value="f3f7" />
+        <ctml:move ply="34" value="a6b6" />
+        <ctml:move ply="35" value="b1c1" />
+        <ctml:move ply="36" value="g8h6" />
+        <ctml:move ply="37" value="f7g7" />
+        <ctml:move ply="38" value="d5e4" />
+        <ctml:move ply="39" value="g7c7" />
+        <ctml:move ply="40" value="b6c7" />
+        <ctml:move ply="41" value="c1c7" />
+        <ctml:move ply="42" value="c8b8" />
+        <ctml:move ply="43" value="d3e4" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="a265bc7c56a822a75c7745fa4fca3147c2ca9006f00c8a5bebd7745b608e8c2c" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="e40ee1e788679e0d" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.01.26; Site=Havana; ECO='D02'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r05" round="5" board="1" white="p-chigorin" black="p-steinitz" result="0-1">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="52" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="c1g5" />
+        <ctml:move ply="16" value="f6d6" />
+        <ctml:move ply="17" value="d1b3" />
+        <ctml:move ply="18" value="e8g8" />
+        <ctml:move ply="19" value="f1d1" />
+        <ctml:move ply="20" value="a5b6" />
+        <ctml:move ply="21" value="d4e5" />
+        <ctml:move ply="22" value="d6g6" />
+        <ctml:move ply="23" value="b3a3" />
+        <ctml:move ply="24" value="f8e8" />
+        <ctml:move ply="25" value="b1d2" />
+        <ctml:move ply="26" value="d7d6" />
+        <ctml:move ply="27" value="e5d6" />
+        <ctml:move ply="28" value="c7d6" />
+        <ctml:move ply="29" value="g5f4" />
+        <ctml:move ply="30" value="b6c5" />
+        <ctml:move ply="31" value="a3c1" />
+        <ctml:move ply="32" value="c8g4" />
+        <ctml:move ply="33" value="f4g3" />
+        <ctml:move ply="34" value="a8d8" />
+        <ctml:move ply="35" value="h2h3" />
+        <ctml:move ply="36" value="g4f3" />
+        <ctml:move ply="37" value="d2f3" />
+        <ctml:move ply="38" value="g6g3" />
+        <ctml:move ply="39" value="g1h1" />
+        <ctml:move ply="40" value="g3g6" />
+        <ctml:move ply="41" value="d1d3" />
+        <ctml:move ply="42" value="g6f6" />
+        <ctml:move ply="43" value="c1d2" />
+        <ctml:move ply="44" value="e7g6" />
+        <ctml:move ply="45" value="f3g5" />
+        <ctml:move ply="46" value="c6e5" />
+        <ctml:move ply="47" value="d3f3" />
+        <ctml:move ply="48" value="e5f3" />
+        <ctml:move ply="49" value="c4f7" />
+        <ctml:move ply="50" value="f6f7" />
+        <ctml:move ply="51" value="g2f3" />
+        <ctml:move ply="52" value="f7c4" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="e76bf18683415d8e95a8a2b33e11284393a2597945f0e45525cb08c63dd89ecc" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="c66afbcb517e99e1" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.01.27; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r06" round="6" board="1" white="p-steinitz" black="p-chigorin" result="0-1">
+      <ctml:eco>D02</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="74" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="d7d5" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="c8g4" />
+        <ctml:move ply="5" value="c2c4" />
+        <ctml:move ply="6" value="g4f3" />
+        <ctml:move ply="7" value="g2f3" />
+        <ctml:move ply="8" value="d5c4" />
+        <ctml:move ply="9" value="e2e4" />
+        <ctml:move ply="10" value="e7e5" />
+        <ctml:move ply="11" value="d4e5" />
+        <ctml:move ply="12" value="d8d1" />
+        <ctml:move ply="13" value="e1d1" />
+        <ctml:move ply="14" value="b8c6" />
+        <ctml:move ply="15" value="f3f4" />
+        <ctml:move ply="16" value="a8d8" />
+        <ctml:move ply="17" value="c1d2" />
+        <ctml:move ply="18" value="f8c5" />
+        <ctml:move ply="19" value="h1g1" />
+        <ctml:move ply="20" value="g8e7" />
+        <ctml:move ply="21" value="f1c4" />
+        <ctml:move ply="22" value="e7g6" />
+        <ctml:move ply="23" value="d1c1" />
+        <ctml:move ply="24" value="c5f2" />
+        <ctml:move ply="25" value="g1g2" />
+        <ctml:move ply="26" value="f2b6" />
+        <ctml:move ply="27" value="b1c3" />
+        <ctml:move ply="28" value="c6d4" />
+        <ctml:move ply="29" value="c3d5" />
+        <ctml:move ply="30" value="d4f3" />
+        <ctml:move ply="31" value="d5b6" />
+        <ctml:move ply="32" value="f3d2" />
+        <ctml:move ply="33" value="g2d2" />
+        <ctml:move ply="34" value="a7b6" />
+        <ctml:move ply="35" value="d2d8" />
+        <ctml:move ply="36" value="e8d8" />
+        <ctml:move ply="37" value="c4f7" />
+        <ctml:move ply="38" value="g6f4" />
+        <ctml:move ply="39" value="c1d2" />
+        <ctml:move ply="40" value="h8f8" />
+        <ctml:move ply="41" value="f7b3" />
+        <ctml:move ply="42" value="f4g6" />
+        <ctml:move ply="43" value="e5e6" />
+        <ctml:move ply="44" value="d8e7" />
+        <ctml:move ply="45" value="a1g1" />
+        <ctml:move ply="46" value="f8f2" />
+        <ctml:move ply="47" value="d2e3" />
+        <ctml:move ply="48" value="f2h2" />
+        <ctml:move ply="49" value="g1g5" />
+        <ctml:move ply="50" value="h2h3" />
+        <ctml:move ply="51" value="e3d4" />
+        <ctml:move ply="52" value="h3f3" />
+        <ctml:move ply="53" value="g5b5" />
+        <ctml:move ply="54" value="g6f4" />
+        <ctml:move ply="55" value="a2a4" />
+        <ctml:move ply="56" value="h7h5" />
+        <ctml:move ply="57" value="a4a5" />
+        <ctml:move ply="58" value="h5h4" />
+        <ctml:move ply="59" value="a5b6" />
+        <ctml:move ply="60" value="c7c6" />
+        <ctml:move ply="61" value="b5f5" />
+        <ctml:move ply="62" value="f4e2" />
+        <ctml:move ply="63" value="d4c5" />
+        <ctml:move ply="64" value="f3f5" />
+        <ctml:move ply="65" value="e4f5" />
+        <ctml:move ply="66" value="h4h3" />
+        <ctml:move ply="67" value="b3a4" />
+        <ctml:move ply="68" value="h3h2" />
+        <ctml:move ply="69" value="a4c6" />
+        <ctml:move ply="70" value="b7c6" />
+        <ctml:move ply="71" value="b6b7" />
+        <ctml:move ply="72" value="h2h1q" />
+        <ctml:move ply="73" value="b7b8q" />
+        <ctml:move ply="74" value="h1c1" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="ae9aa23568485b25f6dec5859ab432e954ddfb0b085cfd2c94b0b3ee662cc548" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="3ad24af470f6c947" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.01.29; Site=Havana; ECO='D02'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r07" round="7" board="1" white="p-chigorin" black="p-steinitz" result="1-0">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="67" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="c1g5" />
+        <ctml:move ply="16" value="f6d6" />
+        <ctml:move ply="17" value="d4d5" />
+        <ctml:move ply="18" value="c6d8" />
+        <ctml:move ply="19" value="d1a4" />
+        <ctml:move ply="20" value="a5b6" />
+        <ctml:move ply="21" value="b1a3" />
+        <ctml:move ply="22" value="d6g6" />
+        <ctml:move ply="23" value="g5e7" />
+        <ctml:move ply="24" value="e8e7" />
+        <ctml:move ply="25" value="f3e5" />
+        <ctml:move ply="26" value="g6f6" />
+        <ctml:move ply="27" value="e5f3" />
+        <ctml:move ply="28" value="f6c3" />
+        <ctml:move ply="29" value="e4e5" />
+        <ctml:move ply="30" value="c7c6" />
+        <ctml:move ply="31" value="d5d6" />
+        <ctml:move ply="32" value="e7f8" />
+        <ctml:move ply="33" value="c4b3" />
+        <ctml:move ply="34" value="h7h6" />
+        <ctml:move ply="35" value="a4h4" />
+        <ctml:move ply="36" value="g7g5" />
+        <ctml:move ply="37" value="h4h5" />
+        <ctml:move ply="38" value="c3d3" />
+        <ctml:move ply="39" value="a1d1" />
+        <ctml:move ply="40" value="d3h7" />
+        <ctml:move ply="41" value="a3c2" />
+        <ctml:move ply="42" value="f8g7" />
+        <ctml:move ply="43" value="c2d4" />
+        <ctml:move ply="44" value="h7g6" />
+        <ctml:move ply="45" value="h5g4" />
+        <ctml:move ply="46" value="h6h5" />
+        <ctml:move ply="47" value="d4f5" />
+        <ctml:move ply="48" value="g7f8" />
+        <ctml:move ply="49" value="g4g5" />
+        <ctml:move ply="50" value="g6g5" />
+        <ctml:move ply="51" value="f3g5" />
+        <ctml:move ply="52" value="h5h4" />
+        <ctml:move ply="53" value="g1h1" />
+        <ctml:move ply="54" value="h8h5" />
+        <ctml:move ply="55" value="f2f4" />
+        <ctml:move ply="56" value="d8e6" />
+        <ctml:move ply="57" value="g2g4" />
+        <ctml:move ply="58" value="h4g3" />
+        <ctml:move ply="59" value="f5g3" />
+        <ctml:move ply="60" value="h5h6" />
+        <ctml:move ply="61" value="g5f7" />
+        <ctml:move ply="62" value="f8f7" />
+        <ctml:move ply="63" value="f4f5" />
+        <ctml:move ply="64" value="f7e8" />
+        <ctml:move ply="65" value="f5e6" />
+        <ctml:move ply="66" value="d7e6" />
+        <ctml:move ply="67" value="g3e4" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="7618d5586d7087a1c02c2338d543ad612535ca8536533cf978d5b54c8974bb8b" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="3c9641513b271233" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.01.31; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r08" round="8" board="1" white="p-steinitz" black="p-chigorin" result="1-0">
+      <ctml:eco>D46</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="75" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="g8f6" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="d7d5" />
+        <ctml:move ply="5" value="c2c4" />
+        <ctml:move ply="6" value="e7e6" />
+        <ctml:move ply="7" value="b1c3" />
+        <ctml:move ply="8" value="c7c6" />
+        <ctml:move ply="9" value="e2e3" />
+        <ctml:move ply="10" value="f8d6" />
+        <ctml:move ply="11" value="f1d3" />
+        <ctml:move ply="12" value="b8d7" />
+        <ctml:move ply="13" value="e1g1" />
+        <ctml:move ply="14" value="e8g8" />
+        <ctml:move ply="15" value="e3e4" />
+        <ctml:move ply="16" value="d5e4" />
+        <ctml:move ply="17" value="c3e4" />
+        <ctml:move ply="18" value="f6e4" />
+        <ctml:move ply="19" value="d3e4" />
+        <ctml:move ply="20" value="h7h6" />
+        <ctml:move ply="21" value="e4c2" />
+        <ctml:move ply="22" value="f8e8" />
+        <ctml:move ply="23" value="f1e1" />
+        <ctml:move ply="24" value="d8f6" />
+        <ctml:move ply="25" value="c1d2" />
+        <ctml:move ply="26" value="d7f8" />
+        <ctml:move ply="27" value="d2c3" />
+        <ctml:move ply="28" value="c8d7" />
+        <ctml:move ply="29" value="c4c5" />
+        <ctml:move ply="30" value="d6b8" />
+        <ctml:move ply="31" value="d4d5" />
+        <ctml:move ply="32" value="f6d8" />
+        <ctml:move ply="33" value="d5d6" />
+        <ctml:move ply="34" value="b7b6" />
+        <ctml:move ply="35" value="b2b4" />
+        <ctml:move ply="36" value="f7f6" />
+        <ctml:move ply="37" value="d1d3" />
+        <ctml:move ply="38" value="a7a5" />
+        <ctml:move ply="39" value="a2a3" />
+        <ctml:move ply="40" value="e6e5" />
+        <ctml:move ply="41" value="f3h4" />
+        <ctml:move ply="42" value="b6c5" />
+        <ctml:move ply="43" value="b4c5" />
+        <ctml:move ply="44" value="b8a7" />
+        <ctml:move ply="45" value="a1d1" />
+        <ctml:move ply="46" value="a7c5" />
+        <ctml:move ply="47" value="d3c4" />
+        <ctml:move ply="48" value="f8e6" />
+        <ctml:move ply="49" value="c4e4" />
+        <ctml:move ply="50" value="e6f8" />
+        <ctml:move ply="51" value="e4c4" />
+        <ctml:move ply="52" value="f8e6" />
+        <ctml:move ply="53" value="c2g6" />
+        <ctml:move ply="54" value="d8b6" />
+        <ctml:move ply="55" value="e1e2" />
+        <ctml:move ply="56" value="e8b8" />
+        <ctml:move ply="57" value="e2b2" />
+        <ctml:move ply="58" value="b6a7" />
+        <ctml:move ply="59" value="g6f5" />
+        <ctml:move ply="60" value="g8f7" />
+        <ctml:move ply="61" value="b2e2" />
+        <ctml:move ply="62" value="a7a6" />
+        <ctml:move ply="63" value="c4g4" />
+        <ctml:move ply="64" value="e6f4" />
+        <ctml:move ply="65" value="e2e5" />
+        <ctml:move ply="66" value="f6e5" />
+        <ctml:move ply="67" value="c3e5" />
+        <ctml:move ply="68" value="g7g5" />
+        <ctml:move ply="69" value="f5g6" />
+        <ctml:move ply="70" value="f7f8" />
+        <ctml:move ply="71" value="g4d7" />
+        <ctml:move ply="72" value="a6a7" />
+        <ctml:move ply="73" value="d7f5" />
+        <ctml:move ply="74" value="f8g8" />
+        <ctml:move ply="75" value="d6d7" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="b562e39c2c93dd6bbc71b4dfa4b2b4a13590e09f2b55782862cde8db5b513dea" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="89b577ae5ff7f95d" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.04; Site=Havana; ECO='D46'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r09" round="9" board="1" white="p-chigorin" black="p-steinitz" result="0-1">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="112" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="c1g5" />
+        <ctml:move ply="16" value="f6d6" />
+        <ctml:move ply="17" value="d4d5" />
+        <ctml:move ply="18" value="c6d8" />
+        <ctml:move ply="19" value="d1a4" />
+        <ctml:move ply="20" value="b7b6" />
+        <ctml:move ply="21" value="b1a3" />
+        <ctml:move ply="22" value="a7a6" />
+        <ctml:move ply="23" value="c4b3" />
+        <ctml:move ply="24" value="a5c3" />
+        <ctml:move ply="25" value="a1c1" />
+        <ctml:move ply="26" value="d6b4" />
+        <ctml:move ply="27" value="a3b5" />
+        <ctml:move ply="28" value="b4b5" />
+        <ctml:move ply="29" value="a4b5" />
+        <ctml:move ply="30" value="a6b5" />
+        <ctml:move ply="31" value="c1c3" />
+        <ctml:move ply="32" value="c7c5" />
+        <ctml:move ply="33" value="d5c6" />
+        <ctml:move ply="34" value="d8c6" />
+        <ctml:move ply="35" value="g5e7" />
+        <ctml:move ply="36" value="e8e7" />
+        <ctml:move ply="37" value="b3d5" />
+        <ctml:move ply="38" value="f7f6" />
+        <ctml:move ply="39" value="d5c6" />
+        <ctml:move ply="40" value="d7c6" />
+        <ctml:move ply="41" value="c3c6" />
+        <ctml:move ply="42" value="c8d7" />
+        <ctml:move ply="43" value="c6b6" />
+        <ctml:move ply="44" value="h8b8" />
+        <ctml:move ply="45" value="b6b8" />
+        <ctml:move ply="46" value="a8b8" />
+        <ctml:move ply="47" value="f1b1" />
+        <ctml:move ply="48" value="d7c6" />
+        <ctml:move ply="49" value="b1e1" />
+        <ctml:move ply="50" value="b8a8" />
+        <ctml:move ply="51" value="e1e2" />
+        <ctml:move ply="52" value="a8a4" />
+        <ctml:move ply="53" value="e2b2" />
+        <ctml:move ply="54" value="a4e4" />
+        <ctml:move ply="55" value="h2h3" />
+        <ctml:move ply="56" value="e7d6" />
+        <ctml:move ply="57" value="f3d2" />
+        <ctml:move ply="58" value="e4a4" />
+        <ctml:move ply="59" value="f2f3" />
+        <ctml:move ply="60" value="f6f5" />
+        <ctml:move ply="61" value="g1f2" />
+        <ctml:move ply="62" value="a4a3" />
+        <ctml:move ply="63" value="d2b1" />
+        <ctml:move ply="64" value="a3d3" />
+        <ctml:move ply="65" value="f2e2" />
+        <ctml:move ply="66" value="e5e4" />
+        <ctml:move ply="67" value="b1d2" />
+        <ctml:move ply="68" value="d3a3" />
+        <ctml:move ply="69" value="f3e4" />
+        <ctml:move ply="70" value="f5e4" />
+        <ctml:move ply="71" value="d2b1" />
+        <ctml:move ply="72" value="a3g3" />
+        <ctml:move ply="73" value="e2f2" />
+        <ctml:move ply="74" value="g3d3" />
+        <ctml:move ply="75" value="f2e2" />
+        <ctml:move ply="76" value="h7h5" />
+        <ctml:move ply="77" value="b1d2" />
+        <ctml:move ply="78" value="d3g3" />
+        <ctml:move ply="79" value="e2f2" />
+        <ctml:move ply="80" value="g3a3" />
+        <ctml:move ply="81" value="d2f1" />
+        <ctml:move ply="82" value="c6d5" />
+        <ctml:move ply="83" value="b2b5" />
+        <ctml:move ply="84" value="a3a2" />
+        <ctml:move ply="85" value="f2e3" />
+        <ctml:move ply="86" value="a2g2" />
+        <ctml:move ply="87" value="e3d4" />
+        <ctml:move ply="88" value="d5c6" />
+        <ctml:move ply="89" value="b5h5" />
+        <ctml:move ply="90" value="g2a2" />
+        <ctml:move ply="91" value="f1e3" />
+        <ctml:move ply="92" value="a2d2" />
+        <ctml:move ply="93" value="d4c4" />
+        <ctml:move ply="94" value="c6d7" />
+        <ctml:move ply="95" value="h5g5" />
+        <ctml:move ply="96" value="d7e6" />
+        <ctml:move ply="97" value="c4b4" />
+        <ctml:move ply="98" value="d2d4" />
+        <ctml:move ply="99" value="b4b5" />
+        <ctml:move ply="100" value="d4d3" />
+        <ctml:move ply="101" value="e3c4" />
+        <ctml:move ply="102" value="e6c4" />
+        <ctml:move ply="103" value="b5c4" />
+        <ctml:move ply="104" value="d3d1" />
+        <ctml:move ply="105" value="g5g7" />
+        <ctml:move ply="106" value="e4e3" />
+        <ctml:move ply="107" value="g7b7" />
+        <ctml:move ply="108" value="d6e5" />
+        <ctml:move ply="109" value="c4c3" />
+        <ctml:move ply="110" value="e5e4" />
+        <ctml:move ply="111" value="c3c2" />
+        <ctml:move ply="112" value="d1f1" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="d2cca527c898bafbf48e3a59f2ffec354091bf6d7fdce0b7bad0908877f36fcc" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="78a1651183badfd6" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.05; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r10" round="10" board="1" white="p-steinitz" black="p-chigorin" result="1-0">
+      <ctml:eco>D07</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="53" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="d7d5" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="c8g4" />
+        <ctml:move ply="5" value="c2c4" />
+        <ctml:move ply="6" value="b8c6" />
+        <ctml:move ply="7" value="e2e3" />
+        <ctml:move ply="8" value="e7e5" />
+        <ctml:move ply="9" value="d1b3" />
+        <ctml:move ply="10" value="g4f3" />
+        <ctml:move ply="11" value="g2f3" />
+        <ctml:move ply="12" value="e5d4" />
+        <ctml:move ply="13" value="c4d5" />
+        <ctml:move ply="14" value="c6e5" />
+        <ctml:move ply="15" value="e3d4" />
+        <ctml:move ply="16" value="e5d7" />
+        <ctml:move ply="17" value="b1c3" />
+        <ctml:move ply="18" value="d8e7" />
+        <ctml:move ply="19" value="c1e3" />
+        <ctml:move ply="20" value="e7b4" />
+        <ctml:move ply="21" value="b3c2" />
+        <ctml:move ply="22" value="g8f6" />
+        <ctml:move ply="23" value="f1b5" />
+        <ctml:move ply="24" value="a8d8" />
+        <ctml:move ply="25" value="e1c1" />
+        <ctml:move ply="26" value="a7a6" />
+        <ctml:move ply="27" value="b5a4" />
+        <ctml:move ply="28" value="f8e7" />
+        <ctml:move ply="29" value="h1g1" />
+        <ctml:move ply="30" value="g7g6" />
+        <ctml:move ply="31" value="e3h6" />
+        <ctml:move ply="32" value="b7b5" />
+        <ctml:move ply="33" value="a4b3" />
+        <ctml:move ply="34" value="d7b6" />
+        <ctml:move ply="35" value="g1e1" />
+        <ctml:move ply="36" value="e8d7" />
+        <ctml:move ply="37" value="h6f4" />
+        <ctml:move ply="38" value="d8c8" />
+        <ctml:move ply="39" value="a2a3" />
+        <ctml:move ply="40" value="b4a5" />
+        <ctml:move ply="41" value="f4g5" />
+        <ctml:move ply="42" value="f6g8" />
+        <ctml:move ply="43" value="g5e7" />
+        <ctml:move ply="44" value="g8e7" />
+        <ctml:move ply="45" value="c3e4" />
+        <ctml:move ply="46" value="c8b8" />
+        <ctml:move ply="47" value="e4f6" />
+        <ctml:move ply="48" value="d7d8" />
+        <ctml:move ply="49" value="e1e7" />
+        <ctml:move ply="50" value="d8e7" />
+        <ctml:move ply="51" value="c2c7" />
+        <ctml:move ply="52" value="b6d7" />
+        <ctml:move ply="53" value="c7a5" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="b344cdff5c422b226a8933a774cfd321dd2deb32db98818a5a7d4c76ed8c78ac" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="3c29ca87b11269a9" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.08; Site=Havana; ECO='D07'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r11" round="11" board="1" white="p-chigorin" black="p-steinitz" result="1-0">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="61" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="c1g5" />
+        <ctml:move ply="16" value="f6d6" />
+        <ctml:move ply="17" value="d4d5" />
+        <ctml:move ply="18" value="c6d8" />
+        <ctml:move ply="19" value="d1a4" />
+        <ctml:move ply="20" value="b7b6" />
+        <ctml:move ply="21" value="b1a3" />
+        <ctml:move ply="22" value="a7a6" />
+        <ctml:move ply="23" value="c4d3" />
+        <ctml:move ply="24" value="a5c3" />
+        <ctml:move ply="25" value="a1b1" />
+        <ctml:move ply="26" value="c8b7" />
+        <ctml:move ply="27" value="a3c4" />
+        <ctml:move ply="28" value="d6c5" />
+        <ctml:move ply="29" value="g5e3" />
+        <ctml:move ply="30" value="b6b5" />
+        <ctml:move ply="31" value="e3c5" />
+        <ctml:move ply="32" value="b5a4" />
+        <ctml:move ply="33" value="f1c1" />
+        <ctml:move ply="34" value="d7d6" />
+        <ctml:move ply="35" value="c5d6" />
+        <ctml:move ply="36" value="c7d6" />
+        <ctml:move ply="37" value="c4d6" />
+        <ctml:move ply="38" value="e8d7" />
+        <ctml:move ply="39" value="d6b7" />
+        <ctml:move ply="40" value="c3d4" />
+        <ctml:move ply="41" value="f3d4" />
+        <ctml:move ply="42" value="e5d4" />
+        <ctml:move ply="43" value="b7d8" />
+        <ctml:move ply="44" value="h8d8" />
+        <ctml:move ply="45" value="b1b7" />
+        <ctml:move ply="46" value="d7d6" />
+        <ctml:move ply="47" value="e4e5" />
+        <ctml:move ply="48" value="d6d5" />
+        <ctml:move ply="49" value="b7e7" />
+        <ctml:move ply="50" value="a8c8" />
+        <ctml:move ply="51" value="c1c8" />
+        <ctml:move ply="52" value="d8c8" />
+        <ctml:move ply="53" value="f2f3" />
+        <ctml:move ply="54" value="c8c3" />
+        <ctml:move ply="55" value="d3e4" />
+        <ctml:move ply="56" value="d5c4" />
+        <ctml:move ply="57" value="e7f7" />
+        <ctml:move ply="58" value="c4b4" />
+        <ctml:move ply="59" value="e5e6" />
+        <ctml:move ply="60" value="d4d3" />
+        <ctml:move ply="61" value="f7d7" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="cc0b716cef52e03aa08c7eed32d90cc3c27087d98bdeb0c032a516946cc80e35" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="3012aa02f918d084" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.10; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r12" round="12" board="1" white="p-steinitz" black="p-chigorin" result="1-0">
+      <ctml:eco>D07</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="121" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="d7d5" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="c8g4" />
+        <ctml:move ply="5" value="c2c4" />
+        <ctml:move ply="6" value="b8c6" />
+        <ctml:move ply="7" value="e2e3" />
+        <ctml:move ply="8" value="e7e6" />
+        <ctml:move ply="9" value="b1c3" />
+        <ctml:move ply="10" value="f8b4" />
+        <ctml:move ply="11" value="c1d2" />
+        <ctml:move ply="12" value="g8e7" />
+        <ctml:move ply="13" value="f1d3" />
+        <ctml:move ply="14" value="g4f5" />
+        <ctml:move ply="15" value="d3f5" />
+        <ctml:move ply="16" value="e7f5" />
+        <ctml:move ply="17" value="c4d5" />
+        <ctml:move ply="18" value="e6d5" />
+        <ctml:move ply="19" value="d1b3" />
+        <ctml:move ply="20" value="b4c3" />
+        <ctml:move ply="21" value="d2c3" />
+        <ctml:move ply="22" value="a8b8" />
+        <ctml:move ply="23" value="e1g1" />
+        <ctml:move ply="24" value="e8g8" />
+        <ctml:move ply="25" value="a1c1" />
+        <ctml:move ply="26" value="f8e8" />
+        <ctml:move ply="27" value="c3d2" />
+        <ctml:move ply="28" value="c6e7" />
+        <ctml:move ply="29" value="c1c2" />
+        <ctml:move ply="30" value="c7c6" />
+        <ctml:move ply="31" value="f1c1" />
+        <ctml:move ply="32" value="e7g6" />
+        <ctml:move ply="33" value="d2e1" />
+        <ctml:move ply="34" value="f5h4" />
+        <ctml:move ply="35" value="f3h4" />
+        <ctml:move ply="36" value="g6h4" />
+        <ctml:move ply="37" value="f2f3" />
+        <ctml:move ply="38" value="h4f5" />
+        <ctml:move ply="39" value="e1f2" />
+        <ctml:move ply="40" value="d8g5" />
+        <ctml:move ply="41" value="c1e1" />
+        <ctml:move ply="42" value="e8e6" />
+        <ctml:move ply="43" value="e3e4" />
+        <ctml:move ply="44" value="b8e8" />
+        <ctml:move ply="45" value="c2e2" />
+        <ctml:move ply="46" value="f5d6" />
+        <ctml:move ply="47" value="e4e5" />
+        <ctml:move ply="48" value="g5d8" />
+        <ctml:move ply="49" value="g1f1" />
+        <ctml:move ply="50" value="d6c4" />
+        <ctml:move ply="51" value="b3b7" />
+        <ctml:move ply="52" value="d8g5" />
+        <ctml:move ply="53" value="b7b4" />
+        <ctml:move ply="54" value="e6g6" />
+        <ctml:move ply="55" value="f2g3" />
+        <ctml:move ply="56" value="h7h5" />
+        <ctml:move ply="57" value="b2b3" />
+        <ctml:move ply="58" value="c4b6" />
+        <ctml:move ply="59" value="b4d2" />
+        <ctml:move ply="60" value="g5f5" />
+        <ctml:move ply="61" value="d2c2" />
+        <ctml:move ply="62" value="f5g5" />
+        <ctml:move ply="63" value="c2d2" />
+        <ctml:move ply="64" value="g5f5" />
+        <ctml:move ply="65" value="f1g1" />
+        <ctml:move ply="66" value="b6c8" />
+        <ctml:move ply="67" value="d2c2" />
+        <ctml:move ply="68" value="f5d7" />
+        <ctml:move ply="69" value="g3h4" />
+        <ctml:move ply="70" value="c8b6" />
+        <ctml:move ply="71" value="c2d3" />
+        <ctml:move ply="72" value="b6a8" />
+        <ctml:move ply="73" value="f3f4" />
+        <ctml:move ply="74" value="a8c7" />
+        <ctml:move ply="75" value="h4f2" />
+        <ctml:move ply="76" value="d7g4" />
+        <ctml:move ply="77" value="f2e3" />
+        <ctml:move ply="78" value="f7f5" />
+        <ctml:move ply="79" value="e2f2" />
+        <ctml:move ply="80" value="g6e6" />
+        <ctml:move ply="81" value="d3e2" />
+        <ctml:move ply="82" value="g4g6" />
+        <ctml:move ply="83" value="f2f3" />
+        <ctml:move ply="84" value="g6f7" />
+        <ctml:move ply="85" value="f3g3" />
+        <ctml:move ply="86" value="g8h7" />
+        <ctml:move ply="87" value="e3f2" />
+        <ctml:move ply="88" value="e6h6" />
+        <ctml:move ply="89" value="e1c1" />
+        <ctml:move ply="90" value="e8c8" />
+        <ctml:move ply="91" value="g3c3" />
+        <ctml:move ply="92" value="c7e6" />
+        <ctml:move ply="93" value="e2a6" />
+        <ctml:move ply="94" value="c8g8" />
+        <ctml:move ply="95" value="c3c6" />
+        <ctml:move ply="96" value="e6f4" />
+        <ctml:move ply="97" value="c6h6" />
+        <ctml:move ply="98" value="g7h6" />
+        <ctml:move ply="99" value="f2g3" />
+        <ctml:move ply="100" value="g8g6" />
+        <ctml:move ply="101" value="a6f1" />
+        <ctml:move ply="102" value="f4e6" />
+        <ctml:move ply="103" value="f1d3" />
+        <ctml:move ply="104" value="g6g4" />
+        <ctml:move ply="105" value="h2h3" />
+        <ctml:move ply="106" value="g4d4" />
+        <ctml:move ply="107" value="d3a6" />
+        <ctml:move ply="108" value="d4d2" />
+        <ctml:move ply="109" value="g3e1" />
+        <ctml:move ply="110" value="d2d4" />
+        <ctml:move ply="111" value="c1c6" />
+        <ctml:move ply="112" value="d4e4" />
+        <ctml:move ply="113" value="c6e6" />
+        <ctml:move ply="114" value="e4e1" />
+        <ctml:move ply="115" value="g1h2" />
+        <ctml:move ply="116" value="e1c1" />
+        <ctml:move ply="117" value="e6f6" />
+        <ctml:move ply="118" value="f7g7" />
+        <ctml:move ply="119" value="a6e6" />
+        <ctml:move ply="120" value="c1f1" />
+        <ctml:move ply="121" value="f6f7" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="a739d8afc84ef08548a6da284f7e789249841310fc223376e3e8f6fba25530db" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="d7449dc5c9d9d69d" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.12; Site=Havana; ECO='D07'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r13" round="13" board="1" white="p-chigorin" black="p-steinitz" result="1-0">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="127" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="d4d5" />
+        <ctml:move ply="16" value="c6d8" />
+        <ctml:move ply="17" value="c1g5" />
+        <ctml:move ply="18" value="f6d6" />
+        <ctml:move ply="19" value="d1a4" />
+        <ctml:move ply="20" value="f7f6" />
+        <ctml:move ply="21" value="g5c1" />
+        <ctml:move ply="22" value="a5b6" />
+        <ctml:move ply="23" value="b1a3" />
+        <ctml:move ply="24" value="c7c6" />
+        <ctml:move ply="25" value="c4b3" />
+        <ctml:move ply="26" value="b6c5" />
+        <ctml:move ply="27" value="f1d1" />
+        <ctml:move ply="28" value="b7b5" />
+        <ctml:move ply="29" value="a4a5" />
+        <ctml:move ply="30" value="d8b7" />
+        <ctml:move ply="31" value="a5a6" />
+        <ctml:move ply="32" value="b7d8" />
+        <ctml:move ply="33" value="a6a5" />
+        <ctml:move ply="34" value="d8b7" />
+        <ctml:move ply="35" value="a5a6" />
+        <ctml:move ply="36" value="b7d8" />
+        <ctml:move ply="37" value="a6a5" />
+        <ctml:move ply="38" value="d8b7" />
+        <ctml:move ply="39" value="a5a6" />
+        <ctml:move ply="40" value="d6c7" />
+        <ctml:move ply="41" value="d5c6" />
+        <ctml:move ply="42" value="d7c6" />
+        <ctml:move ply="43" value="a3b5" />
+        <ctml:move ply="44" value="c6b5" />
+        <ctml:move ply="45" value="a6b5" />
+        <ctml:move ply="46" value="c8d7" />
+        <ctml:move ply="47" value="b3f7" />
+        <ctml:move ply="48" value="e8d8" />
+        <ctml:move ply="49" value="a1b1" />
+        <ctml:move ply="50" value="b7d6" />
+        <ctml:move ply="51" value="b5b3" />
+        <ctml:move ply="52" value="c7b6" />
+        <ctml:move ply="53" value="b3c2" />
+        <ctml:move ply="54" value="b6c6" />
+        <ctml:move ply="55" value="f7b3" />
+        <ctml:move ply="56" value="a7a5" />
+        <ctml:move ply="57" value="c1e3" />
+        <ctml:move ply="58" value="c5e3" />
+        <ctml:move ply="59" value="f2e3" />
+        <ctml:move ply="60" value="a5a4" />
+        <ctml:move ply="61" value="b3d5" />
+        <ctml:move ply="62" value="e7d5" />
+        <ctml:move ply="63" value="d1d5" />
+        <ctml:move ply="64" value="h8e8" />
+        <ctml:move ply="65" value="b1d1" />
+        <ctml:move ply="66" value="e8e6" />
+        <ctml:move ply="67" value="c3c4" />
+        <ctml:move ply="68" value="a8a7" />
+        <ctml:move ply="69" value="c4c5" />
+        <ctml:move ply="70" value="d6c8" />
+        <ctml:move ply="71" value="f3d2" />
+        <ctml:move ply="72" value="d8e8" />
+        <ctml:move ply="73" value="d2c4" />
+        <ctml:move ply="74" value="e6e7" />
+        <ctml:move ply="75" value="c2e2" />
+        <ctml:move ply="76" value="a4a3" />
+        <ctml:move ply="77" value="e2h5" />
+        <ctml:move ply="78" value="g7g6" />
+        <ctml:move ply="79" value="h5h4" />
+        <ctml:move ply="80" value="a7a4" />
+        <ctml:move ply="81" value="d5d6" />
+        <ctml:move ply="82" value="c8d6" />
+        <ctml:move ply="83" value="c4d6" />
+        <ctml:move ply="84" value="e8d8" />
+        <ctml:move ply="85" value="h4f6" />
+        <ctml:move ply="86" value="a4a5" />
+        <ctml:move ply="87" value="f6f8" />
+        <ctml:move ply="88" value="e7e8" />
+        <ctml:move ply="89" value="d6e8" />
+        <ctml:move ply="90" value="c6c5" />
+        <ctml:move ply="91" value="f8c5" />
+        <ctml:move ply="92" value="a5c5" />
+        <ctml:move ply="93" value="e8f6" />
+        <ctml:move ply="94" value="c5c7" />
+        <ctml:move ply="95" value="g1f1" />
+        <ctml:move ply="96" value="d8c8" />
+        <ctml:move ply="97" value="d1d7" />
+        <ctml:move ply="98" value="c7d7" />
+        <ctml:move ply="99" value="f6d7" />
+        <ctml:move ply="100" value="c8d7" />
+        <ctml:move ply="101" value="f1e2" />
+        <ctml:move ply="102" value="d7c6" />
+        <ctml:move ply="103" value="e2d3" />
+        <ctml:move ply="104" value="c6b5" />
+        <ctml:move ply="105" value="d3c3" />
+        <ctml:move ply="106" value="h7h5" />
+        <ctml:move ply="107" value="c3b3" />
+        <ctml:move ply="108" value="g6g5" />
+        <ctml:move ply="109" value="b3a3" />
+        <ctml:move ply="110" value="b5c4" />
+        <ctml:move ply="111" value="a3b2" />
+        <ctml:move ply="112" value="c4d3" />
+        <ctml:move ply="113" value="a2a4" />
+        <ctml:move ply="114" value="d3e2" />
+        <ctml:move ply="115" value="a4a5" />
+        <ctml:move ply="116" value="e2f2" />
+        <ctml:move ply="117" value="a5a6" />
+        <ctml:move ply="118" value="f2g2" />
+        <ctml:move ply="119" value="a6a7" />
+        <ctml:move ply="120" value="g2h2" />
+        <ctml:move ply="121" value="a7a8q" />
+        <ctml:move ply="122" value="h5h4" />
+        <ctml:move ply="123" value="a8g8" />
+        <ctml:move ply="124" value="h4h3" />
+        <ctml:move ply="125" value="g8g5" />
+        <ctml:move ply="126" value="h2h1" />
+        <ctml:move ply="127" value="g5e5" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="ef76a01ce1700aaba351f5b50296ab2a8bf0a1013f7c75bb9b1a29e5f55fc590" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="9898a7fd283be5ae" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.16; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r14" round="14" board="1" white="p-steinitz" black="p-chigorin" result="1-0">
+      <ctml:eco>D07</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="69" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="d7d5" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="c8g4" />
+        <ctml:move ply="5" value="c2c4" />
+        <ctml:move ply="6" value="b8c6" />
+        <ctml:move ply="7" value="e2e3" />
+        <ctml:move ply="8" value="e7e5" />
+        <ctml:move ply="9" value="d1b3" />
+        <ctml:move ply="10" value="g4f3" />
+        <ctml:move ply="11" value="g2f3" />
+        <ctml:move ply="12" value="g8e7" />
+        <ctml:move ply="13" value="b1c3" />
+        <ctml:move ply="14" value="e5d4" />
+        <ctml:move ply="15" value="c3d5" />
+        <ctml:move ply="16" value="a8b8" />
+        <ctml:move ply="17" value="e3e4" />
+        <ctml:move ply="18" value="e7g6" />
+        <ctml:move ply="19" value="c1d2" />
+        <ctml:move ply="20" value="f8d6" />
+        <ctml:move ply="21" value="f3f4" />
+        <ctml:move ply="22" value="e8g8" />
+        <ctml:move ply="23" value="e1c1" />
+        <ctml:move ply="24" value="c6e7" />
+        <ctml:move ply="25" value="f4f5" />
+        <ctml:move ply="26" value="e7d5" />
+        <ctml:move ply="27" value="c4d5" />
+        <ctml:move ply="28" value="g6f4" />
+        <ctml:move ply="29" value="b3f3" />
+        <ctml:move ply="30" value="d8h4" />
+        <ctml:move ply="31" value="h1g1" />
+        <ctml:move ply="32" value="h7h5" />
+        <ctml:move ply="33" value="c1b1" />
+        <ctml:move ply="34" value="c7c5" />
+        <ctml:move ply="35" value="f3g3" />
+        <ctml:move ply="36" value="f4g6" />
+        <ctml:move ply="37" value="g3d6" />
+        <ctml:move ply="38" value="h4e4" />
+        <ctml:move ply="39" value="b1a1" />
+        <ctml:move ply="40" value="e4f5" />
+        <ctml:move ply="41" value="d6g3" />
+        <ctml:move ply="42" value="f5d5" />
+        <ctml:move ply="43" value="f2f4" />
+        <ctml:move ply="44" value="b7b5" />
+        <ctml:move ply="45" value="f1g2" />
+        <ctml:move ply="46" value="d5d6" />
+        <ctml:move ply="47" value="g3g5" />
+        <ctml:move ply="48" value="f7f5" />
+        <ctml:move ply="49" value="g2h3" />
+        <ctml:move ply="50" value="b8b6" />
+        <ctml:move ply="51" value="h3f5" />
+        <ctml:move ply="52" value="f8f6" />
+        <ctml:move ply="53" value="f5e4" />
+        <ctml:move ply="54" value="d6d7" />
+        <ctml:move ply="55" value="g5h5" />
+        <ctml:move ply="56" value="g6f8" />
+        <ctml:move ply="57" value="h5c5" />
+        <ctml:move ply="58" value="f8e6" />
+        <ctml:move ply="59" value="c5h5" />
+        <ctml:move ply="60" value="d7d6" />
+        <ctml:move ply="61" value="h5h7" />
+        <ctml:move ply="62" value="g8f8" />
+        <ctml:move ply="63" value="d1c1" />
+        <ctml:move ply="64" value="b6a6" />
+        <ctml:move ply="65" value="f4f5" />
+        <ctml:move ply="66" value="e6c5" />
+        <ctml:move ply="67" value="h7h8" />
+        <ctml:move ply="68" value="f8e7" />
+        <ctml:move ply="69" value="g1g7" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="dd965449e8a35387d2efa2899c4e4853ee2c45a6bf8b36cea308ba046295e236" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="37fd7405b1368dca" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.19; Site=Havana; ECO='D07'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r15" round="15" board="1" white="p-chigorin" black="p-steinitz" result="0-1">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="72" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="d4d5" />
+        <ctml:move ply="16" value="c6d8" />
+        <ctml:move ply="17" value="d1a4" />
+        <ctml:move ply="18" value="a5b6" />
+        <ctml:move ply="19" value="c1g5" />
+        <ctml:move ply="20" value="f6d6" />
+        <ctml:move ply="21" value="b1a3" />
+        <ctml:move ply="22" value="c7c6" />
+        <ctml:move ply="23" value="a1d1" />
+        <ctml:move ply="24" value="d6b8" />
+        <ctml:move ply="25" value="g5e7" />
+        <ctml:move ply="26" value="e8e7" />
+        <ctml:move ply="27" value="d5d6" />
+        <ctml:move ply="28" value="e7f8" />
+        <ctml:move ply="29" value="f3e5" />
+        <ctml:move ply="30" value="f7f6" />
+        <ctml:move ply="31" value="e5f3" />
+        <ctml:move ply="32" value="b6c5" />
+        <ctml:move ply="33" value="e4e5" />
+        <ctml:move ply="34" value="b7b5" />
+        <ctml:move ply="35" value="c4b5" />
+        <ctml:move ply="36" value="c6b5" />
+        <ctml:move ply="37" value="a3b5" />
+        <ctml:move ply="38" value="d8e6" />
+        <ctml:move ply="39" value="e5f6" />
+        <ctml:move ply="40" value="g7f6" />
+        <ctml:move ply="41" value="a4h4" />
+        <ctml:move ply="42" value="f8f7" />
+        <ctml:move ply="43" value="h4h5" />
+        <ctml:move ply="44" value="f7g8" />
+        <ctml:move ply="45" value="h5g4" />
+        <ctml:move ply="46" value="g8f7" />
+        <ctml:move ply="47" value="g4h5" />
+        <ctml:move ply="48" value="f7g7" />
+        <ctml:move ply="49" value="f3d4" />
+        <ctml:move ply="50" value="c5d4" />
+        <ctml:move ply="51" value="b5d4" />
+        <ctml:move ply="52" value="h8f8" />
+        <ctml:move ply="53" value="d1d3" />
+        <ctml:move ply="54" value="c8b7" />
+        <ctml:move ply="55" value="d4e6" />
+        <ctml:move ply="56" value="d7e6" />
+        <ctml:move ply="57" value="d3h3" />
+        <ctml:move ply="58" value="b7e4" />
+        <ctml:move ply="59" value="h5g4" />
+        <ctml:move ply="60" value="e4g6" />
+        <ctml:move ply="61" value="g4e6" />
+        <ctml:move ply="62" value="b8b6" />
+        <ctml:move ply="63" value="e6d5" />
+        <ctml:move ply="64" value="a8d8" />
+        <ctml:move ply="65" value="f1d1" />
+        <ctml:move ply="66" value="f8e8" />
+        <ctml:move ply="67" value="c3c4" />
+        <ctml:move ply="68" value="d8d6" />
+        <ctml:move ply="69" value="d5f3" />
+        <ctml:move ply="70" value="d6d3" />
+        <ctml:move ply="71" value="f3g4" />
+        <ctml:move ply="72" value="e8e4" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="7af94191ac09704c5e64af14e4b53aaea44580aebc1f511eaabd7666ba6d3707" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="7c8547dccf15cda4" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.21; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r16" round="16" board="1" white="p-steinitz" black="p-chigorin" result="1-0">
+      <ctml:eco>A85</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="103" clockInfo="false">
+        <ctml:move ply="1" value="g1f3" />
+        <ctml:move ply="2" value="f7f5" />
+        <ctml:move ply="3" value="d2d4" />
+        <ctml:move ply="4" value="e7e6" />
+        <ctml:move ply="5" value="c2c4" />
+        <ctml:move ply="6" value="g8f6" />
+        <ctml:move ply="7" value="e2e3" />
+        <ctml:move ply="8" value="f8e7" />
+        <ctml:move ply="9" value="b1c3" />
+        <ctml:move ply="10" value="e8g8" />
+        <ctml:move ply="11" value="f1d3" />
+        <ctml:move ply="12" value="d7d5" />
+        <ctml:move ply="13" value="c1d2" />
+        <ctml:move ply="14" value="c7c6" />
+        <ctml:move ply="15" value="c4c5" />
+        <ctml:move ply="16" value="b8d7" />
+        <ctml:move ply="17" value="f3g5" />
+        <ctml:move ply="18" value="d7b8" />
+        <ctml:move ply="19" value="f2f3" />
+        <ctml:move ply="20" value="d8c7" />
+        <ctml:move ply="21" value="d1c2" />
+        <ctml:move ply="22" value="f6h5" />
+        <ctml:move ply="23" value="g5h3" />
+        <ctml:move ply="24" value="e7h4" />
+        <ctml:move ply="25" value="h3f2" />
+        <ctml:move ply="26" value="e6e5" />
+        <ctml:move ply="27" value="d4e5" />
+        <ctml:move ply="28" value="c7e5" />
+        <ctml:move ply="29" value="e1g1" />
+        <ctml:move ply="30" value="h4e7" />
+        <ctml:move ply="31" value="c3e2" />
+        <ctml:move ply="32" value="b7b6" />
+        <ctml:move ply="33" value="c5b6" />
+        <ctml:move ply="34" value="a7b6" />
+        <ctml:move ply="35" value="e2d4" />
+        <ctml:move ply="36" value="c6c5" />
+        <ctml:move ply="37" value="d4b5" />
+        <ctml:move ply="38" value="b8c6" />
+        <ctml:move ply="39" value="d2c3" />
+        <ctml:move ply="40" value="e5b8" />
+        <ctml:move ply="41" value="f1d1" />
+        <ctml:move ply="42" value="c6e5" />
+        <ctml:move ply="43" value="d3e2" />
+        <ctml:move ply="44" value="h5f6" />
+        <ctml:move ply="45" value="f2h3" />
+        <ctml:move ply="46" value="f8d8" />
+        <ctml:move ply="47" value="e2f1" />
+        <ctml:move ply="48" value="e5f7" />
+        <ctml:move ply="49" value="h3f4" />
+        <ctml:move ply="50" value="d5d4" />
+        <ctml:move ply="51" value="c3d2" />
+        <ctml:move ply="52" value="d4e3" />
+        <ctml:move ply="53" value="d2e3" />
+        <ctml:move ply="54" value="d8d1" />
+        <ctml:move ply="55" value="a1d1" />
+        <ctml:move ply="56" value="b8e5" />
+        <ctml:move ply="57" value="d1e1" />
+        <ctml:move ply="58" value="g8f8" />
+        <ctml:move ply="59" value="e3d2" />
+        <ctml:move ply="60" value="e5b8" />
+        <ctml:move ply="61" value="c2b3" />
+        <ctml:move ply="62" value="f7d8" />
+        <ctml:move ply="63" value="b3e3" />
+        <ctml:move ply="64" value="b8b7" />
+        <ctml:move ply="65" value="f1c4" />
+        <ctml:move ply="66" value="b7d7" />
+        <ctml:move ply="67" value="d2c3" />
+        <ctml:move ply="68" value="a8a4" />
+        <ctml:move ply="69" value="c4b3" />
+        <ctml:move ply="70" value="a4a8" />
+        <ctml:move ply="71" value="f4d5" />
+        <ctml:move ply="72" value="f6d5" />
+        <ctml:move ply="73" value="b3d5" />
+        <ctml:move ply="74" value="a8a4" />
+        <ctml:move ply="75" value="c3g7" />
+        <ctml:move ply="76" value="f8g7" />
+        <ctml:move ply="77" value="e3e7" />
+        <ctml:move ply="78" value="d7e7" />
+        <ctml:move ply="79" value="e1e7" />
+        <ctml:move ply="80" value="g7f6" />
+        <ctml:move ply="81" value="e7h7" />
+        <ctml:move ply="82" value="a4b4" />
+        <ctml:move ply="83" value="b5d6" />
+        <ctml:move ply="84" value="c8e6" />
+        <ctml:move ply="85" value="d5e6" />
+        <ctml:move ply="86" value="f6e6" />
+        <ctml:move ply="87" value="h7h6" />
+        <ctml:move ply="88" value="e6e5" />
+        <ctml:move ply="89" value="b2b3" />
+        <ctml:move ply="90" value="b6b5" />
+        <ctml:move ply="91" value="f3f4" />
+        <ctml:move ply="92" value="e5d4" />
+        <ctml:move ply="93" value="d6b5" />
+        <ctml:move ply="94" value="b4b5" />
+        <ctml:move ply="95" value="h6d6" />
+        <ctml:move ply="96" value="d4c3" />
+        <ctml:move ply="97" value="d6d8" />
+        <ctml:move ply="98" value="b5a5" />
+        <ctml:move ply="99" value="d8d5" />
+        <ctml:move ply="100" value="c3b4" />
+        <ctml:move ply="101" value="d5d2" />
+        <ctml:move ply="102" value="b4c3" />
+        <ctml:move ply="103" value="d2e2" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="306975e171d39ccb88035857b65a0be73a5011ec1f56c350caa072fb0fb5a82c" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="1ff14cbc03e40c57" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.23; Site=Havana; ECO='A85'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+    <ctml:game id="g-r17" round="17" board="1" white="p-chigorin" black="p-steinitz" result="1/2-1/2">
+      <ctml:eco>C52</ctml:eco>
+      <ctml:start standard="true" />
+      <ctml:timeControl cadence="classical">
+        <ctml:raw>30/120'+15/60'</ctml:raw>
+        <ctml:note>30 moves in 2 hours, then 15 moves per hour; no per-move clock data in source.</ctml:note>
+      </ctml:timeControl>
+      <ctml:moves notation="uci" plyCount="140" clockInfo="false">
+        <ctml:move ply="1" value="e2e4" />
+        <ctml:move ply="2" value="e7e5" />
+        <ctml:move ply="3" value="g1f3" />
+        <ctml:move ply="4" value="b8c6" />
+        <ctml:move ply="5" value="f1c4" />
+        <ctml:move ply="6" value="f8c5" />
+        <ctml:move ply="7" value="b2b4" />
+        <ctml:move ply="8" value="c5b4" />
+        <ctml:move ply="9" value="c2c3" />
+        <ctml:move ply="10" value="b4a5" />
+        <ctml:move ply="11" value="e1g1" />
+        <ctml:move ply="12" value="d8f6" />
+        <ctml:move ply="13" value="d2d4" />
+        <ctml:move ply="14" value="g8e7" />
+        <ctml:move ply="15" value="d4d5" />
+        <ctml:move ply="16" value="c6d8" />
+        <ctml:move ply="17" value="d1a4" />
+        <ctml:move ply="18" value="a5b6" />
+        <ctml:move ply="19" value="c1g5" />
+        <ctml:move ply="20" value="f6d6" />
+        <ctml:move ply="21" value="b1a3" />
+        <ctml:move ply="22" value="c7c6" />
+        <ctml:move ply="23" value="a1d1" />
+        <ctml:move ply="24" value="d6b8" />
+        <ctml:move ply="25" value="g5e7" />
+        <ctml:move ply="26" value="e8e7" />
+        <ctml:move ply="27" value="d5d6" />
+        <ctml:move ply="28" value="e7f8" />
+        <ctml:move ply="29" value="a4b4" />
+        <ctml:move ply="30" value="f7f6" />
+        <ctml:move ply="31" value="c4b3" />
+        <ctml:move ply="32" value="g7g6" />
+        <ctml:move ply="33" value="a3c4" />
+        <ctml:move ply="34" value="f8g7" />
+        <ctml:move ply="35" value="a2a4" />
+        <ctml:move ply="36" value="d8f7" />
+        <ctml:move ply="37" value="c4b6" />
+        <ctml:move ply="38" value="a7b6" />
+        <ctml:move ply="39" value="b3f7" />
+        <ctml:move ply="40" value="g7f7" />
+        <ctml:move ply="41" value="f3e5" />
+        <ctml:move ply="42" value="f7g7" />
+        <ctml:move ply="43" value="e5c4" />
+        <ctml:move ply="44" value="b6b5" />
+        <ctml:move ply="45" value="a4b5" />
+        <ctml:move ply="46" value="b8a7" />
+        <ctml:move ply="47" value="b5b6" />
+        <ctml:move ply="48" value="a7a4" />
+        <ctml:move ply="49" value="b4c5" />
+        <ctml:move ply="50" value="h8e8" />
+        <ctml:move ply="51" value="f2f3" />
+        <ctml:move ply="52" value="a4c2" />
+        <ctml:move ply="53" value="c4e3" />
+        <ctml:move ply="54" value="c2b3" />
+        <ctml:move ply="55" value="d1b1" />
+        <ctml:move ply="56" value="b3f7" />
+        <ctml:move ply="57" value="e3c4" />
+        <ctml:move ply="58" value="a8a4" />
+        <ctml:move ply="59" value="b1b4" />
+        <ctml:move ply="60" value="a4a2" />
+        <ctml:move ply="61" value="c5d4" />
+        <ctml:move ply="62" value="g7g8" />
+        <ctml:move ply="63" value="c4e3" />
+        <ctml:move ply="64" value="a2a3" />
+        <ctml:move ply="65" value="b4a4" />
+        <ctml:move ply="66" value="a3b3" />
+        <ctml:move ply="67" value="f1a1" />
+        <ctml:move ply="68" value="g8g7" />
+        <ctml:move ply="69" value="a4a8" />
+        <ctml:move ply="70" value="b3b5" />
+        <ctml:move ply="71" value="a8b8" />
+        <ctml:move ply="72" value="c6c5" />
+        <ctml:move ply="73" value="d4d5" />
+        <ctml:move ply="74" value="b5b6" />
+        <ctml:move ply="75" value="a1a8" />
+        <ctml:move ply="76" value="f7f8" />
+        <ctml:move ply="77" value="e3c4" />
+        <ctml:move ply="78" value="b6c6" />
+        <ctml:move ply="79" value="f3f4" />
+        <ctml:move ply="80" value="b7b5" />
+        <ctml:move ply="81" value="b8b5" />
+        <ctml:move ply="82" value="c8a6" />
+        <ctml:move ply="83" value="a8e8" />
+        <ctml:move ply="84" value="f8e8" />
+        <ctml:move ply="85" value="b5c5" />
+        <ctml:move ply="86" value="c6c5" />
+        <ctml:move ply="87" value="d5c5" />
+        <ctml:move ply="88" value="e8e4" />
+        <ctml:move ply="89" value="c4e3" />
+        <ctml:move ply="90" value="e4f4" />
+        <ctml:move ply="91" value="h2h3" />
+        <ctml:move ply="92" value="a6b7" />
+        <ctml:move ply="93" value="c3c4" />
+        <ctml:move ply="94" value="b7c6" />
+        <ctml:move ply="95" value="c5a3" />
+        <ctml:move ply="96" value="f4d4" />
+        <ctml:move ply="97" value="g1h2" />
+        <ctml:move ply="98" value="f6f5" />
+        <ctml:move ply="99" value="c4c5" />
+        <ctml:move ply="100" value="f5f4" />
+        <ctml:move ply="101" value="e3c2" />
+        <ctml:move ply="102" value="d4e5" />
+        <ctml:move ply="103" value="a3a1" />
+        <ctml:move ply="104" value="e5a1" />
+        <ctml:move ply="105" value="c2a1" />
+        <ctml:move ply="106" value="g7f6" />
+        <ctml:move ply="107" value="a1c2" />
+        <ctml:move ply="108" value="f6e5" />
+        <ctml:move ply="109" value="c2b4" />
+        <ctml:move ply="110" value="c6b7" />
+        <ctml:move ply="111" value="h2g1" />
+        <ctml:move ply="112" value="e5d4" />
+        <ctml:move ply="113" value="c5c6" />
+        <ctml:move ply="114" value="b7c8" />
+        <ctml:move ply="115" value="c6d7" />
+        <ctml:move ply="116" value="c8d7" />
+        <ctml:move ply="117" value="g1f2" />
+        <ctml:move ply="118" value="d4e5" />
+        <ctml:move ply="119" value="b4d3" />
+        <ctml:move ply="120" value="e5d6" />
+        <ctml:move ply="121" value="d3f4" />
+        <ctml:move ply="122" value="d6e5" />
+        <ctml:move ply="123" value="f2e3" />
+        <ctml:move ply="124" value="e5f6" />
+        <ctml:move ply="125" value="f4d3" />
+        <ctml:move ply="126" value="h7h6" />
+        <ctml:move ply="127" value="e3f4" />
+        <ctml:move ply="128" value="g6g5" />
+        <ctml:move ply="129" value="f4e3" />
+        <ctml:move ply="130" value="h6h5" />
+        <ctml:move ply="131" value="d3c5" />
+        <ctml:move ply="132" value="d7c6" />
+        <ctml:move ply="133" value="g2g3" />
+        <ctml:move ply="134" value="h5h4" />
+        <ctml:move ply="135" value="g3g4" />
+        <ctml:move ply="136" value="c6g2" />
+        <ctml:move ply="137" value="c5e4" />
+        <ctml:move ply="138" value="g2e4" />
+        <ctml:move ply="139" value="e3e4" />
+        <ctml:move ply="140" value="f6e6" />
+      </ctml:moves>
+      <ctml:fingerprints>
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="trajectory" value="7f6d1855019e9b8d14b45677390770924dd9b2f01de96d6d623ca17bc9f79140" />
+        <ctml:fingerprint scheme="zobrist-polyglot-1" scope="finalPosition" value="befa15bd7bb1270d" />
+      </ctml:fingerprints>
+      <ctml:source kind="chessbase-pgn">
+        <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+        <ctml:note>Date=1889.02.24; Site=Havana; ECO='C52'. ChessBase-derived (annotations stripped); no per-move clock data.</ctml:note>
+      </ctml:source>
+    </ctml:game>
+  </ctml:games>
+  <ctml:notes>The second World Chess Championship: Wilhelm Steinitz (defending champion, Austrian-American) vs. Mikhail Chigorin (Russian), a 17-game match at the Club de Ajedrez de La Habana, Havana, Cuba, 20 January – 24 February 1889. Match condition: first to win 10 games; draws did not count toward the match decision. Steinitz won 10-6 with 1 draw (10.5-6.5 in points) to retain the championship. Chigorin played 1.e4 in his White games throughout, employing the Evans Gambit; Steinitz with White varied between 1.Nf3 and 1.Nf3 systems. Time control: 30 moves in 2 hours then 15 moves per hour (30/120'+15/60'), noted in game annotations; no per-move clock data in source. Source: ChessBase-derived PGN (17 games with ECO codes, ChessBase annotations in German/English stripped). The builder verifies every game's result against the official match record and confirms Steinitz 10.5 / 10 wins, Chigorin 6.5 / 6 wins. No FIDE ids or player titles — neither existed in 1889. Edo historical ratings from the ChessBase-derived source PGN (Steinitz 2675, Chigorin 2586; field average 2631). eventType is match; participant score is total points (1/0.5/0 per game); placement 1 Steinitz (champion), 2 Chigorin (challenger).</ctml:notes>
+  <ctml:source kind="chessbase-pgn">
+    <ctml:uri>file:///D:/dev/pgn/2nd-w-ch-rated.pgn</ctml:uri>
+    <ctml:note>ChessBase-derived PGN, 17 games (moves + ECO, no clocks, annotations stripped). SHA-256 d9af3dfeb5750bf6244392bf915c4bcbc02f960f6d48b77bf2fac21b9637dc69.</ctml:note>
+  </ctml:source>
+</ctml:tournament>

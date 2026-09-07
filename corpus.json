@@ -1,0 +1,683 @@
+[
+  {
+    "file": "tours/20260830-20260830_sofia-cup-balkan-blitz-championship.ctml",
+    "id": "tournament-sofia-cup-2026-blitz",
+    "name": "Sofia Cup 2026 - Balkan Blitz Championship",
+    "eventType": [
+      "swiss"
+    ],
+    "cadence": "blitz",
+    "federation": "BUL",
+    "place": "Sofia",
+    "start": "2026-08-30",
+    "end": "2026-08-30",
+    "participants": 191,
+    "teams": 0,
+    "games": 1004,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 2248620,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "blitz",
+        "value": 2113,
+        "category": 0
+      }
+    ],
+    "avgRating": 2113,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/20260829-20260829_sofia-cup-balkan-rapid-championship.ctml",
+    "id": "tournament-sofia-cup-2026-rapid",
+    "name": "Sofia Cup 2026 - Balkan Rapid Championship",
+    "eventType": [
+      "swiss"
+    ],
+    "cadence": "rapid",
+    "federation": "BUL",
+    "place": "Sofia",
+    "start": "2026-08-29",
+    "end": "2026-08-29",
+    "participants": 185,
+    "teams": 0,
+    "games": 806,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 1939620,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "rapid",
+        "value": 2203,
+        "category": 0
+      }
+    ],
+    "avgRating": 2203,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/20260829-20260831_green-hills-resort-masters.ctml",
+    "id": "tournament-greenhills-2026",
+    "name": "Green Hills Resort Masters 2026",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "mixed",
+    "federation": null,
+    "place": "Bostonliq",
+    "start": "2026-08-29",
+    "end": "2026-08-31",
+    "participants": 8,
+    "teams": 0,
+    "games": 56,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 439549,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "rapid",
+        "value": 2592,
+        "category": 14
+      },
+      {
+        "system": "fide",
+        "scope": "blitz",
+        "value": 2624,
+        "category": 15
+      }
+    ],
+    "avgRating": 2592,
+    "fideCategory": 14
+  },
+  {
+    "file": "tours/20260824-20260830_11th-menchik-memorial.ctml",
+    "id": "tournament-cr-1471927",
+    "name": "11th Menchik Memorial",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "classical",
+    "federation": "ENG",
+    "place": "London",
+    "start": "2026-08-24",
+    "end": "2026-08-30",
+    "participants": 10,
+    "teams": 0,
+    "games": 45,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 321696,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2211,
+        "category": 0
+      }
+    ],
+    "avgRating": 2211,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/20260822-20260827_grand-chess-tour-finals.ctml",
+    "id": "tournament-gct-finals-2026",
+    "name": "2026 Grand Chess Tour Finals",
+    "eventType": [
+      "knockout"
+    ],
+    "cadence": "mixed",
+    "federation": "USA",
+    "place": "Saint Louis",
+    "start": "2026-08-22",
+    "end": "2026-08-27",
+    "participants": 4,
+    "teams": 0,
+    "games": 34,
+    "hasBracket": true,
+    "hasGroups": false,
+    "bytes": 292723,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2768,
+        "category": 21
+      },
+      {
+        "system": "fide",
+        "scope": "rapid",
+        "value": 2685,
+        "category": 18
+      },
+      {
+        "system": "fide",
+        "scope": "blitz",
+        "value": 2716,
+        "category": 19
+      }
+    ],
+    "avgRating": 2768,
+    "fideCategory": 21
+  },
+  {
+    "file": "tours/20260814-20260815_2026-esports-world-cup-playoffs.ctml",
+    "id": "tournament-ewc-2026-playoffs",
+    "name": "2026 Esports World Cup Chess Playoffs",
+    "eventType": [
+      "knockout"
+    ],
+    "cadence": "rapid",
+    "federation": "KSA",
+    "place": "Riyadh",
+    "start": "2026-08-14",
+    "end": "2026-08-15",
+    "participants": 8,
+    "teams": 0,
+    "games": 40,
+    "hasBracket": true,
+    "hasGroups": false,
+    "bytes": 340852,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "rapid",
+        "value": 2808,
+        "category": 23
+      }
+    ],
+    "avgRating": 2808,
+    "fideCategory": 23
+  },
+  {
+    "file": "tours/20260810-20260819_gct-sinquefield-cup.ctml",
+    "id": "tournament-sinquefield-2026",
+    "name": "2026 Sinquefield Cup",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "classical",
+    "federation": "USA",
+    "place": "Saint Louis",
+    "start": "2026-08-10",
+    "end": "2026-08-19",
+    "participants": 10,
+    "teams": 0,
+    "games": 48,
+    "hasBracket": true,
+    "hasGroups": false,
+    "bytes": 386789,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2748,
+        "category": 20
+      }
+    ],
+    "avgRating": 2748,
+    "fideCategory": 20
+  },
+  {
+    "file": "tours/20260801-20260809_112th-british-chess-championship.ctml",
+    "id": "tournament-ch-gbr-2026",
+    "name": "112th British Chess Championship 2026",
+    "eventType": [
+      "swiss"
+    ],
+    "cadence": "classical",
+    "federation": "ENG",
+    "place": "Coventry",
+    "start": "2026-08-01",
+    "end": "2026-08-09",
+    "participants": 108,
+    "teams": 0,
+    "games": 468,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 2589494,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2213,
+        "category": 0
+      }
+    ],
+    "avgRating": 2213,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/20260620-20260621_fide-world-team-blitz-chess-championship.ctml",
+    "id": "tournament-wbtcc-2026",
+    "name": "FIDE World Team Blitz Chess Championship 2026",
+    "eventType": [
+      "team",
+      "group-stage",
+      "knockout"
+    ],
+    "cadence": "blitz",
+    "federation": "FID",
+    "place": "Hong Kong",
+    "start": "2026-06-20",
+    "end": "2026-06-21",
+    "participants": 372,
+    "teams": 48,
+    "games": 1854,
+    "hasBracket": true,
+    "hasGroups": true,
+    "bytes": 12219932,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "blitz",
+        "value": 2236,
+        "category": 0
+      }
+    ],
+    "avgRating": 2236,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/20260617-20260619_fide-world-team-rapid-chess-championship.ctml",
+    "id": "tournament-cr-1435703",
+    "name": "FIDE World Team Rapid Chess Championship 2026",
+    "eventType": [
+      "team",
+      "swiss"
+    ],
+    "cadence": "rapid",
+    "federation": "FID",
+    "place": "Hong Kong",
+    "start": "2026-06-17",
+    "end": "2026-06-19",
+    "participants": 371,
+    "teams": 48,
+    "games": 1728,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 12510903,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "rapid",
+        "value": 2021,
+        "category": 0
+      }
+    ],
+    "avgRating": 2021,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/20260525-20260605_14th-norway-chess-women.ctml",
+    "id": "tournament-norway-chess-women-2026",
+    "name": "14th Norway Chess Women 2026",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "mixed",
+    "federation": "NOR",
+    "place": "Oslo",
+    "start": "2026-05-25",
+    "end": "2026-06-05",
+    "participants": 6,
+    "teams": 0,
+    "games": 50,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 363807,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2532,
+        "category": 12
+      }
+    ],
+    "avgRating": 2532,
+    "fideCategory": 12
+  },
+  {
+    "file": "tours/20260525-20260605_14th-norway-chess.ctml",
+    "id": "tournament-norway-chess-2026",
+    "name": "14th Norway Chess 2026",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "mixed",
+    "federation": "NOR",
+    "place": "Oslo",
+    "start": "2026-05-25",
+    "end": "2026-06-05",
+    "participants": 6,
+    "teams": 0,
+    "games": 45,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 351756,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2763,
+        "category": 21
+      }
+    ],
+    "avgRating": 2763,
+    "fideCategory": 21
+  },
+  {
+    "file": "tours/20250526-20250606_13th-norway-chess.ctml",
+    "id": "tournament-norway-chess-2025",
+    "name": "13th Norway Chess 2025",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "mixed",
+    "federation": "NOR",
+    "place": "Stavanger",
+    "start": "2025-05-26",
+    "end": "2025-06-06",
+    "participants": 6,
+    "teams": 0,
+    "games": 45,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 348273,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2791,
+        "category": 22
+      }
+    ],
+    "avgRating": 2791,
+    "fideCategory": 22
+  },
+  {
+    "file": "tours/20250526-20250606_2nd-norway-chess-women.ctml",
+    "id": "tournament-norway-chess-women-2025",
+    "name": "2nd Norway Chess Women 2025",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "mixed",
+    "federation": "NOR",
+    "place": "Stavanger",
+    "start": "2025-05-26",
+    "end": "2025-06-06",
+    "participants": 6,
+    "teams": 0,
+    "games": 48,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 346220,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2521,
+        "category": 11
+      }
+    ],
+    "avgRating": 2521,
+    "fideCategory": 11
+  },
+  {
+    "file": "tours/20250403-20250420_fide-womens-world-championship-match.ctml",
+    "id": "tournament-cr-418246",
+    "name": "FIDE Women's World Championship Match 2025",
+    "eventType": [
+      "match"
+    ],
+    "cadence": "classical",
+    "federation": "FID",
+    "place": "Shanghai / Chongqing",
+    "start": "2025-04-03",
+    "end": "2025-04-20",
+    "participants": 2,
+    "teams": 0,
+    "games": 9,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 83996,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2558,
+        "category": 13
+      }
+    ],
+    "avgRating": 2558,
+    "fideCategory": 13
+  },
+  {
+    "file": "tours/20240727-20240804_british-chess-championship.ctml",
+    "id": "tournament-ch-gbr-2024",
+    "name": "British Chess Championship 2024",
+    "eventType": [
+      "swiss"
+    ],
+    "cadence": "classical",
+    "federation": "ENG",
+    "place": "Kingston upon Hull",
+    "start": "2024-07-27",
+    "end": "2024-08-04",
+    "participants": 86,
+    "teams": 0,
+    "games": 384,
+    "hasBracket": true,
+    "hasGroups": false,
+    "bytes": 2839041,
+    "strength": [
+      {
+        "system": "fide",
+        "scope": "standard",
+        "value": 2247,
+        "category": 0
+      }
+    ],
+    "avgRating": 2247,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/19640114-19640202_1st-reykjavik-international.ctml",
+    "id": "tournament-reykjavik-1964",
+    "name": "Reykjavik International 1964",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "classical",
+    "federation": "ISL",
+    "place": "Reykjavik",
+    "start": "1964-01-14",
+    "end": "1964-02-02",
+    "participants": 14,
+    "teams": 0,
+    "games": 91,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 383274,
+    "strength": [
+      {
+        "system": "chessmetrics",
+        "scope": "standard",
+        "value": 2553,
+        "category": 13
+      }
+    ],
+    "avgRating": 2553,
+    "fideCategory": 13
+  },
+  {
+    "file": "tours/18920101-18920228_world-championship-steinitz-chigorin.ctml",
+    "id": "tournament-wcc-1892",
+    "name": "World Chess Championship Match 1892",
+    "eventType": [
+      "match"
+    ],
+    "cadence": "classical",
+    "federation": "CUB",
+    "place": "Havana",
+    "start": "1892-01-01",
+    "end": "1892-02-28",
+    "participants": 2,
+    "teams": 0,
+    "games": 23,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 106249,
+    "strength": [
+      {
+        "system": "edo",
+        "scope": "standard",
+        "value": 2618,
+        "category": 15
+      }
+    ],
+    "avgRating": 2618,
+    "fideCategory": 15
+  },
+  {
+    "file": "tours/18901209-18910122_world-championship-steinitz-gunsberg.ctml",
+    "id": "tournament-wcc-1890",
+    "name": "World Chess Championship Match 1890-91",
+    "eventType": [
+      "match"
+    ],
+    "cadence": "classical",
+    "federation": "USA",
+    "place": "New York City",
+    "start": "1890-12-09",
+    "end": "1891-01-22",
+    "participants": 2,
+    "teams": 0,
+    "games": 19,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 93020,
+    "strength": [
+      {
+        "system": "edo",
+        "scope": "standard",
+        "value": 2590,
+        "category": 14
+      }
+    ],
+    "avgRating": 2590,
+    "fideCategory": 14
+  },
+  {
+    "file": "tours/18890120-18890224_world-championship-steinitz-chigorin.ctml",
+    "id": "tournament-wcc-1889",
+    "name": "World Chess Championship Match 1889",
+    "eventType": [
+      "match"
+    ],
+    "cadence": "classical",
+    "federation": null,
+    "place": "Havana",
+    "start": "1889-01-20",
+    "end": "1889-02-24",
+    "participants": 2,
+    "teams": 0,
+    "games": 17,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 91808,
+    "strength": [
+      {
+        "system": "edo",
+        "scope": "standard",
+        "value": 2631,
+        "category": 16
+      }
+    ],
+    "avgRating": 2631,
+    "fideCategory": 16
+  },
+  {
+    "file": "tours/18860111-18860329_world-championship-steinitz-zukertort.ctml",
+    "id": "tournament-wcc-1886",
+    "name": "World Chess Championship Match 1886",
+    "eventType": [
+      "match"
+    ],
+    "cadence": "classical",
+    "federation": null,
+    "place": "New York, St. Louis and New Orleans",
+    "start": "1886-01-11",
+    "end": "1886-03-29",
+    "participants": 2,
+    "teams": 0,
+    "games": 20,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 96209,
+    "strength": [
+      {
+        "system": "edo",
+        "scope": "standard",
+        "value": 2608,
+        "category": 15
+      }
+    ],
+    "avgRating": 2608,
+    "fideCategory": 15
+  },
+  {
+    "file": "tours/18711205-18711215_2nd-american-chess-congress.ctml",
+    "id": "tournament-cr-acc-1871",
+    "name": "2nd American Chess Congress",
+    "eventType": [
+      "round-robin"
+    ],
+    "cadence": "classical",
+    "federation": "USA",
+    "place": "Cleveland",
+    "start": "1871-12-05",
+    "end": "1871-12-15",
+    "participants": 9,
+    "teams": 0,
+    "games": 80,
+    "hasBracket": false,
+    "hasGroups": false,
+    "bytes": 298830,
+    "strength": [],
+    "avgRating": null,
+    "fideCategory": null
+  },
+  {
+    "file": "tours/18571006-18571110_1st-american-chess-congress.ctml",
+    "id": "tournament-cr-acc-1857",
+    "name": "1st American Chess Congress",
+    "eventType": [
+      "knockout"
+    ],
+    "cadence": "classical",
+    "federation": "USA",
+    "place": "New York",
+    "start": "1857-10-06",
+    "end": "1857-11-10",
+    "participants": 16,
+    "teams": 0,
+    "games": 68,
+    "hasBracket": true,
+    "hasGroups": false,
+    "bytes": 296692,
+    "strength": [
+      {
+        "system": "edo",
+        "scope": "standard",
+        "value": 2367,
+        "category": 5
+      }
+    ],
+    "avgRating": 2367,
+    "fideCategory": 5
+  }
+]

@@ -1,0 +1,2 @@
+# Preserve imported bytes: schema locks and provenance hashes include line endings.
+* -text
