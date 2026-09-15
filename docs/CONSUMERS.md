@@ -1,8 +1,8 @@
 # CTML consumer workflow
 
 `D:\dev\proj\ctml` is the source of truth. CTML Workspace reads this corpus
-directly; Chess Nerd publishes a derived PGN/HTML archive through the separate
-PgnTours repository.
+directly; Chess Nerd publishes a portable CTML/PGN/Markdown archive through
+the separate PgnTours repository.
 
 ## 1. Finish and validate the CTML source
 
@@ -58,12 +58,17 @@ npm run build
 The exporter performs two writes:
 
 - `D:\dev\proj\chessnerd\PgnTours\<decade>s\<tournament>.zip`, containing
-  derived PGN and crosstable HTML;
+  the exact source CTML, a derived PGN, and `README.md` with the reported
+  standings and CTML explainer;
 - `public\data\tournament-archive\manifest.json` in the Chess Nerd site,
   which supplies the Tournament Archive page.
 
 Process one new CTML file at a time when either checkout is dirty. Directory
 mode rebuilds every archive ZIP and can obscure unrelated work.
+
+The archive README is filled from `docs/ARCHIVE-README.md` in this canonical
+project. Treat it as a versioned publication template: revise it deliberately,
+then refresh only the archives intended to receive the new wording.
 
 ## 4. Publication order
 
