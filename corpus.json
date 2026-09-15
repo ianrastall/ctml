@@ -1,5 +1,29 @@
 [
   {
+    "file": "tours/20260903-20260913_tech-mahindra-global-chess-league.ctml",
+    "id": "tournament-tech-mahindra-gcl-2026",
+    "name": "Tech Mahindra Global Chess League 2026",
+    "eventType": [
+      "team",
+      "round-robin",
+      "knockout"
+    ],
+    "cadence": "rapid",
+    "federation": null,
+    "place": "Bengaluru",
+    "start": "2026-09-03",
+    "end": "2026-09-13",
+    "participants": 36,
+    "teams": 6,
+    "games": 204,
+    "hasBracket": true,
+    "hasGroups": false,
+    "bytes": 1856558,
+    "strength": [],
+    "avgRating": null,
+    "fideCategory": null
+  },
+  {
     "file": "tours/20260830-20260830_sofia-cup-balkan-blitz-championship.ctml",
     "id": "tournament-sofia-cup-2026-blitz",
     "name": "Sofia Cup 2026 - Balkan Blitz Championship",
