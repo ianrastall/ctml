@@ -59,6 +59,7 @@ when deliberately refreshing imported data.
 | `app/`, `index.html`, `corpus.json` | Local corpus viewer and its generated index. |
 | `provenance/` | Source catalog, schema lock, import lineage and adjustment hashes. |
 | `docs/CONSOLIDATION.md` | Ownership, import decisions, limitations and next work. |
+| `docs/CONSUMERS.md` | Workflow from vetted CTML to CTML Workspace and Chess Nerd/PgnTours. |
 | `docs/history/`, `reference/` | Historical documentation and earlier implementations; not current instructions. |
 | `build/`, `out/`, `target/` | Regenerated reports, temporary outputs and compiled code. |
 
